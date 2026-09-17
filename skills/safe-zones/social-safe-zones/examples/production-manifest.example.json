@@ -1,0 +1,84 @@
+{
+  "source": {
+    "source_name": "fictional-frontcam.mp4",
+    "mime_type": "video/mp4"
+  },
+  "technical": {
+    "duration_seconds": 62.4,
+    "width": 1080,
+    "height": 1920,
+    "fps": 25,
+    "audio_present": true,
+    "orientation": "vertical",
+    "status": "usable_now"
+  },
+  "content_assessment": {
+    "summary": "One complete talking-head answer with a clear proof moment.",
+    "hook_candidates": [
+      "Built in one day"
+    ],
+    "proof_moments": [
+      "screen recording of the finished workflow"
+    ],
+    "content_risk_notes": []
+  },
+  "subject_framing": {
+    "profile": "talking_head_full_1080x1920",
+    "sample_frame_path": "frames/raw-frontcam-example-0001.jpg",
+    "face_box": {
+      "x": 360,
+      "y": 600,
+      "w": 360,
+      "h": 360
+    },
+    "body_box": {
+      "x": 260,
+      "y": 560,
+      "w": 560,
+      "h": 980
+    },
+    "verification_command": "check-subject-framing.py --style talking_head_full_1080x1920 --face 360,600,360,360 --body 260,560,560,980",
+    "measurement_method": "Fictional measured fixture, not a real person or render"
+  },
+  "route_decision": {
+    "route": "straight_talking_head",
+    "content_style": "talking_head_full",
+    "renderer_skill": "frontcam-reels",
+    "reason": "The answer is strong without cutaway proof.",
+    "rejected_routes": [
+      "split_person_bottom_broll_top",
+      "full_cutaway_broll"
+    ]
+  },
+  "safe_zone_profile": "universal_vertical_9x16_1080x1920",
+  "placement_plan": {
+    "overlays": [
+      {
+        "type": "brand",
+        "rect": {
+          "x": 120,
+          "y": 288,
+          "w": 240,
+          "h": 120
+        },
+        "start": 0,
+        "end": 62.4
+      }
+    ]
+  },
+  "build_plan": {
+    "renderer_command": "frontcam-reels make-reels",
+    "platform_variants": [
+      "universal_vertical_9x16_1080x1920"
+    ]
+  },
+  "export": {
+    "profile": "phone_ready_vertical_reel_1080x1920"
+  },
+  "placement_context": {
+    "platform": "google_vertical_and_tiktok_standard",
+    "direction": "ltr",
+    "anchor": false,
+    "evidence": "Downloaded template planning example; current platform UI still requires review"
+  }
+}

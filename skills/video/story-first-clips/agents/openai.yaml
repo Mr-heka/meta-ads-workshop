@@ -1,0 +1,4 @@
+interface:
+  display_name: "Story-first clips"
+  short_description: "Find complete spoken stories and create clean review clips"
+  default_prompt: "Use $story-first-clips to review full source recordings, select complete stories for the intended audience, and create clean clips with truthful spoken cold opens."

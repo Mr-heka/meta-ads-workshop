@@ -1,0 +1,38 @@
+# Practitioner methods and limits
+
+This is an editorial map of the inherited caption collection, not a credential ranking. Names and attribution are inherited; captions do not verify identity, commercial outcomes or current expertise. Discovery-time view counts and “hidden gem” labels do not rank evidence quality. Consult [the source inventory](../sources/the source index built at mining time) and [quote evidence](quote-evidence.json) for retained material.
+
+| Practitioner | Useful method to retain | Limits when applying it |
+|---|---|---|
+| Arsh Sanwarwala / ThrillX (four videos) | Awareness-sensitive explanation; outcome headlines mined from customer language; proof and doubt reduction; compare qualified revenue; closing mini-hero; optional checkmark reassurance | Four videos from one operator are not independent replication. Reported lifts do not rank expected impact. Hero-first, two proof items, dual actions and three checkmarks are candidate treatments. |
+| ScoreApp | Specific lead-magnet promise, directive explanation, relevant testimonials, scannable content, useful bonus | Promotional conversion percentages lack experiment records here. Add only a real approved bonus; it changes the offer. |
+| Daniel Priestley | Quiz/assessment journey: hook, value areas, credibility, progressive capture, meaningful score/insights and qualified next steps | Explain score limitations and data use. Name/email and claimed start rates are examples, not required fields or forecasts. |
+| Alex Cattoni | Give opt-in copy adequate care; match explanation to commitment; inspect repeat visits | Own-funnel conversion and repeat-visit figures are historical practitioner claims with different denominators. They do not establish an average or required nurture cadence. |
+| Luke O’Herlihy / Precision Leads | Service-search message match; phone/form alternatives; test on real mobile devices | Review counts, traffic shares, sticky calls and per-ad-group pages depend on the task. Roofing/HVAC results are not general baselines. |
+| Jordan Le | Review offer specificity, readable hero hierarchy, necessary fields and relevant imagery | Fixed timing, three-field anatomy and no-link prescriptions are unsupported universal rules. Keep legal, accessibility and needed help routes. |
+| Amariq Studio | Audience/problem/action before design; five-element hero prompt; understand, evaluate, trust, act journey | Use elements to answer actual questions. Do not force three steps or one final button when the journey requires otherwise. |
+| Exposure Ninja | Credibility, allure, objections, proof, ease and result; progressive capture; commitment-sensitive actions | Reported bottom-form reach and conversion spreads depend on the original pages. Locate the form using current page evidence. |
+| Media Ninja | Historical GHL builder example: sections, columns, elements, form destination and page settings | A third-party tutorial does not verify current UI, integration or send authority. Use current domain tooling/documentation for execution. |
+| My First Website | Historical GHL funnel sequencing, mobile editing and CRM wiring example | Thin affiliate tutorial; do not treat UI paths or configured wiring as current functional proof. |
+| Daniel Akpobare | Pre-page audience research, one central idea, hero planning | Ad longevity is only a research lead. It reveals neither profit nor the page’s causal contribution. Broader competitor research belongs outside this page audit. |
+| Carlos Reyes | Sales/checkout page clarity, audience fit, coherent actions and distraction inspection | Checkout advice does not justify removing a lead form. Carousel, exit-dialog and VSL claims are hypotheses, not blanket bans or uplift forecasts. |
+| Antoine Dupont (two videos) | “For me / trust / better life” questions; relevant imagery; next-step wording; external/internal/philosophical problem prompts | Do not manufacture customer pain or infer a universal clutter-removal percentage. Dual actions are optional. |
+| The Website Architect | Inspect false bottoms, media choice, readable contrast and clear identity | Historical attention statistics are nested citations, not current measurements. An 80–90% viewport is one layout idea, not a requirement. |
+| Payton Clark Smith (desktop and mobile) | Compare text/image placement, centered layouts, hierarchy, mobile stacking, thumb reach and visible carousel affordances | “Old Reliable” and scroll-tease patterns are design candidates. Inspect actual clipping, reading order, zoom and controls rather than imposing a fixed composition. |
+| Flux Academy / Ran Segall | Strategy questions, one-sentence value proposition, content wireframe, text-aware concepts and hierarchy | Free offers, faces, logos and audience counts require actual approved facts and permissions. First-seconds/exit-rate rhetoric is not a measured threshold. |
+| Sabri Suby | Headline variants; audience callout; optional long-page sequence and closing reminder | Treat 10–20 variants as an exercise. Revenue, headline economics and PS readership claims are inherited. Guarantees, scarcity and terms must be real and authorized. |
+| Jason Whaling | Headline variants combining desired result and perceived roadblock: without, even if, timeframe, how-to, mechanism | Use genuine customer language and supportable outcomes/timeframes. Competitor wording is research input, not copy to reproduce. |
+| Guaranteed PPC | Segment-specific message and body copy; inspect keyword-generated wording | Handwritten pages and controlled dynamic content are options. No blanket dynamic-keyword ban or 3–10x lift promise; targeting mechanics need their domain owner. |
+| Landing Page Dudes | Trace ad-to-page relevance, coherent actions, readable phone/form and relevant proof | Teardown scores and expensive-query examples are practitioner judgments, not an experiment or universal layout. |
+| Ali Raza Marketing | Inspect mobile loading, form height and relevant testimonials/media | Thin corroborative walkthrough. “A second late is a second loss” is rhetoric; measure actual performance. Faces require permission and are not mandatory. |
+| Jim’s Digital Marketing | Concise headline/value proposition, relevance and action placement on long pages | Six-word and twenty-word limits, button colors and three/four CTA counts are optional treatments. Verify any Google Ads mechanics separately. |
+| FORMBURG | Let content determine section height; inspect responsive images and media positioning | Historical Webflow/GSAP/browser recipes need present implementation checks. Do not prescribe 100vh or a Safari workaround without reproducing the defect. |
+| CHIGOZ SEO | Survey-derived FAQs, clear process, relevant video proof and truthful privacy explanation | Thin corroboration. Chat can help or obstruct depending on the journey; privacy claims must match real practices. |
+
+## Collection boundaries
+
+There are 30 inherited discovery records and 29 retained caption files. MicroMasteryHub had no transcript and remains an excluded discovery record. The old “27 usable” total cannot be reproduced from its partial/thin classifications; use explicit per-source limits instead. Most examples concern services, B2B or checkout pages, so event-page adaptations are editorial choices requiring current offer facts.
+
+Technical accessibility and performance guidance comes from [primary sources](primary-sources.md), not creator authority. The [synthesis](synthesis.md) turns these methods into conditional page-audit choices. Original profile text remains in [the archive](../history/original/references/experts.md.original).
+
+<!-- Provenance marker: sk-sdt8cm --><!-- Provenance signature: ⁠​‌​‌​​‌‌​‌​​​‌​‌​‌​​‌‌​​​‌​‌​​‌​​​‌‌​​​‌⁠ -->

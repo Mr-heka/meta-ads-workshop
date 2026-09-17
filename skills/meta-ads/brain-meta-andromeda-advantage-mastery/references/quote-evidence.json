@@ -1,0 +1,2774 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-06",
+  "purpose": "Evidence ledger for inherited quotation candidates. It records local caption-text matches and uncertainty; it does not certify speech, identity, source title, factual accuracy, or current Meta platform behavior.",
+  "normalizer": {
+    "name": "html-unescaped-lowercase-alphanumeric-apostrophe-token-match",
+    "description": "HTML-decode numeric entities and amp, apos, quot, lt, gt named entities; lowercase; extract ASCII alphanumeric tokens with internal apostrophes; compare contiguous token sequences exactly. Punctuation, whitespace, capitalization, HTML encoding, and ellipsis glyphs do not create tokens.",
+    "html_entity_decoder": "Local equivalent decoder used because the he package is absent from this worktree.",
+    "token_offset_definition": "Zero-based index in the normalized token list of the retained source caption."
+  },
+  "original_library": {
+    "relative_path": "history/original/references/quote-library.md.original",
+    "sha256": "0abd4bafeaa98f594c76df1a2af5bda149ec85867c0533473e287944b6583cd4",
+    "entry_count": 111
+  },
+  "sources": [
+    {
+      "id": "13s-G9Uj51A",
+      "relative_path": "sources/13s-G9Uj51A.txt",
+      "sha256": "5b470e8e88d78b23dff0994aef8055299908dab3a428a6bf6f0ff17fab939f4d",
+      "bytes": 28657
+    },
+    {
+      "id": "4OLpcZparwQ",
+      "relative_path": "sources/4OLpcZparwQ.txt",
+      "sha256": "bfd3c87d864c31f6595587f366c80563e4496a9b3a2513432af59f2fa4d92458",
+      "bytes": 6230
+    },
+    {
+      "id": "5G4sDWgmvpw",
+      "relative_path": "sources/5G4sDWgmvpw.txt",
+      "sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+      "bytes": 14130
+    },
+    {
+      "id": "5TyFHJLQZhI",
+      "relative_path": "sources/5TyFHJLQZhI.txt",
+      "sha256": "b132d0d2b8b77ce6490489628ebfd8e9bb13f961dfc6b1eade446962fb2744b8",
+      "bytes": 17105
+    },
+    {
+      "id": "AU2HtF27Qc8",
+      "relative_path": "sources/AU2HtF27Qc8.txt",
+      "sha256": "20d345cf297682703abcee44233302a2f65658e4337d7906484338dfd6ed0d7e",
+      "bytes": 7624
+    },
+    {
+      "id": "D4YFMGxZLIw",
+      "relative_path": "sources/D4YFMGxZLIw.txt",
+      "sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+      "bytes": 17176
+    },
+    {
+      "id": "E_wZJhuSK5U",
+      "relative_path": "sources/E_wZJhuSK5U.txt",
+      "sha256": "b54c8fab09d26837e3da3f5b3af0935b5a8f1afb3cea584abf0c6822a3fef45e",
+      "bytes": 15333
+    },
+    {
+      "id": "FYUR8ZL4_xY",
+      "relative_path": "sources/FYUR8ZL4_xY.txt",
+      "sha256": "693b1e1b49c4c203f0f5f1ab116683eef6f233a1093e5f97a94d9f8d36ae0fec",
+      "bytes": 15316
+    },
+    {
+      "id": "Fo-p03fwvdA",
+      "relative_path": "sources/Fo-p03fwvdA.txt",
+      "sha256": "d5abf86e5e77e043c3ed80d45a1ced67661bb666c01b825619dbe00d318a2f6c",
+      "bytes": 22122
+    },
+    {
+      "id": "GvYow_bNzEY",
+      "relative_path": "sources/GvYow_bNzEY.txt",
+      "sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+      "bytes": 18431
+    },
+    {
+      "id": "JLlcwojiVtw",
+      "relative_path": "sources/JLlcwojiVtw.txt",
+      "sha256": "e7c43a5995342d2c0b71c3d625e053b1d8933764184bb82c52bdfc91cea5b587",
+      "bytes": 22570
+    },
+    {
+      "id": "NC8ThpxWv8M",
+      "relative_path": "sources/NC8ThpxWv8M.txt",
+      "sha256": "b50bfd4589b67d5ec45de3564c8177ebdd315f304bd68f69c32dbea960560307",
+      "bytes": 23563
+    },
+    {
+      "id": "Ok7f9GluzGg",
+      "relative_path": "sources/Ok7f9GluzGg.txt",
+      "sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+      "bytes": 15357
+    },
+    {
+      "id": "PPCFvIdNwTg",
+      "relative_path": "sources/PPCFvIdNwTg.txt",
+      "sha256": "5246e2427c760101180ab96c2eda4484f956c6b9c0bed5aa695b18bb3292a8cf",
+      "bytes": 15058
+    },
+    {
+      "id": "Tf1LNBRykuo",
+      "relative_path": "sources/Tf1LNBRykuo.txt",
+      "sha256": "c199bc922c2c5d39abb59bef3abc1b2eaa051c9e0d6712b9d544c30b2425c570",
+      "bytes": 11313
+    },
+    {
+      "id": "UV0hRsScK7w",
+      "relative_path": "sources/UV0hRsScK7w.txt",
+      "sha256": "82919ee4cc2847b99b72014de9bc8368ec3b4a1a966398cb14328f2ff5272911",
+      "bytes": 70049
+    },
+    {
+      "id": "VUFX9V0IpwU",
+      "relative_path": "sources/VUFX9V0IpwU.txt",
+      "sha256": "779040671d41d96c0af84f2e11627dfb1c5516351fa8a716968f71f2666fd3d1",
+      "bytes": 38460
+    },
+    {
+      "id": "ZOCLEILy7FE",
+      "relative_path": "sources/ZOCLEILy7FE.txt",
+      "sha256": "2ad3e0c38a37d4cef4ffc1535eb734e2fd5773a5e3801d5323900c15bf174910",
+      "bytes": 15567
+    },
+    {
+      "id": "_-y0NZ30VKE",
+      "relative_path": "sources/_-y0NZ30VKE.txt",
+      "sha256": "7c0659773aeff9d8e62ea3ddf050014201c7ef4d744f9551b8b777da5208246e",
+      "bytes": 14434
+    },
+    {
+      "id": "_OSs0Jgv4L8",
+      "relative_path": "sources/_OSs0Jgv4L8.txt",
+      "sha256": "b96258cd03583be752f682b09e5eaac18efe8774b59b5242151c446a5e6d9316",
+      "bytes": 12880
+    },
+    {
+      "id": "eRneAmPq-Sc",
+      "relative_path": "sources/eRneAmPq-Sc.txt",
+      "sha256": "4e3ce5a75202613cc2b711eb93ebaf8deba65026eaa8dfefeda811e826dbda2b",
+      "bytes": 15648
+    },
+    {
+      "id": "mYtqeeW7NiU",
+      "relative_path": "sources/mYtqeeW7NiU.txt",
+      "sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+      "bytes": 18570
+    },
+    {
+      "id": "onFwSud9C2Y",
+      "relative_path": "sources/onFwSud9C2Y.txt",
+      "sha256": "64f286f9fcb2ab881efd29ab2947bb438bc162c74218d0ff9e5d41f1a6c9728b",
+      "bytes": 18443
+    },
+    {
+      "id": "puSzn4h98rQ",
+      "relative_path": "sources/puSzn4h98rQ.txt",
+      "sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+      "bytes": 16584
+    },
+    {
+      "id": "uLlOkazQTXo",
+      "relative_path": "sources/uLlOkazQTXo.txt",
+      "sha256": "e8a2edd862bc7e59ad17f819067f3df741e4296312fa02ba6b29dd765407fe14",
+      "bytes": 11144
+    },
+    {
+      "id": "w0se92_IH8o",
+      "relative_path": "sources/w0se92_IH8o.txt",
+      "sha256": "35d0d8145eaeaac8fc54f452882d27f2f30a3d25daa57207302b482d6d5e118e",
+      "bytes": 6654
+    },
+    {
+      "id": "xhXiGifwo-E",
+      "relative_path": "sources/xhXiGifwo-E.txt",
+      "sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+      "bytes": 6006
+    },
+    {
+      "id": "yM8VhjU5ec8",
+      "relative_path": "sources/yM8VhjU5ec8.txt",
+      "sha256": "90263d26c2fd88604c61522ead243e76c480f7730255ee4ba788001e326c1ae8",
+      "bytes": 11286
+    },
+    {
+      "id": "yYC4uvoBHug",
+      "relative_path": "sources/yYC4uvoBHug.txt",
+      "sha256": "4d70e5b3a7855cbf883e1eec30bffd55582b836bc28976d3b8fb1593ab9d5d45",
+      "bytes": 11628
+    }
+  ],
+  "entries": [
+    {
+      "id": "AND-001",
+      "original_line": 7,
+      "heading": "Creative is the targeting",
+      "candidate_text": "Now, in 2025, going into 2026, the creative itself does the targeting.",
+      "inherited_attribution": "Dr. Matt Shiver, *Alex Hormozi's NEW Facebook Ads Strategy (Andromeda Breakdown)*",
+      "candidate_normalized_sha256": "3c3df50f08074df7d8f8e2e265b2b87d99351341d8e1411037f079c399c63c23",
+      "original_line_sha256": "d0b29e314cc62d7ef90a14d042ab3def1fc15cdfc7c40d9b84e9e8ac9f300553",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "PPCFvIdNwTg",
+          "source_sha256": "5246e2427c760101180ab96c2eda4484f956c6b9c0bed5aa695b18bb3292a8cf",
+          "token_offset_zero_based": 639,
+          "matched_token_count": 12,
+          "normalized_caption_context": "audiences and interests and all this stuff that has changed so much now in 2025 going into 2026 the creative itself does the targeting so whoever you call out in the ad the ad is going",
+          "context_window": {
+            "start_token_zero_based": 627,
+            "end_token_exclusive_zero_based": 663
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-002",
+      "original_line": 9,
+      "heading": "Creative is the targeting",
+      "candidate_text": "The big message with Andromeda is the creative does the targeting.",
+      "inherited_attribution": "Dr. Matt Shiver, *Is Advantage+ Audience RUINING Your Facebook Ads in 2026?*",
+      "candidate_normalized_sha256": "e369f2a1020a465ae4abbd366744a8966c921c8a5039770c4db7f11b621874ae",
+      "original_line_sha256": "46715e9488d927f91e0189fec1eea26305e5c8f9724839fcd5360434270fb622",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_OSs0Jgv4L8",
+          "source_sha256": "b96258cd03583be752f682b09e5eaac18efe8774b59b5242151c446a5e6d9316",
+          "token_offset_zero_based": 295,
+          "matched_token_count": 11,
+          "normalized_caption_context": "this happened and then you know six months later andromeda happened and the big message with andromeda is the creative does the targeting my question was okay well if the creative does the targeting does",
+          "context_window": {
+            "start_token_zero_based": 283,
+            "end_token_exclusive_zero_based": 318
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-003",
+      "original_line": 11,
+      "heading": "Creative is the targeting",
+      "candidate_text": "The ads equal the targeting. The ads are going after your customers. If that's the case, then diversifying the creative that we have is going to target new audiences.",
+      "inherited_attribution": "BitBranding, *Why Every Clothing Brand Is Wrong About Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "c1cf0dbf0cfb833374dc1dccca1299621e29c5527bbf78741e3a4b461287f392",
+      "original_line_sha256": "e3038212e520e2fb0e85bbd9b04ac82f03fe75af8d34885c10ddcee550b3e8e8",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ZOCLEILy7FE",
+          "source_sha256": "2ad3e0c38a37d4cef4ffc1535eb734e2fd5773a5e3801d5323900c15bf174910",
+          "token_offset_zero_based": 2022,
+          "matched_token_count": 29,
+          "normalized_caption_context": "it's organic cotton this is going to target a completely different person the ads equal the targeting the ads are going after your customers if that's the case then diversifying the creative that we have is going to target new audiences so if you're not reaching people or your ads are not spending",
+          "context_window": {
+            "start_token_zero_based": 2010,
+            "end_token_exclusive_zero_based": 2063
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-004",
+      "original_line": 13,
+      "heading": "Creative is the targeting",
+      "candidate_text": "The problem is the ad set does not do the targeting. You using interest targeting, lookalike audiences, all of these other like input features, they do not matter.",
+      "inherited_attribution": "BitBranding, *Why Every Clothing Brand Is Wrong About Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "d8897cef51be1f96292013eb5960750b016920ab4a24d061846436bf2db3039c",
+      "original_line_sha256": "4ecc3203f8f9b3bd5f1cef0b03431b5b359ce7825f15d4c243057a8665674fcc",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ZOCLEILy7FE",
+          "source_sha256": "2ad3e0c38a37d4cef4ffc1535eb734e2fd5773a5e3801d5323900c15bf174910",
+          "token_offset_zero_based": 1037,
+          "matched_token_count": 28,
+          "normalized_caption_context": "sets of targeting are going to go after three different audiences okay the problem is the ad set does not do the targeting you using interest targeting lookalike audiences all of these other like input features they do not matter so what's being taught right now is hey i'm going to control",
+          "context_window": {
+            "start_token_zero_based": 1025,
+            "end_token_exclusive_zero_based": 1077
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-005",
+      "original_line": 15,
+      "heading": "Creative is the targeting",
+      "candidate_text": "The algorithm does the targeting now. This is a trillion-dollar company that we're talking about. You do not know how to place your ads better than this trillion-dollar company.",
+      "inherited_attribution": "Adam Taylor, *The NEW Andromeda-Proof Meta Ads Strategy (2026)*",
+      "candidate_normalized_sha256": "23f00badc1f2c5d4c76ca12857bd3644f4d89417b5cf85598169533ef6832d2a",
+      "original_line_sha256": "771c15a02e888bc247e45f865feff8769e8e29e3bfb31ec5373954ea582e267b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "GvYow_bNzEY",
+          "source_sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+          "token_offset_zero_based": 642,
+          "matched_token_count": 31,
+          "normalized_caption_context": "now myth two is audience targeting is still what drives performance now the algorithm does the targeting now this is a trillion dollar company that we're talking about you do not know how to place your ads better than this trillion dollar company so what you do is you put inside the ad who you",
+          "context_window": {
+            "start_token_zero_based": 630,
+            "end_token_exclusive_zero_based": 685
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-006",
+      "original_line": 17,
+      "heading": "Creative is the targeting",
+      "candidate_text": "Translation, creative variants now drive 70 to 80% of performance, not targeting.",
+      "inherited_attribution": "Gibran Jones, *I Deleted Manual Targeting in Meta Ads, Here's What Happened [Full Breakdown 2026]*",
+      "candidate_normalized_sha256": "ea516fce5a05e1e41519f21b60596d69c01d270b7d4ab27a05f0c8841d78e7f3",
+      "original_line_sha256": "0409f3e33614beb8a8aa9126a559bb2d495abb72a943ce20a0d7152b4db8d461",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "xhXiGifwo-E",
+          "source_sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+          "token_offset_zero_based": 262,
+          "matched_token_count": 12,
+          "normalized_caption_context": "the same ad in the auction even if the colors are different translation creative variants now drive 70 to 80 of performance not targeting now there is some of the ai you can control because you",
+          "context_window": {
+            "start_token_zero_based": 250,
+            "end_token_exclusive_zero_based": 286
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-007",
+      "original_line": 19,
+      "heading": "Creative is the targeting",
+      "candidate_text": "meta has moved toward being a creative distribution platform which means instead of you deciding who should see the ad trying to pinpoint that exact demographic or psychographic you're effectively telling the system what your creative represents",
+      "inherited_attribution": "Ecom Expedition with Asim, *Meta Ads Explained What Advantage Plus Is Really Doing*",
+      "candidate_normalized_sha256": "5cbd22253f90538d260b5c5d8c35381c62c5c74a8ed6523728df253f8a02e25d",
+      "original_line_sha256": "541058cd0c8767f65541333f6418a3853af2921d3e952955078cce80d1008426",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Ok7f9GluzGg",
+          "source_sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+          "token_offset_zero_based": 297,
+          "matched_token_count": 37,
+          "normalized_caption_context": "a different kind of system entirely this is where the shift matters meta has moved toward being a creative distribution platform which means instead of you deciding who should see the ad trying to pinpoint that exact demographic or psychographic you're effectively telling the system what your creative represents what signal it carries and then meta uses that to decide which",
+          "context_window": {
+            "start_token_zero_based": 285,
+            "end_token_exclusive_zero_based": 346
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-008",
+      "original_line": 21,
+      "heading": "Creative is the targeting",
+      "candidate_text": "Your copy and your creative become your keywords if you're into SEO",
+      "inherited_attribution": "Jamie Stenton, *How Meta Ads Targeting Really Works After the Andromeda Update (2025-2026 Guide)*",
+      "candidate_normalized_sha256": "5a443f8dbbea9e5018536520684ffa23bcc223a25c6f782e63ab9ddcc32ca472",
+      "original_line_sha256": "f90c79e6e732f6ad1ba68170f74b6fd90ba8085ed518025cf3c8a362962f4be8",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "w0se92_IH8o",
+          "source_sha256": "35d0d8145eaeaac8fc54f452882d27f2f30a3d25daa57207302b482d6d5e118e",
+          "token_offset_zero_based": 535,
+          "matched_token_count": 12,
+          "normalized_caption_context": "that is now becoming more relevant for meta in 2026 and beyond your copy and your creative become your keywords if you're into seo so make it obvious who the ad is for and what outcome",
+          "context_window": {
+            "start_token_zero_based": 523,
+            "end_token_exclusive_zero_based": 559
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-009",
+      "original_line": 23,
+      "heading": "Creative is the targeting",
+      "candidate_text": "you really can't pick and choose who the ads are going to. The creator does the targeting",
+      "inherited_attribution": "Tier 11, *Meta's New GEM + Andromeda Update Explained (Huge Performance Shift)*",
+      "candidate_normalized_sha256": "e527d030860933c35d3cb8a9a508e5e9e4c5f56af08f7560f0dfbaf34af25efb",
+      "original_line_sha256": "73e66d3e35e24e337d10d863d614679e7d25f654209cd3629ef5e4cc140f909d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 839,
+          "matched_token_count": 17,
+          "normalized_caption_context": "there so that's where it is a little bit of like a you really can't pick and choose who the ads are going to the creator does the targeting so we kind of learned to leverage that and that's kind of",
+          "context_window": {
+            "start_token_zero_based": 827,
+            "end_token_exclusive_zero_based": 868
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-010",
+      "original_line": 27,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "Andromeda is Meta's new retrieval engine. It takes millions of ads and narrows them to find thousands of candidates and it does so in a way that Meta claims is faster, smarter, and more personal than ever before.",
+      "inherited_attribution": "Dr. Matt Shiver, *Alex Hormozi's NEW Facebook Ads Strategy (Andromeda Breakdown)*",
+      "candidate_normalized_sha256": "fab32623002e6a679d515027bcb1f42c62d2c9cd2444d4b06a8b2aa03a9f5e0c",
+      "original_line_sha256": "4e31a9c98e9d3534a29f47fcd70c60848f9cba697bcfac394b7bb50845b71839",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "PPCFvIdNwTg",
+          "source_sha256": "5246e2427c760101180ab96c2eda4484f956c6b9c0bed5aa695b18bb3292a8cf",
+          "token_offset_zero_based": 477,
+          "matched_token_count": 38,
+          "normalized_caption_context": "me just going to break this down from a high level overview andromeda is meta's new retrieval engine it takes millions of ads and narrows them to find thousands of candidates and it does so in a way that meta claims is faster smarter and more personal than ever before in other words andromeda is designed to handle the explosion of creative",
+          "context_window": {
+            "start_token_zero_based": 465,
+            "end_token_exclusive_zero_based": 527
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-011",
+      "original_line": 29,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "Meta rebuilt that retrieval engine, and it's said to be up to 10,000 times faster",
+      "inherited_attribution": "Jamie Stenton, *How Meta Ads Targeting Really Works After the Andromeda Update (2025-2026 Guide)*",
+      "candidate_normalized_sha256": "6208610f719cf21052d5854416315ea46bcd5a7e33b94defee20f1a930970f27",
+      "original_line_sha256": "53e2caebe8a49ece6f735d60a41bf8e0dab9bbdd3961712c2467c29954aaccb7",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "w0se92_IH8o",
+          "source_sha256": "35d0d8145eaeaac8fc54f452882d27f2f30a3d25daa57207302b482d6d5e118e",
+          "token_offset_zero_based": 205,
+          "matched_token_count": 16,
+          "normalized_caption_context": "more niche messaging and targeting didn't really work after the andromeda update meta rebuilt that retrieval engine and it's said to be up to 10 000 times faster think it is swapping a tired old librarian for a formula 1",
+          "context_window": {
+            "start_token_zero_based": 193,
+            "end_token_exclusive_zero_based": 233
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-012",
+      "original_line": 31,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "It doesn't just know that you like shoes, for example. It knows that you like red flip-flops for the beach and it can quickly retrieve the best ads to sell you that product",
+      "inherited_attribution": "Jamie Stenton, *How Meta Ads Targeting Really Works After the Andromeda Update (2025-2026 Guide)*",
+      "candidate_normalized_sha256": "20f904b835b8e409bfb812584f705d19820e6c30cc13257595df91f89c1c609f",
+      "original_line_sha256": "69d28c259e9929d999cf5e93693e411ad0893a8d67ad0d4e55c800588f665eae",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "w0se92_IH8o",
+          "source_sha256": "35d0d8145eaeaac8fc54f452882d27f2f30a3d25daa57207302b482d6d5e118e",
+          "token_offset_zero_based": 256,
+          "matched_token_count": 34,
+          "normalized_caption_context": "a better short list for each individual person to receive specific ads it doesn't just know that you like shoes for example it knows that you like red flip flops for the beach and it can quickly retrieve the best ads to sell you that product the result is less reliance on microtargeting within the adset and more",
+          "context_window": {
+            "start_token_zero_based": 244,
+            "end_token_exclusive_zero_based": 302
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-013",
+      "original_line": 33,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "This process is 100 times faster than the old method. And this has become possible because Meta has collaborated with Nvidia and they're running their algorithm on Gracehopper chips.",
+      "inherited_attribution": "Hasib Ashad, *\\*UPDATED\\* The New Meta Andromeda Update*",
+      "candidate_normalized_sha256": "8cfad2503b4bb7a70dd4908927d974732c15a842979246e7668d5d549ef68ef9",
+      "original_line_sha256": "f80fe46a21b11af59506dff3b2075fe2aa87dc0eba3e6333f034d99ec358d982",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5TyFHJLQZhI",
+          "source_sha256": "b132d0d2b8b77ce6490489628ebfd8e9bb13f961dfc6b1eade446962fb2744b8",
+          "token_offset_zero_based": 991,
+          "matched_token_count": 29,
+          "normalized_caption_context": "out because there's millions of data millions of people running ads but this process is 100 times faster than the old method and this has become possible because meta has collaborated with nvidia and they're running their algorithm on gracehopper chips now that's basically the update this is basically the retrieval process we",
+          "context_window": {
+            "start_token_zero_based": 979,
+            "end_token_exclusive_zero_based": 1032
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-014",
+      "original_line": 35,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "Essentially what we need to understand from all of that documentation is that the algorithm update didn't actually change much of anything. What it did do was crank up the volume of the decision making.",
+      "inherited_attribution": "Professor Charley T, *Andromeda just changed Meta Ads forever*",
+      "candidate_normalized_sha256": "27b6ca94a45f5524f3fbc1320f106d7275e6cf8fab3be35cd883cdd2975dc7c0",
+      "original_line_sha256": "f8adf362cced9613cf4612916cd0fe473193718b7fc93a90d8575d720f63233c",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "UV0hRsScK7w",
+          "source_sha256": "82919ee4cc2847b99b72014de9bc8368ec3b4a1a966398cb14328f2ff5272911",
+          "token_offset_zero_based": 424,
+          "matched_token_count": 35,
+          "normalized_caption_context": "who's also very good at taking complex things and making it understood essentially what we need to understand from all of that documentation is that the algorithm update didn't actually change much of anything what it did do was crank up the volume of the decision making so essentially all choices are now more hyperbolic um and let's see",
+          "context_window": {
+            "start_token_zero_based": 412,
+            "end_token_exclusive_zero_based": 471
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-015",
+      "original_line": 37,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "because of this gem update, you're getting 5% more conversions on Facebook and you're getting 3% more conversions on Instagram",
+      "inherited_attribution": "Tier 11, *Meta's New GEM + Andromeda Update Explained (Huge Performance Shift)*",
+      "candidate_normalized_sha256": "89c3fe81f97f4e4af8beb4f7458b555a71cba8a5b85cc84e8183b58bd8df6044",
+      "original_line_sha256": "f6a0fa0095447f0050f08b349e76e7c8666be650b7723d6eb2c3047e958bbf77",
+      "disposition": "caption_text_match_multiple_locations_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 128,
+          "matched_token_count": 20,
+          "normalized_caption_context": "it's the algorithm just getting smarter and smarter and they say basically because of this gem update you're getting 5 more conversions on facebook and you're getting 3 more conversions on instagram or maybe it's the vice versa anyway small incremental improvements we've been",
+          "context_window": {
+            "start_token_zero_based": 116,
+            "end_token_exclusive_zero_based": 160
+          }
+        },
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 1191,
+          "matched_token_count": 20,
+          "normalized_caption_context": "it's the algorithm just getting smarter and smarter and they say basically because of this gem update you're getting 5 more conversions on facebook and you're getting 3 more conversions on instagram or maybe it's the vice versa anyway small incremental improvements um apparently",
+          "context_window": {
+            "start_token_zero_based": 1179,
+            "end_token_exclusive_zero_based": 1223
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-016",
+      "original_line": 39,
+      "heading": "Retrieval mechanics: Andromeda, GEM, Lattice",
+      "candidate_text": "Turn on Andromeda and all of a sudden 48% less traffic on Facebook, 35% more traffic on Instagram. Year year-over-year results in one week went from negative 33 to positive 2%",
+      "inherited_attribution": "Tier 11, *Meta's New GEM + Andromeda Update Explained (Huge Performance Shift)*",
+      "candidate_normalized_sha256": "d5674a58cbc1853d568f828a0d04dec39300212747d5b0b9769c69699f336a74",
+      "original_line_sha256": "f0470df3e9a9abc8f8e3ab28a319741d2d1cab49a0d005c12af87a90b2a8f4a2",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 1566,
+          "matched_token_count": 33,
+          "normalized_caption_context": "on facebook than instagram even when we're trying to adjust placements mhm turn on andromeda and all of a sudden 48 less traffic on facebook 35 more traffic on instagram year year over year results in one week went from negative 33 to positive 2 and it was a massive swing so yeah i i absolutely believe",
+          "context_window": {
+            "start_token_zero_based": 1554,
+            "end_token_exclusive_zero_based": 1611
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-017",
+      "original_line": 43,
+      "heading": "Consolidation and structure",
+      "candidate_text": "Let's say you generate 70 conversions in a week. Instead of having that spread across 10 different adsets... Meta is going to struggle to optimize those adsets. Going to struggle to get out of the learning phase.",
+      "inherited_attribution": "Ben Heath, *The BEST Facebook Ad Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "bf862fbe5833268c54d3b5561765cce6da940f2939e4b48764dd8cff44a708cc",
+      "original_line_sha256": "b185b7f6e757b8ddf740272d14a24df27d52db56875c2af71e20c5d1d84ee3b3",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-018",
+      "original_line": 45,
+      "heading": "Consolidation and structure",
+      "candidate_text": "One ad campaign producing 50 conversions a week is much better than two ad campaigns producing 25 conversions a week because getting out of the learning phase, you're not being caught in learning limited",
+      "inherited_attribution": "Ben Heath, *Facebook Ads in 2026: NEW Secrets, Tips & Strategies*",
+      "candidate_normalized_sha256": "0bc5615e4812c399c5fa3b975b46013383e4a195a1c94ace47976f5a793c1176",
+      "original_line_sha256": "5fbee66095aac0acf7bf1cd9890208ff08ef4ff42a32bb31184c0c6ac24585e2",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "JLlcwojiVtw",
+          "source_sha256": "e7c43a5995342d2c0b71c3d625e053b1d8933764184bb82c52bdfc91cea5b587",
+          "token_offset_zero_based": 2992,
+          "matched_token_count": 34,
+          "normalized_caption_context": "them so that you don't have fragmented data we consolidate that data one ad campaign producing 50 conversions a week is much better than two ad campaigns producing 25 conversions a week because getting out of the learning phase you're not being caught in learning limited meta has more data to optimize you have more data as the",
+          "context_window": {
+            "start_token_zero_based": 2980,
+            "end_token_exclusive_zero_based": 3038
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-019",
+      "original_line": 47,
+      "heading": "Consolidation and structure",
+      "candidate_text": "One broad ad set per country. If you make 10 ad sets, you're starving Lattice of data.",
+      "inherited_attribution": "Gibran Jones, *I Deleted Manual Targeting in Meta Ads, Here's What Happened [Full Breakdown 2026]*",
+      "candidate_normalized_sha256": "2a1a58b5519a613c542f181731deb81e154cd6d21330850e21d3b0f7c520ae92",
+      "original_line_sha256": "8f21ceb17770f3559414e31343ad54d7500cc40745ea951634078946b8170cea",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "xhXiGifwo-E",
+          "source_sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+          "token_offset_zero_based": 834,
+          "matched_token_count": 17,
+          "normalized_caption_context": "you want to look out for number one over segmenting ad sets one broad ad set per country if you make 10 ad sets you're starving lattice of data mistake number two turning off bad placements in week one it will",
+          "context_window": {
+            "start_token_zero_based": 822,
+            "end_token_exclusive_zero_based": 863
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-020",
+      "original_line": 49,
+      "heading": "Consolidation and structure",
+      "candidate_text": "If you can't reliably get one adset out of learning, everything lives in one adset. That's not a compromise. That's the correct strategy.",
+      "inherited_attribution": "Professor Charley T, *The NEW BEST Facebook Ads Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "1074eba360bfb94f24a31b2c136f18fc4143e972e86b44f24557f7a6e5bef588",
+      "original_line_sha256": "ff99067494e277cb4f7ecc580abec59288aa3d0655ef29b15e956e6ee88b8441",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "E_wZJhuSK5U",
+          "source_sha256": "b54c8fab09d26837e3da3f5b3af0935b5a8f1afb3cea584abf0c6822a3fef45e",
+          "token_offset_zero_based": 2020,
+          "matched_token_count": 23,
+          "normalized_caption_context": "possible structure this is the lowbudget rule and it is not negotiable if you can't reliably get one adset out of learning everything lives in one adset that's not a compromise that's the correct strategy and i see a lot of people doing that at mass scale",
+          "context_window": {
+            "start_token_zero_based": 2008,
+            "end_token_exclusive_zero_based": 2055
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-021",
+      "original_line": 51,
+      "heading": "Consolidation and structure",
+      "candidate_text": "Most of the time at the moment, we're using just one adset with a broad audience targeting via advantage plus",
+      "inherited_attribution": "Jamie Stenton, *How Meta Ads Targeting Really Works After the Andromeda Update (2025-2026 Guide)*",
+      "candidate_normalized_sha256": "e313a774a070b939fe94fe4bb31660df6327438500e2427531daaf23d6c2b54f",
+      "original_line_sha256": "b988ce7cc21bc3c3d7116742afa238a3aeb55635eeeffd55cd3ff98336e145d2",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "w0se92_IH8o",
+          "source_sha256": "35d0d8145eaeaac8fc54f452882d27f2f30a3d25daa57207302b482d6d5e118e",
+          "token_offset_zero_based": 726,
+          "matched_token_count": 20,
+          "normalized_caption_context": "one sales one leads then limit your adsets as much as possible most of the time at the moment we're using just one adset with a broad audience targeting via advantage plus you may need more adsets only if you want to retarget at",
+          "context_window": {
+            "start_token_zero_based": 714,
+            "end_token_exclusive_zero_based": 758
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-022",
+      "original_line": 53,
+      "heading": "Consolidation and structure",
+      "candidate_text": "this is one of the key changes with Andromeda is that you're not segmenting cold audience and warm audience... We're just combining all of this because Meta just knows better what's going to perform best.",
+      "inherited_attribution": "Julian Eisenkirchner, *Meta Ads Campaign Structure + Targeting in 2026 (Andromeda Update Explained!)*",
+      "candidate_normalized_sha256": "e44f0c9b3f6fd6068bfac0207d612d331e278c823c2bd426320d1af30fad0f8a",
+      "original_line_sha256": "d45f083304bc9ff6802d9069cf782a2d9d2bf13636411f037ddaa0edec47fdfa",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-023",
+      "original_line": 55,
+      "heading": "Consolidation and structure",
+      "candidate_text": "meta system needs a certain level of conversion volume per ad set to stabilize and move out of the learning phase effectively",
+      "inherited_attribution": "Ecom Expedition with Asim, *Meta Ads Explained What Advantage Plus Is Really Doing*",
+      "candidate_normalized_sha256": "daaa051a7d387e1b5127848edab5811eadea9eff369772f231ff09415b7441ce",
+      "original_line_sha256": "8407d82f77350e8504397decf15f12eb348ed0e1fc6dab39d1ef816f941b76f9",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Ok7f9GluzGg",
+          "source_sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+          "token_offset_zero_based": 1490,
+          "matched_token_count": 22,
+          "normalized_caption_context": "a clear picture of what's working that's exactly what tends to happen meta system needs a certain level of conversion volume per ad set to stabilize and move out of the learning phase effectively if you're constantly creating new ad sets or splitting budgets too much",
+          "context_window": {
+            "start_token_zero_based": 1478,
+            "end_token_exclusive_zero_based": 1524
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-024",
+      "original_line": 57,
+      "heading": "Consolidation and structure",
+      "candidate_text": "Do not duplicate the adset. It does not change anything. Yes, you used to be able to do this and it used to work.",
+      "inherited_attribution": "BitBranding, *Why Every Clothing Brand Is Wrong About Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "42b06be5f9e5f53f56e4b231b0c4f3a8099ef122ac9347633b646218c522ef9f",
+      "original_line_sha256": "95a05343687b90d1b65ccb29828a45e48eb32761ee278bb5296294f9faf86956",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ZOCLEILy7FE",
+          "source_sha256": "2ad3e0c38a37d4cef4ffc1535eb734e2fd5773a5e3801d5323900c15bf174910",
+          "token_offset_zero_based": 1263,
+          "matched_token_count": 24,
+          "normalized_caption_context": "the adset and i'm going to now put it at 50 okay do not duplicate the adset it does not change anything yes you used to be able to do this and it used to work sometimes you do hit a bullseye sometimes it can work but consistently",
+          "context_window": {
+            "start_token_zero_based": 1251,
+            "end_token_exclusive_zero_based": 1299
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-025",
+      "original_line": 59,
+      "heading": "Consolidation and structure",
+      "candidate_text": "Does the structure of the campaign give any significant signals to the algorithm? No, it does not give to the algorithm.",
+      "inherited_attribution": "Umar Tazkeer, *Life after Meta Andromeda Update (ONE Video. All Answers.)*",
+      "candidate_normalized_sha256": "c8737642aa697b42afe8db1dff68a6cc124f6f53267c650f3d49767bc08a047a",
+      "original_line_sha256": "0b8d708f01163097ae9de191951cdbbbbc1c36965143a9d3808c4db0333c179d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Tf1LNBRykuo",
+          "source_sha256": "c199bc922c2c5d39abb59bef3abc1b2eaa051c9e0d6712b9d544c30b2425c570",
+          "token_offset_zero_based": 1995,
+          "matched_token_count": 21,
+          "normalized_caption_context": "in so that's why the structure of the campaign gets voted out does the structure of the campaign give any significant signals to the algorithm no it does not give to the algorithm but because the structure of the campaign helps you a lot in",
+          "context_window": {
+            "start_token_zero_based": 1983,
+            "end_token_exclusive_zero_based": 2028
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-026",
+      "original_line": 61,
+      "heading": "Consolidation and structure",
+      "candidate_text": "best practice now is to write for several different audience personas... The Andromeda update should allow all personas to be targeted within one adset and one campaign",
+      "inherited_attribution": "Jamie Stenton, *Meta Ads Results Dropped? Andromeda Update Explained + the simple fix to rebuild*",
+      "candidate_normalized_sha256": "0e116e66e9a09569f008aee7ae10c1aacb144700190283dc04555b91f597e288",
+      "original_line_sha256": "b66773599e753f86018ed10623090a27feb260e616862ecf1e6b2f7cb41babe9",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-027",
+      "original_line": 65,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "So meta will reach people within this audience. They'll put ads in front of people, but they will also go beyond that to reach other people that Meta believes are going to, in this case, generate a sale",
+      "inherited_attribution": "Ben Heath, *The BEST Facebook Ad Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "e5774fa99cde137cc423357d8ad9d16a21d71d4efbf9f17e7b1309fae6c936f3",
+      "original_line_sha256": "65c8adb0b01eeec6402a38c84827eb87d9d39484027a08fe614cf0b116dca625",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "13s-G9Uj51A",
+          "source_sha256": "5b470e8e88d78b23dff0994aef8055299908dab3a428a6bf6f0ff17fab939f4d",
+          "token_offset_zero_based": 421,
+          "matched_token_count": 38,
+          "normalized_caption_context": "that is not true this is within the suggest an audience section so meta will reach people within this audience they'll put ads in front of people but they will also go beyond that to reach other people that meta believes are going to in this case generate a sale because that's what this campaign is set up for basically meta is",
+          "context_window": {
+            "start_token_zero_based": 409,
+            "end_token_exclusive_zero_based": 471
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-028",
+      "original_line": 67,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "Most of your targeting inputs are suggestions. When you set up an ad set to be a warm audience ad set, you add in your warm audiences, your custom audiences as targeting, but you do so as a suggestion",
+      "inherited_attribution": "Ben Heath, *Facebook Ads in 2026: NEW Secrets, Tips & Strategies*",
+      "candidate_normalized_sha256": "e67ecaf49d7c5a042efb09cc2dffcc9e0c561346396c681132f5c856f37ad1e3",
+      "original_line_sha256": "2ce18e0ed7e3c4272b8116ca634b59ff6eea40865f9748ec5ff269be017c9eac",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "JLlcwojiVtw",
+          "source_sha256": "e7c43a5995342d2c0b71c3d625e053b1d8933764184bb82c52bdfc91cea5b587",
+          "token_offset_zero_based": 2821,
+          "matched_token_count": 39,
+          "normalized_caption_context": "customers is exactly the same and why does meta do this because most of your targeting inputs are suggestions when you set up an ad set to be a warm audience ad set you add in your warm audiences your custom audiences as targeting but you do so as a suggestion in the suggested audience section as opposed to within the controls within",
+          "context_window": {
+            "start_token_zero_based": 2809,
+            "end_token_exclusive_zero_based": 2872
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-029",
+      "original_line": 69,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "meta is actually telling us that this is just a suggestion. Um, so no matter what we put in here, the algorithm and the AI of meta is still going to do its thing.",
+      "inherited_attribution": "Julian Eisenkirchner, *Meta Ads Campaign Structure + Targeting in 2026 (Andromeda Update Explained!)*",
+      "candidate_normalized_sha256": "99fb075e4aa7de0c90eb6112f5b161bf6d7c7072f0aa4e1081fba5d0072ceac4",
+      "original_line_sha256": "3ca7f4643a27c6464ddd9adae753ea89cf7ef891750f6d7dd793731856d8d484",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "eRneAmPq-Sc",
+          "source_sha256": "4e3ce5a75202613cc2b711eb93ebaf8deba65026eaa8dfefeda811e826dbda2b",
+          "token_offset_zero_based": 2114,
+          "matched_token_count": 34,
+          "normalized_caption_context": "it used to work but what you can see here is like meta is actually telling us that this is just a suggestion um so no matter what we put in here the algorithm and the ai of meta is still going to do its thing so the way and how i like to do this is i",
+          "context_window": {
+            "start_token_zero_based": 2102,
+            "end_token_exclusive_zero_based": 2160
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-030",
+      "original_line": 71,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "Do not select this button right here that says use as a suggestion. If you do select this, Facebook is allowed to go beyond your list, which is not what you want at all",
+      "inherited_attribution": "Sam Piliero, *The Best Facebook Ads Strategy for 2026 (Post Andromeda)*",
+      "candidate_normalized_sha256": "eb0ca20dd086cc162abdf853ae7ce6f22345c30bb1ebc12dc1cac2f10dad175e",
+      "original_line_sha256": "448bbd16297c3ba41bde7eae8c4fb9dd11d7d40b76a4686fa8da234ec865ba11",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Fo-p03fwvdA",
+          "source_sha256": "d5abf86e5e77e043c3ed80d45a1ced67661bb666c01b825619dbe00d318a2f6c",
+          "token_offset_zero_based": 1385,
+          "matched_token_count": 34,
+          "normalized_caption_context": "list from like clavio or something get that in here as well do not select this button right here that says use as a suggestion if you do select this facebook is allowed to go beyond your list which is not what you want at all you want this to very clearly be a retention effort just against",
+          "context_window": {
+            "start_token_zero_based": 1373,
+            "end_token_exclusive_zero_based": 1431
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-031",
+      "original_line": 73,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "This changed recently in the new Facebook UI. This used to be something that was a suggestion. It's no longer a suggestion.",
+      "inherited_attribution": "Sam Piliero, *The NEW Facebook Ads Strategy Dominating in 2026*",
+      "candidate_normalized_sha256": "5350e6279ffe32db5ebbde8f5f3c694a893e99a710ed4bb91cc5074678ff29f9",
+      "original_line_sha256": "0ca2e993b7056c7f458a536a6d60cac14940f5701664b652e1caa897b35eda3a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "FYUR8ZL4_xY",
+          "source_sha256": "693b1e1b49c4c203f0f5f1ab116683eef6f233a1093e5f97a94d9f8d36ae0fec",
+          "token_offset_zero_based": 1681,
+          "matched_token_count": 22,
+          "normalized_caption_context": "next we go to exclude these custom audiences this is very important this changed recently in the new facebook ui this used to be something that was a suggestion it's no longer a suggestion if you exclude these audiences as we can see from the info",
+          "context_window": {
+            "start_token_zero_based": 1669,
+            "end_token_exclusive_zero_based": 1715
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-032",
+      "original_line": 75,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "So generally on an ad audience targeting level we don't really want to use that because what it generally means is that the quality of the followers coming through just won't match our ideal type of client",
+      "inherited_attribution": "George O'Farrell, *Meta Just Changed Ads Forever (Andromeda Explained)*",
+      "candidate_normalized_sha256": "a3e894d472bd0f6e13e933616898fa77bc63fee9295482e1d3d4b1ea2f0ec454",
+      "original_line_sha256": "c17ae336cedbf15ffb4d52e21c74a30bfa712a9de3fdfdaadafa88520d3a895b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "yYC4uvoBHug",
+          "source_sha256": "4d70e5b3a7855cbf883e1eec30bffd55582b836bc28976d3b8fb1593ab9d5d45",
+          "token_offset_zero_based": 504,
+          "matched_token_count": 37,
+          "normalized_caption_context": "us money is zero point in us getting those cheap opt ins so generally on an ad audience targeting level we don't really want to use that because what it generally means is that the quality of the followers coming through just won't match our ideal type of client and instead this is what we want to do in order to",
+          "context_window": {
+            "start_token_zero_based": 492,
+            "end_token_exclusive_zero_based": 553
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-033",
+      "original_line": 77,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "However, a big thing with Advantage Plus is it can often actually be negative if you use it in the wrong scenarios.",
+      "inherited_attribution": "George O'Farrell, *Meta Just Changed Ads Forever (Andromeda Explained)*",
+      "candidate_normalized_sha256": "c460c6c2b38dad7ddb20bbc17f8e44a182895f6f61bd27e187cd6888aa6180cf",
+      "original_line_sha256": "989075eb087a0a1b830b528d69ef0f8517887a7286b6f5c231c48ac8a1e0cb14",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "yYC4uvoBHug",
+          "source_sha256": "4d70e5b3a7855cbf883e1eec30bffd55582b836bc28976d3b8fb1593ab9d5d45",
+          "token_offset_zero_based": 150,
+          "matched_token_count": 22,
+          "normalized_caption_context": "creatives that are used and also the targeting that's used as well however a big thing with advantage plus is it can often actually be negative if you use it in the wrong scenarios what i would say about advantage plus is using it on a",
+          "context_window": {
+            "start_token_zero_based": 138,
+            "end_token_exclusive_zero_based": 184
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-034",
+      "original_line": 79,
+      "heading": "Suggestions, not boundaries",
+      "candidate_text": "pausing that one campaign and losing quote unquote 1,291 existing customers, we actually increased the amount of existing customers in our new customer campaign by 1,400",
+      "inherited_attribution": "Tier 11, *Meta's New GEM + Andromeda Update Explained (Huge Performance Shift)*",
+      "candidate_normalized_sha256": "e2bc9f1b60d6e53e94f3992e7af98ab5b4fcc1e2f55c2dd1bf796ec781e1a244",
+      "original_line_sha256": "d674cb35b8e0d7a4fdffcb10eedcbec004e9b67e0314fb9ca2ae3de18ac34b90",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 620,
+          "matched_token_count": 28,
+          "normalized_caption_context": "3805 3805 that's the after 30 3805 minus 2399 is 1406 so pausing that one campaign and losing quote unquote 1 291 existing customers we actually increased the amount of existing customers in our new customer campaign by 1 400 we literally added like 115 116 more returning customers in our new",
+          "context_window": {
+            "start_token_zero_based": 608,
+            "end_token_exclusive_zero_based": 660
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-035",
+      "original_line": 83,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Number two is creative volume. More assets in ads manager to feed the demands of delivery. It says minimum 20 plus assets in an ASC campaign.",
+      "inherited_attribution": "Michael Diaz, *Andromeda: Creative Volume, Diversity & Fatigue Explained*",
+      "candidate_normalized_sha256": "f007ef4580e5e3ccfbf8f4064a41d2f19eeda5c44ba1f9cd7a3356f8beebdb2f",
+      "original_line_sha256": "786624145b2713d7e43a5c9644aa219ff5955e5cc4d3f0c8547f67f6188a9a77",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "D4YFMGxZLIw",
+          "source_sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+          "token_offset_zero_based": 218,
+          "matched_token_count": 26,
+          "normalized_caption_context": "it's creative diversification so visually diverse assets built to reach new audiences number two is creative volume more assets in ads manager to feed the demands of delivery it says minimum 20 plus assets in an asc campaign and then number three is creative refresh bringing new assets to platform",
+          "context_window": {
+            "start_token_zero_based": 206,
+            "end_token_exclusive_zero_based": 256
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-036",
+      "original_line": 85,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Volium is more important than ever. Meta Andromeda, our nextg ads retrieval system is designed to improve results for advertisers with a high volume of diverse assets. You can't scale budgets without scaling volume.",
+      "inherited_attribution": "Michael Diaz, *Andromeda: Creative Volume, Diversity & Fatigue Explained*",
+      "candidate_normalized_sha256": "b29514ca14e726dec0ce6a95b9bca3f28a36c8c6c9964bdf708dec467b3fa9a9",
+      "original_line_sha256": "5a03e59157b0e6aa767f5665b2c44f96fcf2f50920a2c552dc5dde757d0766a3",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "D4YFMGxZLIw",
+          "source_sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+          "token_offset_zero_based": 917,
+          "matched_token_count": 34,
+          "normalized_caption_context": "interesting it says creative volume is key to creative effectiveness it says volium is more important than ever meta andromeda our nextg ads retrieval system is designed to improve results for advertisers with a high volume of diverse assets you can't scale budgets without scaling volume that's very interesting as performance improves and budgets scale creative volume fuels",
+          "context_window": {
+            "start_token_zero_based": 905,
+            "end_token_exclusive_zero_based": 963
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-037",
+      "original_line": 87,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "they used to have a recommendation of don't have five or six ads live in an adset at any one time... the recommendation typically is 20 plus and we will often run adsets with 20 plus",
+      "inherited_attribution": "Ben Heath, *The BEST Facebook Ad Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "f001118ea669a984b6fa212cab9e56d2e94e3a86df4aaac782b761deeec6582a",
+      "original_line_sha256": "40d6981d96b0f1128233d0f2339ea8ac4b55d50592370ceaa1deeb899b4a8c64",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-038",
+      "original_line": 89,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "We now aim for 20 different ad creatives per ad set. We used to be limited to six, that's what Meta used to recommend, but post Andromeda things have really changed.",
+      "inherited_attribution": "Ben Heath, *Facebook Ads in 2026: NEW Secrets, Tips & Strategies*",
+      "candidate_normalized_sha256": "69dcaeed237011ff226ef9327c6096768ff8d95f1ed35a5cb58c2870be505ab3",
+      "original_line_sha256": "4291ec109311aa9ecb424c12965a94609f6162bc98816b0ec38438d33561ba15",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "JLlcwojiVtw",
+          "source_sha256": "e7c43a5995342d2c0b71c3d625e053b1d8933764184bb82c52bdfc91cea5b587",
+          "token_offset_zero_based": 809,
+          "matched_token_count": 31,
+          "normalized_caption_context": "well worth doing number three is to produce way more ad creative we now aim for 20 different ad creatives per ad set we used to be limited to six that's what meta used to recommend but post andromeda things have really changed meta is now prioritizing creative diversity they want lots of different ad",
+          "context_window": {
+            "start_token_zero_based": 797,
+            "end_token_exclusive_zero_based": 852
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-039",
+      "original_line": 91,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "the standard recommendation now is that you produce 20 plus ad creatives and every single ad creative needs to be completely different from the others. That's an enormous amount of work",
+      "inherited_attribution": "Ben Heath, *The NEW WAY To Test Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "bb097c36205eb5142f9c8c3381c50dd7cc986c2243eeac91417c5e77d97e82a0",
+      "original_line_sha256": "0bffd39107ac959bf8ff5fa47674d85b47f0b4611738d4ea5637a57e02ca2b46",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "onFwSud9C2Y",
+          "source_sha256": "64f286f9fcb2ab881efd29ab2947bb438bc162c74218d0ff9e5d41f1a6c9728b",
+          "token_offset_zero_based": 3112,
+          "matched_token_count": 31,
+          "normalized_caption_context": "in general i want to help meta advertisers relax post andromeda because the standard recommendation now is that you produce 20 plus ad creatives and every single ad creative needs to be completely different from the others that's an enormous amount of work it's difficult to produce 20 ad creatives even if you are using",
+          "context_window": {
+            "start_token_zero_based": 3100,
+            "end_token_exclusive_zero_based": 3155
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-040",
+      "original_line": 93,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Better to go with a a creative production schedule that you can stick to as opposed to the one that's perfect",
+      "inherited_attribution": "Ben Heath, *The NEW WAY To Test Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "18ac3b86694d5e8456f6e2a5ac414e85a4041349f953a38805e00fd9fe3131f2",
+      "original_line_sha256": "04661194f46bbc2c7ab5cdb1ea32eb0145114d0171b89515052275e43b709ac4",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "onFwSud9C2Y",
+          "source_sha256": "64f286f9fcb2ab881efd29ab2947bb438bc162c74218d0ff9e5d41f1a6c9728b",
+          "token_offset_zero_based": 3333,
+          "matched_token_count": 21,
+          "normalized_caption_context": "production and testing uh it would be similar to a diet right better to go with a a creative production schedule that you can stick to as opposed to the one that's perfect just like with diet we all know what a perfect diet looks",
+          "context_window": {
+            "start_token_zero_based": 3321,
+            "end_token_exclusive_zero_based": 3366
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-041",
+      "original_line": 95,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Creative diversity is not volume of ads... Creative diversity is the volume of concepts. And you can absolutely get away with four or five, maybe six.",
+      "inherited_attribution": "Professor Charley T, *Andromeda just changed Meta Ads forever*",
+      "candidate_normalized_sha256": "441a872e92cc89c43ed10d6f9ec318c8a65ae849c62292dde30152d198202a70",
+      "original_line_sha256": "9b804d939ac6a0aa07d719cd98820bbc39d02cafb30d95cb2d4bbdf3743588ee",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-042",
+      "original_line": 97,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "More ads equals dumber machine. More ads equals less money. Solve the problems you have. Don't create new problems.",
+      "inherited_attribution": "Professor Charley T, *Andromeda just changed Meta Ads forever*",
+      "candidate_normalized_sha256": "785dda223ed5b89f0f7bfe6c81198aef4cb34f7dbfb2cd61205b73d7881ad28a",
+      "original_line_sha256": "f5a4b38394d560267d713106cc3215cb88751f8181a3cc67f6346440f10489d7",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "UV0hRsScK7w",
+          "source_sha256": "82919ee4cc2847b99b72014de9bc8368ec3b4a1a966398cb14328f2ff5272911",
+          "token_offset_zero_based": 12850,
+          "matched_token_count": 19,
+          "normalized_caption_context": "ads for you and the more disruptive to what already works so more ads equals dumber machine more ads equals less money solve the problems you have don't create new problems that's generally how you move forward again the biggest thing here is",
+          "context_window": {
+            "start_token_zero_based": 12838,
+            "end_token_exclusive_zero_based": 12881
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-043",
+      "original_line": 99,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "The thing about having 20 ads inside of an adset is like you're going to have so many ads that are untested, right? In my opinion, untested.",
+      "inherited_attribution": "Michael Diaz, *Andromeda: Creative Volume, Diversity & Fatigue Explained*",
+      "candidate_normalized_sha256": "fb4d7eb55d91a0d40faef06e77ad577142eec0db12b0a1eebcbedc65fcf6ca5a",
+      "original_line_sha256": "93ffa717b5ae4d464dcd9cd7ab21bb7d8b9cd994b30a1be748ca6356a5306761",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "D4YFMGxZLIw",
+          "source_sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+          "token_offset_zero_based": 2728,
+          "matched_token_count": 27,
+          "normalized_caption_context": "my job wouldn't exist okay let's just put it that way so the thing about having 20 ads inside of an adset is like you're going to have so many ads that are untested right in my opinion untested they got two cents of spent 20 cents of spend like i",
+          "context_window": {
+            "start_token_zero_based": 2716,
+            "end_token_exclusive_zero_based": 2767
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-044",
+      "original_line": 101,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Common misconception that people have is that one ad can't carry the account. Everybody says, \\\"Oh, one ad cannot create and carry this account.\\\" However, it actually can.",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "1a15484d29fd341ef609915833900473a605db4cecdebfed01e52130532f99f7",
+      "original_line_sha256": "3f0088d227442798b6ec825f408a96774993d6a8416d3e9a480ae7014d810b91",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 2602,
+          "matched_token_count": 28,
+          "normalized_caption_context": "to be one who people recognize so obviously that worked really well common misconception that people have is that one ad can't carry the account everybody says oh one ad cannot create and carry this account however it actually can for this one in particular it spent the majority of its budget",
+          "context_window": {
+            "start_token_zero_based": 2590,
+            "end_token_exclusive_zero_based": 2642
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-045",
+      "original_line": 103,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "Your competitor, if they're launching a hundred or a thousand new ads every single month, realistically they are going to beat you. That is a very realistic threat to your business.",
+      "inherited_attribution": "Jared Robinson, *The new way to make Meta Ads In 2026 (Post-Andromeda)*",
+      "candidate_normalized_sha256": "6562acf3f22fe0832460ef11277aadac3dd2c326d4e5905bb5f16e6c029cb24b",
+      "original_line_sha256": "a84b554d2d6b9bb23786c23a887e19e1a6819586e263537454654196370f31bb",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "uLlOkazQTXo",
+          "source_sha256": "e8a2edd862bc7e59ad17f819067f3df741e4296312fa02ba6b29dd765407fe14",
+          "token_offset_zero_based": 1263,
+          "matched_token_count": 31,
+          "normalized_caption_context": "and it's because as we know the algorithm rewards volume and diversity your competitor if they're launching a hundred or a thousand new ads every single month realistically they are going to beat you that is a very realistic threat to your business but the key here and the way that you can win is",
+          "context_window": {
+            "start_token_zero_based": 1251,
+            "end_token_exclusive_zero_based": 1306
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-046",
+      "original_line": 105,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "My best piece of advice is to use the rule of 10,000. For every $10,000 you spend per month in advertising, you need to upload that many ads per week",
+      "inherited_attribution": "Sam Piliero, *The Best Facebook Ads Strategy for 2026 (Post Andromeda)*",
+      "candidate_normalized_sha256": "5e3b80790b59838f20acf5c74955904e0e6b386a094430b4608e5bef3aca1aa1",
+      "original_line_sha256": "de4a3ee235ab3eacf5ba84073bc4d3c80f0610bdfe36aa6b62df0d3a8949ac70",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Fo-p03fwvdA",
+          "source_sha256": "d5abf86e5e77e043c3ed80d45a1ced67661bb666c01b825619dbe00d318a2f6c",
+          "token_offset_zero_based": 3522,
+          "matched_token_count": 32,
+          "normalized_caption_context": "actually need to be uploading into your ad account to grow it my best piece of advice is to use the rule of 10 000 for every 10 000 you spend per month in advertising you need to upload that many ads per week for example if you spend 100 000 you should upload 10 ads",
+          "context_window": {
+            "start_token_zero_based": 3510,
+            "end_token_exclusive_zero_based": 3566
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-047",
+      "original_line": 107,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "if you're under 30 or over 30K per month, you definitely want to have an advantage plus with at least 10 to 15 creatives.",
+      "inherited_attribution": "Chase Chappell, *How To ACTUALLY Target with Facebook Ads (Post-Andromeda Update)*",
+      "candidate_normalized_sha256": "2caa8619e79b229bf569e3355ee3f3427520d3d12ef72490a5c0b01f0c749727",
+      "original_line_sha256": "42add3ec1d3b13366dc321f33230bd1ecd437ba62abbdb07c75a5574ef4a55f9",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "yM8VhjU5ec8",
+          "source_sha256": "90263d26c2fd88604c61522ead243e76c480f7730255ee4ba788001e326c1ae8",
+          "token_offset_zero_based": 1165,
+          "matched_token_count": 24,
+          "normalized_caption_context": "campaign which you can have an advantage plus on both sides so if you're under 30 or over 30k per month you definitely want to have an advantage plus with at least 10 to 15 creatives and inside of this when we're talking about how we target through",
+          "context_window": {
+            "start_token_zero_based": 1153,
+            "end_token_exclusive_zero_based": 1201
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-048",
+      "original_line": 109,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "If you're under a million a year, you don't need multiple avatars. You need one or two really strong winning angles, okay?",
+      "inherited_attribution": "Dr. Matt Shiver, *Alex Hormozi's NEW Facebook Ads Strategy (Andromeda Breakdown)*",
+      "candidate_normalized_sha256": "d8c8e97dade7773146902e13f2ed8a656be433856527848e05cd68ff545d14a3",
+      "original_line_sha256": "7265c5c7f6e472f1d96568b38c59147c86fba6b7fe3366370fac7210ba898af4",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "PPCFvIdNwTg",
+          "source_sha256": "5246e2427c760101180ab96c2eda4484f956c6b9c0bed5aa695b18bb3292a8cf",
+          "token_offset_zero_based": 962,
+          "matched_token_count": 22,
+          "normalized_caption_context": "that creative and that is what i can make more ads around if you're under a million a year you don't need multiple avatars you need one or two really strong winning angles okay angles are like pain points and then we want to make a",
+          "context_window": {
+            "start_token_zero_based": 950,
+            "end_token_exclusive_zero_based": 996
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-049",
+      "original_line": 111,
+      "heading": "Creative volume vs concept count",
+      "candidate_text": "running 40 ads with no system isn't testing. It's guessing with more budget.",
+      "inherited_attribution": "Adam Taylor, *The NEW Andromeda-Proof Meta Ads Strategy (2026)*",
+      "candidate_normalized_sha256": "f8bb803601412044375951e8a56a746d838371310df5024f62c5fcb46cad6cb8",
+      "original_line_sha256": "44473ebbcb825a58635efb331c00c891bf38642ea355705465c7ffab0199ef64",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "GvYow_bNzEY",
+          "source_sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+          "token_offset_zero_based": 216,
+          "matched_token_count": 13,
+          "normalized_caption_context": "grain of truth in it and you do need to test but running 40 ads with no system isn't testing it's guessing with more budget and there's a big difference so i audit ad accounts every week",
+          "context_window": {
+            "start_token_zero_based": 204,
+            "end_token_exclusive_zero_based": 241
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-050",
+      "original_line": 115,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Andromeda penalizes psychologically redundant creative. If two ads feel the same to a user, Meta treats them as the same ad in the auction, even if the colors are different.",
+      "inherited_attribution": "Gibran Jones, *I Deleted Manual Targeting in Meta Ads, Here's What Happened [Full Breakdown 2026]*",
+      "candidate_normalized_sha256": "9adda82e530ae1f3cef8c581a5667937de66845ccdf7d4ed3b55ab5028b34475",
+      "original_line_sha256": "912acf30314939c775857faaa7d5690c6ead5ba46b514fd5fbf5ef7c81de679a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "xhXiGifwo-E",
+          "source_sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+          "token_offset_zero_based": 232,
+          "matched_token_count": 30,
+          "normalized_caption_context": "who sees what when and in what order and here's the kicker andromeda penalizes psychologically redundant creative if two ads feel the same to a user meta treats them as the same ad in the auction even if the colors are different translation creative variants now drive 70 to 80 of performance not targeting",
+          "context_window": {
+            "start_token_zero_based": 220,
+            "end_token_exclusive_zero_based": 274
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-051",
+      "original_line": 117,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Upload six to 10 ads that are psychologically different. Let's think about founder talking to a camera, UGC unboxing, text only hook, before and after customer testimonial, low-fi meme style.",
+      "inherited_attribution": "Gibran Jones, *I Deleted Manual Targeting in Meta Ads, Here's What Happened [Full Breakdown 2026]*",
+      "candidate_normalized_sha256": "5a5edbc547e7f83ab2a78abe35259b2d58b897fb3b5ce38c4fb2b851d165a072",
+      "original_line_sha256": "8d3ee79b0520b241c7f78f1c5c5e4eef2f7fe54b9051ec4f75da7dd5b42407d9",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "xhXiGifwo-E",
+          "source_sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+          "token_offset_zero_based": 699,
+          "matched_token_count": 31,
+          "normalized_caption_context": "it step four your creative this is 80 of the job now upload six to 10 ads that are psychologically different let's think about founder talking to a camera ugc unboxing text only hook before and after customer testimonial low fi meme style don't upload 10 versions where you only change the headline or color",
+          "context_window": {
+            "start_token_zero_based": 687,
+            "end_token_exclusive_zero_based": 742
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-052",
+      "original_line": 119,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Meta could easily look at those two ads and go, \\\"These are the same thing. We're only going to put one into the auction.\\\"",
+      "inherited_attribution": "Ben Heath, *The NEW WAY To Test Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "fda4ddcb9d9a5da092d3ef82ddd43862fa64029faaf635792fba0059dc108829",
+      "original_line_sha256": "a37792905950854d6242c6da0b059fbb0f3b2669e75a25d827b160c20ac9e445",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "onFwSud9C2Y",
+          "source_sha256": "64f286f9fcb2ab881efd29ab2947bb438bc162c74218d0ff9e5d41f1a6c9728b",
+          "token_offset_zero_based": 1710,
+          "matched_token_count": 24,
+          "normalized_caption_context": "sat there and and that be the the look of the ad meta could easily look at those two ads and go these are the same thing we're only going to put one into the auction if we weren't using the creative testing tool but because we are",
+          "context_window": {
+            "start_token_zero_based": 1698,
+            "end_token_exclusive_zero_based": 1746
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-053",
+      "original_line": 121,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Creative diversification means that you create different creatives for different types of personas based on different pain points, desires and aspirations.",
+      "inherited_attribution": "Umar Tazkeer, *Life after Meta Andromeda Update (ONE Video. All Answers.)*",
+      "candidate_normalized_sha256": "09ca81fdf2e474213f680e2987587b1d0df5a7e4b1509ebd490ee391056c1875",
+      "original_line_sha256": "e53ee05a05e741bf306f6f01007dfa68b5658cf5041f0d674c2b0c85652562b0",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Tf1LNBRykuo",
+          "source_sha256": "c199bc922c2c5d39abb59bef3abc1b2eaa051c9e0d6712b9d544c30b2425c570",
+          "token_offset_zero_based": 84,
+          "matched_token_count": 21,
+          "normalized_caption_context": "just mean creating and testing a bunch of creatives please understand carefully creative diversification means that you create different creatives for different types of personas based on different pain points desires and aspirations for example i have a course on google ads now this is",
+          "context_window": {
+            "start_token_zero_based": 72,
+            "end_token_exclusive_zero_based": 117
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-054",
+      "original_line": 123,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "A concept is a clear idea for one ad that we can test. The ad says who we're talking to, what we promise, why it works, and how we'll show it.",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "2233a337f9765d9919664fae9d8a5b83459750c0267752b4c17a6de8459ed769",
+      "original_line_sha256": "97ff8ac835080ba18c49627ba9be23ffea2b6ebf64f873a1b5e0fd0d4333866d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 469,
+          "matched_token_count": 31,
+          "normalized_caption_context": "my notes we should define a concept so i put on here a concept is a clear idea for one ad that we can test the ad says who we're talking to what we promise why it works and how we'll show it now this will all make a little bit more sense here in",
+          "context_window": {
+            "start_token_zero_based": 457,
+            "end_token_exclusive_zero_based": 512
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-055",
+      "original_line": 125,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "So the 4F lens, so I put on here, and this is all specific to apparel. So fit, fabric, function, and fashion. We want to choose one dominant F per concept",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "c2b0adca5c2c37633b40eee0f503d4046c42beb99849c38c565223324ef1a734",
+      "original_line_sha256": "b86fb9f931a61b1d59ae3afa2bb00b9e0b1b950f7481750b026b99bc52b9bf5d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 666,
+          "matched_token_count": 31,
+          "normalized_caption_context": "and we can just put them onto the screen for you guys so the 4f lens so i put on here and this is all specific to apparel so fit fabric function and fashion we want to choose one dominant f per concept so that the promise is clear okay all of this will start",
+          "context_window": {
+            "start_token_zero_based": 654,
+            "end_token_exclusive_zero_based": 709
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-056",
+      "original_line": 127,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "I would say an iteration if I was going to put this to it like I would say at this point give me 20% difference in the image or the video.",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "a9caa6c799821b1b4a2b9f8cdff373a94dc8ab643de4646b1fed4c965c37846b",
+      "original_line_sha256": "0a767586fe37fdd62deca3cb31fac86f71c84c04f1291174c322e0b9f953fa18",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 1899,
+          "matched_token_count": 31,
+          "normalized_caption_context": "it's not even boxes maybe it's something else focus on iterations right i would say an iteration if i was going to put this to it like i would say at this point give me 20 difference in the image or the video give me 20 of the iteration most people won't get to innovation",
+          "context_window": {
+            "start_token_zero_based": 1887,
+            "end_token_exclusive_zero_based": 1942
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-057",
+      "original_line": 129,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "So the first thing you want to do is imitate... iterate and then innovation. This is last. Most people don't really even get to the innovation stage.",
+      "inherited_attribution": "BitBranding, *Why Every Clothing Brand Is Wrong About Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "358e8b57994e12f61d53a5ee91720b8a157df4ecab366ad9ea3df63832b7b107",
+      "original_line_sha256": "e699f21ebed8bfb8880c8459c537c8981d77094cc1972a03836848338b25040a",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-058",
+      "original_line": 131,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Diversification of creative is good, but diversification of creative format is just as important. Carousel, image, video.",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "6182fd3bc7afe7303c4195c2950f9f0844b701812df7a041b182eef3dfd25579",
+      "original_line_sha256": "e9b85ff5bb16d058dccb561c55d794105dbed0a5a9939a2528cefab170782bd9",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 3388,
+          "matched_token_count": 17,
+          "normalized_caption_context": "big enough right what i mentioned here 20 iteration differences number four diversification of creative is good but diversification of creative format is just as important carousel image video okay those are different ways to get in front of your audience",
+          "context_window": {
+            "start_token_zero_based": 3376,
+            "end_token_exclusive_zero_based": 3417
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-059",
+      "original_line": 133,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "Post-Andromeda, native content is going to outperform studio-produced content every single time.",
+      "inherited_attribution": "Jared Robinson, *The new way to make Meta Ads In 2026 (Post-Andromeda)*",
+      "candidate_normalized_sha256": "f8c47fca49a55e30f5ff1c03afc2eeff499ecb3c4c1d2bfc208a8e48eb731b74",
+      "original_line_sha256": "0d1f90493dacbf947c608483238e0ab58df8726b8e1fa12e8083d319280206ec",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "uLlOkazQTXo",
+          "source_sha256": "e8a2edd862bc7e59ad17f819067f3df741e4296312fa02ba6b29dd765407fe14",
+          "token_offset_zero_based": 398,
+          "matched_token_count": 14,
+          "normalized_caption_context": "to beat it so principle number one is understanding the native format post andromeda native content is going to outperform studio produced content every single time i recommend ugc videos street interviews or iphone vsls a good rule",
+          "context_window": {
+            "start_token_zero_based": 386,
+            "end_token_exclusive_zero_based": 424
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-060",
+      "original_line": 135,
+      "heading": "Diversity means psychologically distinct",
+      "candidate_text": "The hook essentially makes or breaks the ad. We know that, but you can have a very, very good concept with a very, very bad hook, and it's just not going to work.",
+      "inherited_attribution": "Jared Robinson, *The new way to make Meta Ads In 2026 (Post-Andromeda)*",
+      "candidate_normalized_sha256": "f0b05d6ace9bea96202dc9e1a2756d75351947eba475f56a7901d17e0a92f1b9",
+      "original_line_sha256": "f8eb934510162cda8fac175d7351ff5076caae219206c4ee728c440f40abcedd",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "uLlOkazQTXo",
+          "source_sha256": "e8a2edd862bc7e59ad17f819067f3df741e4296312fa02ba6b29dd765407fe14",
+          "token_offset_zero_based": 601,
+          "matched_token_count": 33,
+          "normalized_caption_context": "very native looking ad creatives so the second principle is hook diversity the hook essentially makes or breaks the ad we know that but you can have a very very good concept with a very very bad hook and it's just not going to work and i also want to make it very clear that there are",
+          "context_window": {
+            "start_token_zero_based": 589,
+            "end_token_exclusive_zero_based": 646
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-061",
+      "original_line": 139,
+      "heading": "Creative fatigue under the new ranking",
+      "candidate_text": "The important thing to consider here is not that people are getting tired of the ads, it's that the machine is getting tired of the ads.",
+      "inherited_attribution": "Michael Diaz, *Andromeda: Creative Volume, Diversity & Fatigue Explained*",
+      "candidate_normalized_sha256": "122dba775925c3fdbf91d994247dee255272fa1a71a72a3ad9730be9555c154c",
+      "original_line_sha256": "d654484810077501a23b003d68dfb5d1082bcc6b5a8393b9cd9cc0d7a4306018",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "D4YFMGxZLIw",
+          "source_sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+          "token_offset_zero_based": 649,
+          "matched_token_count": 26,
+          "normalized_caption_context": "run for a full year plus profitably at decently high spends now the important thing to consider here is not that people are getting tired of the ads it's that the machine is getting tired of the ads remember what meta cares about meta cares about giving the users a",
+          "context_window": {
+            "start_token_zero_based": 637,
+            "end_token_exclusive_zero_based": 687
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-062",
+      "original_line": 141,
+      "heading": "Creative fatigue under the new ranking",
+      "candidate_text": "creative fatigue happens faster. The algorithm learns quicker than it ever has before, and it moves on quicker as well.",
+      "inherited_attribution": "Adam Taylor, *The NEW Andromeda-Proof Meta Ads Strategy (2026)*",
+      "candidate_normalized_sha256": "ec9265c1c1d55afad6232abf524dc5c599e83f51088fc8954585004d3efb707f",
+      "original_line_sha256": "c22216d04175045e75252ac34fd6f660e91c3b8bab22440a806d1db4b7c45eee",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "GvYow_bNzEY",
+          "source_sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+          "token_offset_zero_based": 1758,
+          "matched_token_count": 20,
+          "normalized_caption_context": "the harsh truth and it's not actually really good news is that creative fatigue happens faster the algorithm learns quicker than it ever has before and it moves on quicker as well you know it sees an ad if it doesn't like the ad",
+          "context_window": {
+            "start_token_zero_based": 1746,
+            "end_token_exclusive_zero_based": 1790
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-063",
+      "original_line": 143,
+      "heading": "Creative fatigue under the new ranking",
+      "candidate_text": "If you're trying to cater to a very small audience through a single ad angle, creative fatigue can set in very quickly in that particular scenario.",
+      "inherited_attribution": "Umar Tazkeer, *Life after Meta Andromeda Update (ONE Video. All Answers.)*",
+      "candidate_normalized_sha256": "b1f192e48480841bcdd6e897ed1a1b52db7b4ce4952c94d6b919849d91447fe0",
+      "original_line_sha256": "b43889ed004119f14d66ea83f5c0fa6a62cab64fd00a652eb5d012ba95001319",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Tf1LNBRykuo",
+          "source_sha256": "c199bc922c2c5d39abb59bef3abc1b2eaa051c9e0d6712b9d544c30b2425c570",
+          "token_offset_zero_based": 1174,
+          "matched_token_count": 26,
+          "normalized_caption_context": "from this you also understand it on the basis of the audience if you're trying to cater to a very small audience through a single ad angle creative fatigue can set in very quickly in that particular scenario i believe you must have understood this thing then we have the",
+          "context_window": {
+            "start_token_zero_based": 1162,
+            "end_token_exclusive_zero_based": 1212
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-064",
+      "original_line": 145,
+      "heading": "Creative fatigue under the new ranking",
+      "candidate_text": "What most people call ad fatigue is usually just bad campaign management. It's operator error.",
+      "inherited_attribution": "Professor Charley T, *The NEW BEST Facebook Ads Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "3e6d12f24eeb908f4a4f7fd68e29612bae97fb3174e26762fe9b67491f7cc5e8",
+      "original_line_sha256": "0ee8cecd1c9415e9f970a0104e4db13fdc0067a9bbdcbb7222fc2044c9689223",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "E_wZJhuSK5U",
+          "source_sha256": "b54c8fab09d26837e3da3f5b3af0935b5a8f1afb3cea584abf0c6822a3fef45e",
+          "token_offset_zero_based": 839,
+          "matched_token_count": 15,
+          "normalized_caption_context": "a business this structure by the way also quietly solves ad fatigue what most people call ad fatigue is usually just bad campaign management it's operator error in andromeda 1 winners rarely have competition and when they do it's",
+          "context_window": {
+            "start_token_zero_based": 827,
+            "end_token_exclusive_zero_based": 866
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-065",
+      "original_line": 147,
+      "heading": "Creative fatigue under the new ranking",
+      "candidate_text": "refresh creatives every one to two weeks replacing low performing ones with variations of winning ones.",
+      "inherited_attribution": "Hasib Ashad, *\\*UPDATED\\* The New Meta Andromeda Update*",
+      "candidate_normalized_sha256": "be7ab071c5866add5ee2f7bed16b13daadc48868bf4f470965531ebd640a99a3",
+      "original_line_sha256": "2d1a1fb8482d44ad8cad3b5c9c4ad051f22d922f3f1345b616f29ae9e4861838",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5TyFHJLQZhI",
+          "source_sha256": "b132d0d2b8b77ce6490489628ebfd8e9bb13f961dfc6b1eade446962fb2744b8",
+          "token_offset_zero_based": 2322,
+          "matched_token_count": 16,
+          "normalized_caption_context": "more variations if you provide these and the most important thing is refresh creatives every one to two weeks replacing low performing ones with variations of winning ones so if you have 10 ads running under one ad set within",
+          "context_window": {
+            "start_token_zero_based": 2310,
+            "end_token_exclusive_zero_based": 2350
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-066",
+      "original_line": 151,
+      "heading": "The campaign as a funnel: prune or leave alone",
+      "candidate_text": "Facebook uses all of your ads together to work in a funnel setup.",
+      "inherited_attribution": "Nick Theriot, *What Facebook Ads Campaign Structure I'm Running (Post-Andromeda)*",
+      "candidate_normalized_sha256": "60abe17f615847085909937d625f8e169dd189fd12d2774e7482bd52608fa8e4",
+      "original_line_sha256": "0de4bc7019646e34e688ad7bcb3d80ed8fed5d1ec07b06a44eea8e54ca66fbbc",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "NC8ThpxWv8M",
+          "source_sha256": "b50bfd4589b67d5ec45de3564c8177ebdd315f304bd68f69c32dbea960560307",
+          "token_offset_zero_based": 3460,
+          "matched_token_count": 13,
+          "normalized_caption_context": "more eyeballs into your account that was helping other ads convert so facebook uses all of your ads together to work in a funnel setup so if we think about it and i i seen someone comment",
+          "context_window": {
+            "start_token_zero_based": 3448,
+            "end_token_exclusive_zero_based": 3485
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-067",
+      "original_line": 153,
+      "heading": "The campaign as a funnel: prune or leave alone",
+      "candidate_text": "you don't want to make the mistake of turning off the ad that is being used in a topunnel capacity because then your other ad performance will massively worsen",
+      "inherited_attribution": "Ben Heath, *The BEST Facebook Ad Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "cdd8a8e8612d76661244c3e0b984bc69347ed284c7ad16f91e8a12abb74eeb59",
+      "original_line_sha256": "73ebdabadd787488a6b1a915fc902bc137c0f8add2088b2a574ba17f9b3326ec",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "13s-G9Uj51A",
+          "source_sha256": "5b470e8e88d78b23dff0994aef8055299908dab3a428a6bf6f0ff17fab939f4d",
+          "token_offset_zero_based": 4073,
+          "matched_token_count": 29,
+          "normalized_caption_context": "etc but why is it matter spending more money on that now you don't want to make the mistake of turning off the ad that is being used in a topunnel capacity because then your other ad performance will massively worsen because it isn't benefiting from that other ad being used in a",
+          "context_window": {
+            "start_token_zero_based": 4061,
+            "end_token_exclusive_zero_based": 4114
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-068",
+      "original_line": 155,
+      "heading": "The campaign as a funnel: prune or leave alone",
+      "candidate_text": "today post Andromeda, the AI won't automatically kill ads like it used to. So, we're back to doing this manually",
+      "inherited_attribution": "Jamie Stenton, *Meta Ads Results Dropped? Andromeda Update Explained + the simple fix to rebuild*",
+      "candidate_normalized_sha256": "06d57e564eb0fa27bd94ec2146c5cc14e7377bcd73faf54277d436c5a231dff0",
+      "original_line_sha256": "d470a6d7ab131af08847aa92f45e86aee478829c9af8b4782604e5da0a441ab4",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "4OLpcZparwQ",
+          "source_sha256": "bfd3c87d864c31f6595587f366c80563e4496a9b3a2513432af59f2fa4d92458",
+          "token_offset_zero_based": 910,
+          "matched_token_count": 20,
+          "normalized_caption_context": "identify the best performing ads and allocate your budget for you however today post andromeda the ai won't automatically kill ads like it used to so we're back to doing this manually if you're monitoring your various ads and you see certain ads has",
+          "context_window": {
+            "start_token_zero_based": 898,
+            "end_token_exclusive_zero_based": 942
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-069",
+      "original_line": 157,
+      "heading": "The campaign as a funnel: prune or leave alone",
+      "candidate_text": "we're often running campaigns right now where we start with, say, 20 ads and a month later we've turned 14 off, leaving six high performers remaining",
+      "inherited_attribution": "Jamie Stenton, *Meta Ads Results Dropped? Andromeda Update Explained + the simple fix to rebuild*",
+      "candidate_normalized_sha256": "c2db391aa881ef41bbf58548892873da1eeb3cb7832f9a30770b90ba04919c5b",
+      "original_line_sha256": "b0f932c98541547094f5fa9d4162d0e4c3167b4eb013c7b1a02b31a29abc7979",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "4OLpcZparwQ",
+          "source_sha256": "bfd3c87d864c31f6595587f366c80563e4496a9b3a2513432af59f2fa4d92458",
+          "token_offset_zero_based": 966,
+          "matched_token_count": 26,
+          "normalized_caption_context": "ads off and forcing your ad budget into better performing creatives now we're often running campaigns right now where we start with say 20 ads and a month later we've turned 14 off leaving six high performers remaining now a final important point really important point metan rolls out these",
+          "context_window": {
+            "start_token_zero_based": 954,
+            "end_token_exclusive_zero_based": 1004
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-070",
+      "original_line": 159,
+      "heading": "The campaign as a funnel: prune or leave alone",
+      "candidate_text": "if Facebook is actively showing the ad to people, it means people are watching it. If people are watching a 4-minute video about why they should work with you, then obviously these people are interested",
+      "inherited_attribution": "Ash Davis, *Meta Just Changed Lead Generation Forever (Facebook Ads Andromeda Update)*",
+      "candidate_normalized_sha256": "420c4de331dcf16f78aeab454313eb967ad13fd814a0fa62047539bf55916026",
+      "original_line_sha256": "0da17985f1cea08e6a65a63362ea970f189d2aed6461b210ba21d17d8e275e47",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5G4sDWgmvpw",
+          "source_sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+          "token_offset_zero_based": 1368,
+          "matched_token_count": 36,
+          "normalized_caption_context": "let's turn it off but now this would be a huge mistake if facebook is actively showing the ad to people it means people are watching it if people are watching a 4 minute video about why they should work with you then obviously these people are interested in being one of your clients so you should let meta show",
+          "context_window": {
+            "start_token_zero_based": 1356,
+            "end_token_exclusive_zero_based": 1416
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-071",
+      "original_line": 163,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "you'll see data suggesting that advantage plus campaigns outperform manual setups on average but it's important to understand what that average includes because many manual campaigns in the market are fragmented under optimized or built on weak creative",
+      "inherited_attribution": "Ecom Expedition with Asim, *Meta Ads Explained What Advantage Plus Is Really Doing*",
+      "candidate_normalized_sha256": "5f9684fdb53aa6975ee2adaf8c408ade904678e6930894a9e8498f937ea997d8",
+      "original_line_sha256": "cc4005de7676e8d3d2e485b217c44ef5b97c0acea6bde5813021af6231c025dd",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Ok7f9GluzGg",
+          "source_sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+          "token_offset_zero_based": 668,
+          "matched_token_count": 38,
+          "normalized_caption_context": "fullest potential they do absolutely and there is truth behind those claims you'll see data suggesting that advantage plus campaigns outperform manual setups on average but it's important to understand what that average includes because many manual campaigns in the market are fragmented under optimized or built on weak creative so when automation even basic automation is compared against that kind of",
+          "context_window": {
+            "start_token_zero_based": 656,
+            "end_token_exclusive_zero_based": 718
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-072",
+      "original_line": 165,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "there is pretty much no significant difference between these two. Okay, and this was actually surprising to me.",
+      "inherited_attribution": "Dr. Matt Shiver, *Is Advantage+ Audience RUINING Your Facebook Ads in 2026?*",
+      "candidate_normalized_sha256": "541a59d8a12041aa06fc650972649ff60819b6a4539bcbb758183aa8ff5a8747",
+      "original_line_sha256": "d832579c187df42529955bbb78fee28504052bf35ba9b5984c6a9e30f0e5c5f5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_OSs0Jgv4L8",
+          "source_sha256": "b96258cd03583be752f682b09e5eaac18efe8774b59b5242151c446a5e6d9316",
+          "token_offset_zero_based": 870,
+          "matched_token_count": 18,
+          "normalized_caption_context": "right and now drum roll results they're pretty much the same okay there is pretty much no significant difference between these two okay and this was actually surprising to me i thought the advantage plus audience with value rules would outperform the",
+          "context_window": {
+            "start_token_zero_based": 858,
+            "end_token_exclusive_zero_based": 900
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-073",
+      "original_line": 167,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "I don't think it matters. I think if you use Advantage Plus with value rules or you go broad, I don't think it matters.",
+      "inherited_attribution": "Dr. Matt Shiver, *Is Advantage+ Audience RUINING Your Facebook Ads in 2026?*",
+      "candidate_normalized_sha256": "7d75f1e5d07ad2374f55eb32712ea409d6914ecbc1dfd858a5c7457320ce9cc5",
+      "original_line_sha256": "2fd1a0d0f6e00767126d55d8a14fd5913852ec53f5bddc88f1fc08b3d2cd97f5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_OSs0Jgv4L8",
+          "source_sha256": "b96258cd03583be752f682b09e5eaac18efe8774b59b5242151c446a5e6d9316",
+          "token_offset_zero_based": 1397,
+          "matched_token_count": 24,
+          "normalized_caption_context": "so right out the gate i'm gonna just you know say this i don't think it matters i think if you use advantage plus with value rules or you go broad i don't think it matters i think post andromeda the thing that does the targeting is the",
+          "context_window": {
+            "start_token_zero_based": 1385,
+            "end_token_exclusive_zero_based": 1433
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-074",
+      "original_line": 169,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "honestly I did not notice any big uh difference in the ad account except the fact that the iterations do not work as they worked before",
+      "inherited_attribution": "Ad Spend w/ Ashvin Melwani (guest Marin), *The NEW Meta Ads Blueprint for 2025 (Andromeda Algorithm EXPLAINED)*",
+      "candidate_normalized_sha256": "ef713c6dbdf633b239577cca14925398d246352cf38796c63688be14ba89d189",
+      "original_line_sha256": "444328e78c8ba8644e9e908e5ef873143adbd2f3976a42795a67eda38c3f3ad5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "VUFX9V0IpwU",
+          "source_sha256": "779040671d41d96c0af84f2e11627dfb1c5516351fa8a716968f71f2666fd3d1",
+          "token_offset_zero_based": 898,
+          "matched_token_count": 26,
+          "normalized_caption_context": "like how it impacts why it impacts what you should do but honestly i did not notice any big uh difference in the ad account except the fact that the iterations do not work as they worked before pretty much my setup is same as it was uh last year",
+          "context_window": {
+            "start_token_zero_based": 886,
+            "end_token_exclusive_zero_based": 936
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-075",
+      "original_line": 171,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "it just feels like okay everything is less efficient. We are paying a bit more for the click but that click is converting the less",
+      "inherited_attribution": "Ad Spend w/ Ashvin Melwani (guest Marin), *The NEW Meta Ads Blueprint for 2025 (Andromeda Algorithm EXPLAINED)*",
+      "candidate_normalized_sha256": "e02777c81a6efc4262ea9a8d66cbccd04e597ccb1a68a4723fe6c092c4f500bb",
+      "original_line_sha256": "789e5cfaab6c2a78bb56cabf702fde596e3f69d09b6476be73f77e0339432eb4",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "VUFX9V0IpwU",
+          "source_sha256": "779040671d41d96c0af84f2e11627dfb1c5516351fa8a716968f71f2666fd3d1",
+          "token_offset_zero_based": 937,
+          "matched_token_count": 25,
+          "normalized_caption_context": "much my setup is same as it was uh last year um it just feels like okay everything is less efficient we are paying a bit more for the click but that click is converting the less mhm makes sense so i i i definitely want to get into",
+          "context_window": {
+            "start_token_zero_based": 925,
+            "end_token_exclusive_zero_based": 974
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-076",
+      "original_line": 173,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "without limits the system will naturally prioritize existing customers because they convert more easily they already know your brand they have trust built up this improves reported performance metrics your ROAS might look fantastic but it doesn't necessarily reflect true new customer growth",
+      "inherited_attribution": "Ecom Expedition with Asim, *Meta Ads Explained What Advantage Plus Is Really Doing*",
+      "candidate_normalized_sha256": "3ffd3a333fec3254b4cf4762c0a3a4908cd09b72ee41f6750a85e5d8fee84019",
+      "original_line_sha256": "afc693ea83dee5d45ebd40afa1946ab743eb3ad193bc20d551e3a71ac0cca971",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Ok7f9GluzGg",
+          "source_sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+          "token_offset_zero_based": 1917,
+          "matched_token_count": 43,
+          "normalized_caption_context": "acquisition oh absolutely that's an important control point that often gets missed without limits the system will naturally prioritize existing customers because they convert more easily they already know your brand they have trust built up this improves reported performance metrics your roas might look fantastic but it doesn't necessarily reflect true new customer growth you could be spending a significant portion of your budget retargeting people",
+          "context_window": {
+            "start_token_zero_based": 1905,
+            "end_token_exclusive_zero_based": 1972
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-077",
+      "original_line": 175,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "I have one screenshot... I had two ads in Advantage Shopping Plus. One was like a mini VSSL. It spent uh 100K, frequency was 1.1. And I had an image ad with an offer. It spent 10K. It had a frequency of three",
+      "inherited_attribution": "Ad Spend w/ Ashvin Melwani (guest Marin), *The NEW Meta Ads Blueprint for 2025 (Andromeda Algorithm EXPLAINED)*",
+      "candidate_normalized_sha256": "dfa71b3c16e2ab6abe7621c68168da0e45a4b216b06f81e252c5ad30812c0ba0",
+      "original_line_sha256": "60f5204b10c97e6770929ab5bbadfd6f0bbb3829d118b3e0c30402dc5726b87c",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-078",
+      "original_line": 177,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "we cut all of their stuff. their revenue stayed the same. We spent 200k less. So basically we saved them 200k just because we were not optimizing based on Facebook numbers",
+      "inherited_attribution": "Ad Spend w/ Ashvin Melwani (guest Marin), *The NEW Meta Ads Blueprint for 2025 (Andromeda Algorithm EXPLAINED)*",
+      "candidate_normalized_sha256": "41378e8c8c07751123835fab036400134b40dfa593da4f50897361eb4dcf982a",
+      "original_line_sha256": "3ad7d27be5567c42798fbed3b851a5fce5d4a7d40b466648c23dcc9ac9c342b5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "VUFX9V0IpwU",
+          "source_sha256": "779040671d41d96c0af84f2e11627dfb1c5516351fa8a716968f71f2666fd3d1",
+          "token_offset_zero_based": 3316,
+          "matched_token_count": 31,
+          "normalized_caption_context": "it's not responsible we cut we switched everything to 7 day click we cut all of their stuff their revenue stayed the same we spent 200k less so basically we saved them 200k just because we were not optimizing based on facebook numbers so for those clients i run exclusively 7day click right makes sense",
+          "context_window": {
+            "start_token_zero_based": 3304,
+            "end_token_exclusive_zero_based": 3359
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-079",
+      "original_line": 179,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "Meta system is now designed to match ads not just to get leads but to potential buyers which means people who are most likely to actually become clients.",
+      "inherited_attribution": "Ash Davis, *Meta Just Changed Lead Generation Forever (Facebook Ads Andromeda Update)*",
+      "candidate_normalized_sha256": "4051446a7507b31aba924e1f22f162b866b70a800d59ff8870946d4cf15f20ae",
+      "original_line_sha256": "aec959887662268ad265d8e8bb76e1adb466322e886a9d54f76bc5ca41c4c116",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5G4sDWgmvpw",
+          "source_sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+          "token_offset_zero_based": 824,
+          "matched_token_count": 28,
+          "normalized_caption_context": "that you could get but as you know andromeda changed all that meta system is now designed to match ads not just to get leads but to potential buyers which means people who are most likely to actually become clients so before if for example two people saw your ad and one",
+          "context_window": {
+            "start_token_zero_based": 812,
+            "end_token_exclusive_zero_based": 864
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-080",
+      "original_line": 181,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "it's no longer about creating ads that only get leads. It's about creating ads that get clients.",
+      "inherited_attribution": "Ash Davis, *Meta Just Changed Lead Generation Forever (Facebook Ads Andromeda Update)*",
+      "candidate_normalized_sha256": "f87162239f90ddd180755a8c469709fdf10abe4d1c5ac17ab8c6fecb4a76dc12",
+      "original_line_sha256": "d491401eee0b63237778a05513e5f6136b58f97e370d40b80ae2604d6d81895c",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5G4sDWgmvpw",
+          "source_sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+          "token_offset_zero_based": 1526,
+          "matched_token_count": 17,
+          "normalized_caption_context": "all this automatically without you even having to lift a finger so it's no longer about creating ads that only get leads it's about creating ads that get clients and this explains why on paper even though my cost per lead",
+          "context_window": {
+            "start_token_zero_based": 1514,
+            "end_token_exclusive_zero_based": 1555
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-081",
+      "original_line": 183,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "I'd rather get less leads but more clients any day.",
+      "inherited_attribution": "Ash Davis, *Meta Just Changed Lead Generation Forever (Facebook Ads Andromeda Update)*",
+      "candidate_normalized_sha256": "5e99a3754d4652eeb15487d0c8fb19e77c0f9893215ad155bc07893674d921d3",
+      "original_line_sha256": "048a74ae20781d4ffcd149a97a03df695c42b1c8351203adf18af3b288ae28e4",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5G4sDWgmvpw",
+          "source_sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+          "token_offset_zero_based": 1754,
+          "matched_token_count": 10,
+          "normalized_caption_context": "more revenue then that in my opinion is actually a good thing i'd rather get less leads but more clients any day so in your business ask yourself what ads would someone need to",
+          "context_window": {
+            "start_token_zero_based": 1742,
+            "end_token_exclusive_zero_based": 1776
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-082",
+      "original_line": 185,
+      "heading": "Honest limits of Advantage+ and the machine",
+      "candidate_text": "So, on average, advertisers see a 9% lower cost per action when using the streamline setup for Advantage Plus sales campaigns.",
+      "inherited_attribution": "BitBranding, *Why Every Clothing Brand Is Wrong About Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "7942dcf515c25a1fdf2b923ccd986cdc36eda41367f686d5ddf03c963640e650",
+      "original_line_sha256": "4a347472d098b645cc48f1bc509bf62d88c861c8b870f13d81ee2ebe40de0a27",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ZOCLEILy7FE",
+          "source_sha256": "2ad3e0c38a37d4cef4ffc1535eb734e2fd5773a5e3801d5323900c15bf174910",
+          "token_offset_zero_based": 444,
+          "matched_token_count": 21,
+          "normalized_caption_context": "value from the budget that you have currently and spend less later so on average advertisers see a 9 lower cost per action when using the streamline setup for advantage plus sales campaigns and honestly i think that's probably true but most of the reason",
+          "context_window": {
+            "start_token_zero_based": 432,
+            "end_token_exclusive_zero_based": 477
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-083",
+      "original_line": 189,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "Remember that warnings that pop up in your ad account saying change this to improve performance. they are done with like the masses in mind and what's best on average and they're right. It might not be right for your um specific scenario.",
+      "inherited_attribution": "Ben Heath, *The BEST Facebook Ad Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "773a2b3dc44b79d5c6e7d3c38b609e12f83328c0a16f91b0a5f65eab34757491",
+      "original_line_sha256": "e9989d7e99228af5f4c4bb778be3104951801efd78840cf7689e827c4462851e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "13s-G9Uj51A",
+          "source_sha256": "5b470e8e88d78b23dff0994aef8055299908dab3a428a6bf6f0ff17fab939f4d",
+          "token_offset_zero_based": 4975,
+          "matched_token_count": 43,
+          "normalized_caption_context": "content and understand the process and therefore you're fine to ignore warnings remember that warnings that pop up in your ad account saying change this to improve performance they are done with like the masses in mind and what's best on average and they're right it might not be right for your um specific scenario testing is the other big example where we might deviate from this",
+          "context_window": {
+            "start_token_zero_based": 4963,
+            "end_token_exclusive_zero_based": 5030
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-084",
+      "original_line": 191,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "Age, gender, location, broad targeting. Anything outside of that is a severe liability to your success, including excluding existing customers.",
+      "inherited_attribution": "Professor Charley T, *Andromeda just changed Meta Ads forever*",
+      "candidate_normalized_sha256": "081074b37762968ccfc83987df005e87de4a64b58fbcef4d86c17806c5db5dd6",
+      "original_line_sha256": "00fae5e295f08c9c918798d5423bc241d43e7f12dc27d4aec70509427bb89ee5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "UV0hRsScK7w",
+          "source_sha256": "82919ee4cc2847b99b72014de9bc8368ec3b4a1a966398cb14328f2ff5272911",
+          "token_offset_zero_based": 4360,
+          "matched_token_count": 20,
+          "normalized_caption_context": "the ad itself does most of the targeting this is since 2018 age gender location broad targeting anything outside of that is a severe liability to your success including excluding existing customers there's legitimately no reason that you should do that because also everything",
+          "context_window": {
+            "start_token_zero_based": 4348,
+            "end_token_exclusive_zero_based": 4392
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-085",
+      "original_line": 193,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "the conversions API or cappy is crucial because it fills that gap by sending data directly from your server",
+      "inherited_attribution": "Ecom Expedition with Asim, *Meta Ads Explained What Advantage Plus Is Really Doing*",
+      "candidate_normalized_sha256": "8b9456dfa126cd870ca2641d219e5618ea1e2dc89134326e6b268f8ef2d6f39e",
+      "original_line_sha256": "eeb239b4173130c33dcc70aeb6d90b572e9b21e9c84cf34b296c11edbb4fc4a1",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Ok7f9GluzGg",
+          "source_sha256": "eb41a1c5d5cb047bbbd6e9473f9944af699ba2340f775e738da3279934a6dbc8",
+          "token_offset_zero_based": 1156,
+          "matched_token_count": 19,
+          "normalized_caption_context": "the conversions api comes into play to bridge that gap yes exactly the conversions api or cappy is crucial because it fills that gap by sending data directly from your server this gives the system a more complete more resilient picture of what's",
+          "context_window": {
+            "start_token_zero_based": 1144,
+            "end_token_exclusive_zero_based": 1187
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-086",
+      "original_line": 195,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "If you do not see the conversions API tag right here, be warned and go into your data set and make sure your conversions API is set up",
+      "inherited_attribution": "Sam Piliero, *The NEW Facebook Ads Strategy Dominating in 2026*",
+      "candidate_normalized_sha256": "bcbb7192833dba3e6cc7e668455c9de0f61f26a50c22fa6ff208aa327967779e",
+      "original_line_sha256": "0d826c6ebc0b231b89c64731c31543f7ac7b5944431a1cf49b2e0e0bdfc9729f",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "FYUR8ZL4_xY",
+          "source_sha256": "693b1e1b49c4c203f0f5f1ab116683eef6f233a1093e5f97a94d9f8d36ae0fec",
+          "token_offset_zero_based": 1086,
+          "matched_token_count": 28,
+          "normalized_caption_context": "our correct data set and we're always choosing the conversion event purchase if you do not see the conversions api tag right here be warned and go into your data set and make sure your conversions api is set up we don't want duplicate data we always want to be set up",
+          "context_window": {
+            "start_token_zero_based": 1074,
+            "end_token_exclusive_zero_based": 1126
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-087",
+      "original_line": 197,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "we're going to change our attribution setting to 7-day click, 1-day engaged, 1-day view... I can confidently tell you that running 7-day, 1-day, 1-day is going to long-term be more beneficial",
+      "inherited_attribution": "Sam Piliero, *The NEW Facebook Ads Strategy Dominating in 2026*",
+      "candidate_normalized_sha256": "221a037e02ed7a271bad1901233aa381fbf16aa574b209c8dc2b919fd210d481",
+      "original_line_sha256": "7a4e53af8aaf11eb6fb8e4897b0e5e055ebf8f88b6d9240918e1a3a33ca1cf57",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-088",
+      "original_line": 199,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "whenever we set an end date, the performance is just dropping and it's not performing as well compared to what it used to do.",
+      "inherited_attribution": "Julian Eisenkirchner, *Meta Ads Campaign Structure + Targeting in 2026 (Andromeda Update Explained!)*",
+      "candidate_normalized_sha256": "efc0b041ce5b6d35e2901bb22687b9494950c3c527324cfe788dbe7bebc82714",
+      "original_line_sha256": "e245ea7d1aca6a4a7732dfdee6cb09f3df99af2000cc9a0c6c543724d097220d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "eRneAmPq-Sc",
+          "source_sha256": "4e3ce5a75202613cc2b711eb93ebaf8deba65026eaa8dfefeda811e826dbda2b",
+          "token_offset_zero_based": 1530,
+          "matched_token_count": 24,
+          "normalized_caption_context": "do not like to set an end date for some reason like whenever we set an end date the performance is just dropping and it's not performing as well compared to what it used to do so we just leave that open and that's when we're talking about",
+          "context_window": {
+            "start_token_zero_based": 1518,
+            "end_token_exclusive_zero_based": 1566
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-089",
+      "original_line": 201,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "always optimize for purchase, of course, not add to cart or traffic or view content",
+      "inherited_attribution": "Adam Taylor, *The NEW Andromeda-Proof Meta Ads Strategy (2026)*",
+      "candidate_normalized_sha256": "44ce9907d72453c65cc36e8c872b59e5f0730ef1acd569e1a291b248dd3831bc",
+      "original_line_sha256": "f71bcbe6011a1d22588cff61131980621f47e3388cd39ae1bdd49ae408caf6f1",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "GvYow_bNzEY",
+          "source_sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+          "token_offset_zero_based": 2921,
+          "matched_token_count": 15,
+          "normalized_caption_context": "is write your decision criteria before an ad even goes live so always optimize for purchase of course not add to cart or traffic or view content which surprisingly enough i know a lot of you will be thinking",
+          "context_window": {
+            "start_token_zero_based": 2909,
+            "end_token_exclusive_zero_based": 2948
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-090",
+      "original_line": 203,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "In the official document of meta andromeda update they've clearly stated that the AI generated content will be prioritized.",
+      "inherited_attribution": "Hasib Ashad, *\\*UPDATED\\* The New Meta Andromeda Update*",
+      "candidate_normalized_sha256": "39b6b90a11a6648993106003c4ddcafcf95828612e34a701c7456c25ccb602ca",
+      "original_line_sha256": "9b035196542c966c678e2067a952dd1b55854c41ae270edacbbdf90ba7a41b4e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5TyFHJLQZhI",
+          "source_sha256": "b132d0d2b8b77ce6490489628ebfd8e9bb13f961dfc6b1eade446962fb2744b8",
+          "token_offset_zero_based": 2401,
+          "matched_token_count": 19,
+          "normalized_caption_context": "variations of high performing ones and this is where ai comes in in the official document of meta andromeda update they've clearly stated that the ai generated content will be prioritized so meta has basically motivated you to use ai to generate more",
+          "context_window": {
+            "start_token_zero_based": 2389,
+            "end_token_exclusive_zero_based": 2432
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-091",
+      "original_line": 205,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "Give it 50 conversions per week, so Lattice and Jim have sequence data.",
+      "inherited_attribution": "Gibran Jones, *I Deleted Manual Targeting in Meta Ads, Here's What Happened [Full Breakdown 2026]*",
+      "candidate_normalized_sha256": "1d6d09e247d61633c9449adaa6c6feed799004e326dddb3658abf3a04e8633cf",
+      "original_line_sha256": "2f0ef654c6b1a2a804521b36c7d77bcdffd2504da245134937f08dc492426eee",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "xhXiGifwo-E",
+          "source_sha256": "7c214d6c06bec9c2b64f1a3725a7f952ea702df56839131da39a3104591785b9",
+          "token_offset_zero_based": 764,
+          "matched_token_count": 13,
+          "normalized_caption_context": "your budget use your budget at the campaign level optimize for purchases give it 50 conversions per week so lattice and jim have sequence data and then step six your measurement you want to set up a",
+          "context_window": {
+            "start_token_zero_based": 752,
+            "end_token_exclusive_zero_based": 789
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-092",
+      "original_line": 207,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "is there a path that's right before the purchase that we can at least feed Andromeda",
+      "inherited_attribution": "Tier 11, *Meta's New GEM + Andromeda Update Explained (Huge Performance Shift)*",
+      "candidate_normalized_sha256": "1b2e0c9e294cae6c825e3bc3bd57d987e709cd11b1abb8337620a37d4e5a52ce",
+      "original_line_sha256": "cf2db434af17597b4717edabd8a2734b24d883d947af695e64ca92aa6f4dc430",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "puSzn4h98rQ",
+          "source_sha256": "f02bac059e73d0b301b33f785d3140bc5c0d94473a50a74dae1cc57dcc6210ce",
+          "token_offset_zero_based": 2833,
+          "matched_token_count": 16,
+          "normalized_caption_context": "to ramp up more strictly on day 30 so we said well is there a path that's right before the purchase that we can at least feed andromeda and so we did the clickthrough checkout this is a first click",
+          "context_window": {
+            "start_token_zero_based": 2821,
+            "end_token_exclusive_zero_based": 2861
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-093",
+      "original_line": 209,
+      "heading": "Defaults, settings and signal feeding",
+      "candidate_text": "when you're not in control of your own marketing system, you miss out on the biggest advantage of this new update. Meta's ability to find people who are ready to buy right now.",
+      "inherited_attribution": "Ash Davis, *Meta Just Changed Lead Generation Forever (Facebook Ads Andromeda Update)*",
+      "candidate_normalized_sha256": "1d62d0d91a84c430e3e3c4b1a5bc365742af1aa73a56c9907acefb9323fc15bb",
+      "original_line_sha256": "0d3890b0d0207877a18c523512d8007848e8151e7ed2bdad1d24c37dc7964ecd",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5G4sDWgmvpw",
+          "source_sha256": "973cc19de679cfbe78eff1164b36fbb1bde98d324199737979cb65ae568de45a",
+          "token_offset_zero_based": 1052,
+          "matched_token_count": 33,
+          "normalized_caption_context": "who actually book a call or become a client so that means when you're not in control of your own marketing system you miss out on the biggest advantage of this new update meta's ability to find people who are ready to buy right now so that's why it's so important to own your own marketing system",
+          "context_window": {
+            "start_token_zero_based": 1040,
+            "end_token_exclusive_zero_based": 1097
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-094",
+      "original_line": 213,
+      "heading": "Testing and scaling",
+      "candidate_text": "compare up to five different versions of your creative in a test that helps ensure delivery to new test ads",
+      "inherited_attribution": "Ben Heath, *The NEW WAY To Test Facebook Ads (Post Andromeda)*",
+      "candidate_normalized_sha256": "a7c78aa5bad753e703ded9811a8f940f700b54a67864788eb2de2024ba7dc9ec",
+      "original_line_sha256": "4987adb3a8e9b3b2ab8da67a454c1aef53c2cb8bb900faf53032a7030432261d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "onFwSud9C2Y",
+          "source_sha256": "64f286f9fcb2ab881efd29ab2947bb438bc162c74218d0ff9e5d41f1a6c9728b",
+          "token_offset_zero_based": 793,
+          "matched_token_count": 20,
+          "normalized_caption_context": "got this creative testing now you can see here here it says compare up to five different versions of your creative in a test that helps ensure delivery to new test ads that's the really important part this is why this tool is the",
+          "context_window": {
+            "start_token_zero_based": 781,
+            "end_token_exclusive_zero_based": 825
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-095",
+      "original_line": 215,
+      "heading": "Testing and scaling",
+      "candidate_text": "A lot of advertisers are running into problems where they upload new ad creative, add that into an existing ad set, and it just gets no ad spend whatsoever",
+      "inherited_attribution": "Ben Heath, *Facebook Ads in 2026: NEW Secrets, Tips & Strategies*",
+      "candidate_normalized_sha256": "693e2de59240a982a4dd100e50a722021fb34eb3ca18acea20ec6447c7a87286",
+      "original_line_sha256": "41586d72220d62ecff8fdb0ecb8268b39b91f79dcc593eadaba1bd2f5bacf90f",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "JLlcwojiVtw",
+          "source_sha256": "e7c43a5995342d2c0b71c3d625e053b1d8933764184bb82c52bdfc91cea5b587",
+          "token_offset_zero_based": 2211,
+          "matched_token_count": 29,
+          "normalized_caption_context": "so we want to test to find out what's working what's not a lot of advertisers are running into problems where they upload new ad creative add that into an existing ad set and it just gets no ad spend whatsoever and it feels pointless like a complete waste of time the existing",
+          "context_window": {
+            "start_token_zero_based": 2199,
+            "end_token_exclusive_zero_based": 2252
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-096",
+      "original_line": 217,
+      "heading": "Testing and scaling",
+      "candidate_text": "I'm never adding new adsets inside of a active CBO, and I'm never adding new ads inside of active adsets, either CBO or",
+      "inherited_attribution": "Michael Diaz, *Andromeda: Creative Volume, Diversity & Fatigue Explained*",
+      "candidate_normalized_sha256": "cea1ff381b21fcc5b949b10f7018637109e0817aa301fab74eff6d0f0fd0abdb",
+      "original_line_sha256": "22424a2b6d39d3b2c63aa52d2f67abc8e60b661c95ff7680d7317cc13f8dc65e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "D4YFMGxZLIw",
+          "source_sha256": "b3f1d1de873800b5a391aa8dda4754053cff49b83da819645d995ea7683f02d3",
+          "token_offset_zero_based": 2193,
+          "matched_token_count": 23,
+          "normalized_caption_context": "the only difference here is that each new campaign is a test i'm never adding new adsets inside of a active cbo and i'm never adding new ads inside of active adsets either cbo or the only only only only time i might add new ads into",
+          "context_window": {
+            "start_token_zero_based": 2181,
+            "end_token_exclusive_zero_based": 2228
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-097",
+      "original_line": 219,
+      "heading": "Testing and scaling",
+      "candidate_text": "each new batch will go into a new learning phase, not the entire campaign itself. And the goal of this campaign is strictly to find new winners",
+      "inherited_attribution": "Jared Robinson, *Copy This Facebook Ads Strategy, It'll Blow Up Your Business (Post-Andromeda)*",
+      "candidate_normalized_sha256": "11bd453e7a2c18e04be64c1dfce80e8db3c1d25994c2e37d95cc8d952ed0b738",
+      "original_line_sha256": "583a265a25e62a0d57cccf1185116e9bed18bc67d8b5f53e99d6813e943f326e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_-y0NZ30VKE",
+          "source_sha256": "7c0659773aeff9d8e62ea3ddf050014201c7ef4d744f9551b8b777da5208246e",
+          "token_offset_zero_based": 286,
+          "matched_token_count": 27,
+          "normalized_caption_context": "creative batches not individual ads and the reason for that is because each new batch will go into a new learning phase not the entire campaign itself and the goal of this campaign is strictly to find new winners so what we're going to do is start with the sales campaign",
+          "context_window": {
+            "start_token_zero_based": 274,
+            "end_token_exclusive_zero_based": 325
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-098",
+      "original_line": 221,
+      "heading": "Testing and scaling",
+      "candidate_text": "the CBO is unforgiving. It doesn't care what ad you think is going to work. You're giving each ad an equal opportunity to get spend in the campaign",
+      "inherited_attribution": "Jared Robinson, *Copy This Facebook Ads Strategy, It'll Blow Up Your Business (Post-Andromeda)*",
+      "candidate_normalized_sha256": "8735d7ff5f63b4ee2ab13154ad326e12283542bf4b469392b22f009b3cbcf68b",
+      "original_line_sha256": "bbca294d267fe05694d8e239fa86b18dc123a2370b905106f65530325054a657",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_-y0NZ30VKE",
+          "source_sha256": "7c0659773aeff9d8e62ea3ddf050014201c7ef4d744f9551b8b777da5208246e",
+          "token_offset_zero_based": 795,
+          "matched_token_count": 28,
+          "normalized_caption_context": "with the cbo and the campaign structure is extremely simple is because the cbo is unforgiving it doesn't care what ad you think is going to work you're giving each ad an equal opportunity to get spend in the campaign so every single week week over week you're adding new winners into",
+          "context_window": {
+            "start_token_zero_based": 783,
+            "end_token_exclusive_zero_based": 835
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-099",
+      "original_line": 223,
+      "heading": "Testing and scaling",
+      "candidate_text": "We want to have three different angles per customer profile. And of those, we want to have five different creative types",
+      "inherited_attribution": "Jared Robinson, *Copy This Facebook Ads Strategy, It'll Blow Up Your Business (Post-Andromeda)*",
+      "candidate_normalized_sha256": "b077ba8f636e2ca523144ffa8081fce0cf95b20004c1e14dca99d21ac794f337",
+      "original_line_sha256": "d46da2510c3c2a844e4a87f04f38e5b14e08dd41112717f0ec9fdec2c07d2371",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_-y0NZ30VKE",
+          "source_sha256": "7c0659773aeff9d8e62ea3ddf050014201c7ef4d744f9551b8b777da5208246e",
+          "token_offset_zero_based": 511,
+          "matched_token_count": 21,
+          "normalized_caption_context": "15 to 30 creatives we want to break them down like this we want to have three different angles per customer profile and of those we want to have five different creative types so let's just say as an example i run a sleep aid",
+          "context_window": {
+            "start_token_zero_based": 499,
+            "end_token_exclusive_zero_based": 544
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-100",
+      "original_line": 225,
+      "heading": "Testing and scaling",
+      "candidate_text": "You're not trying to avoid the learning phase by hacking it. The learning phase is a signal that you've made too many choices.",
+      "inherited_attribution": "Professor Charley T, *Andromeda just changed Meta Ads forever*",
+      "candidate_normalized_sha256": "7c516eabd8b3713c5c93e948290460ba7a1853de48126999d914f6dda56004e8",
+      "original_line_sha256": "055a41891425fcaa0804ecec71230141153c06f8d109c31ca68c89fa823faf8a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "UV0hRsScK7w",
+          "source_sha256": "82919ee4cc2847b99b72014de9bc8368ec3b4a1a966398cb14328f2ff5272911",
+          "token_offset_zero_based": 9587,
+          "matched_token_count": 23,
+          "normalized_caption_context": "massively ramp up the permutations it no longer has that statistical significance you're not trying to avoid the learning phase by hacking it the learning phase is a signal that you've made too many choices again that's why this structure works really well because the learning phase",
+          "context_window": {
+            "start_token_zero_based": 9575,
+            "end_token_exclusive_zero_based": 9622
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-101",
+      "original_line": 227,
+      "heading": "Testing and scaling",
+      "candidate_text": "Did total revenue minus ad spent get better? This is what we call profit volume... If yes, we can invest more. If no, the test is a loser.",
+      "inherited_attribution": "Professor Charley T, *The NEW BEST Facebook Ads Campaign Structure for 2026*",
+      "candidate_normalized_sha256": "815f181f3d55e4beba4ade5589446456fa70235cae1cc8bf6ea9914baf29f81a",
+      "original_line_sha256": "7aab15f98164622d2f99269e2c76984618b9757daa498f0be17f8e59724a9d3b",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "AND-102",
+      "original_line": 229,
+      "heading": "Testing and scaling",
+      "candidate_text": "The classic CBO roadblock that I know a lot of advertisers have run into is that one ad set gets the majority of the spend and then your new adsets don't have any opportunity to actually spend and be tested",
+      "inherited_attribution": "Sam Piliero, *The Best Facebook Ads Strategy for 2026 (Post Andromeda)*",
+      "candidate_normalized_sha256": "f65fbdd82871fa921e675d28ce870c7990364f954712f6cb9dd63a491dfe704f",
+      "original_line_sha256": "da9d386f19ad91940849e8e08db6682fedf7f703372035f3642680010b668ae3",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "Fo-p03fwvdA",
+          "source_sha256": "d5abf86e5e77e043c3ed80d45a1ced67661bb666c01b825619dbe00d318a2f6c",
+          "token_offset_zero_based": 3033,
+          "matched_token_count": 40,
+          "normalized_caption_context": "to spend more money you're going to run into a cbo roadblock the classic cbo roadblock that i know a lot of advertisers have run into is that one ad set gets the majority of the spend and then your new adsets don't have any opportunity to actually spend and be tested so the way that we solve this is in our adsets we",
+          "context_window": {
+            "start_token_zero_based": 3021,
+            "end_token_exclusive_zero_based": 3085
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-103",
+      "original_line": 231,
+      "heading": "Testing and scaling",
+      "candidate_text": "every time you launch a new pack, you're going to be setting an ad set spending limit typically equal to one time your target CPA",
+      "inherited_attribution": "Sam Piliero, *The NEW Facebook Ads Strategy Dominating in 2026*",
+      "candidate_normalized_sha256": "ecb39890b66026c7af38e0e081f940414d193fb07a1dadc2183af440af4676dc",
+      "original_line_sha256": "3fd3299c8d31289fc701557c38fec6af2562f0854ede92e9acd064b5b49a598c",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "FYUR8ZL4_xY",
+          "source_sha256": "693b1e1b49c4c203f0f5f1ab116683eef6f233a1093e5f97a94d9f8d36ae0fec",
+          "token_offset_zero_based": 1471,
+          "matched_token_count": 25,
+          "normalized_caption_context": "you one setting change but all you need to know is that every time you launch a new pack you're going to be setting an ad set spending limit typically equal to one time your target cpa so for this case we're clicking set a minimum we're choosing use",
+          "context_window": {
+            "start_token_zero_based": 1459,
+            "end_token_exclusive_zero_based": 1508
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-104",
+      "original_line": 233,
+      "heading": "Testing and scaling",
+      "candidate_text": "if you have at least three out of 10 winners, then then the winners pay for the losers. If you have one out of 10 tests that's working, then you're going to waste a lot of money in testing",
+      "inherited_attribution": "Ad Spend w/ Ashvin Melwani (guest Marin), *The NEW Meta Ads Blueprint for 2025 (Andromeda Algorithm EXPLAINED)*",
+      "candidate_normalized_sha256": "16a47916c27f77f11047cd71272036856eae3cae47e57af8b914841ffa09ef81",
+      "original_line_sha256": "1df22163b71e110f4024f690a8e5f7cc49df3569054f76f112eb7b624b8941a3",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "VUFX9V0IpwU",
+          "source_sha256": "779040671d41d96c0af84f2e11627dfb1c5516351fa8a716968f71f2666fd3d1",
+          "token_offset_zero_based": 1547,
+          "matched_token_count": 39,
+          "normalized_caption_context": "is that works if you have decent hit rate so let's say if you have at least three out of 10 winners then then the winners pay for the losers if you have one out of 10 tests that's working then you're going to waste a lot of money in testing that's why people say does not work i mean does not work",
+          "context_window": {
+            "start_token_zero_based": 1535,
+            "end_token_exclusive_zero_based": 1598
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-105",
+      "original_line": 235,
+      "heading": "Testing and scaling",
+      "candidate_text": "Long story short uh I look at yesterday and when I say yesterday like I literally just go click on the the time range yesterday. Uh did we hit our KPI? Yes. Scale by 20%",
+      "inherited_attribution": "Nick Theriot, *What Facebook Ads Campaign Structure I'm Running (Post-Andromeda)*",
+      "candidate_normalized_sha256": "6cc46bfc3819b23c76826f22eef655fa8789220964a311e1424935d626e00f72",
+      "original_line_sha256": "f55086c68efcae27b00cae9b99837ca2b6005a3007071fbcfbd9743132c11486",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "NC8ThpxWv8M",
+          "source_sha256": "b50bfd4589b67d5ec45de3564c8177ebdd315f304bd68f69c32dbea960560307",
+          "token_offset_zero_based": 3648,
+          "matched_token_count": 35,
+          "normalized_caption_context": "now from here basically the next question is when to scale ads long story short uh i look at yesterday and when i say yesterday like i literally just go click on the the time range yesterday uh did we hit our kpi yes scale by 20 and then basically come back tomorrow and do it all over again",
+          "context_window": {
+            "start_token_zero_based": 3636,
+            "end_token_exclusive_zero_based": 3695
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-106",
+      "original_line": 237,
+      "heading": "Testing and scaling",
+      "candidate_text": "Too many people want to descale too fast...",
+      "inherited_attribution": "Nick Theriot, *What Facebook Ads Campaign Structure I'm Running (Post-Andromeda)*",
+      "candidate_normalized_sha256": "6b3ed973765cc55b8f8bea72c68060b538a75a9aa9e251bede82b4fb6ddac0b7",
+      "original_line_sha256": "300820dcfa7a4a8b358dfc1fadc5a13d00e0588626bdce7de3f092df3057cfd8",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "NC8ThpxWv8M",
+          "source_sha256": "b50bfd4589b67d5ec45de3564c8177ebdd315f304bd68f69c32dbea960560307",
+          "token_offset_zero_based": 3959,
+          "matched_token_count": 8,
+          "normalized_caption_context": "fix the bottleneck so i'm going hold the spin where it's at too many people want to descale too fast and what happens is you kind of just hit this like like",
+          "context_window": {
+            "start_token_zero_based": 3947,
+            "end_token_exclusive_zero_based": 3979
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-107",
+      "original_line": 239,
+      "heading": "Testing and scaling",
+      "candidate_text": "typically I'll find bottlenecks in four key areas: creatives, landing pages, offer or AOV.",
+      "inherited_attribution": "Nick Theriot, *What Facebook Ads Campaign Structure I'm Running (Post-Andromeda)*",
+      "candidate_normalized_sha256": "cde931b384fbf6eef06d8a8a9b5f4910e14fcbe7b0990ed2e2687d92f555d8f6",
+      "original_line_sha256": "88fb7d759bb3cb1d978309dc6b681fc475decb8ef9f80cdca25553565615199b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "NC8ThpxWv8M",
+          "source_sha256": "b50bfd4589b67d5ec45de3564c8177ebdd315f304bd68f69c32dbea960560307",
+          "token_offset_zero_based": 4114,
+          "matched_token_count": 14,
+          "normalized_caption_context": "then i want to take aggressive action at fixing the bottleneck and typically i'll find bottlenecks in four key areas creatives landing pages offer or aov um the creatives may be appealing to too small of a market",
+          "context_window": {
+            "start_token_zero_based": 4102,
+            "end_token_exclusive_zero_based": 4140
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-108",
+      "original_line": 241,
+      "heading": "Testing and scaling",
+      "candidate_text": "Number two, I like to scale like this. So 5% every single day, but I look at the three previous days, and then if it's above my target return on ad spend, I scale by 5%.",
+      "inherited_attribution": "BitBranding, *The NEW WAY to Scale Meta Ads for Clothing Brands (After Andromeda)*",
+      "candidate_normalized_sha256": "69ab66d5e934746378b034f426adf359ec9bf3c7f038df9bbf1d39391a61eb4f",
+      "original_line_sha256": "dec9d05b07bd1f737b0de6ed178a375289ef3f6dfead99c1fe69b5c0c051498a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "mYtqeeW7NiU",
+          "source_sha256": "9d4c56280a576e4b3a1bbec9ad29d00156cfa5ce639d48791a0be0b4e4e27f1e",
+          "token_offset_zero_based": 3218,
+          "matched_token_count": 36,
+          "normalized_caption_context": "you can pick whichever day you would like but just stay consistent number two i like to scale like this so 5 every single day but i look at the three previous days and then if it's above my target return on ad spend i scale by 5 so today if it's a monday i'm looking at sunday saturday friday",
+          "context_window": {
+            "start_token_zero_based": 3206,
+            "end_token_exclusive_zero_based": 3266
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-109",
+      "original_line": 243,
+      "heading": "Testing and scaling",
+      "candidate_text": "You have two buckets of people. advertisers spending under 30k per month and advertisers spending more than 30k per month. This is what we call the transition period.",
+      "inherited_attribution": "Chase Chappell, *How To ACTUALLY Target with Facebook Ads (Post-Andromeda Update)*",
+      "candidate_normalized_sha256": "769292fa00f7df4346fa3ed73dd767d8c30895def1f8ffad9486746be4a2c507",
+      "original_line_sha256": "5170470f65ece9dc926c0ccf37b1476f27ab6c81c6f980e5f2091a7ecfc5ab4b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "yM8VhjU5ec8",
+          "source_sha256": "90263d26c2fd88604c61522ead243e76c480f7730255ee4ba788001e326c1ae8",
+          "token_offset_zero_based": 184,
+          "matched_token_count": 28,
+          "normalized_caption_context": "so i'm going to clear the air up on this for everyone you have two buckets of people advertisers spending under 30k per month and advertisers spending more than 30k per month this is what we call the transition period and if you're spending under 30k per month you need targeting and",
+          "context_window": {
+            "start_token_zero_based": 172,
+            "end_token_exclusive_zero_based": 224
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-110",
+      "original_line": 245,
+      "heading": "Testing and scaling",
+      "candidate_text": "So, because of that, you're going to want to do a two-campaign structure if you're going to do creative testing like this.",
+      "inherited_attribution": "Dr. Matt Shiver, *Alex Hormozi's NEW Facebook Ads Strategy (Andromeda Breakdown)*",
+      "candidate_normalized_sha256": "d320974d00e7ec3623d6a7e7f44ed142dd66b76d71090a3108581bdd53b7265a",
+      "original_line_sha256": "609126bb247008d9d1e3eaa8022fe5e409ed1616193e142b498a90ddf4bc32b1",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "PPCFvIdNwTg",
+          "source_sha256": "5246e2427c760101180ab96c2eda4484f956c6b9c0bed5aa695b18bb3292a8cf",
+          "token_offset_zero_based": 1366,
+          "matched_token_count": 23,
+          "normalized_caption_context": "of here i'm not going to have ad room for other ads so because of that you're going to want to do a two campaign structure if you're going to do creative testing like this now how i would run this is i would make one campaign",
+          "context_window": {
+            "start_token_zero_based": 1354,
+            "end_token_exclusive_zero_based": 1401
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "AND-111",
+      "original_line": 247,
+      "heading": "Testing and scaling",
+      "candidate_text": "unstructured testing teaches the algorithm nothing. Now Meta learns from your inputs and if those inputs are scattered, then the learning is scattered as well.",
+      "inherited_attribution": "Adam Taylor, *The NEW Andromeda-Proof Meta Ads Strategy (2026)*",
+      "candidate_normalized_sha256": "b1d31db0d4d0b7983ea774cb921f24f0feb5af55a36957a52943e6b196035ee5",
+      "original_line_sha256": "575dd953ca638d93a279fe7f3528b6ba0ea017420e36fa52bcd05cb7e26545b7",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "GvYow_bNzEY",
+          "source_sha256": "bfa4187ed9a395bf6f488d442d8264cc9e28507b1ebe89290eb5bb7b371c3c0f",
+          "token_offset_zero_based": 2038,
+          "matched_token_count": 25,
+          "normalized_caption_context": "behind it doesn't work the way that it used to work is unstructured testing teaches the algorithm nothing now meta learns from your inputs and if those inputs are scattered then the learning is scattered as well the brands that are winning right now and scaling are feeding the",
+          "context_window": {
+            "start_token_zero_based": 2026,
+            "end_token_exclusive_zero_based": 2075
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    }
+  ],
+  "coverage": {
+    "original_entry_count": 111,
+    "ledger_entry_count": 111,
+    "matched_caption_text_count": 102,
+    "unverified_trace_count": 9,
+    "multiple_match_entry_count": 1,
+    "all_original_entries_accounted_for": true
+  },
+  "limitations": [
+    "The local source files are captions/transcripts, not recordings or official Meta documentation.",
+    "Original creator and title labels are retained as inherited attribution. A source-ID relationship is recorded only when the candidate text matches that retained caption.",
+    "No candidate is a current platform rule. Check current official product documentation and the actual account UI before acting."
+  ]
+}

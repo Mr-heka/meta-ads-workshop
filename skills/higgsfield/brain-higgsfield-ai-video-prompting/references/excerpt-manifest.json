@@ -1,0 +1,59 @@
+{
+  "offset_convention": "zero-based Unicode characters, half-open",
+  "entries": [
+    {
+      "source": "sources/cGTBzed4S4w.txt",
+      "start_character": 713,
+      "end_character": 762,
+      "exact_excerpt": "The art is not your prompt. The art is your idea.",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "AI Video School",
+      "video_url": "https://www.youtube.com/watch?v=cGTBzed4S4w"
+    },
+    {
+      "source": "sources/nUgx8ETiR1g.txt",
+      "start_character": 1012,
+      "end_character": 1095,
+      "exact_excerpt": "strong keyframe with a simple prompt will almost always outperform a perfect prompt",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "Higgsfield AI",
+      "video_url": "https://www.youtube.com/watch?v=nUgx8ETiR1g"
+    },
+    {
+      "source": "sources/cksEVv1tArI.txt",
+      "start_character": 40584,
+      "end_character": 40648,
+      "exact_excerpt": "All I described was the camera shot, right? How the camera moves",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "DGI Kaos",
+      "video_url": "https://www.youtube.com/watch?v=cksEVv1tArI"
+    },
+    {
+      "source": "sources/iBifCVAXgZg.txt",
+      "start_character": 3268,
+      "end_character": 3303,
+      "exact_excerpt": "Every prompt is a fresh generation.",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "AI Madame",
+      "video_url": "https://www.youtube.com/watch?v=iBifCVAXgZg"
+    },
+    {
+      "source": "sources/FQqkDXq1WEQ.txt",
+      "start_character": 28217,
+      "end_character": 28278,
+      "exact_excerpt": "C dance copies them as a literal frame into the video output.",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "Rourke Heath",
+      "video_url": "https://www.youtube.com/watch?v=FQqkDXq1WEQ"
+    },
+    {
+      "source": "sources/l-rFCkjJzu8.txt",
+      "start_character": 42972,
+      "end_character": 43035,
+      "exact_excerpt": "create this at least five to 10 times to actually nail the clip",
+      "attribution": "YouTube publishing channel verified by oEmbed; speaker identity and transcript/audio correspondence not verified",
+      "uploader": "Artturi Jalli",
+      "video_url": "https://www.youtube.com/watch?v=l-rFCkjJzu8"
+    }
+  ]
+}

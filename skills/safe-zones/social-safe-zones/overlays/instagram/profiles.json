@@ -1,0 +1,124 @@
+{
+  "ig_post_4x5_1080x1350_grid_safe": {
+    "canvas": {
+      "w": 1080,
+      "h": 1350
+    },
+    "safe_rect": {
+      "x": 114,
+      "y": 215,
+      "w": 852,
+      "h": 920
+    },
+    "safe_rect_right": 966,
+    "safe_rect_bottom": 1135,
+    "hard_crop_rect": {
+      "x": 34,
+      "y": 135,
+      "w": 1012,
+      "h": 1080
+    },
+    "crops": {
+      "profile_grid_3x4": {
+        "x": 34,
+        "y": 0,
+        "w": 1012,
+        "h": 1350
+      },
+      "square_1x1": {
+        "x": 0,
+        "y": 135,
+        "w": 1080,
+        "h": 1080
+      }
+    },
+    "origin": "Selr layout preset from historical crop assumptions, not an official current Instagram guarantee. Verify intended placement.",
+    "overlay_file": "overlays/instagram/selr-ig-safe-zone-post-4x5-1080x1350.png",
+    "use_for": [
+      "paper carousel covers",
+      "pinned covers",
+      "any 4:5 static",
+      "carousel inner slides"
+    ],
+    "approved_overlay_zones": {
+      "reel_pill_top_third": {
+        "x": 114,
+        "y": 215,
+        "w": 852,
+        "h": 300
+      }
+    },
+    "conditions": {
+      "platform": "local_composition_preset"
+    }
+  },
+  "ig_reel_cover_9x16_1080x1920_grid_safe": {
+    "canvas": {
+      "w": 1080,
+      "h": 1920
+    },
+    "safe_rect": {
+      "x": 80,
+      "y": 500,
+      "w": 920,
+      "h": 668
+    },
+    "safe_rect_right": 1000,
+    "safe_rect_bottom": 1168,
+    "hard_crop_rect": {
+      "x": 0,
+      "y": 420,
+      "w": 1080,
+      "h": 828
+    },
+    "crops": {
+      "feed_4x5": {
+        "x": 0,
+        "y": 285,
+        "w": 1080,
+        "h": 1350
+      },
+      "profile_grid_3x4": {
+        "x": 0,
+        "y": 240,
+        "w": 1080,
+        "h": 1440
+      },
+      "square_1x1": {
+        "x": 0,
+        "y": 420,
+        "w": 1080,
+        "h": 1080
+      },
+      "reel_player_ui_safe": {
+        "x": 0,
+        "y": 269,
+        "w": 1080,
+        "h": 979
+      }
+    },
+    "origin": "Selr layout preset from historical crop assumptions, not an official current Instagram guarantee. Verify intended placement.",
+    "overlay_file": "overlays/instagram/selr-ig-safe-zone-reel-cover-9x16-1080x1920.png",
+    "use_for": [
+      "reel covers with the white pill",
+      "pinned reel covers"
+    ],
+    "approved_overlay_zones": {
+      "white_pill": {
+        "x": 80,
+        "y": 500,
+        "w": 920,
+        "h": 260
+      },
+      "face": {
+        "x": 80,
+        "y": 620,
+        "w": 920,
+        "h": 548
+      }
+    },
+    "conditions": {
+      "platform": "local_composition_preset"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+rank,id,posted,url,caption_opener,verified_audiovisual_opener,heuristic_composite_percentile,hold_3s_rate,completion_rate
+1,reel-a,2026-08-03,https://example.test/a,Stop using vague hooks,Speaker says: stop using vague hooks,50.000,0.720000,0.600000
+1,reel-b,2026-08-10,https://example.test/b,How to make a clear first line,,50.000,0.490000,0.780000

@@ -1,0 +1,240 @@
+{
+  "schema_version": 5,
+  "cohort": {
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  "rank_metrics": [
+    "hold_3s_rate",
+    "completion_rate"
+  ],
+  "composite_heuristic": true,
+  "rows": [
+    {
+      "id": "reel-a",
+      "posted": "2026-08-03",
+      "url": "https://example.test/a",
+      "caption": "Stop using vague hooks",
+      "caption_opener_raw": "Stop using vague hooks",
+      "verified_audiovisual_opener": "Speaker says: stop using vague hooks",
+      "audiovisual_opener_verified": true,
+      "views": 1000,
+      "saves": 50,
+      "shares": 20,
+      "replays": null,
+      "unique_viewers": null,
+      "metrics": {
+        "hold_3s_rate": 0.72,
+        "hold_15s_rate": null,
+        "completion_rate": 0.6,
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": 0.05,
+        "shares_per_view": 0.02,
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "metric_sources": {
+        "hold_3s_rate": "direct",
+        "hold_15s_rate": null,
+        "completion_rate": "direct",
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": "saves/views",
+        "shares_per_view": "shares/views",
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "cohort_status": "in_cohort",
+      "raw": {
+        "id": "reel-a",
+        "posted": "2026-08-03",
+        "caption": "Stop using vague hooks",
+        "url": "https://example.test/a",
+        "views": "1000",
+        "saves": "50",
+        "shares": "20",
+        "hold_3s_rate": "0.72",
+        "completion_rate": "0.60",
+        "verified_audiovisual_opener": "Speaker says: stop using vague hooks",
+        "audiovisual_opener_verified": "true"
+      },
+      "rank_missing_metrics": [],
+      "rank": 1,
+      "cohort_score": 50.0,
+      "metric_percentiles": {
+        "hold_3s_rate": 100.0,
+        "completion_rate": 0.0
+      },
+      "display_order": 1
+    },
+    {
+      "id": "reel-b",
+      "posted": "2026-08-10",
+      "url": "https://example.test/b",
+      "caption": "How to make a clear first line",
+      "caption_opener_raw": "How to make a clear first line",
+      "verified_audiovisual_opener": null,
+      "audiovisual_opener_verified": null,
+      "views": 900,
+      "saves": 18,
+      "shares": 10,
+      "replays": null,
+      "unique_viewers": null,
+      "metrics": {
+        "hold_3s_rate": 0.49,
+        "hold_15s_rate": null,
+        "completion_rate": 0.78,
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": 0.02,
+        "shares_per_view": 0.011111111111111112,
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "metric_sources": {
+        "hold_3s_rate": "direct",
+        "hold_15s_rate": null,
+        "completion_rate": "direct",
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": "saves/views",
+        "shares_per_view": "shares/views",
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "cohort_status": "in_cohort",
+      "raw": {
+        "id": "reel-b",
+        "posted": "2026-08-10",
+        "caption": "How to make a clear first line",
+        "url": "https://example.test/b",
+        "views": "900",
+        "saves": "18",
+        "shares": "10",
+        "hold_3s_rate": "0.49",
+        "completion_rate": "0.78",
+        "verified_audiovisual_opener": "",
+        "audiovisual_opener_verified": ""
+      },
+      "rank_missing_metrics": [],
+      "rank": 1,
+      "cohort_score": 50.0,
+      "metric_percentiles": {
+        "hold_3s_rate": 0.0,
+        "completion_rate": 100.0
+      },
+      "display_order": 2
+    },
+    {
+      "id": "reel-c",
+      "posted": "2026-07-30",
+      "url": "https://example.test/c",
+      "caption": "Outside the cohort",
+      "caption_opener_raw": "Outside the cohort",
+      "verified_audiovisual_opener": null,
+      "audiovisual_opener_verified": null,
+      "views": 700,
+      "saves": 10,
+      "shares": 5,
+      "replays": null,
+      "unique_viewers": null,
+      "metrics": {
+        "hold_3s_rate": 0.8,
+        "hold_15s_rate": null,
+        "completion_rate": 0.8,
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": 0.014285714285714285,
+        "shares_per_view": 0.007142857142857143,
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "metric_sources": {
+        "hold_3s_rate": "direct",
+        "hold_15s_rate": null,
+        "completion_rate": "direct",
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": "saves/views",
+        "shares_per_view": "shares/views",
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "cohort_status": "outside_cohort",
+      "raw": {
+        "id": "reel-c",
+        "posted": "2026-07-30",
+        "caption": "Outside the cohort",
+        "url": "https://example.test/c",
+        "views": "700",
+        "saves": "10",
+        "shares": "5",
+        "hold_3s_rate": "0.80",
+        "completion_rate": "0.80",
+        "verified_audiovisual_opener": "",
+        "audiovisual_opener_verified": ""
+      },
+      "rank_missing_metrics": [],
+      "rank": null,
+      "cohort_score": null,
+      "metric_percentiles": null
+    },
+    {
+      "id": "reel-d",
+      "posted": "2026-08-16",
+      "url": "https://example.test/d",
+      "caption": "Caption retained but missing completion",
+      "caption_opener_raw": "Caption retained but missing completion",
+      "verified_audiovisual_opener": null,
+      "audiovisual_opener_verified": null,
+      "views": 500,
+      "saves": 4,
+      "shares": 1,
+      "replays": null,
+      "unique_viewers": null,
+      "metrics": {
+        "hold_3s_rate": 0.4,
+        "hold_15s_rate": null,
+        "completion_rate": null,
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": 0.008,
+        "shares_per_view": 0.002,
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "metric_sources": {
+        "hold_3s_rate": "direct",
+        "hold_15s_rate": null,
+        "completion_rate": null,
+        "full_watch_rate": null,
+        "watch_ratio": null,
+        "saves_per_view": "saves/views",
+        "shares_per_view": "shares/views",
+        "watches_per_viewer": null,
+        "replays_per_viewer": null
+      },
+      "cohort_status": "in_cohort",
+      "raw": {
+        "id": "reel-d",
+        "posted": "2026-08-16",
+        "caption": "Caption retained but missing completion",
+        "url": "https://example.test/d",
+        "views": "500",
+        "saves": "4",
+        "shares": "1",
+        "hold_3s_rate": "0.40",
+        "completion_rate": "",
+        "verified_audiovisual_opener": "",
+        "audiovisual_opener_verified": ""
+      },
+      "rank_missing_metrics": [
+        "completion_rate"
+      ],
+      "rank": null,
+      "cohort_score": null,
+      "metric_percentiles": null
+    }
+  ]
+}

@@ -1,0 +1,2643 @@
+{
+  "schema_version": 1,
+  "purpose": "Portable reconciliation of inherited landing-page quote candidates against preserved transcript text.",
+  "normalization": {
+    "algorithm": "Python html.unescape, lowercase, ASCII encode with non-ASCII dropped, then [a-z0-9']+ tokens.",
+    "match_rule": "All contiguous token locations are retained. Character offsets index the HTML-unescaped, lowercase ASCII source text used by that matcher.",
+    "context_rule": "Context spans are 180 matcher-source characters on either side where available; their SHA-256 hashes make the locator reproducible without reprinting transcript text."
+  },
+  "limits": [
+    "A transcript token trace does not certify that a caption is an exact record of spoken words.",
+    "A transcript token trace does not certify inherited speaker attribution or source title.",
+    "A transcript token trace does not certify current facts, causality, or claim truth.",
+    "Quantified conversion claims and benchmarks are practitioner claims only, never operating rules or expected outcomes.",
+    "Nested attributions remain inherited unless their primary source is separately verified.",
+    "Ellipses, composites, unmatched text, and rewrites remain unverified inherited traces."
+  ],
+  "original_quote_library": {
+    "path": "history/original/references/quote-library.md.original",
+    "sha256": "0d53d3f04951077b3e196a7f2ddde3129affff871f8712acd2740cb5b3247d52",
+    "candidate_count": 118,
+    "label_rule": "Q001 through Q118 follow inherited quote-block reading order; original_line identifies the block start in the preserved original."
+  },
+  "source_inventory": [
+    {
+      "source_id": "043hF-1EQxs",
+      "sha256": "d6319f0d6e19f45b910ff17fc421b9320d74cd1d1806c1b38f3d9f9076a02db9",
+      "candidate_match_locations": 3
+    },
+    {
+      "source_id": "0F4hoTl44gc",
+      "sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "4uOeTE5IlAY",
+      "sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+      "candidate_match_locations": 7
+    },
+    {
+      "source_id": "6efRtbvR2OI",
+      "sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+      "candidate_match_locations": 6
+    },
+    {
+      "source_id": "8OhmpShOzy4",
+      "sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "BMom3u5NUqA",
+      "sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+      "candidate_match_locations": 6
+    },
+    {
+      "source_id": "CNRiNz0YYlM",
+      "sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+      "candidate_match_locations": 7
+    },
+    {
+      "source_id": "ELhTIZXlgjo",
+      "sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+      "candidate_match_locations": 7
+    },
+    {
+      "source_id": "FoFfVoXVIqc",
+      "sha256": "613056adf3be9363a5616ff053a65db2dea78171d3941895333028f6685cb28b",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "JByOVEOpXas",
+      "sha256": "33ba26551089bcd1648425093f41e3c19139bac2eb16db957e60bd221b9c59f1",
+      "candidate_match_locations": 0
+    },
+    {
+      "source_id": "LJbkLdtEW00",
+      "sha256": "ea963ad38434ab4c7c6f5d05c25341fea957e372cf8f4a1ec6b3971787d0d389",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "RkVw9pTU0Kg",
+      "sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "SIsr8c6WLC4",
+      "sha256": "9e245af019c37c5c3a480a81b52bcca0e0219d7a0ef22184d707b703c95b7acd",
+      "candidate_match_locations": 4
+    },
+    {
+      "source_id": "SZb6NA0_ILc",
+      "sha256": "56ac6783b3f83d0b38e6c78e438b875539b3452a159f53216936a5b742e54b77",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "az1Zh-FNSno",
+      "sha256": "96b67d0744d2a4934ad5c1fd9f5f7786171aeba1ae704446bc29bafada16ec29",
+      "candidate_match_locations": 4
+    },
+    {
+      "source_id": "b8pS6p5GScw",
+      "sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "eCvpQJ0_pUE",
+      "sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "ghpwclIW1II",
+      "sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "iEohIxtp9b4",
+      "sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "kJb6BZwqCGM",
+      "sha256": "4d57a61bf8b479f6652b29e7962c6011cfcee23a2e73dd2ee7b227c6ee311526",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "lH0L0gax2h8",
+      "sha256": "7178320d9c0669aa8323005f3398e7f98f3ca9931596532ba36876f22b59302f",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "pc5DQhOI6KY",
+      "sha256": "c35c173c40c26d95735a1bd27f1ce972a18639823f9f2a512f93ed22fe3b48e6",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "qGJG7nLPd8w",
+      "sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "sIRtuDlasLU",
+      "sha256": "77825b5149b36e7c799aada7110de6640bc0a403d688da72f487be600283fad2",
+      "candidate_match_locations": 1
+    },
+    {
+      "source_id": "usNJksomiYk",
+      "sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "vC_LEc8pGp8",
+      "sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+      "candidate_match_locations": 5
+    },
+    {
+      "source_id": "vckaLw7o3bg",
+      "sha256": "49b589c38680728bea7c824f95a8baa564ba5243b66b846ae08522111dff8d86",
+      "candidate_match_locations": 1
+    },
+    {
+      "source_id": "wdhlbWEWDlw",
+      "sha256": "7ebe1fc1254d10ed712409bc87023e6f865d83221a0689e97ff9f843823fd52b",
+      "candidate_match_locations": 2
+    },
+    {
+      "source_id": "zpTsCrOvGao",
+      "sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+      "candidate_match_locations": 6
+    }
+  ],
+  "coverage": {
+    "candidate_count": 118,
+    "matched_transcript_trace_count": 116,
+    "unverified_inherited_trace_count": 2,
+    "match_location_count": 116,
+    "source_files_with_match_locations": 28,
+    "source_files_without_match_locations": [
+      "JByOVEOpXas"
+    ],
+    "unknowns": [
+      "No primary video/audio, platform caption export, creator metadata, publication date, or independent support for numerical claims was supplied in this preserved set."
+    ]
+  },
+  "rows": [
+    {
+      "candidate_label": "Q001",
+      "original_line": 7,
+      "original_quote_sha256": "821deb5cd1e676211fa8aa9e8f7f636e6b77d9449f660c192aa937c3fbb4acbf",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *aesthetic landing page blueprint [for leads + conversions]*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "usNJksomiYk",
+          "source_sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+          "source_char_start": 7397,
+          "source_char_end_exclusive": 7486,
+          "context_char_start": 7217,
+          "context_char_end_exclusive": 7666,
+          "context_sha256": "d65c4fe9d8c60f7c03233dd7c59a98db4aeb3b2f2eb95d8c8e5c0dd5014ce37d"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q002",
+      "original_line": 10,
+      "original_quote_sha256": "8b39527057d17feafbcaeaf9bb98bdecdd0258aaf80dd6472f1accd091b80b36",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 7443,
+          "source_char_end_exclusive": 7560,
+          "context_char_start": 7263,
+          "context_char_end_exclusive": 7740,
+          "context_sha256": "b1339c96d42220b226bdbcfb874bd4bd563c98d0253cb2f248d8da53a35f3dee"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q003",
+      "original_line": 13,
+      "original_quote_sha256": "3cceb3b8a6a12655d68d90be38e0edbffc0500b1c390ce4e1034ec248db504f8",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 7587,
+          "source_char_end_exclusive": 7664,
+          "context_char_start": 7407,
+          "context_char_end_exclusive": 7844,
+          "context_sha256": "f5a681f365c7a99228e629ade476c310162f789a159845dcaa3851c8f2f6de45"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q004",
+      "original_line": 16,
+      "original_quote_sha256": "6da138e2581a828f340624e39900c418530e45217ed91edd18d2930bf005896f",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 14,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 7070,
+          "source_char_end_exclusive": 7150,
+          "context_char_start": 6890,
+          "context_char_end_exclusive": 7330,
+          "context_sha256": "af74f28ce6198b921e58d16b57de92f5aa268d8847cc3c226a08c41a099e0459"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q005",
+      "original_line": 19,
+      "original_quote_sha256": "6277ca474bcfe5eae4382619d9b6915db6a86d828204e6d02072e1b667edfdca",
+      "inherited_attribution": "— Daniel Akpobare, *How to build a Landing Page that converts | Step-by-Step Framework*",
+      "quote_token_count": 29,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "043hF-1EQxs",
+          "source_sha256": "d6319f0d6e19f45b910ff17fc421b9320d74cd1d1806c1b38f3d9f9076a02db9",
+          "source_char_start": 2658,
+          "source_char_end_exclusive": 2811,
+          "context_char_start": 2478,
+          "context_char_end_exclusive": 2991,
+          "context_sha256": "0b3baa9b534b902c676918b6766b4ea35878f1a2e76dc3982e40baf13d124d3f"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q006",
+      "original_line": 22,
+      "original_quote_sha256": "8687784ddd45201619d6addc5996819d546e6cfad098fe87ef0bdd80914a02d1",
+      "inherited_attribution": "— Amariq Studio, *How to Design a High-Converting Landing Page (Full Guide)*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "RkVw9pTU0Kg",
+          "source_sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+          "source_char_start": 2565,
+          "source_char_end_exclusive": 2675,
+          "context_char_start": 2385,
+          "context_char_end_exclusive": 2855,
+          "context_sha256": "68bd0911ab4a204fe1b780e68f52daea94a4624c15ad174b29cd1cf51d414ff4"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q007",
+      "original_line": 25,
+      "original_quote_sha256": "bad3338fc4deadfe435c9466a572bc47e41c28873d29209fc2d3cf3d3457a264",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 28,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 1591,
+          "source_char_end_exclusive": 1726,
+          "context_char_start": 1411,
+          "context_char_end_exclusive": 1906,
+          "context_sha256": "fdd345f785c3fbda6ea07dc38e4f28668f69e9423f1f44242538e5451a8f67fc"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q008",
+      "original_line": 28,
+      "original_quote_sha256": "38a674880342dd69a99361ee89dbcc1b36447c6977f285351e1247bec703bb25",
+      "inherited_attribution": "— Jordan Le, *Copy This High-Converting Landing Page Template For Google Ads*",
+      "quote_token_count": 28,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "0F4hoTl44gc",
+          "source_sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+          "source_char_start": 1092,
+          "source_char_end_exclusive": 1245,
+          "context_char_start": 912,
+          "context_char_end_exclusive": 1425,
+          "context_sha256": "1141e6480b0b0fbb8f0a7deef7547bb3603e895d489d9400839a539260ea4c4e"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q009",
+      "original_line": 33,
+      "original_quote_sha256": "05f8d623b47ac71e61e36ff2d0e0027d2393760a8d681135fc2afa4ebf7cf28a",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *aesthetic landing page blueprint [for leads + conversions]*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "usNJksomiYk",
+          "source_sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+          "source_char_start": 10451,
+          "source_char_end_exclusive": 10558,
+          "context_char_start": 10271,
+          "context_char_end_exclusive": 10738,
+          "context_sha256": "5e1fe50d3056dc55920197d2fc8e38eb079be43bc9a22b2c97a0c04154c38ae6"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q010",
+      "original_line": 36,
+      "original_quote_sha256": "4fc8e059162cf61b153f7c0416a5fca42b3c3cfbda9902343d507f212051a879",
+      "inherited_attribution": "— ScoreApp, *7 Lead Magnet Landing Page Mistakes That Are KILLING Your Conversions*",
+      "quote_token_count": 7,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "eCvpQJ0_pUE",
+          "source_sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+          "source_char_start": 3035,
+          "source_char_end_exclusive": 3068,
+          "context_char_start": 2855,
+          "context_char_end_exclusive": 3248,
+          "context_sha256": "337d2803c3afc86c016fc4a646647fb83e8b364ed5c66fb7f4fc8f9f1e3589dc"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q011",
+      "original_line": 39,
+      "original_quote_sha256": "8a2e0be747c7e9261277b30c5f60526b12edc92322845cbbbdf7f34b491ac8e0",
+      "inherited_attribution": "— My First Website, *How To Build a High-Converting Landing Page in GoHighLevel*",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "iEohIxtp9b4",
+          "source_sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+          "source_char_start": 4288,
+          "source_char_end_exclusive": 4360,
+          "context_char_start": 4108,
+          "context_char_end_exclusive": 4540,
+          "context_sha256": "e116f330d40042246173b978969c3d60cb8a21002c4035b2a41bd00ee0597b19"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q012",
+      "original_line": 42,
+      "original_quote_sha256": "1732eac8bb9a08f8ad310c35d921d32fdfad819ffa12bb9a82a21de161180490",
+      "inherited_attribution": "— Alex Cattoni, *This Landing Page Has A 79% Conversion Rate. Here's Why It Works…*",
+      "quote_token_count": 26,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vC_LEc8pGp8",
+          "source_sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+          "source_char_start": 6671,
+          "source_char_end_exclusive": 6804,
+          "context_char_start": 6491,
+          "context_char_end_exclusive": 6984,
+          "context_sha256": "eb529c451c8d38ac80e9f57e0420893c100e8979ec4d6663c1826a2cb3b6be03"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q013",
+      "original_line": 45,
+      "original_quote_sha256": "3ebb1858f418eafaa42839b041066e26c4f5bc6bfc225972dc3e05d3169f6cf8",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 24,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 8612,
+          "source_char_end_exclusive": 8740,
+          "context_char_start": 8432,
+          "context_char_end_exclusive": 8920,
+          "context_sha256": "4eb6ccab59127ae84e044a1715dee16e655a0ecc70351da76df6eb72ccedba76"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q014",
+      "original_line": 50,
+      "original_quote_sha256": "b7ee4f350d6c9c622c72d727c4319d0ad316534c877efdfe80c02531a24a914a",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 37,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "qGJG7nLPd8w",
+          "source_sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+          "source_char_start": 814,
+          "source_char_end_exclusive": 1025,
+          "context_char_start": 634,
+          "context_char_end_exclusive": 1205,
+          "context_sha256": "d8920286ba7357d3da8e1bbfe6eb66b1d696e33f64292efe66486cd34682618c"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q015",
+      "original_line": 53,
+      "original_quote_sha256": "42cc5f884c50c42dcd3255113aa8de6fde5ebd9fa6e849c6ed435ecbc050a3f8",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 9,
+      "status": "unverified_inherited_trace_debunked_rewrite",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "The inherited wording contains a bracketed rewrite and the library itself records the speaker figure as debunked; do not present it as a quotation or fact.",
+      "matches": []
+    },
+    {
+      "candidate_label": "Q016",
+      "original_line": 57,
+      "original_quote_sha256": "7850ed20bc47d38dd58d62b8b8ccfe98f50b21547e185ac7d6fc49fe6205d824",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 28,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "qGJG7nLPd8w",
+          "source_sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+          "source_char_start": 5545,
+          "source_char_end_exclusive": 5700,
+          "context_char_start": 5365,
+          "context_char_end_exclusive": 5880,
+          "context_sha256": "007adc877b0ff8f345e292b8994e1acf715a3b12d7ac1989e596585ddebc73f8"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q017",
+      "original_line": 62,
+      "original_quote_sha256": "49acb1e91f2c3f5ad52f447965d844218386ac38c0a5e7bcedca85ea0c7d754c",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *aesthetic landing page blueprint [for leads + conversions]*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "usNJksomiYk",
+          "source_sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+          "source_char_start": 11956,
+          "source_char_end_exclusive": 12041,
+          "context_char_start": 11776,
+          "context_char_end_exclusive": 12221,
+          "context_sha256": "389b57de9ecf94d3122e752e659395d80c7f11f93e1704590dce55165657ed88"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q018",
+      "original_line": 65,
+      "original_quote_sha256": "c56fd9c046b5d2043d52ea5643665b449abbcdd20fdfef2a49d830fe21d4484f",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "qGJG7nLPd8w",
+          "source_sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+          "source_char_start": 4198,
+          "source_char_end_exclusive": 4289,
+          "context_char_start": 4018,
+          "context_char_end_exclusive": 4469,
+          "context_sha256": "8818c9f24c680938a83ab44637260622c61e7819240ef58491ddbda6ae10b9fe"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q019",
+      "original_line": 68,
+      "original_quote_sha256": "92022f9200ac407ab60a80c862080d37e86ea746f9dda2280dd354ce05dc4b68",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "qGJG7nLPd8w",
+          "source_sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+          "source_char_start": 4478,
+          "source_char_end_exclusive": 4605,
+          "context_char_start": 4298,
+          "context_char_end_exclusive": 4785,
+          "context_sha256": "7a9eae15c5ee40de1fb370d1a7ea2f391578b06e6eb31027d0ff14d3569bf1dd"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q020",
+      "original_line": 71,
+      "original_quote_sha256": "3043ab72bd12ed6f14491ee6fa365483475f75bdcd0f7e1de9e59b9bbe154b93",
+      "inherited_attribution": "— Amariq Studio, *How to Design a High-Converting Landing Page (Full Guide)*",
+      "quote_token_count": 9,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "RkVw9pTU0Kg",
+          "source_sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+          "source_char_start": 3828,
+          "source_char_end_exclusive": 3869,
+          "context_char_start": 3648,
+          "context_char_end_exclusive": 4049,
+          "context_sha256": "892ce1b1cd971f5a02d47b6d493ace585de867dd218755fa8a5cc06d3aa5a2b9"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q021",
+      "original_line": 74,
+      "original_quote_sha256": "1056a32b17225635a0a48be48070fb2ef90d05a5bc72f0a6f0dc63f3f99f4e40",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 31,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 3960,
+          "source_char_end_exclusive": 4123,
+          "context_char_start": 3780,
+          "context_char_end_exclusive": 4303,
+          "context_sha256": "954e2cc638dd9a13ed305dfe15cb902eed7e6796c9d0fc7f1ff967f005418407"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q022",
+      "original_line": 77,
+      "original_quote_sha256": "91574fcbfab15025192f03c593a4a3d40ea2901c215555467b93d093345e50a9",
+      "inherited_attribution": "— My First Website, *How To Build a High-Converting Landing Page in GoHighLevel*",
+      "quote_token_count": 26,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "iEohIxtp9b4",
+          "source_sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+          "source_char_start": 5343,
+          "source_char_end_exclusive": 5473,
+          "context_char_start": 5163,
+          "context_char_end_exclusive": 5653,
+          "context_sha256": "3e1903fda16a5053e1fa25823e2e0b4365ce6a8385d56e35dc526477d7fd0e59"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q023",
+      "original_line": 82,
+      "original_quote_sha256": "330cc4e2c3de2056f0963514cc268767e96ed6dcf5c99dd3a3e99de274fd56ca",
+      "inherited_attribution": "— Jordan Le, *Copy This High-Converting Landing Page Template For Google Ads*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "0F4hoTl44gc",
+          "source_sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+          "source_char_start": 7705,
+          "source_char_end_exclusive": 7789,
+          "context_char_start": 7525,
+          "context_char_end_exclusive": 7969,
+          "context_sha256": "80da267755f2666b580fe86b5578acf068a5222c06e60bb942eaf8d05a8b30d6"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q024",
+      "original_line": 85,
+      "original_quote_sha256": "1cac115f21e5622985ac4ba2f9cab896502d822d97ff6d5e1852e1a636fcefa7",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *The Psychology of High Converting Landing Pages*",
+      "quote_token_count": 22,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "qGJG7nLPd8w",
+          "source_sha256": "70db437c07754d2c69f3096144ce9e8c703c293ef25330b00fe898b3d08a7993",
+          "source_char_start": 9592,
+          "source_char_end_exclusive": 9696,
+          "context_char_start": 9412,
+          "context_char_end_exclusive": 9876,
+          "context_sha256": "993309f9704d6113daa8716a632a7130c98dd2b86a286c6fcdba3a5b2e1a70ad"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q025",
+      "original_line": 88,
+      "original_quote_sha256": "901b73d96d2f85e5f0794e6d71051e44cd653c881afdd89d5fdb7a362fe328d6",
+      "inherited_attribution": "— Daniel Priestley, *The $1 Million Landing Page (Works For Normal People)*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "az1Zh-FNSno",
+          "source_sha256": "96b67d0744d2a4934ad5c1fd9f5f7786171aeba1ae704446bc29bafada16ec29",
+          "source_char_start": 5602,
+          "source_char_end_exclusive": 5700,
+          "context_char_start": 5422,
+          "context_char_end_exclusive": 5880,
+          "context_sha256": "7ab483013f8fe859119d31af1486597ea63e5cec27995ed6019e149e8cbddf46"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q026",
+      "original_line": 91,
+      "original_quote_sha256": "cd574f80719773b15543b13efee26df3bf6437b9e0f9ef8314b01dca50a846d6",
+      "inherited_attribution": "— My First Website, *How To Build a High-Converting Landing Page in GoHighLevel*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "iEohIxtp9b4",
+          "source_sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+          "source_char_start": 7064,
+          "source_char_end_exclusive": 7175,
+          "context_char_start": 6884,
+          "context_char_end_exclusive": 7355,
+          "context_sha256": "be6721f421d356a36c676272d23b469e9528a85ba0a3fa4692e025cf62e0dff8"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q027",
+      "original_line": 94,
+      "original_quote_sha256": "4b5ba645f0d6da243e6bf457d14cc49bb31ac430b03cc4f0ec39c96e8440397b",
+      "inherited_attribution": "— Exposure Ninja, *How To Create High Converting B2B Landing Pages in 2026*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SIsr8c6WLC4",
+          "source_sha256": "9e245af019c37c5c3a480a81b52bcca0e0219d7a0ef22184d707b703c95b7acd",
+          "source_char_start": 9292,
+          "source_char_end_exclusive": 9388,
+          "context_char_start": 9112,
+          "context_char_end_exclusive": 9568,
+          "context_sha256": "2212828556e4d6ed64f1f7c20b9d6bcdcb467269ecad0f910aea9501041f85ba"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q028",
+      "original_line": 99,
+      "original_quote_sha256": "e2f1f785762125f9647db17b012349e6a156a124714e69dcbaa7ea80076b0fea",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 734,
+          "source_char_end_exclusive": 824,
+          "context_char_start": 554,
+          "context_char_end_exclusive": 1004,
+          "context_sha256": "a8e8ffaa8b2af858aa0d3266db3da99f56b289884ef1deb8177914f8619ea288"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q029",
+      "original_line": 102,
+      "original_quote_sha256": "18d81abacc13dabb5eee2597ce3d521cf47f4bcc476bc3f42802c6b994d96564",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 925,
+          "source_char_end_exclusive": 1007,
+          "context_char_start": 745,
+          "context_char_end_exclusive": 1187,
+          "context_sha256": "03fe79f26d6254cdc2e0a3c22c84b6c2d39deccff0a9aee6a6e2bf1ce76f3284"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q030",
+      "original_line": 105,
+      "original_quote_sha256": "512dc5dde1230cb1ac478f2ddd4a0aaef3f8c3a2a674872b485139a08d447016",
+      "inherited_attribution": "— Jordan Le, *Copy This High-Converting Landing Page Template For Google Ads*",
+      "quote_token_count": 37,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "0F4hoTl44gc",
+          "source_sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+          "source_char_start": 1949,
+          "source_char_end_exclusive": 2132,
+          "context_char_start": 1769,
+          "context_char_end_exclusive": 2312,
+          "context_sha256": "e66410f5772ed068ddff0d99a3217c7c38aba56274f09b1b0c595b911db91bc9"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q031",
+      "original_line": 108,
+      "original_quote_sha256": "46716303b17e28b8d1442bfba45f4eeb7cbbc45f4406fc326afdf23ff71d2e31",
+      "inherited_attribution": "— Carlos Reyes, *I've Seen 1000 Landing pages - Here are the worst mistakes!*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "8OhmpShOzy4",
+          "source_sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+          "source_char_start": 4316,
+          "source_char_end_exclusive": 4405,
+          "context_char_start": 4136,
+          "context_char_end_exclusive": 4585,
+          "context_sha256": "43e69163b084dcda1fc02b4340672467a60ff08c90c15547e3ae97c95e854a5e"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q032",
+      "original_line": 111,
+      "original_quote_sha256": "747da674067f0edfd65d572cdbaf8422ee23bb5faeed63a13e4e417669789a5c",
+      "inherited_attribution": "— Carlos Reyes, *I've Seen 1000 Landing pages - Here are the worst mistakes!*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "8OhmpShOzy4",
+          "source_sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+          "source_char_start": 9439,
+          "source_char_end_exclusive": 9540,
+          "context_char_start": 9259,
+          "context_char_end_exclusive": 9720,
+          "context_sha256": "5863cbf4c1ad92849fb808c7e3d111538fe57b5fc62effbbb208abeaee4eac36"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q033",
+      "original_line": 116,
+      "original_quote_sha256": "d94ee15ff28018e277436407e970a12adb9a764c6f59369c9157338f6de377b8",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *aesthetic landing page blueprint [for leads + conversions]*",
+      "quote_token_count": 14,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "usNJksomiYk",
+          "source_sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+          "source_char_start": 14195,
+          "source_char_end_exclusive": 14279,
+          "context_char_start": 14015,
+          "context_char_end_exclusive": 14459,
+          "context_sha256": "642b49c6deeee406abff60a6f0eb057ae83fd9adddf71b80eca288957341073a"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q034",
+      "original_line": 119,
+      "original_quote_sha256": "d1b2a8663ad58ebc31903ad618f7e7ec2d71d924a68ad9495dda20098d1fd88f",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 20893,
+          "source_char_end_exclusive": 20995,
+          "context_char_start": 20713,
+          "context_char_end_exclusive": 21175,
+          "context_sha256": "50595d5cdca123acbc2e29fb954c499a3e17d626b9ecaf648daf8990c60d2bc3"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q035",
+      "original_line": 122,
+      "original_quote_sha256": "54393b9215dff701c40d300d452b102d926d3258263b3eed611b791b547676bd",
+      "inherited_attribution": "— Carlos Reyes, *I've Seen 1000 Landing pages - Here are the worst mistakes!*",
+      "quote_token_count": 10,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "8OhmpShOzy4",
+          "source_sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+          "source_char_start": 12466,
+          "source_char_end_exclusive": 12528,
+          "context_char_start": 12286,
+          "context_char_end_exclusive": 12708,
+          "context_sha256": "456eb9df9eec7dfb91044bfef3913721104ad1fc0dfde5fe63cff6eb0193a37d"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q036",
+      "original_line": 125,
+      "original_quote_sha256": "933b4e7f7c5570a9491f9f2526024c16b9c9791a9b83ca71e1b21da5bebed3d6",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 30,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 6030,
+          "source_char_end_exclusive": 6182,
+          "context_char_start": 5850,
+          "context_char_end_exclusive": 6362,
+          "context_sha256": "1ccc09454d2dba7b02ec0d60d143c81ffefe3d62fcf43f4adcd3102cd6f5fbe0"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q037",
+      "original_line": 128,
+      "original_quote_sha256": "235855a002db6d95b596fca51d92dbc81d9d07cbf284b23f7fbd8da72b134dfc",
+      "inherited_attribution": "— Daniel Priestley, *The $1 Million Landing Page (Works For Normal People)*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "az1Zh-FNSno",
+          "source_sha256": "96b67d0744d2a4934ad5c1fd9f5f7786171aeba1ae704446bc29bafada16ec29",
+          "source_char_start": 4643,
+          "source_char_end_exclusive": 4741,
+          "context_char_start": 4463,
+          "context_char_end_exclusive": 4921,
+          "context_sha256": "2042fb4b1941f6c280e2efce1ef950f30fbd9ea4feb391078144e3d518f22fd9"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q038",
+      "original_line": 133,
+      "original_quote_sha256": "bab0546f88f3999fcbce6dfa11f77209f88b7f148fda1d3ea62f1b20751705b9",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 9535,
+          "source_char_end_exclusive": 9612,
+          "context_char_start": 9355,
+          "context_char_end_exclusive": 9792,
+          "context_sha256": "9639539aa4c00c9d3f917a172952d0de37a6d87c45893454091c7232aeb4f6c0"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q039",
+      "original_line": 136,
+      "original_quote_sha256": "c78412b484c714d80465feb3631f8debb5bc7d86dfaca2b53e8dddecbfd828e6",
+      "inherited_attribution": "— Carlos Reyes, *I've Seen 1000 Landing pages - Here are the worst mistakes!*",
+      "quote_token_count": 33,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "8OhmpShOzy4",
+          "source_sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+          "source_char_start": 2426,
+          "source_char_end_exclusive": 2580,
+          "context_char_start": 2246,
+          "context_char_end_exclusive": 2760,
+          "context_sha256": "4ad468ec548e65fee241d49139040d32cbe71d67ceccd589309b9ded42c231ab"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q040",
+      "original_line": 141,
+      "original_quote_sha256": "e5cbf91857a889918e84a19428d89c3e984fda0fccf2d1bf11db682c428ac5a6",
+      "inherited_attribution": "— Amariq Studio, *How to Design a High-Converting Landing Page (Full Guide)*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "RkVw9pTU0Kg",
+          "source_sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+          "source_char_start": 1208,
+          "source_char_end_exclusive": 1318,
+          "context_char_start": 1028,
+          "context_char_end_exclusive": 1498,
+          "context_sha256": "24c78d26973eacb4569e8452a4a77a2a765004a58fd01c427630ab8805fb3b7c"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q041",
+      "original_line": 144,
+      "original_quote_sha256": "209ddb0552aed0ecd1ed06fc18e7016dfa025e13712f16b4748a225839674e33",
+      "inherited_attribution": "— Amariq Studio, *How to Design a High-Converting Landing Page (Full Guide)*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "RkVw9pTU0Kg",
+          "source_sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+          "source_char_start": 5651,
+          "source_char_end_exclusive": 5723,
+          "context_char_start": 5471,
+          "context_char_end_exclusive": 5903,
+          "context_sha256": "6840fb84a1023c2fd37d8c12456ffbd907865933018689d12ae56774007d5e84"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q042",
+      "original_line": 147,
+      "original_quote_sha256": "64a1026e71f9226ee007dc4106139f4896da5d688bbc1699184bfe77f28a39b9",
+      "inherited_attribution": "— Alex Cattoni, *This Landing Page Has A 79% Conversion Rate. Here's Why It Works…*",
+      "quote_token_count": 24,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vC_LEc8pGp8",
+          "source_sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+          "source_char_start": 1853,
+          "source_char_end_exclusive": 1981,
+          "context_char_start": 1673,
+          "context_char_end_exclusive": 2161,
+          "context_sha256": "7fee8066f32f990be5123134f3ddb5318821162a5f27fc10bf755fa318a7b96d"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q043",
+      "original_line": 150,
+      "original_quote_sha256": "4fb7d6bb849fdbdfa6b256f22b637dc7c159726851126457c628f3466de6bb6f",
+      "inherited_attribution": "— Carlos Reyes, *I've Seen 1000 Landing pages - Here are the worst mistakes!*",
+      "quote_token_count": 21,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "8OhmpShOzy4",
+          "source_sha256": "838a4817ec09cb733ffb52f370dd91e27fb9f319e366fcebaa0d7af1f56fc19d",
+          "source_char_start": 5724,
+          "source_char_end_exclusive": 5818,
+          "context_char_start": 5544,
+          "context_char_end_exclusive": 5998,
+          "context_sha256": "c3776064ec8b78562e3b922af9b7751fcafd64ec5e3bed97499d5a70e7898c61"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q044",
+      "original_line": 153,
+      "original_quote_sha256": "459571394bb5bf0e6e3c2d628b6cf86e5f8ec9a0bc7bf36290f36f115cfb6f5f",
+      "inherited_attribution": "— Exposure Ninja, *How To Create High Converting B2B Landing Pages in 2026*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SIsr8c6WLC4",
+          "source_sha256": "9e245af019c37c5c3a480a81b52bcca0e0219d7a0ef22184d707b703c95b7acd",
+          "source_char_start": 3659,
+          "source_char_end_exclusive": 3756,
+          "context_char_start": 3479,
+          "context_char_end_exclusive": 3936,
+          "context_sha256": "e7f69fb2847acf48776cb9c75c6678f5a2f62f2307a0e89db44d569bdda65210"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q045",
+      "original_line": 156,
+      "original_quote_sha256": "a2f5adbb0c239be5bf994579c3662767b6a198743c5321cd6775c3afc2294da4",
+      "inherited_attribution": "— Exposure Ninja, *How To Create High Converting B2B Landing Pages in 2026*",
+      "quote_token_count": 21,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SIsr8c6WLC4",
+          "source_sha256": "9e245af019c37c5c3a480a81b52bcca0e0219d7a0ef22184d707b703c95b7acd",
+          "source_char_start": 9717,
+          "source_char_end_exclusive": 9831,
+          "context_char_start": 9537,
+          "context_char_end_exclusive": 10011,
+          "context_sha256": "825a169819ce784da058fd2ac7465603fc06eaa3b4c896b7bb361f1742a888d7"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q046",
+      "original_line": 161,
+      "original_quote_sha256": "35a5488e7da1ecb71b0fff300574124c5bd6605aa667155c967ce1e45ab915d1",
+      "inherited_attribution": "— Daniel Akpobare, *How to build a Landing Page that converts | Step-by-Step Framework*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "043hF-1EQxs",
+          "source_sha256": "d6319f0d6e19f45b910ff17fc421b9320d74cd1d1806c1b38f3d9f9076a02db9",
+          "source_char_start": 3497,
+          "source_char_end_exclusive": 3601,
+          "context_char_start": 3317,
+          "context_char_end_exclusive": 3781,
+          "context_sha256": "28d5a5400343b0c0b3fc5949626f0e71520e7865a30feb5bc3ff086d3d3e4ece"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q047",
+      "original_line": 164,
+      "original_quote_sha256": "cdcb3e033631e6df37583c9d73a206ab4f0caa043220f41e705285e7c4379674",
+      "inherited_attribution": "— Daniel Akpobare, *How to build a Landing Page that converts | Step-by-Step Framework*",
+      "quote_token_count": 46,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "043hF-1EQxs",
+          "source_sha256": "d6319f0d6e19f45b910ff17fc421b9320d74cd1d1806c1b38f3d9f9076a02db9",
+          "source_char_start": 9433,
+          "source_char_end_exclusive": 9665,
+          "context_char_start": 9253,
+          "context_char_end_exclusive": 9845,
+          "context_sha256": "e74cb0800e5022fe916d95dd24dcd98226a03ac5553cced016d9cb0c6abd98ac"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q048",
+      "original_line": 167,
+      "original_quote_sha256": "50e376cc8068c51980fa3faf100b7d8478c284847d02d2ec2f34ae80c447bf6b",
+      "inherited_attribution": "— Daniel Priestley, *The $1 Million Landing Page (Works For Normal People)*",
+      "quote_token_count": 10,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "az1Zh-FNSno",
+          "source_sha256": "96b67d0744d2a4934ad5c1fd9f5f7786171aeba1ae704446bc29bafada16ec29",
+          "source_char_start": 1440,
+          "source_char_end_exclusive": 1509,
+          "context_char_start": 1260,
+          "context_char_end_exclusive": 1689,
+          "context_sha256": "87520dc40e26180283dd5250485386723d2e04169bdb6a06237a79bd6786d058"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q049",
+      "original_line": 172,
+      "original_quote_sha256": "280c8fbaecbc72175095c354c11084085454a578cd84d5d6ea271486bea043ac",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 6803,
+          "source_char_end_exclusive": 6887,
+          "context_char_start": 6623,
+          "context_char_end_exclusive": 7067,
+          "context_sha256": "0eb7665174bd75c600136015c61fa519747dd17a7f58d78fc2142b2b1acff901"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q050",
+      "original_line": 175,
+      "original_quote_sha256": "d528bef7a9523a6d5cae9ac4647bae14cc8818f8c8d769d5746064383ba88ba8",
+      "inherited_attribution": "— My First Website, *How To Build a High-Converting Landing Page in GoHighLevel*",
+      "quote_token_count": 25,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "iEohIxtp9b4",
+          "source_sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+          "source_char_start": 6456,
+          "source_char_end_exclusive": 6584,
+          "context_char_start": 6276,
+          "context_char_end_exclusive": 6764,
+          "context_sha256": "8ef0b759827310b123004da091a65673c32972137de453a5ceb0a8cedbb09e26"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q051",
+      "original_line": 180,
+      "original_quote_sha256": "b4dd91826bf0cce188c63176ade73370d918c0ff7b09a253a18123ed865829a8",
+      "inherited_attribution": "— Jordan Le, *Copy This High-Converting Landing Page Template For Google Ads*",
+      "quote_token_count": 26,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "0F4hoTl44gc",
+          "source_sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+          "source_char_start": 10984,
+          "source_char_end_exclusive": 11122,
+          "context_char_start": 10804,
+          "context_char_end_exclusive": 11302,
+          "context_sha256": "15156bec07a2bc1fb825ad24b0dfc286870db75d011234c45ee7e59494687733"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q052",
+      "original_line": 183,
+      "original_quote_sha256": "7170befa14f356cb87e745945f1ee0174635b72356839b05a6f0686b8b142914",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *aesthetic landing page blueprint [for leads + conversions]*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "usNJksomiYk",
+          "source_sha256": "14f53d78a3ed38d5015c82d44eb35775dbcb1fe923e663bc51021356e8b90bee",
+          "source_char_start": 19666,
+          "source_char_end_exclusive": 19770,
+          "context_char_start": 19486,
+          "context_char_end_exclusive": 19950,
+          "context_sha256": "c4ea0c42022665c04868e357469b294b7831092ec114cb0720b7bcea3eaf88b2"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q053",
+      "original_line": 188,
+      "original_quote_sha256": "aa6afb8ebf97ccb077d0ef8268d2cf5d0758a7fcef463ff9c7ae3f68f5329735",
+      "inherited_attribution": "— ScoreApp, *7 Lead Magnet Landing Page Mistakes That Are KILLING Your Conversions*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "eCvpQJ0_pUE",
+          "source_sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+          "source_char_start": 316,
+          "source_char_end_exclusive": 427,
+          "context_char_start": 136,
+          "context_char_end_exclusive": 607,
+          "context_sha256": "03138ea8381350d8de5a7ce55ce771796d388747585d2fce4780053733370bb2"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q054",
+      "original_line": 191,
+      "original_quote_sha256": "fc3208374cf9080be452be438362e085456e81fe72f33812c067b6fde45ebcb9",
+      "inherited_attribution": "— ScoreApp, *7 Lead Magnet Landing Page Mistakes That Are KILLING Your Conversions*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "eCvpQJ0_pUE",
+          "source_sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+          "source_char_start": 11114,
+          "source_char_end_exclusive": 11204,
+          "context_char_start": 10934,
+          "context_char_end_exclusive": 11384,
+          "context_sha256": "5e44acaf156afcfb3c81da8ff9ea73dfd3ce4405eae8dc437750cca21241fddf"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q055",
+      "original_line": 194,
+      "original_quote_sha256": "702a9de857c85606a85d90b3756bd5d527181aa0299a18b03b461a30b6d39626",
+      "inherited_attribution": "— ScoreApp, *7 Lead Magnet Landing Page Mistakes That Are KILLING Your Conversions*",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "eCvpQJ0_pUE",
+          "source_sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+          "source_char_start": 11045,
+          "source_char_end_exclusive": 11113,
+          "context_char_start": 10865,
+          "context_char_end_exclusive": 11293,
+          "context_sha256": "9fa4a09228b00193ad12cbe54666b89c08527ac14d8e70437a6e5f5c15e855f6"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q056",
+      "original_line": 197,
+      "original_quote_sha256": "700b6c630771728e07bbf609882079f0cfc7bdda6af9ca63c17a2c02c02eaa05",
+      "inherited_attribution": "— ScoreApp, *7 Lead Magnet Landing Page Mistakes That Are KILLING Your Conversions*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "eCvpQJ0_pUE",
+          "source_sha256": "c2c4979ca13e60dd56f4d9bbccf2b790730f43fd5d27dd5226127b62ba0aa810",
+          "source_char_start": 12919,
+          "source_char_end_exclusive": 13010,
+          "context_char_start": 12739,
+          "context_char_end_exclusive": 13190,
+          "context_sha256": "621ae865ee87e2d99886685887508ec86f934d679c5b32c5bf7dc877abd92d12"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q057",
+      "original_line": 200,
+      "original_quote_sha256": "4d4ff8507035edaa85ab7b92f8ab7556fe4b22754ec942389694f8f2b36c9d59",
+      "inherited_attribution": "— Alex Cattoni, *This Landing Page Has A 79% Conversion Rate. Here's Why It Works…*",
+      "quote_token_count": 24,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vC_LEc8pGp8",
+          "source_sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+          "source_char_start": 109,
+          "source_char_end_exclusive": 236,
+          "context_char_start": 0,
+          "context_char_end_exclusive": 416,
+          "context_sha256": "e889512cf10cc4311ae7c4a6aaa37cddb31deadfe17dcba11c3801e5f3469684"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q058",
+      "original_line": 203,
+      "original_quote_sha256": "6c95d4428238fa0acfe2374ea19bf41376e495658b6b3fd1121a14961e6b83a6",
+      "inherited_attribution": "— Alex Cattoni, *This Landing Page Has A 79% Conversion Rate. Here's Why It Works…*",
+      "quote_token_count": 26,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vC_LEc8pGp8",
+          "source_sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+          "source_char_start": 357,
+          "source_char_end_exclusive": 508,
+          "context_char_start": 177,
+          "context_char_end_exclusive": 688,
+          "context_sha256": "7459c0c64042f22655f06f7b168bf47c16848685c766dc32bd80f16cc7bc879c"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q059",
+      "original_line": 206,
+      "original_quote_sha256": "6030851aa17102a0d2c072b86b1b585ccf20a3d7729bbce2459e552cc79c455e",
+      "inherited_attribution": "— Alex Cattoni, *This Landing Page Has A 79% Conversion Rate. Here's Why It Works…*",
+      "quote_token_count": 21,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vC_LEc8pGp8",
+          "source_sha256": "1f027f805ab1bc5cdf4f63cb48f8ccfa6252e6d211b8e73ac0021155fb8eea5d",
+          "source_char_start": 4239,
+          "source_char_end_exclusive": 4350,
+          "context_char_start": 4059,
+          "context_char_end_exclusive": 4530,
+          "context_sha256": "d7bd2179d8b7edb67218d3aab70f32d5bda4e8e4bf2edb339da12387bc0c5741"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q060",
+      "original_line": 209,
+      "original_quote_sha256": "4595b34924de4802e6d5e90ff73037dcec6a5a5508d293deb62abca402119fb1",
+      "inherited_attribution": "— Daniel Priestley, *The $1 Million Landing Page (Works For Normal People)*",
+      "quote_token_count": 24,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "az1Zh-FNSno",
+          "source_sha256": "96b67d0744d2a4934ad5c1fd9f5f7786171aeba1ae704446bc29bafada16ec29",
+          "source_char_start": 4865,
+          "source_char_end_exclusive": 4981,
+          "context_char_start": 4685,
+          "context_char_end_exclusive": 5161,
+          "context_sha256": "ba97cb8ce6c0532d2cb424a8fd149ae939a092c98135a5edff9bd7b054480a5b"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q061",
+      "original_line": 214,
+      "original_quote_sha256": "07e7cc53a8e88579ec71f077f2eb585a83175f7e2e9a0dc74e96074b22b82cbc",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 109,
+          "source_char_end_exclusive": 202,
+          "context_char_start": 0,
+          "context_char_end_exclusive": 382,
+          "context_sha256": "ec52fdd228ba58d7ba4c9966396130aef0f6ed1048953c4c86303759e94adf0f"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q062",
+      "original_line": 217,
+      "original_quote_sha256": "7271ff7388363f4cf31cd17681ab9ac1662933bf24b81a566fbc71267cd38ac9",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 1015,
+          "source_char_end_exclusive": 1112,
+          "context_char_start": 835,
+          "context_char_end_exclusive": 1292,
+          "context_sha256": "b603f662b03f820462e38466b248552de82345d3ebd45ab9780aa3592790c2e4"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q063",
+      "original_line": 220,
+      "original_quote_sha256": "22e519cea00978e47691e69d55009e480017beca7a44b7e8e372695548e21aff",
+      "inherited_attribution": "— Luke O'Herlihy | Precision Leads, *High-Converting Google Ads Landing Page For Service Businesses*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "6efRtbvR2OI",
+          "source_sha256": "3cb595c5427b22a0692c79d6fae4cefa61bf3dc7f6b42bca189daf9eb23bd04a",
+          "source_char_start": 5999,
+          "source_char_end_exclusive": 6080,
+          "context_char_start": 5819,
+          "context_char_end_exclusive": 6260,
+          "context_sha256": "c131fde8a5cbd86c045e00eeab60afda4210bf4ef69de58474e06aeb56d93dc4"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q064",
+      "original_line": 223,
+      "original_quote_sha256": "fb5a14db424657cfec88dadc15cb28029020c7862ab23ef59a144c5a8e21e535",
+      "inherited_attribution": "— Exposure Ninja, *How To Create High Converting B2B Landing Pages in 2026*",
+      "quote_token_count": 29,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SIsr8c6WLC4",
+          "source_sha256": "9e245af019c37c5c3a480a81b52bcca0e0219d7a0ef22184d707b703c95b7acd",
+          "source_char_start": 535,
+          "source_char_end_exclusive": 685,
+          "context_char_start": 355,
+          "context_char_end_exclusive": 865,
+          "context_sha256": "2c99fd1681ba034e23111b5208d3387dfc5d87c6db1de54238895a7687fefe53"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q065",
+      "original_line": 226,
+      "original_quote_sha256": "2e96cb96df63d27bb2f5c7e86e7fbf7f53563cb2ebb45b8e2dc87e8a34d86340",
+      "inherited_attribution": "— Jordan Le, *Copy This High-Converting Landing Page Template For Google Ads*",
+      "quote_token_count": 21,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "0F4hoTl44gc",
+          "source_sha256": "a352134766280db566ae66f033bdfe28151ff5212cfdf9d7aa0ea4d8130ee75f",
+          "source_char_start": 1251,
+          "source_char_end_exclusive": 1366,
+          "context_char_start": 1071,
+          "context_char_end_exclusive": 1546,
+          "context_sha256": "a8c542fee2dcbd1d28435384e8386c771622eb74ac51df7c5abc25bab350e729"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q066",
+      "original_line": 229,
+      "original_quote_sha256": "912a8c2b10da2fb4644b06c718d4231059c0efc0ddd95813dddc17645e3336dc",
+      "inherited_attribution": "— Amariq Studio, *How to Design a High-Converting Landing Page (Full Guide)*",
+      "quote_token_count": 29,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "RkVw9pTU0Kg",
+          "source_sha256": "fd0fcb646d4bbb5732c85cfa0b08f4200804c685cbfaedbcb88c891b34861ec4",
+          "source_char_start": 9190,
+          "source_char_end_exclusive": 9368,
+          "context_char_start": 9010,
+          "context_char_end_exclusive": 9548,
+          "context_sha256": "9f267ff7e295a4341062a6d4b7ffaa2b6b9c00d9da5d3d97130e64d9a994a479"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q067",
+      "original_line": 232,
+      "original_quote_sha256": "54a81cc061ad23de90c929a336482f2ad36da8d8dccf300614d18b80a694ae3f",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *Alex Hormozi's Advice on Landing Pages*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "CNRiNz0YYlM",
+          "source_sha256": "485658bf2c1b9f1f29854f9f305452745956a6eebd14e14e4795885967bb7f47",
+          "source_char_start": 1410,
+          "source_char_end_exclusive": 1498,
+          "context_char_start": 1230,
+          "context_char_end_exclusive": 1678,
+          "context_sha256": "3b98810cc842d9514e7f7fd6466634dfafb5ddfc5d8e2edec412ef370146874b"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q068",
+      "original_line": 237,
+      "original_quote_sha256": "6f4d7aa295706273d1e10884f51e92dfb0d0eeb4b15ae8166732ba33b20d6561",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 3204,
+          "source_char_end_exclusive": 3318,
+          "context_char_start": 3024,
+          "context_char_end_exclusive": 3498,
+          "context_sha256": "494fd18341849e06c06515f4628a8a77d24c415a5d6bd5662de6522dcaa64331"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q069",
+      "original_line": 240,
+      "original_quote_sha256": "3b2eee4526160998a716f83e1f984108488d44869de3aa7358f88f5cd3f8a0a6",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 33,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 25051,
+          "source_char_end_exclusive": 25219,
+          "context_char_start": 24871,
+          "context_char_end_exclusive": 25399,
+          "context_sha256": "ef5ab16dc46a9f07142107576116c7240364b7c7b63241ddb6a1af58fda7eafa"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q070",
+      "original_line": 243,
+      "original_quote_sha256": "8650c61dfb85781bf49df0b15df9f017b9b87164a79192fff07c5995c42ddcc7",
+      "inherited_attribution": "— Media Ninja, *How To Build A High-Converting Landing Page In Less Than 20 Minutes From Scratch*",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "BMom3u5NUqA",
+          "source_sha256": "879612d35c9ae5065588b33d94fd77aabfb9c64150d1d8ceed1d63939fe7c924",
+          "source_char_start": 23503,
+          "source_char_end_exclusive": 23596,
+          "context_char_start": 23323,
+          "context_char_end_exclusive": 23776,
+          "context_sha256": "2029d8ea851041c71c8272bcf8c929a7e8e0f7e401b338707f3df1df4d6fc503"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q071",
+      "original_line": 246,
+      "original_quote_sha256": "6ca151dba999dade7177144709a9a8387f9db7a181ecf9f7bc14e93b02b8a5f2",
+      "inherited_attribution": "— My First Website, *How To Build a High-Converting Landing Page in GoHighLevel*",
+      "quote_token_count": 31,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "iEohIxtp9b4",
+          "source_sha256": "1924756fa63c5fb11131d2efc444ee51b48a7300b7f44a9a5878d306a8a7d2cf",
+          "source_char_start": 3068,
+          "source_char_end_exclusive": 3261,
+          "context_char_start": 2888,
+          "context_char_end_exclusive": 3441,
+          "context_sha256": "0c794d129fcd688bfcf1352c3e273a0ffb438306d5dca495d19c1b5bdd509357"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q072",
+      "original_line": 255,
+      "original_quote_sha256": "f6eebe4c48f54635898e343bd0b6f109464efa919bc82258da7053cf5ebf54ea",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 759,
+          "source_char_end_exclusive": 867,
+          "context_char_start": 579,
+          "context_char_end_exclusive": 1047,
+          "context_sha256": "aa0b1cb5dcb2668f75cbaef437c82383f0c2034314ca2d6c4f17835abaf92b69"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q073",
+      "original_line": 258,
+      "original_quote_sha256": "736be9ef9cfc157dc858d3e2decc8e764fc43629995beb1828e76e95eedd3140",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 28,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 1181,
+          "source_char_end_exclusive": 1327,
+          "context_char_start": 1001,
+          "context_char_end_exclusive": 1507,
+          "context_sha256": "35b6e4e1ca9db7c32311da96669a9bb82554a347056cfcd742a313c0210c8196"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q074",
+      "original_line": 261,
+      "original_quote_sha256": "3711cacb40d5e6fa3dfcbc3d94e0ec1b1ff82202b0ffccc387ea05d4dae0ab9a",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 265,
+          "source_char_end_exclusive": 344,
+          "context_char_start": 85,
+          "context_char_end_exclusive": 524,
+          "context_sha256": "800a86ad63119848e60ddcef44bcf6b6c0895e778869aa13f73d24fb1796deab"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q075",
+      "original_line": 264,
+      "original_quote_sha256": "b495029e11842103f01f0f110cdf8750dfc9d5dc185886f21095395af33a2f4a",
+      "inherited_attribution": "— Flux Academy (Ran Segall), *Design The Perfect Hero Section (With Example)*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "LJbkLdtEW00",
+          "source_sha256": "ea963ad38434ab4c7c6f5d05c25341fea957e372cf8f4a1ec6b3971787d0d389",
+          "source_char_start": 262,
+          "source_char_end_exclusive": 366,
+          "context_char_start": 82,
+          "context_char_end_exclusive": 546,
+          "context_sha256": "1e63a57e4a6c0ad8db9796424a512402db1e75691ccf589b7748204b30138463"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q076",
+      "original_line": 267,
+      "original_quote_sha256": "72ad6c6ae446b0a3d5d5b3e0ad8fe586d35263658df1663729c197bbc7b025d7",
+      "inherited_attribution": "— The Website Architect, *Everything About Above The Folds*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "b8pS6p5GScw",
+          "source_sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+          "source_char_start": 2716,
+          "source_char_end_exclusive": 2799,
+          "context_char_start": 2536,
+          "context_char_end_exclusive": 2979,
+          "context_sha256": "0c3f36a28c86a8420ddefbd975a386152fca201b92688a475f1b995611676beb"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q077",
+      "original_line": 270,
+      "original_quote_sha256": "1072ad00921645e1a8ea7ee9e79ee3c8cb2660bc5b4b032ac7c1cddfd87870c6",
+      "inherited_attribution": "— The Website Architect, *Everything About Above The Folds* (citing NN Group, 2018)",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "nested_attribution_inherited_NN_Group_2018_not_independently_verified",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "b8pS6p5GScw",
+          "source_sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+          "source_char_start": 16339,
+          "source_char_end_exclusive": 16441,
+          "context_char_start": 16159,
+          "context_char_end_exclusive": 16621,
+          "context_sha256": "0ca1c7c8f7dbe3c9887d1ac7b2111cb7115c6c217f9fc8719afb69c7773515f1"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q078",
+      "original_line": 275,
+      "original_quote_sha256": "12161a96688a0cde42e9b6c1823d361ab609866c5088a41263263f471f10ccae",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide*",
+      "quote_token_count": 18,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 4908,
+          "source_char_end_exclusive": 4998,
+          "context_char_start": 4728,
+          "context_char_end_exclusive": 5178,
+          "context_sha256": "90c11cbf80fb9685b098beeef6cb1b98443ef71e0634168d629798fcd9a95877"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q079",
+      "original_line": 278,
+      "original_quote_sha256": "15f382373e40c14969b3f76b20739b716b13157fffd206f204a70da2ad514205",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "nested_attribution_inherited_Ogilvy_not_independently_verified",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 5360,
+          "source_char_end_exclusive": 5493,
+          "context_char_start": 5180,
+          "context_char_end_exclusive": 5673,
+          "context_sha256": "d867db5e27662d73298266ca42d6770b15ea446c40c385e2a707c61ad15efd9a"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q080",
+      "original_line": 281,
+      "original_quote_sha256": "a073bc607c9c9592e9349f7b427829047c548c72d31717ee98c028406ec228ab",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide*",
+      "quote_token_count": 14,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 6591,
+          "source_char_end_exclusive": 6668,
+          "context_char_start": 6411,
+          "context_char_end_exclusive": 6848,
+          "context_sha256": "2d3bba0ae678095f499ddec51cd41482464fed136c77aefdeaf01f46cdd362b5"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q081",
+      "original_line": 284,
+      "original_quote_sha256": "8e9c0112e49c2808ae0bd0598f5ea35ce0af7a9e393454cb1253e69f96b95e7e",
+      "inherited_attribution": "— Antoine Dupont, *5 Landing Page Common Mistakes that Kill Conversions*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ghpwclIW1II",
+          "source_sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+          "source_char_start": 1117,
+          "source_char_end_exclusive": 1199,
+          "context_char_start": 937,
+          "context_char_end_exclusive": 1379,
+          "context_sha256": "1627c8323e1f05a438b1039a9ba06dbf71f5a141a87d3460b0ff5f6cd365774e"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q082",
+      "original_line": 287,
+      "original_quote_sha256": "77fb2cc6f151ca03e19deb86ad32aa709863a525f13f14cc141be0a0b82f2636",
+      "inherited_attribution": "— Antoine Dupont, *5 Landing Page Common Mistakes that Kill Conversions*",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ghpwclIW1II",
+          "source_sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+          "source_char_start": 1385,
+          "source_char_end_exclusive": 1473,
+          "context_char_start": 1205,
+          "context_char_end_exclusive": 1653,
+          "context_sha256": "d58c5294572a4dcf71f27a500309ca1fb6c8709bc4805d66866a797825d0e777"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q083",
+      "original_line": 290,
+      "original_quote_sha256": "1b4c39883baa2ba6034e781e973d9c6887181f851022688351b60088f0ba3d74",
+      "inherited_attribution": "— Jason Whaling, *7 Catchy Headline Formulas*",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SZb6NA0_ILc",
+          "source_sha256": "56ac6783b3f83d0b38e6c78e438b875539b3452a159f53216936a5b742e54b77",
+          "source_char_start": 3678,
+          "source_char_end_exclusive": 3751,
+          "context_char_start": 3498,
+          "context_char_end_exclusive": 3931,
+          "context_sha256": "c95cd5d78a30481296d583b7be1097a09a53955f07bdef86725994b9f87069d0"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q084",
+      "original_line": 293,
+      "original_quote_sha256": "252d44229232d82e83505c3c192ea301c2fe5c992ef49d05ffd65165e3d75ea8",
+      "inherited_attribution": "— Jason Whaling, *7 Catchy Headline Formulas*",
+      "quote_token_count": 14,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "SZb6NA0_ILc",
+          "source_sha256": "56ac6783b3f83d0b38e6c78e438b875539b3452a159f53216936a5b742e54b77",
+          "source_char_start": 9643,
+          "source_char_end_exclusive": 9712,
+          "context_char_start": 9463,
+          "context_char_end_exclusive": 9892,
+          "context_sha256": "02c7a37eeba7b42f1862c560e8235869d044cc81a6888d7d14890cd9fc0fcd93"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q085",
+      "original_line": 296,
+      "original_quote_sha256": "42397cfb54a27eac7c56a7f313f4c5373930cd69a199212ce81c5338b6882dd4",
+      "inherited_attribution": "— Jim's Digital Marketing, *How to Create a High-Converting LANDING PAGE?*",
+      "quote_token_count": 30,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "FoFfVoXVIqc",
+          "source_sha256": "613056adf3be9363a5616ff053a65db2dea78171d3941895333028f6685cb28b",
+          "source_char_start": 950,
+          "source_char_end_exclusive": 1097,
+          "context_char_start": 770,
+          "context_char_end_exclusive": 1277,
+          "context_sha256": "08a7b9b923b2abdb85fe80d86041d62414604ead8b24264df60687602fa1c242"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q086",
+      "original_line": 299,
+      "original_quote_sha256": "e14acb79a81351200bcf8367461991873141d4a2855bb61f8c53a9ca939cfe9e",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch*",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 20910,
+          "source_char_end_exclusive": 20998,
+          "context_char_start": 20730,
+          "context_char_end_exclusive": 21178,
+          "context_sha256": "63219449a5afe60c47285742e0b6498e955d3884ac5c9a050e56f10d6f9592ad"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q087",
+      "original_line": 304,
+      "original_quote_sha256": "ed5cf686ac3c6298f0a075b47426ad655d7070f81b161625ec041232b3987cf7",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 2667,
+          "source_char_end_exclusive": 2806,
+          "context_char_start": 2487,
+          "context_char_end_exclusive": 2986,
+          "context_sha256": "8b8318bbc09df9629f035b20bfe317e553be6823b37366f71b5dbf1e8d6c7bff"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q088",
+      "original_line": 307,
+      "original_quote_sha256": "bfc0c0f96f4d8c3d9d8d47325cfec44652521d1d16a189fc1df3a62a4f6de93b",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 3310,
+          "source_char_end_exclusive": 3406,
+          "context_char_start": 3130,
+          "context_char_end_exclusive": 3586,
+          "context_sha256": "8ad274e6e7cd8eab025fed715e2594693b4335c6605b655134392f17da7b9cc4"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q089",
+      "original_line": 310,
+      "original_quote_sha256": "b5a439d34ecde0ae97e21569f21dd5fb2e5bf7d2e6e512474c1bffdafd5e3af3",
+      "inherited_attribution": "— Payton Clark Smith, *18 Hero Section Designs You Can Steal*",
+      "quote_token_count": 31,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "kJb6BZwqCGM",
+          "source_sha256": "4d57a61bf8b479f6652b29e7962c6011cfcee23a2e73dd2ee7b227c6ee311526",
+          "source_char_start": 331,
+          "source_char_end_exclusive": 494,
+          "context_char_start": 151,
+          "context_char_end_exclusive": 674,
+          "context_sha256": "6cc34c8a01aaad77579a3458dd70a39236e2b0e61cb81533a3439dfb6889de2a"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q090",
+      "original_line": 313,
+      "original_quote_sha256": "5695ff69e9282af930b97fe2f7dedd57412aafc4ee91c131da4f6ba8e0306879",
+      "inherited_attribution": "— Payton Clark Smith, *18 Hero Section Designs You Can Steal*",
+      "quote_token_count": 25,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "kJb6BZwqCGM",
+          "source_sha256": "4d57a61bf8b479f6652b29e7962c6011cfcee23a2e73dd2ee7b227c6ee311526",
+          "source_char_start": 1567,
+          "source_char_end_exclusive": 1723,
+          "context_char_start": 1387,
+          "context_char_end_exclusive": 1903,
+          "context_sha256": "a4dcea4c6d5814bf80af7ef6ad142b2825318fc3226f89d9ada3f35f49ce076b"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q091",
+      "original_line": 316,
+      "original_quote_sha256": "3aae259e14cd7789ab004506e92d5d3a2a7871eccdccd056d7f0086fb76eff99",
+      "inherited_attribution": "— The Website Architect, *Everything About Above The Folds* (on background video)",
+      "quote_token_count": 7,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "b8pS6p5GScw",
+          "source_sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+          "source_char_start": 13864,
+          "source_char_end_exclusive": 13900,
+          "context_char_start": 13684,
+          "context_char_end_exclusive": 14080,
+          "context_sha256": "a35fd7209183e99401cb65f635bd1ef881148f2301f819b7aacc396bca477e10"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q092",
+      "original_line": 319,
+      "original_quote_sha256": "1c1f8c14f30ca678af8ccd56085fe7525898c48f1a424c38cfff955f315cff3f",
+      "inherited_attribution": "— The Website Architect, *Everything About Above The Folds*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "b8pS6p5GScw",
+          "source_sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+          "source_char_start": 14916,
+          "source_char_end_exclusive": 14979,
+          "context_char_start": 14736,
+          "context_char_end_exclusive": 15159,
+          "context_sha256": "c64b91ce1642ded09db08eb3089c52af0a4b07f34a53d0263ad0e6149158a210"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q093",
+      "original_line": 322,
+      "original_quote_sha256": "e1997d8c4866197f8e5b060006bd39fa9cc1a89233583cd5bf98a6716f8ad5b7",
+      "inherited_attribution": "— The Website Architect, *Everything About Above The Folds* (the false-bottom fix)",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "b8pS6p5GScw",
+          "source_sha256": "c0041ae87c071d762484545a636d0655954e36f787b5288f7659a7a8d59da225",
+          "source_char_start": 13312,
+          "source_char_end_exclusive": 13392,
+          "context_char_start": 13132,
+          "context_char_end_exclusive": 13572,
+          "context_sha256": "f0df1ce45d37807229f1d6cab05bbfb47578c0e397475c3294b81d44efcad80d"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q094",
+      "original_line": 325,
+      "original_quote_sha256": "849073a2e912aeb7f7f4d4136f4a6f120942668accc31965604a885ba8d05aac",
+      "inherited_attribution": "— FORMBURG, *Too Many Web Designers Do These 3 Hero Section Techniques Wrong*",
+      "quote_token_count": 23,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "sIRtuDlasLU",
+          "source_sha256": "77825b5149b36e7c799aada7110de6640bc0a403d688da72f487be600283fad2",
+          "source_char_start": 1799,
+          "source_char_end_exclusive": 1910,
+          "context_char_start": 1619,
+          "context_char_end_exclusive": 2090,
+          "context_sha256": "4384dbbd297e0599e970ba11dd143bab6b77bb96cb1505b35c31f146d7c4a511"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q095",
+      "original_line": 330,
+      "original_quote_sha256": "907a500f97219d12e711bcfa8b29556739ac022ff4500d47892e57d0354894b7",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 22,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 4338,
+          "source_char_end_exclusive": 4446,
+          "context_char_start": 4158,
+          "context_char_end_exclusive": 4626,
+          "context_sha256": "1617b6130e3f61dd3242755cc36ac3d96323bba0508e9755e83cb92b2ebdee21"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q096",
+      "original_line": 333,
+      "original_quote_sha256": "59bd5d0468d291d35dac0edce6355d6392f50eb9b0371750902b2f4fd3ed39a5",
+      "inherited_attribution": "— Antoine Dupont, *3 Above the Fold Tactics To Skyrocket Conversions (on Landing Pages)*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "4uOeTE5IlAY",
+          "source_sha256": "0f862113fd668fefa0fce78fc3c771d31801c94d17f62c13e3a168ffcd087759",
+          "source_char_start": 9369,
+          "source_char_end_exclusive": 9443,
+          "context_char_start": 9189,
+          "context_char_end_exclusive": 9623,
+          "context_sha256": "3a4d03959c885211db9d61e8280aa5521ccd0b68f0e03d766db2a03e997e96d4"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q097",
+      "original_line": 336,
+      "original_quote_sha256": "1340ecd9ed7d5d4ee751a0400174f47248dabc83631624552ee880d30e345a6b",
+      "inherited_attribution": "— Flux Academy (Ran Segall), *Design The Perfect Hero Section (With Example)*",
+      "quote_token_count": 25,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "LJbkLdtEW00",
+          "source_sha256": "ea963ad38434ab4c7c6f5d05c25341fea957e372cf8f4a1ec6b3971787d0d389",
+          "source_char_start": 9730,
+          "source_char_end_exclusive": 9855,
+          "context_char_start": 9550,
+          "context_char_end_exclusive": 10035,
+          "context_sha256": "55d50ed05b47f0ba5851dc04607e0a8398ad68377fa479d704fe845aa496d369"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q098",
+      "original_line": 339,
+      "original_quote_sha256": "f01b9f9aed0f6e67c4ae395c8a9bcf22fd826ea65143b639dc8b7f2c7bee4cec",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch*",
+      "quote_token_count": 21,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 73170,
+          "source_char_end_exclusive": 73291,
+          "context_char_start": 72990,
+          "context_char_end_exclusive": 73471,
+          "context_sha256": "769f672f4b7e0dc1937c633dd8d5a0039fa5b895dc31ef11e9fd9c708ab81e10"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q099",
+      "original_line": 342,
+      "original_quote_sha256": "d5b73abb4a8055377ba47ff9efd4babb33a386931a7993983f001dfff68c0509",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch* (the under-CTA checkmarks, A/B-tested)",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 73611,
+          "source_char_end_exclusive": 73704,
+          "context_char_start": 73431,
+          "context_char_end_exclusive": 73884,
+          "context_sha256": "7b1c608c5ab6a4922979b486f66589947c478f1217c81b2b6cc52fedf3ba22b3"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q100",
+      "original_line": 345,
+      "original_quote_sha256": "e8e9d15661381233320cf3debba495955246116152618bce4115a18b5f7b6f72",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch* (adding the dual CTA)",
+      "quote_token_count": 11,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 70785,
+          "source_char_end_exclusive": 70844,
+          "context_char_start": 70605,
+          "context_char_end_exclusive": 71024,
+          "context_sha256": "9c34568b2e7fd9e6897b49031f6249a8c0e24d75ea7f9a850ff149eae3ed75f3"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q101",
+      "original_line": 348,
+      "original_quote_sha256": "06b72c30546c0a2c5c7fad3501111318e5339a1a545a2f120ab58f44df44be9c",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide*",
+      "quote_token_count": 11,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 25675,
+          "source_char_end_exclusive": 25729,
+          "context_char_start": 25495,
+          "context_char_end_exclusive": 25909,
+          "context_sha256": "668b4e696457812b8c423068c75fa3cc6c055636f3305bda62108c333fe40f86"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q102",
+      "original_line": 353,
+      "original_quote_sha256": "fdad89dea16adf7bc1aa25f4bc4f31358fabab89e45676f20602c407384534ad",
+      "inherited_attribution": "— Landing Page Dudes, *WTF Landing Pages: Do Not Make These Mistakes!*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "pc5DQhOI6KY",
+          "source_sha256": "c35c173c40c26d95735a1bd27f1ce972a18639823f9f2a512f93ed22fe3b48e6",
+          "source_char_start": 2022,
+          "source_char_end_exclusive": 2113,
+          "context_char_start": 1842,
+          "context_char_end_exclusive": 2293,
+          "context_sha256": "7cfb59ceeae082b1210391fd5790fd277f63c613afee038dce522258d53de67e"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q103",
+      "original_line": 356,
+      "original_quote_sha256": "28d465082f419513af840c26b42a759184a512e0605db2da2cd89d580f51d5ed",
+      "inherited_attribution": "— Landing Page Dudes, *WTF Landing Pages: Do Not Make These Mistakes!*",
+      "quote_token_count": 19,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "pc5DQhOI6KY",
+          "source_sha256": "c35c173c40c26d95735a1bd27f1ce972a18639823f9f2a512f93ed22fe3b48e6",
+          "source_char_start": 1553,
+          "source_char_end_exclusive": 1659,
+          "context_char_start": 1373,
+          "context_char_end_exclusive": 1839,
+          "context_sha256": "22ba6c3c064f975e4750adb98d099107c18e4afb06d64df845936bd5c7cdfebe"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q104",
+      "original_line": 359,
+      "original_quote_sha256": "f6daa688f849b4a188013cb90571ccec34c7f3745d1e17377bf6c268f18781c3",
+      "inherited_attribution": "— Guaranteed PPC, *Dynamic Landing Page Advanced Strategy* (why DKI headlines fail)",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "lH0L0gax2h8",
+          "source_sha256": "7178320d9c0669aa8323005f3398e7f98f3ca9931596532ba36876f22b59302f",
+          "source_char_start": 3868,
+          "source_char_end_exclusive": 3967,
+          "context_char_start": 3688,
+          "context_char_end_exclusive": 4147,
+          "context_sha256": "4ffa4cdeb33edd708ab7a6f1b831695e2542e0b83f00ba75bb9fa8ca3045326c"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q105",
+      "original_line": 362,
+      "original_quote_sha256": "13d452b1cc659f7cfac3c4f3d89c179634c3fabddbddc8694f3f58ded28ca30d",
+      "inherited_attribution": "— Guaranteed PPC, *Dynamic Landing Page Advanced Strategy* (segment-personalised body copy)",
+      "quote_token_count": 20,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "lH0L0gax2h8",
+          "source_sha256": "7178320d9c0669aa8323005f3398e7f98f3ca9931596532ba36876f22b59302f",
+          "source_char_start": 1903,
+          "source_char_end_exclusive": 2009,
+          "context_char_start": 1723,
+          "context_char_end_exclusive": 2189,
+          "context_sha256": "697c779f5c31725a85dc50601a6a1777668cb465adba44a0a18b7b02383c34a7"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q106",
+      "original_line": 365,
+      "original_quote_sha256": "c61e529e808c08e2d410bd51bea62250bbc97d9fba0dcaad26e60d5b602db9c5",
+      "inherited_attribution": "— Jim's Digital Marketing, *How to Create a High-Converting LANDING PAGE?*",
+      "quote_token_count": 26,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "FoFfVoXVIqc",
+          "source_sha256": "613056adf3be9363a5616ff053a65db2dea78171d3941895333028f6685cb28b",
+          "source_char_start": 816,
+          "source_char_end_exclusive": 949,
+          "context_char_start": 636,
+          "context_char_end_exclusive": 1129,
+          "context_sha256": "63a33be264c32f5ffebf82ac4583b8754991102375f2d47568fd258d43d582b2"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q107",
+      "original_line": 370,
+      "original_quote_sha256": "e40782a04bd5d179ff4360bb8181bb6dbf5fbb32c85b7dfb8cd6c57ac7a193e6",
+      "inherited_attribution": "— Antoine Dupont, *5 Landing Page Common Mistakes that Kill Conversions*",
+      "quote_token_count": 11,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ghpwclIW1II",
+          "source_sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+          "source_char_start": 2426,
+          "source_char_end_exclusive": 2490,
+          "context_char_start": 2246,
+          "context_char_end_exclusive": 2670,
+          "context_sha256": "f9056b8087293c7a4b6988514a2532b9d65a89fb79ceca8cb4384b02689a41db"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q108",
+      "original_line": 373,
+      "original_quote_sha256": "567740a1d1cc1bc3c03a9a54c870c287158af44b278721d4d3f1e130d8e3abfb",
+      "inherited_attribution": "— Antoine Dupont, *5 Landing Page Common Mistakes that Kill Conversions*",
+      "quote_token_count": 11,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "quantified_practitioner_claim_not_a_benchmark_or_operating_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ghpwclIW1II",
+          "source_sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+          "source_char_start": 1756,
+          "source_char_end_exclusive": 1810,
+          "context_char_start": 1576,
+          "context_char_end_exclusive": 1990,
+          "context_sha256": "409b69af1ca014c2e3d46daca1984d683e3b042829beed6a47bdeaae9e20a10a"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q109",
+      "original_line": 376,
+      "original_quote_sha256": "601d54f13b829e8e6031b554cdfbaa991bd6ec4f1459f31263e0ed115ba8b4b7",
+      "inherited_attribution": "— Ali Raza Marketing, *Google Ads Landing Page Roast*",
+      "quote_token_count": 12,
+      "status": "unverified_inherited_trace_ellipsis_composite",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "Ellipsis marks a composite or omission; the matcher does not promote it to a verbatim quotation.",
+      "matches": []
+    },
+    {
+      "candidate_label": "Q110",
+      "original_line": 379,
+      "original_quote_sha256": "c6407d4d4292eed6ccee7c46e2b7b124c2ebd0c5dcc3d594293b47eb8b4aa9d6",
+      "inherited_attribution": "— Ali Raza Marketing, *Google Ads Landing Page Roast*",
+      "quote_token_count": 7,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "wdhlbWEWDlw",
+          "source_sha256": "7ebe1fc1254d10ed712409bc87023e6f865d83221a0689e97ff9f843823fd52b",
+          "source_char_start": 1915,
+          "source_char_end_exclusive": 1945,
+          "context_char_start": 1735,
+          "context_char_end_exclusive": 2125,
+          "context_sha256": "709796ede573f96772775c4d2124ba451df2cae8d916c739c32dd9d54ece926d"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q111",
+      "original_line": 382,
+      "original_quote_sha256": "c9d21b5147e09738567b51688235d9222e2dde68a95f9a54b1fe80b797baa9c8",
+      "inherited_attribution": "— Ali Raza Marketing, *Google Ads Landing Page Roast*",
+      "quote_token_count": 16,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "wdhlbWEWDlw",
+          "source_sha256": "7ebe1fc1254d10ed712409bc87023e6f865d83221a0689e97ff9f843823fd52b",
+          "source_char_start": 3974,
+          "source_char_end_exclusive": 4054,
+          "context_char_start": 3794,
+          "context_char_end_exclusive": 4234,
+          "context_sha256": "28ab667bba13c83468012605446e15caf339b37368881a214a741a2b0275b3bc"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q112",
+      "original_line": 385,
+      "original_quote_sha256": "27132d49e332d1eba839be226e11b8e1f5f26f152b07dc392ab4866a8de2933d",
+      "inherited_attribution": "— CHIGOZ SEO, *Website CRO Explained* (privacy microcopy under the form)",
+      "quote_token_count": 13,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "vckaLw7o3bg",
+          "source_sha256": "49b589c38680728bea7c824f95a8baa564ba5243b66b846ae08522111dff8d86",
+          "source_char_start": 4249,
+          "source_char_end_exclusive": 4318,
+          "context_char_start": 4069,
+          "context_char_end_exclusive": 4498,
+          "context_sha256": "c3f0d27695c754192fd45ba12a78825e382b9a9e07fa61b160327e69ba3de465"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q113",
+      "original_line": 390,
+      "original_quote_sha256": "cf0c6cee39404637d2010724f4368103a0e5900d9e6d5461f3d4dd4910e29aac",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch* (the closer section)",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 111066,
+          "source_char_end_exclusive": 111134,
+          "context_char_start": 110886,
+          "context_char_end_exclusive": 111314,
+          "context_sha256": "1e955146d7c63ec6afc6dbafe381795976da0bd09c8e0f3993df8d83cb795b68"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q114",
+      "original_line": 393,
+      "original_quote_sha256": "b18fff61a7e2be624b9b5d29b7c66fd764a376fca0b2db06f0dbe64be5836853",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch* (mobile fold target)",
+      "quote_token_count": 22,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 161656,
+          "source_char_end_exclusive": 161753,
+          "context_char_start": 161476,
+          "context_char_end_exclusive": 161933,
+          "context_sha256": "fd33c63c086ac785aeb8d3f65fe35752a53cd39b332e4266cef98a610c8a0618"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q115",
+      "original_line": 396,
+      "original_quote_sha256": "ef988f42ac0d88859506cfb2476f550e55f51496e171e35b24bd0eb04a53e2e5",
+      "inherited_attribution": "— Arsh Sanwarwala | ThrillX, *speedrunning a landing page from scratch*",
+      "quote_token_count": 6,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ELhTIZXlgjo",
+          "source_sha256": "d9108cfc1b8b515c20ecfaee0621d40a86b9418a928338cb04398e0824a838ef",
+          "source_char_start": 209237,
+          "source_char_end_exclusive": 209270,
+          "context_char_start": 209057,
+          "context_char_end_exclusive": 209450,
+          "context_sha256": "a7da09471036000dd3f1a3679b59e026e463771d6d858f1918719a28e3f203c3"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q116",
+      "original_line": 399,
+      "original_quote_sha256": "e7f56921ed304e428a2f20797ce9718a0c0a7fd3501cd49b1897ca59a4cf99fc",
+      "inherited_attribution": "— Antoine Dupont, *5 Landing Page Common Mistakes that Kill Conversions*",
+      "quote_token_count": 15,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "ghpwclIW1II",
+          "source_sha256": "25df4ceaacae22458470c195404e75ce88fe4ee7a29ec6a1ff550559e2620dde",
+          "source_char_start": 5353,
+          "source_char_end_exclusive": 5432,
+          "context_char_start": 5173,
+          "context_char_end_exclusive": 5612,
+          "context_sha256": "0fd683ef4ca9f829353a5e15595a6be63bfa038c36d68f7e49c0f04e0190c646"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q117",
+      "original_line": 402,
+      "original_quote_sha256": "59c391034e870916e2ba27966f2ac2a57963d2f834972a74e1b7b8fc214efefc",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide*",
+      "quote_token_count": 17,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 8530,
+          "source_char_end_exclusive": 8622,
+          "context_char_start": 8350,
+          "context_char_end_exclusive": 8802,
+          "context_sha256": "05c1280552143b66b3e71318b7ffd8b6d66f7c215c8811034afc8425089866b6"
+        }
+      ]
+    },
+    {
+      "candidate_label": "Q118",
+      "original_line": 405,
+      "original_quote_sha256": "a040e8be6e8770cacaf500c248dfa58c7fd4f923df7c0b49e64ae167e05e9094",
+      "inherited_attribution": "— Sabri Suby, *The Ultimate Step-By-Step Landing Page Guide* (the PS copy)",
+      "quote_token_count": 14,
+      "status": "matched_transcript_token_trace",
+      "claim_scope": "practitioner_statement_not_a_universal_rule",
+      "trace_note": "A token trace in a preserved transcript, not certification of the caption, spoken words, speaker, source title, current facts, or claim truth.",
+      "matches": [
+        {
+          "source_id": "zpTsCrOvGao",
+          "source_sha256": "433f403211d7f12e1201ef92e16dd3c0269122737a48ec962ab836726ece6357",
+          "source_char_start": 27755,
+          "source_char_end_exclusive": 27826,
+          "context_char_start": 27575,
+          "context_char_end_exclusive": 28006,
+          "context_sha256": "fffbda080aa64f36bf744d40a8735ac70ac9e4dcffdc1e8c81993a5057f2bdec"
+        }
+      ]
+    }
+  ]
+}

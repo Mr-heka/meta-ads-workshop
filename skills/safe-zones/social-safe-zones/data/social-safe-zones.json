@@ -1,0 +1,1043 @@
+{
+  "version": "2026-09-05",
+  "coordinate_system": "pixels; origin top-left; half-open rect {x,y,w,h}; right=x+w and bottom=y+h excluded",
+  "default_canvas": {
+    "w": 1080,
+    "h": 1920
+  },
+  "source_provenance": {
+    "youtube_video_ads": {
+      "source_url": "https://support.google.com/google-ads/answer/13547298?hl=en",
+      "downloaded_files": [
+        "vendor/google/youtubesafezoneoverlay_vertical_final.png",
+        "vendor/google/ytsafezoneoverlay-horizontal.png",
+        "vendor/google/youtubesafezoneoverlay-square.png"
+      ],
+      "note": "Official Google Ads Help references transparent PNG templates for horizontal, vertical, and square YouTube video ad safe zones."
+    },
+    "tiktok_in_feed": {
+      "source_url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads",
+      "downloaded_files": [
+        "vendor/tiktok/In-Feed-Standard-Version-LTR.zip",
+        "vendor/tiktok/In-Feed-with-Anchor-Standard-LTR.zip",
+        "vendor/tiktok/In-Feed-Arabic-Version-RTL.zip",
+        "vendor/tiktok/In-Feed-with-Anchor-Arabic-Version-RTL.zip",
+        "vendor/tiktok/Profile-cover.zip"
+      ],
+      "note": "Official TikTok help says the safe zone varies by creative dimensions, caption length, and add-ons. The standard and anchor ZIPs are vendored here."
+    },
+    "meta_stories_reels": {
+      "source_url": "https://www.facebook.com/business/help/980593475366490",
+      "note": "Parent audit 2026-09-05: source redirects to login. No validated Meta template; do not treat other-platform intersection as Meta proof."
+    },
+    "linkedin_video_ads": {
+      "source_url": "https://business.linkedin.com/advertise/ads/sponsored-content/video-ads/specs",
+      "note": "Official LinkedIn specs support 4:5, 9:16, 16:9, and 1:1 video ads with max 1080x1920 for 9:16 and max 1080x1350 for 4:5."
+    },
+    "google_image_assets": {
+      "source_url": "https://support.google.com/google-ads/answer/14530211?hl=en",
+      "note": "Parent audit 2026-09-05: HTTP429. Center80 retained as Selr composition preset, not freshly verified platform guidance."
+    },
+    "instagram_grid_selr_2026_08": {
+      "note": "Authored Selr overlays from historical crop/UI assumptions; not an official template. Generator reads these canonical profiles.",
+      "files": [
+        "overlays/instagram/selr-ig-safe-zone-post-4x5-1080x1350.png",
+        "overlays/instagram/selr-ig-safe-zone-reel-cover-9x16-1080x1920.png"
+      ]
+    }
+  },
+  "profiles": {
+    "universal_vertical_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 120,
+        "y": 288,
+        "w": 660,
+        "h": 960
+      },
+      "safe_rect_right": 780,
+      "safe_rect_bottom": 1248,
+      "origin": "Legacy key retained: intersection of downloaded Google vertical and TikTok standard LTR contained rectangles only.",
+      "use_for": [
+        "planning for Google vertical ads + TikTok standard LTR without anchor"
+      ],
+      "approved_overlay_zones": {
+        "above_head": {
+          "x": 120,
+          "y": 288,
+          "w": 660,
+          "h": 360
+        },
+        "top_broll_split": {
+          "x": 120,
+          "y": 288,
+          "w": 660,
+          "h": 520
+        },
+        "strict_caption_band": {
+          "x": 150,
+          "y": 1120,
+          "w": 630,
+          "h": 120
+        },
+        "top_left_brand": {
+          "x": 120,
+          "y": 288,
+          "w": 240,
+          "h": 120
+        }
+      },
+      "scope": "NOT universal approval for Meta, RTL, anchors, caption variants or unknown destinations",
+      "intersection_of": [
+        "youtube_video_ads_vertical_9x16_1080x1920",
+        "tiktok_in_feed_standard_9x16_1080x1920"
+      ],
+      "conditions": {
+        "platform": "google_vertical_and_tiktok_standard",
+        "direction": "ltr",
+        "anchor": false
+      }
+    },
+    "youtube_video_ads_vertical_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 48,
+        "y": 288,
+        "w": 840,
+        "h": 960
+      },
+      "safe_rect_right": 888,
+      "safe_rect_bottom": 1248,
+      "source_file": "vendor/google/youtubesafezoneoverlay_vertical_final.png",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "mask_kind": "alpha_zero",
+      "source_sha256": "56baf502e131f3fe79a61827363f4e262eaca41f094027896afb8a4c3a120717",
+      "scope": "Downloaded template only; check actual placement, device and UI before publishing",
+      "conditions": {
+        "platform": "google_video_ads"
+      }
+    },
+    "youtube_video_ads_horizontal_16x9_1920x1080": {
+      "canvas": {
+        "w": 1920,
+        "h": 1080
+      },
+      "safe_rect": {
+        "x": 38,
+        "y": 183,
+        "w": 1720,
+        "h": 510
+      },
+      "safe_rect_right": 1758,
+      "safe_rect_bottom": 693,
+      "source_file": "vendor/google/ytsafezoneoverlay-horizontal.png",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "mask_kind": "alpha_zero",
+      "source_sha256": "c46778212de0a41e2ddebdf9b038e1eb1634d8b7b8f05d2c5d061ee5de9ab839",
+      "scope": "Downloaded template only; check actual placement, device and UI before publishing",
+      "conditions": {
+        "platform": "google_video_ads"
+      }
+    },
+    "youtube_video_ads_square_1080x1080": {
+      "canvas": {
+        "w": 1080,
+        "h": 1080
+      },
+      "safe_rect": {
+        "x": 48,
+        "y": 105,
+        "w": 931,
+        "h": 585
+      },
+      "safe_rect_right": 979,
+      "safe_rect_bottom": 690,
+      "source_file": "vendor/google/youtubesafezoneoverlay-square.png",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "mask_kind": "alpha_zero",
+      "source_sha256": "ec4c47f2b474934267a330b055e79014bfad78015b829eb4c857d27afa5d725c",
+      "scope": "Downloaded template only; check actual placement, device and UI before publishing",
+      "conditions": {
+        "platform": "google_video_ads"
+      }
+    },
+    "tiktok_in_feed_standard_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 120,
+        "y": 240,
+        "w": 660,
+        "h": 1020
+      },
+      "safe_rect_right": 780,
+      "safe_rect_bottom": 1260,
+      "source_file": "vendor/tiktok/extracted/In-Feed-Standard-Version-LTR/In-Feed/Feed.png",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "mask_kind": "tiktok_standard",
+      "source_sha256": "f85c4d7bd7380435bc3074529f46fa58ff325f864fd3fb69e9f79a82cc9ba0f6",
+      "scope": "Downloaded template only; check actual placement, device and UI before publishing",
+      "conditions": {
+        "platform": "tiktok_in_feed",
+        "direction": "ltr",
+        "anchor": false
+      }
+    },
+    "tiktok_in_feed_anchor_copy_heavy_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 121,
+        "y": 267,
+        "w": 718,
+        "h": 638
+      },
+      "safe_rect_right": 839,
+      "safe_rect_bottom": 905,
+      "source_file": "vendor/tiktok/extracted/In-Feed-with-Anchor-Standard-LTR/1. Vertical Feed- 540x960/feed_4.png",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "note": "Downloaded vertical four-line LTR anchor example only. Not all anchor/caption layouts.",
+      "mask_kind": "anchor_green",
+      "source_sha256": "03aea49bf7713cf8e4e3a3807432386e69f43bf551b29382bde02e271f0a5b37",
+      "scope": "Downloaded template only; check actual placement, device and UI before publishing",
+      "conditions": {
+        "platform": "tiktok_in_feed",
+        "direction": "ltr",
+        "anchor": true,
+        "caption_lines": 4
+      }
+    },
+    "tiktok_profile_photo_98x98": {
+      "canvas": {
+        "w": 98,
+        "h": 98
+      },
+      "safe_rect": {
+        "x": 26,
+        "y": 26,
+        "w": 46,
+        "h": 46
+      },
+      "safe_rect_right": 72,
+      "safe_rect_bottom": 72,
+      "source_file": "vendor/tiktok/Profile-cover.zip",
+      "note": "Selr conservative square inside the historical 66px diameter circular key-content guide. A 66x66 bounding square includes unsafe circle corners.",
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "feed_carousel_4x5_1080x1350_center80": {
+      "canvas": {
+        "w": 1080,
+        "h": 1350
+      },
+      "safe_rect": {
+        "x": 108,
+        "y": 135,
+        "w": 864,
+        "h": 1080
+      },
+      "safe_rect_right": 972,
+      "safe_rect_bottom": 1215,
+      "origin": "Selr center-80 composition preset. Current platform applicability must be checked.",
+      "approved_overlay_zones": {
+        "footer": {
+          "x": 108,
+          "y": 1120,
+          "w": 864,
+          "h": 95
+        },
+        "headline": {
+          "x": 108,
+          "y": 180,
+          "w": 864,
+          "h": 520
+        }
+      },
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "square_1080x1080_center80": {
+      "canvas": {
+        "w": 1080,
+        "h": 1080
+      },
+      "safe_rect": {
+        "x": 108,
+        "y": 108,
+        "w": 864,
+        "h": 864
+      },
+      "safe_rect_right": 972,
+      "safe_rect_bottom": 972,
+      "origin": "Selr center-80 composition preset. Current platform applicability must be checked.",
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "reel_cover_9x16_grid_safe": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 120,
+        "y": 420,
+        "w": 840,
+        "h": 840
+      },
+      "safe_rect_right": 960,
+      "safe_rect_bottom": 1260,
+      "origin": "Selr layout preset from historical crop assumptions, not an official current Instagram guarantee. Verify intended placement.",
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "ig_post_4x5_1080x1350_grid_safe": {
+      "canvas": {
+        "w": 1080,
+        "h": 1350
+      },
+      "safe_rect": {
+        "x": 114,
+        "y": 215,
+        "w": 852,
+        "h": 920
+      },
+      "safe_rect_right": 966,
+      "safe_rect_bottom": 1135,
+      "hard_crop_rect": {
+        "x": 34,
+        "y": 135,
+        "w": 1012,
+        "h": 1080
+      },
+      "crops": {
+        "profile_grid_3x4": {
+          "x": 34,
+          "y": 0,
+          "w": 1012,
+          "h": 1350
+        },
+        "square_1x1": {
+          "x": 0,
+          "y": 135,
+          "w": 1080,
+          "h": 1080
+        }
+      },
+      "origin": "Selr layout preset from historical crop assumptions, not an official current Instagram guarantee. Verify intended placement.",
+      "overlay_file": "overlays/instagram/selr-ig-safe-zone-post-4x5-1080x1350.png",
+      "use_for": [
+        "paper carousel covers",
+        "pinned covers",
+        "any 4:5 static",
+        "carousel inner slides"
+      ],
+      "approved_overlay_zones": {
+        "reel_pill_top_third": {
+          "x": 114,
+          "y": 215,
+          "w": 852,
+          "h": 300
+        }
+      },
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "ig_reel_cover_9x16_1080x1920_grid_safe": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "safe_rect": {
+        "x": 80,
+        "y": 500,
+        "w": 920,
+        "h": 668
+      },
+      "safe_rect_right": 1000,
+      "safe_rect_bottom": 1168,
+      "hard_crop_rect": {
+        "x": 0,
+        "y": 420,
+        "w": 1080,
+        "h": 828
+      },
+      "crops": {
+        "feed_4x5": {
+          "x": 0,
+          "y": 285,
+          "w": 1080,
+          "h": 1350
+        },
+        "profile_grid_3x4": {
+          "x": 0,
+          "y": 240,
+          "w": 1080,
+          "h": 1440
+        },
+        "square_1x1": {
+          "x": 0,
+          "y": 420,
+          "w": 1080,
+          "h": 1080
+        },
+        "reel_player_ui_safe": {
+          "x": 0,
+          "y": 269,
+          "w": 1080,
+          "h": 979
+        }
+      },
+      "origin": "Selr layout preset from historical crop assumptions, not an official current Instagram guarantee. Verify intended placement.",
+      "overlay_file": "overlays/instagram/selr-ig-safe-zone-reel-cover-9x16-1080x1920.png",
+      "use_for": [
+        "reel covers with the white pill",
+        "pinned reel covers"
+      ],
+      "approved_overlay_zones": {
+        "white_pill": {
+          "x": 80,
+          "y": 500,
+          "w": 920,
+          "h": 260
+        },
+        "face": {
+          "x": 80,
+          "y": 620,
+          "w": 920,
+          "h": 548
+        }
+      },
+      "conditions": {
+        "platform": "local_composition_preset"
+      }
+    },
+    "tiktok_in_feed_standard_rtl_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "source_file": "vendor/tiktok/extracted/In-Feed-Arabic-Version-RTL/In-Feed_RTL/Feed - RTL.png",
+      "mask_kind": "tiktok_standard",
+      "source_sha256": "e1c4de5d7a8560e039565841337eecc3d971eafd2f87bde236280a522a819e9f",
+      "safe_rect": {
+        "x": 300,
+        "y": 240,
+        "w": 660,
+        "h": 1020
+      },
+      "scope": "Downloaded vertical template only; verify current device/placement",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "safe_rect_right": 960,
+      "safe_rect_bottom": 1260,
+      "conditions": {
+        "platform": "tiktok_in_feed",
+        "direction": "rtl",
+        "anchor": false
+      }
+    },
+    "tiktok_in_feed_anchor_four_lines_rtl_9x16_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "source_file": "vendor/tiktok/extracted/In-Feed-with-Anchor-Arabic-Version-RTL/1. Vertical Feed- 540x960/feed_4_RTL.png",
+      "mask_kind": "anchor_green",
+      "source_sha256": "bb5efc92869cc9d4b081e7550e5eb02e6255f6dbb3f7331c31cac8f297921c8c",
+      "safe_rect": {
+        "x": 240,
+        "y": 267,
+        "w": 719,
+        "h": 638
+      },
+      "scope": "Downloaded vertical template only; verify current device/placement",
+      "derived_from": "largest contained rectangle in reviewed mask; inward-rounded scaling",
+      "safe_rect_right": 959,
+      "safe_rect_bottom": 905,
+      "conditions": {
+        "platform": "tiktok_in_feed",
+        "direction": "rtl",
+        "anchor": true,
+        "caption_lines": 4
+      }
+    }
+  },
+  "human_aware_rules": {
+    "face_padding_px": 56,
+    "body_padding_px": 32,
+    "default_talking_head_body_box": {
+      "x": 260,
+      "y": 560,
+      "w": 560,
+      "h": 980
+    },
+    "default_talking_head_face_box": {
+      "x": 360,
+      "y": 560,
+      "w": 360,
+      "h": 360
+    },
+    "rules": [
+      "Face boxes are hard no-cover zones unless the overlay is deliberately behind a segmentation mask.",
+      "Above-head graphics must end at least 56px above the measured face top.",
+      "If the above-head zone is too small, switch to split_person_bottom_broll_top or full_cutaway_broll.",
+      "B-roll can replace the full frame or occupy a split-screen zone. It must not float over a face.",
+      "No automatic face detector is supplied. Measure actual frames; missing detection is unresolved, not a default-box pass."
+    ]
+  },
+  "subject_framing": {
+    "required_before_overlays": true,
+    "purpose": "Frame the raw human or product subject first, then place captions, b-roll, logos, and motion graphics around that locked subject map.",
+    "required_outputs": [
+      "content_style",
+      "measured sample frames",
+      "face/body or subject boxes as appropriate",
+      "crop/reframe method",
+      "measurement check result"
+    ],
+    "rules": [
+      "Run subject framing on raw or assembled source footage before hook text, captions, b-roll, logos, or motion graphics are placed.",
+      "If the subject is outside the target ranges, crop/reframe the source first. Do not compensate by moving overlays into unsafe areas.",
+      "For two-camera shoots, front and side angles must land on the same face/body anchor before side cutaways are approved.",
+      "A raw clip with the head too high, too low, off-centre, or cropped is not ready for the edit layer."
+    ],
+    "profiles": {
+      "talking_head_full_1080x1920": {
+        "content_style": "talking_head_full",
+        "profile": "universal_vertical_9x16_1080x1920",
+        "target_face_box": {
+          "x": 360,
+          "y": 600,
+          "w": 360,
+          "h": 360
+        },
+        "target_body_box": {
+          "x": 260,
+          "y": 560,
+          "w": 560,
+          "h": 980
+        },
+        "allowed_ranges": {
+          "face_center_x": [
+            450,
+            630
+          ],
+          "face_top_y": [
+            520,
+            720
+          ],
+          "face_bottom_y": [
+            760,
+            1060
+          ],
+          "body_center_x": [
+            430,
+            650
+          ],
+          "face_width": [
+            180,
+            480
+          ],
+          "face_height": [
+            180,
+            520
+          ]
+        },
+        "use_when": "Normal frontcam/talking-to-camera reel where the person owns the frame."
+      },
+      "above_head_graphic_1080x1920": {
+        "content_style": "above_head_graphic",
+        "profile": "universal_vertical_9x16_1080x1920",
+        "target_face_box": {
+          "x": 360,
+          "y": 720,
+          "w": 360,
+          "h": 360
+        },
+        "allowed_ranges": {
+          "face_center_x": [
+            450,
+            630
+          ],
+          "face_top_y": [
+            704,
+            880
+          ],
+          "face_bottom_y": [
+            980,
+            1220
+          ],
+          "face_width": [
+            180,
+            480
+          ],
+          "face_height": [
+            180,
+            520
+          ]
+        },
+        "use_when": "A graphic must sit above the head while the talking head stays visible."
+      },
+      "split_person_bottom_broll_top_1080x1920": {
+        "content_style": "split_person_bottom_broll_top",
+        "profile": "universal_vertical_9x16_1080x1920",
+        "target_face_box": {
+          "x": 360,
+          "y": 860,
+          "w": 360,
+          "h": 360
+        },
+        "target_body_box": {
+          "x": 260,
+          "y": 820,
+          "w": 560,
+          "h": 860
+        },
+        "allowed_ranges": {
+          "face_center_x": [
+            450,
+            630
+          ],
+          "face_top_y": [
+            820,
+            980
+          ],
+          "face_bottom_y": [
+            1080,
+            1248
+          ],
+          "body_center_x": [
+            430,
+            650
+          ],
+          "face_width": [
+            180,
+            480
+          ],
+          "face_height": [
+            180,
+            520
+          ]
+        },
+        "use_when": "B-roll or proof footage owns the top panel and the person is framed lower."
+      },
+      "full_cutaway_subject_or_product_1080x1920": {
+        "content_style": "full_cutaway_broll",
+        "profile": "universal_vertical_9x16_1080x1920",
+        "required_subject_rect": "inside safe_rect with 32px margin",
+        "use_when": "B-roll, UI, product, or generated footage replaces the talking head."
+      }
+    }
+  },
+  "production_phases": [
+    {
+      "id": "drive_intake",
+      "name": "Source intake",
+      "required_outputs": [
+        "source_name",
+        "mime_type",
+        "source_context",
+        "selected local/proxy plan"
+      ],
+      "rule": "Inspect and classify the selected source. Use Drive listing only for Drive intake; do not move, rename, delete or change permissions during creative testing."
+    },
+    {
+      "id": "technical_triage",
+      "name": "Technical triage",
+      "required_outputs": [
+        "duration",
+        "width",
+        "height",
+        "fps",
+        "audio_present",
+        "orientation",
+        "quality_notes"
+      ],
+      "rule": "Reject or proxy corrupt, audio-only, tiny, badly compressed, or wrong-orientation sources before creative planning."
+    },
+    {
+      "id": "content_assessment",
+      "name": "Content assessment",
+      "required_outputs": [
+        "transcript_or_visual_summary",
+        "hook_candidates",
+        "proof_moments",
+        "broll_moments",
+        "content_risk_notes"
+      ],
+      "rule": "Decide what the footage can become from the content first, not from a template."
+    },
+    {
+      "id": "subject_framing",
+      "name": "Subject framing",
+      "required_outputs": [
+        "subject_framing_profile",
+        "sample_frame_path",
+        "face_box_or_subject_box",
+        "crop_or_reframe_plan",
+        "check_subject_framing_result"
+      ],
+      "rule": "Frame the person/product/UI before overlays. If the subject is wrong, fix the source frame before choosing caption or graphic positions."
+    },
+    {
+      "id": "route_decision",
+      "name": "Route decision",
+      "required_outputs": [
+        "route",
+        "content_style",
+        "renderer_skill",
+        "reason",
+        "reject_reasons_for_other_routes"
+      ],
+      "rule": "Choose straight talking-head, above-head graphic, split-screen, full cutaway b-roll, motion-graphic, or carousel before building."
+    },
+    {
+      "id": "placement_plan",
+      "name": "Placement plan",
+      "required_outputs": [
+        "safe_zone_profile",
+        "overlay_rects",
+        "caption_plan",
+        "brand_plan",
+        "broll_plan"
+      ],
+      "rule": "Every logo, caption, b-roll panel, CTA, and motion graphic has a rect before render."
+    },
+    {
+      "id": "build_and_render",
+      "name": "Build and render",
+      "required_outputs": [
+        "renderer_command",
+        "rendered_files",
+        "platform_variants"
+      ],
+      "rule": "Use the selected renderer. Do not rebuild the pipeline in a one-off script."
+    },
+    {
+      "id": "qc_and_export",
+      "name": "QC and export",
+      "required_outputs": [
+        "actual rendered files",
+        "frame review evidence",
+        "audio listening evidence when applicable",
+        "measured export properties for video",
+        "authorized delivery route"
+      ],
+      "rule": "A render is not finished until real frames pass subject, safe-zone, caption, audio, export, and upload-readiness checks."
+    }
+  ],
+  "route_decision": {
+    "default_safe_zone_profile": null,
+    "routes": {
+      "straight_talking_head": {
+        "content_style": "talking_head_full",
+        "subject_framing_profile": "talking_head_full_1080x1920",
+        "renderer_skill": "frontcam-reels",
+        "use_when": [
+          "The spoken idea is strong enough without proof footage.",
+          "The person is expressive and cleanly framed.",
+          "Motion graphics would distract more than they explain."
+        ],
+        "avoid_when": [
+          "The clip needs visual proof",
+          "The face framing fails",
+          "The source is mostly b-roll or screen recording"
+        ]
+      },
+      "above_head_graphic": {
+        "content_style": "above_head_graphic",
+        "subject_framing_profile": "above_head_graphic_1080x1920",
+        "renderer_skill": "frontcam-reels",
+        "use_when": [
+          "One concept needs a small visual explanation.",
+          "The face can sit lower without looking awkward.",
+          "The graphic can fit above the head with 56px clearance."
+        ],
+        "avoid_when": [
+          "The face is too high",
+          "The graphic needs a large panel",
+          "The footage already has busy background motion"
+        ]
+      },
+      "split_person_bottom_broll_top": {
+        "content_style": "split_person_bottom_broll_top",
+        "subject_framing_profile": "split_person_bottom_broll_top_1080x1920",
+        "renderer_skill": "frontcam-reels",
+        "use_when": [
+          "The line needs proof, UI, b-roll, or a visual metaphor while the speaker stays present.",
+          "The top safe panel can carry the proof without covering the face.",
+          "The speaker can be reframed lower and still look natural."
+        ],
+        "avoid_when": [
+          "The b-roll contains dense text",
+          "The speaker cannot be reframed lower",
+          "The proof needs full-screen detail"
+        ]
+      },
+      "full_cutaway_broll": {
+        "content_style": "full_cutaway_broll",
+        "subject_framing_profile": "full_cutaway_subject_or_product_1080x1920",
+        "renderer_skill": "auto-broll-match",
+        "use_when": [
+          "B-roll, screen recording, product, or generated footage should own the beat.",
+          "The cutaway adds information to the exact spoken line.",
+          "A split-screen would make the proof too small."
+        ],
+        "avoid_when": [
+          "The b-roll is generic decoration",
+          "The subject/product is outside the safe rect",
+          "The cutaway breaks the story"
+        ]
+      },
+      "motion_graphic_reel": {
+        "content_style": "talking_head_full",
+        "subject_framing_profile": null,
+        "renderer_skill": "motion-graphic-reels",
+        "use_when": [
+          "The asset is VO-led or fully synthetic.",
+          "There is no useful human footage.",
+          "The concept needs an animated explainer from start to finish."
+        ],
+        "avoid_when": [
+          "The presenter's talking-head footage is the main asset",
+          "Real proof footage exists and is stronger",
+          "The piece needs testimonial authenticity"
+        ]
+      },
+      "carousel_static": {
+        "content_style": "carousel_static",
+        "subject_framing_profile": null,
+        "renderer_skill": "carousel-generator",
+        "use_when": [
+          "The source is a quote, framework, list, screenshot, testimonial, or still story.",
+          "The idea reads better as slides than motion.",
+          "The footage quality is weak but the content is useful."
+        ],
+        "avoid_when": [
+          "The facial delivery is the hook",
+          "Motion or proof footage is essential",
+          "The asset needs a spoken cadence"
+        ]
+      }
+    }
+  },
+  "export_profiles": {
+    "sources_checked_2026_06_18": {
+      "youtube_encoding": "https://support.google.com/youtube/answer/1722171?hl=en",
+      "tiktok_in_feed_specs": "https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads",
+      "linkedin_video_ads_specs": "https://business.linkedin.com/advertise/ads/sponsored-content/video-ads/specs",
+      "linkedin_help_video_ads": "https://www.linkedin.com/help/linkedin/answer/a424737",
+      "meta_instagram_reels_ads": "https://www.facebook.com/business/ads-guide/update/video/instagram-reels",
+      "omnisocials_local_rules": [
+        "omnisocials-mcp-setup/references/platform-media-specs.md",
+        "frontcam-reels/SOCIALS-PIPELINE.md"
+      ]
+    },
+    "omnisocials_upload_contract": {
+      "status": "historical_conflicting_sources",
+      "rule": "Discover the current tool and verify its current ingest limits. No automatic public host upload; file checks confer no upload authority."
+    },
+    "phone_ready_vertical_reel_1080x1920": {
+      "canvas": {
+        "w": 1080,
+        "h": 1920
+      },
+      "aspect": "9:16",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709",
+      "movflags": "+faststart",
+      "video_bitrate_mbps": {
+        "minimum": 6,
+        "target": [
+          8,
+          13
+        ],
+        "notes": "6Mbps is a retained Selr house target. YouTube 8/12Mbps figures are recommendations, not acceptance floors."
+      },
+      "audio": {
+        "sample_rate_hz": 48000,
+        "bitrate_kbps": [
+          128,
+          384
+        ],
+        "channels": [
+          1,
+          2
+        ]
+      },
+      "frame_rate": "match_source_when_24_to_60_progressive",
+      "platforms": [
+        "instagram_reels",
+        "facebook_reels",
+        "tiktok",
+        "youtube_shorts",
+        "threads"
+      ],
+      "policy": "Selr local export target, not a platform acceptance specification",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "frame_rates": [
+        24,
+        25,
+        30,
+        50,
+        60
+      ]
+    },
+    "linkedin_feed_4x5_1080x1350": {
+      "canvas": {
+        "w": 1080,
+        "h": 1350
+      },
+      "aspect": "4:5",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "pix_fmt": "yuv420p",
+      "movflags": "+faststart",
+      "video_bitrate_mbps": {
+        "minimum": 6,
+        "target": [
+          8,
+          12
+        ],
+        "notes": "6Mbps is a retained Selr house target. YouTube 8/12Mbps figures are recommendations, not acceptance floors."
+      },
+      "platform_type": "post",
+      "rule": "Selr 4:5 feed composition option. Verify the current delivery tool type and intended placement; do not crop a 9:16 source automatically or infer platform acceptance from this profile.",
+      "policy": "Selr local export target, not a platform acceptance specification",
+      "audio": {
+        "sample_rate_hz": 48000,
+        "bitrate_kbps": [
+          128,
+          384
+        ],
+        "channels": [
+          1,
+          2
+        ]
+      },
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "frame_rates": [
+        24,
+        25,
+        30,
+        50,
+        60
+      ]
+    },
+    "carousel_feed_static": {
+      "formats": [
+        "png",
+        "jpg",
+        "pdf_for_linkedin_document_posts"
+      ],
+      "preferred_canvases": [
+        {
+          "w": 1080,
+          "h": 1350,
+          "aspect": "4:5"
+        },
+        {
+          "w": 1080,
+          "h": 1080,
+          "aspect": "1:1"
+        }
+      ],
+      "rule": "Export static carousels at exact platform dimensions. Do not upscale tiny screenshots; rebuild them into clean slides."
+    }
+  },
+  "content_styles": {
+    "talking_head_full": {
+      "description": "Normal talking-to-camera video with overlays only in safe zones.",
+      "preferred_profile": "universal_vertical_9x16_1080x1920",
+      "overlay_order": [
+        "hook",
+        "above_head_graphic",
+        "captions",
+        "brand"
+      ],
+      "allowed_zones": {
+        "hook": "safe_rect or reel_cover_9x16_grid_safe for cover frames",
+        "motion_graphic": "above_head, or behind-subject mask only",
+        "captions": "Inside the selected scenario safe rectangle and clear of measured faces; legacy lower-thirds require separately verified layout.",
+        "brand": "top_left_brand"
+      }
+    },
+    "split_person_bottom_broll_top": {
+      "description": "Person remains bottom/lower canvas; b-roll or motion graphics live in the top safe panel.",
+      "preferred_profile": "universal_vertical_9x16_1080x1920",
+      "zones": {
+        "broll_panel": {
+          "x": 120,
+          "y": 288,
+          "w": 660,
+          "h": 520
+        },
+        "person_zone": {
+          "x": 180,
+          "y": 900,
+          "w": 720,
+          "h": 580
+        },
+        "caption_zone": {
+          "x": 150,
+          "y": 1120,
+          "w": 630,
+          "h": 120
+        }
+      }
+    },
+    "above_head_graphic": {
+      "description": "Talking head stays full frame; graphic sits above the measured face.",
+      "preferred_profile": "universal_vertical_9x16_1080x1920",
+      "rules": [
+        "Graphic bottom must be <= face_top - 56px.",
+        "Graphic rect must fit inside the chosen profile safe_rect.",
+        "If face_top is above y=650, this style is not available."
+      ]
+    },
+    "full_cutaway_broll": {
+      "description": "B-roll replaces the frame for a short beat. Text/logos still respect platform safe zones.",
+      "preferred_profile": "universal_vertical_9x16_1080x1920",
+      "rules": [
+        "Use for proof footage, UI recordings, or metaphor shots that earn the line.",
+        "No persistent bottom-right watermark on vertical platforms.",
+        "Keep important subject/product inside safe_rect, not merely inside canvas."
+      ]
+    },
+    "carousel_static": {
+      "description": "Static carousel/story/cover/social image layout.",
+      "profiles": [
+        "feed_carousel_4x5_1080x1350_center80",
+        "square_1080x1080_center80",
+        "reel_cover_9x16_grid_safe",
+        "universal_vertical_9x16_1080x1920"
+      ],
+      "rules": [
+        "Feed carousels may use a safe footer inside center80.",
+        "Story, TikTok, Reel cover, and Shorts thumbnails must not use bottom-right logos.",
+        "Photo overlays must use quiet-zone analysis and face avoidance before text placement."
+      ]
+    }
+  }
+}

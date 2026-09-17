@@ -1,0 +1,1335 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-06",
+  "purpose": "Evidence ledger for inherited quotation candidates. It records local caption-text matches and uncertainty; it does not certify speech, identity, source title, factual accuracy, or current Meta platform behavior.",
+  "normalizer": {
+    "name": "html-unescaped-lowercase-alphanumeric-apostrophe-token-match",
+    "description": "HTML-decode numeric entities and amp, apos, quot, lt, gt named entities; lowercase; extract ASCII alphanumeric tokens with internal apostrophes; compare contiguous token sequences exactly. Punctuation, whitespace, capitalization, HTML encoding, and ellipsis glyphs do not create tokens.",
+    "html_entity_decoder": "Local equivalent decoder used because the he package is absent from this worktree.",
+    "token_offset_definition": "Zero-based index in the normalized token list of the retained source caption."
+  },
+  "original_library": {
+    "relative_path": "history/original/references/quote-library.md.original",
+    "sha256": "48cc797164dff2a2cdb703d84add180f28ec90be59db18766a168647ed0572ad",
+    "entry_count": 52
+  },
+  "sources": [
+    {
+      "id": "5X6gwDaCgqA",
+      "relative_path": "sources/5X6gwDaCgqA.txt",
+      "sha256": "7b83233494499df002b9f7db1f79b50c84a7715975d7f5d275f019c7f5c28d63",
+      "bytes": 3610
+    },
+    {
+      "id": "HylsWZ-93Oc",
+      "relative_path": "sources/HylsWZ-93Oc.txt",
+      "sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+      "bytes": 12236
+    },
+    {
+      "id": "LM27Q74Lu60",
+      "relative_path": "sources/LM27Q74Lu60.txt",
+      "sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+      "bytes": 5725
+    },
+    {
+      "id": "OzEDJtpPOwM",
+      "relative_path": "sources/OzEDJtpPOwM.txt",
+      "sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+      "bytes": 12895
+    },
+    {
+      "id": "QItw2obrKfY",
+      "relative_path": "sources/QItw2obrKfY.txt",
+      "sha256": "8efb85e4f922ea4d1f66a006ca1810a15038a00388268174ceb6f0e433eb6c54",
+      "bytes": 1450
+    },
+    {
+      "id": "SlfEht5Wlwk",
+      "relative_path": "sources/SlfEht5Wlwk.txt",
+      "sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+      "bytes": 16907
+    },
+    {
+      "id": "XXYPjtXoZxw",
+      "relative_path": "sources/XXYPjtXoZxw.txt",
+      "sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+      "bytes": 8802
+    },
+    {
+      "id": "_YFiITuKpoo",
+      "relative_path": "sources/_YFiITuKpoo.txt",
+      "sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+      "bytes": 4498
+    },
+    {
+      "id": "j0t4mEbGMsM",
+      "relative_path": "sources/j0t4mEbGMsM.txt",
+      "sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+      "bytes": 11496
+    },
+    {
+      "id": "luJoRyaNdD4",
+      "relative_path": "sources/luJoRyaNdD4.txt",
+      "sha256": "70167ffeacb94cb1f194344314a92afa949993ea4c9ee5400f963a9df971c68b",
+      "bytes": 1020
+    },
+    {
+      "id": "ooPGHF7RGTc",
+      "relative_path": "sources/ooPGHF7RGTc.txt",
+      "sha256": "e497ac1a7c988208e2f8a797cbd3448e788dc5bcbbedc83c812d4f9e9de4b81b",
+      "bytes": 5850
+    }
+  ],
+  "entries": [
+    {
+      "id": "PLF-001",
+      "original_line": 9,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "The first is Advantage Plus placements, previously called automatic placements. This lets Meta's algorithm decide where to show your ad based on where it's most likely to perform.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "596a19071f5da62284b4be8031f67ba997adaaf68a694affdbe60788a6cf9b75",
+      "original_line_sha256": "8924808b480ad58b97385328ef90c96e19131f15f7fa602f4f5b6501398d1b0f",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 56,
+          "matched_token_count": 28,
+          "normalized_caption_context": "when you set up an ad campaign meta gives you two options the first is advantage plus placements previously called automatic placements this lets meta's algorithm decide where to show your ad based on where it's most likely to perform it's great for beginners or when you're running broad awareness campaigns because",
+          "context_window": {
+            "start_token_zero_based": 44,
+            "end_token_exclusive_zero_based": 96
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-002",
+      "original_line": 11,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "What the by default placement does is that it has an Advantage Plus placement. This means that wherever there are meta properties, your ads will likely appear there.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "3f8f0db2b3601b1c241a10feb2dfb1cd968caa865f20de0afafbf415eacd75c8",
+      "original_line_sha256": "2a1c44ee1c6bd576ff473a9c1c3c6d492ac85f502928e75aa5a10d501b628920",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 1138,
+          "matched_token_count": 28,
+          "normalized_caption_context": "carefully if you want to show your ad only in the reel what the by default placement does is that it has an advantage plus placement this means that wherever there are meta properties your ads will likely appear there but what do you have control over then it will not remain",
+          "context_window": {
+            "start_token_zero_based": 1126,
+            "end_token_exclusive_zero_based": 1178
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-003",
+      "original_line": 13,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "Automatic placements let Facebook decide where to show your ads and good for beginners.",
+      "inherited_attribution": "Samiksha Creation's, *Choosing the Right Ad Placement: Feeds vs. Reels vs. Stories*",
+      "candidate_normalized_sha256": "ea58c9b33bb90e181401e0f845bcb8efb936de3505ae02ee2dd62dded88cc95c",
+      "original_line_sha256": "19bf20f5ffea1d55c3a7d6182ee913db8a141aa0b8802019242b8b870145cb56",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5X6gwDaCgqA",
+          "source_sha256": "7b83233494499df002b9f7db1f79b50c84a7715975d7f5d275f019c7f5c28d63",
+          "token_offset_zero_based": 270,
+          "matched_token_count": 14,
+          "normalized_caption_context": "real for reals and stories as well not an issue yeah so automatic placements let facebook decide where to show your ads and good for beginners so this is a best advantage we are getting from the facebook",
+          "context_window": {
+            "start_token_zero_based": 258,
+            "end_token_exclusive_zero_based": 296
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-004",
+      "original_line": 15,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "Manual placements allows you to choose specific placement to optimize your goal, but the automatic placement of course let them decide.",
+      "inherited_attribution": "Samiksha Creation's, *Choosing the Right Ad Placement: Feeds vs. Reels vs. Stories*",
+      "candidate_normalized_sha256": "8e6bb49e37a712a827a351708f25fa4db10f002f025ae07c0585279260f5c04c",
+      "original_line_sha256": "6180475258a88adff3bcb3fd5741471dbee19f379f5ec2272b5c516aeb8887c7",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5X6gwDaCgqA",
+          "source_sha256": "7b83233494499df002b9f7db1f79b50c84a7715975d7f5d275f019c7f5c28d63",
+          "token_offset_zero_based": 343,
+          "matched_token_count": 21,
+          "normalized_caption_context": "it's a good for beginners as well and experts as well so manual placements allows you to choose specific placement to optimize your goal but the automatic placement of course let them decide okay so some tips from my in that test both placements okay",
+          "context_window": {
+            "start_token_zero_based": 331,
+            "end_token_exclusive_zero_based": 376
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-005",
+      "original_line": 17,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "we're going to use uh automatic placements and stuff. But maybe if you know that reals, for example, are working better. You can do better creatives for the reals.",
+      "inherited_attribution": "Konstantinos Doulgeridis, *Meta Ads Performance Battle: Feed vs Stories/Reels!*",
+      "candidate_normalized_sha256": "e1c8711488af892963ca634ce415786a71db7958508c69bb7beb0bc3ca11d929",
+      "original_line_sha256": "fe76316b7e5ac10bbc870e766d46c2e4c89867bde4b469ff824b851d8765f2a5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "SlfEht5Wlwk",
+          "source_sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+          "token_offset_zero_based": 121,
+          "matched_token_count": 29,
+          "normalized_caption_context": "stories are you going to get anything out of it no because we're going to use uh automatic placements and stuff but maybe if you know that reals for example are working better you can do better creatives for the reals yeah maybe so this is something that we're going to check now",
+          "context_window": {
+            "start_token_zero_based": 109,
+            "end_token_exclusive_zero_based": 162
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-006",
+      "original_line": 19,
+      "heading": "Advantage+ vs manual placements (the default)",
+      "candidate_text": "Meta has 21 possible placements. I just want one of those.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "3a1223aa135000d90bc3d36ab9444d09fcff49d3781fd688481fad9a1004b723",
+      "original_line_sha256": "eb8fae1d94523e581b5399423dc1247ab78e566457fbd8d6d3c126d366cd8664",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 1419,
+          "matched_token_count": 11,
+          "normalized_caption_context": "what is the placement that i have just one out of 21 meta has 21 possible placements i just want one of those now your question would be that the audience may be narrow the",
+          "context_window": {
+            "start_token_zero_based": 1407,
+            "end_token_exclusive_zero_based": 1442
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-007",
+      "original_line": 25,
+      "heading": "The placement map / taxonomy",
+      "candidate_text": "Instagram has five main placement areas, while Facebook has over six.",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "33eabe34b84ea553e351aae8724dad72668c4e5b4b230117c4588fb2cc0c4695",
+      "original_line_sha256": "95982b7dcb3dc5426b25e8fb913273f482ea21c1372576d12ff70d29fbd06511",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 438,
+          "matched_token_count": 11,
+          "normalized_caption_context": "budget in 2026 you need to understand the key differences for example instagram has five main placement areas while facebook has over six some of the primary placement options you can use for both instagram",
+          "context_window": {
+            "start_token_zero_based": 426,
+            "end_token_exclusive_zero_based": 461
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-008",
+      "original_line": 27,
+      "heading": "The placement map / taxonomy",
+      "candidate_text": "Then there are stories, which are best suited for 9:16 aspect ratio videos and single image ads.",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "543adb0935b2d499bf5d8edd65b75f1f21d01146d80b187272c9647d27fb38a1",
+      "original_line_sha256": "5bbb1f325f26633ec6913429f67cce81657629b74aba00181f1026c5d08ea03e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 483,
+          "matched_token_count": 18,
+          "normalized_caption_context": "organic feed and work great for video single image and carousel ads then there are stories which are best suited for 9 16 aspect ratio videos and single image ads reels on the other hand are primarily best for 9 16 aspect",
+          "context_window": {
+            "start_token_zero_based": 471,
+            "end_token_exclusive_zero_based": 513
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-009",
+      "original_line": 29,
+      "heading": "The placement map / taxonomy",
+      "candidate_text": "Facebook right column, the sidebar ad that appears on the desktop version of Facebook. Lower cost, best used for retargeting.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "2f80c1b5b83d8efa474ba9d124833020e77455727066d04a6f9b6a74ea7928fb",
+      "original_line_sha256": "b25997090e95536ca19684c2ccb167d8d12bed410753ea49002e28bad4912d55",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 521,
+          "matched_token_count": 20,
+          "normalized_caption_context": "ad appears among product listings perfect for e commerce and local businesses facebook right column the sidebar ad that appears on the desktop version of facebook lower cost best used for retargeting instagram explore home shown to users actively discovering new content on instagram's",
+          "context_window": {
+            "start_token_zero_based": 509,
+            "end_token_exclusive_zero_based": 553
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-010",
+      "original_line": 31,
+      "heading": "The placement map / taxonomy",
+      "candidate_text": "Lastly, we have Facebook in-stream reels. These ads are cropped to a 16x9 horizontal aspect ratio and will appear while another reel is playing.",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "0181421afc07541a01339632828a471a8b193c20f572d5ce808c8c17638aa723",
+      "original_line_sha256": "3696a28b414f8547804ae51375c888de2241468bb0a5a616b52fbd3c5b826fc5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 699,
+          "matched_token_count": 25,
+          "normalized_caption_context": "they often result in very low engagement rates for the travel industry lastly we have facebook in stream reels these ads are cropped to a 16x9 horizontal aspect ratio and will appear while another reel is playing they aren't great for visual storytelling and don't dominate the screen as",
+          "context_window": {
+            "start_token_zero_based": 687,
+            "end_token_exclusive_zero_based": 736
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-011",
+      "original_line": 33,
+      "heading": "The placement map / taxonomy",
+      "candidate_text": "Placements are where your ad appears. Okay? Like feeds, stories, reals, then the messengers or the audience network.",
+      "inherited_attribution": "Samiksha Creation's, *Choosing the Right Ad Placement: Feeds vs. Reels vs. Stories*",
+      "candidate_normalized_sha256": "a1f1bff36e955d9292be34be39d6b1240607d327d706c2cabc0b87126ebc8671",
+      "original_line_sha256": "015b9f01155ab4d30a7ef5990dfef1e0b11e9dc78dd59afc84dbd9f03b81d926",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5X6gwDaCgqA",
+          "source_sha256": "7b83233494499df002b9f7db1f79b50c84a7715975d7f5d275f019c7f5c28d63",
+          "token_offset_zero_based": 125,
+          "matched_token_count": 18,
+          "normalized_caption_context": "you out as soon as possible so placements what exactly it is placements are where your ad appears okay like feeds stories reals then the messengers or the audience network so many things we are having currently in a social media network",
+          "context_window": {
+            "start_token_zero_based": 113,
+            "end_token_exclusive_zero_based": 155
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-012",
+      "original_line": 39,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "If you're still running ads in one by one format, you're honestly behind as Facebook recently updated the uh recommended formats for images and also for videos as well to always be 4x5 or 9x6.",
+      "inherited_attribution": "Dennis Willeboordse, *The BEST Facebook Ad Sizes for 2026 (Stop Using 1:1!)*",
+      "candidate_normalized_sha256": "a217f110f239301f7689f466efefb737942b35ab26c410cdbad1ce623defe5dd",
+      "original_line_sha256": "08fa3050442efdd5ea3605f6ebce4f22d99bc321d4716efdeda6fad86f7041e5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ooPGHF7RGTc",
+          "source_sha256": "e497ac1a7c988208e2f8a797cbd3448e788dc5bcbbedc83c812d4f9e9de4b81b",
+          "token_offset_zero_based": 0,
+          "matched_token_count": 35,
+          "normalized_caption_context": "if you're still running ads in one by one format you're honestly behind as facebook recently updated the uh recommended formats for images and also for videos as well to always be 4x5 or 9x6 now previously it was always the case that facebook already recommended for",
+          "context_window": {
+            "start_token_zero_based": 0,
+            "end_token_exclusive_zero_based": 47
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-013",
+      "original_line": 41,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "And they recently updated it that images on Facebook feed can also use the 4x5 placement.",
+      "inherited_attribution": "Dennis Willeboordse, *The BEST Facebook Ad Sizes for 2026 (Stop Using 1:1!)*",
+      "candidate_normalized_sha256": "373e38af14ee808fc52e6a8aa10ce73df9556cdd6662e20429853220c829efc4",
+      "original_line_sha256": "d82f5b9441d02893528352e0f054bf55d6be842d7d48f92b310342368574ab76",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ooPGHF7RGTc",
+          "source_sha256": "e497ac1a7c988208e2f8a797cbd3448e788dc5bcbbedc83c812d4f9e9de4b81b",
+          "token_offset_zero_based": 68,
+          "matched_token_count": 16,
+          "normalized_caption_context": "have to make sure to optimize these formats for images as well and they recently updated it that images on facebook feed can also use the 4x5 placement and in this video i want to make sure that you understand",
+          "context_window": {
+            "start_token_zero_based": 56,
+            "end_token_exclusive_zero_based": 96
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-014",
+      "original_line": 43,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "For story it's 9x6 which is 1080 by 1920 which is the more vertical layout as well.",
+      "inherited_attribution": "Dennis Willeboordse, *The BEST Facebook Ad Sizes for 2026 (Stop Using 1:1!)*",
+      "candidate_normalized_sha256": "1fed8dc8467492a530939852b2f216c8474f1ef88587c515ca372759f6c04305",
+      "original_line_sha256": "ae0b712ecea6973bd529ba673d56f93618d48b038a03a1ec72e8332761be8615",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ooPGHF7RGTc",
+          "source_sha256": "e497ac1a7c988208e2f8a797cbd3448e788dc5bcbbedc83c812d4f9e9de4b81b",
+          "token_offset_zero_based": 374,
+          "matched_token_count": 17,
+          "normalized_caption_context": "once and you can run 4x5 for all of your placements now for story it's 9x6 which is 1080 by 1920 which is the more vertical layout as well now as for videos that's obviously the same 4x5 and also 9x6",
+          "context_window": {
+            "start_token_zero_based": 362,
+            "end_token_exclusive_zero_based": 403
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-015",
+      "original_line": 45,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "It means 1080 should be width and 1920 should be height. This should be your orientation.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "3ed97a41d7cf3df4b2a77dc783bb00d57e589134d6fa3041a74c50ca1445576d",
+      "original_line_sha256": "cc52f20497e34a24aa3d5bd2bc0d6e12936936588bf1b121637d408e75ba35db",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 1598,
+          "matched_token_count": 16,
+          "normalized_caption_context": "format portrait means that its height is more and width is less it means 1080 should be width and 1920 should be height this should be your orientation so that it fits properly in it if your orientation is landscape",
+          "context_window": {
+            "start_token_zero_based": 1586,
+            "end_token_exclusive_zero_based": 1626
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-016",
+      "original_line": 47,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "So, for the 9x6, it showed me stories and reals. 4x5, it showed me feed. For Instagram and Facebook and for the one by one, it's for the right column and search results.",
+      "inherited_attribution": "AdManage AI, *How To Create Multi Placement Ads in One Click*",
+      "candidate_normalized_sha256": "d4f4c9fbb6922d3c57346aac79bb02b3ba59182c833b6be406ba2470451d5cd5",
+      "original_line_sha256": "6abc7150368f049e8243f0839333b5b805a4e36fe41ab9c47dcb18cee65d7703",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "QItw2obrKfY",
+          "source_sha256": "8efb85e4f922ea4d1f66a006ca1810a15038a00388268174ceb6f0e433eb6c54",
+          "token_offset_zero_based": 144,
+          "matched_token_count": 33,
+          "normalized_caption_context": "do the exact same thing and it shows placement assignments as well so for the 9x6 it showed me stories and reals 4x5 it showed me feed for instagram and facebook and for the one by one it's for the right column and search results so now we've done that we just select an ad set and",
+          "context_window": {
+            "start_token_zero_based": 132,
+            "end_token_exclusive_zero_based": 189
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-017",
+      "original_line": 49,
+      "heading": "Format specs and aspect ratios",
+      "candidate_text": "Now obviously if you're respecting these safe zones and all of these different dimensions, you will see a bump in performance. I'm 100% sure of that.",
+      "inherited_attribution": "Dennis Willeboordse, *The BEST Facebook Ad Sizes for 2026 (Stop Using 1:1!)*",
+      "candidate_normalized_sha256": "4d932efca319604847a41673c9e9cd7c6854be1192e01d6da09e98d0313ca9c6",
+      "original_line_sha256": "f50643a30199e0f99c40c293988dd38f97a43a95c0fb32596cf2d7eda0be6542",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "ooPGHF7RGTc",
+          "source_sha256": "e497ac1a7c988208e2f8a797cbd3448e788dc5bcbbedc83c812d4f9e9de4b81b",
+          "token_offset_zero_based": 980,
+          "matched_token_count": 26,
+          "normalized_caption_context": "right safe zones and obviously it can make or break your ad now obviously if you're respecting these safe zones and all of these different dimensions you will see a bump in performance i'm 100 sure of that and obviously these are the basic thing that you need to be",
+          "context_window": {
+            "start_token_zero_based": 968,
+            "end_token_exclusive_zero_based": 1018
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-018",
+      "original_line": 55,
+      "heading": "Cover all ratios, let Meta match",
+      "candidate_text": "Upload your creative in square, vertical, and horizontal formats. When you cover all three sizes in a single ad, Meta can automatically match the right format to the right placement.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "1e165241404cab0315091c9cfb2dfa2749804d34ce8dcba1463207610e587532",
+      "original_line_sha256": "17a82fc67175d36b95b741e242b36d70c6bc12b187a12f4345ee3958404c6b0b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 932,
+          "matched_token_count": 30,
+          "normalized_caption_context": "here's a practical tip that will save you a lot of time upload your creative in square vertical and horizontal formats when you cover all three sizes in a single ad meta can automatically match the right format to the right placement your ad looks native and professional everywhere instead of getting cropped or",
+          "context_window": {
+            "start_token_zero_based": 920,
+            "end_token_exclusive_zero_based": 974
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-019",
+      "original_line": 57,
+      "heading": "Cover all ratios, let Meta match",
+      "candidate_text": "we have an AI group feature. So, you just hit it and what it does is it analyzes the image and groups it all together based on what it sees.",
+      "inherited_attribution": "AdManage AI, *How To Create Multi Placement Ads in One Click*",
+      "candidate_normalized_sha256": "56b131fdc653317fe9ee53aa50a276d3b5a214b4ad635ca3185cf8175088d869",
+      "original_line_sha256": "a91b29076a826e42b431b7f30099e28d2329693a71e8b100c4174bad500ea839",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "QItw2obrKfY",
+          "source_sha256": "8efb85e4f922ea4d1f66a006ca1810a15038a00388268174ceb6f0e433eb6c54",
+          "token_offset_zero_based": 70,
+          "matched_token_count": 30,
+          "normalized_caption_context": "to the same multi group so instead of manually grouping them together we have an ai group feature so you just hit it and what it does is it analyzes the image and groups it all together based on what it sees now what makes it so great is that it saves you a",
+          "context_window": {
+            "start_token_zero_based": 58,
+            "end_token_exclusive_zero_based": 112
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-020",
+      "original_line": 59,
+      "heading": "Cover all ratios, let Meta match",
+      "candidate_text": "So, now we've done that, we just select an ad set, and then launch as inactive and then launch ads.",
+      "inherited_attribution": "AdManage AI, *How To Create Multi Placement Ads in One Click*",
+      "candidate_normalized_sha256": "6aaaa6f4fa0f96d50d0280eb420f81a1eda99df3f25c1b1bb01bd6fe97acdc8c",
+      "original_line_sha256": "cd5680d5a8cce9bd7e3a91e349523aeb445eac77bedb26ea7ad9082c22393437",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "QItw2obrKfY",
+          "source_sha256": "8efb85e4f922ea4d1f66a006ca1810a15038a00388268174ceb6f0e433eb6c54",
+          "token_offset_zero_based": 177,
+          "matched_token_count": 20,
+          "normalized_caption_context": "the one by one it's for the right column and search results so now we've done that we just select an ad set and then launch as inactive and then launch ads and so we can see here it's been successful so we can",
+          "context_window": {
+            "start_token_zero_based": 165,
+            "end_token_exclusive_zero_based": 209
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-021",
+      "original_line": 65,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "So, this is the way that I'm creating static image creatives. Now, I am doing a 9 by6. So you can see this is a 9x6, but I'm putting all the content within a 1x one square.",
+      "inherited_attribution": "Michael Diaz, *How to Make Static Image Ads Work On All Meta Ads Placements*",
+      "candidate_normalized_sha256": "7371be789c9336f52a8ef0a0c3e4d935bebd205ccbcaf81d0eeed3f0f804d738",
+      "original_line_sha256": "68bb08f7e189bfdcfe0628d508abb5dce66937d676634d69ac809d40897d263a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "LM27Q74Lu60",
+          "source_sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+          "token_offset_zero_based": 88,
+          "matched_token_count": 37,
+          "normalized_caption_context": "get into it all right you guys let's jump right into it so this is the way that i'm creating static image creatives now i am doing a 9 by6 so you can see this is a 9x6 but i'm putting all the content within a 1x one square and the beauty of this is that this one design will work",
+          "context_window": {
+            "start_token_zero_based": 76,
+            "end_token_exclusive_zero_based": 137
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-022",
+      "original_line": 67,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "One thing to note, I am making sure that everything inside of this 9x6 falls within the safe zones.",
+      "inherited_attribution": "Michael Diaz, *How to Make Static Image Ads Work On All Meta Ads Placements*",
+      "candidate_normalized_sha256": "7405b86daad5e4cf5ed7ac30f4b6445b48eb811e5f4ce88dc680e73b6b7df9a5",
+      "original_line_sha256": "d59658d493045c66069307e3fff242b11e03b98441d285ca59c57357422b4165",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "LM27Q74Lu60",
+          "source_sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+          "token_offset_zero_based": 147,
+          "matched_token_count": 19,
+          "normalized_caption_context": "will work on all the different placements that we have on meta one thing to note i am making sure that everything inside of this 9x6 falls within the safe zones okay that's very important as you know on like instagram stories or",
+          "context_window": {
+            "start_token_zero_based": 135,
+            "end_token_exclusive_zero_based": 178
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-023",
+      "original_line": 69,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "You can see it looks good on this Facebook search results, but on this one here, the right column, this looks terrible. So, how do we fix that? We got to click right here, edit group, and then you click crop.",
+      "inherited_attribution": "Michael Diaz, *How to Make Static Image Ads Work On All Meta Ads Placements*",
+      "candidate_normalized_sha256": "5b5f67a2bdd87a0961ed0d9c7c328902ef818b011d1713f124b468b6d307b5f0",
+      "original_line_sha256": "436955f6535f34a1922ce1442a6dfd3795f6f7500eadbf7ecdc203f7bc918c5f",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "LM27Q74Lu60",
+          "source_sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+          "token_offset_zero_based": 691,
+          "matched_token_count": 41,
+          "normalized_caption_context": "stories placement it looks great now this is where the trouble comes you can see it looks good on this facebook search results but on this one here the right column this looks terrible so how do we fix that we got to click right here edit group and then you click crop and as you can see now you can actually choose the one",
+          "context_window": {
+            "start_token_zero_based": 679,
+            "end_token_exclusive_zero_based": 744
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-024",
+      "original_line": 71,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "Before you can only do original and 1.9 one by one. Now, you can do the one by one square.",
+      "inherited_attribution": "Michael Diaz, *How to Make Static Image Ads Work On All Meta Ads Placements*",
+      "candidate_normalized_sha256": "7a63a0d367663e4088ee7eef425a58af11d57ae4036694e3f4e6b353dd120e2f",
+      "original_line_sha256": "c7072ce851dbc6ee008c3a2ccd325703d0bdff33bdb336a413249c4d8b5157c8",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "LM27Q74Lu60",
+          "source_sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+          "token_offset_zero_based": 747,
+          "matched_token_count": 21,
+          "normalized_caption_context": "can see now you can actually choose the one by one square before you can only do original and 1 9 one by one now you can do the one by one square go like that save and now you can see it looks great",
+          "context_window": {
+            "start_token_zero_based": 735,
+            "end_token_exclusive_zero_based": 780
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-025",
+      "original_line": 73,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "This one design applies to all these different placements and I don't have to worry about making different designs, different aspect ratios.",
+      "inherited_attribution": "Michael Diaz, *How to Make Static Image Ads Work On All Meta Ads Placements*",
+      "candidate_normalized_sha256": "b45f4491877bc52db25f3e5493fa86c2e8833a1c01f2fe4c2871804dddf979bc",
+      "original_line_sha256": "1691225804b970905b9805d05bd4fc35e677df7148e738f11c7dd643ae854410",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "LM27Q74Lu60",
+          "source_sha256": "9b13b923f27c0ea655f1f3bd0365fc17b140927e420b73db5ba2af189d5a3ee2",
+          "token_offset_zero_based": 801,
+          "matched_token_count": 22,
+          "normalized_caption_context": "doing it now it's super nice it's like a five for one this one design applies to all these different placements and i don't have to worry about making different designs different aspect ratios i don't really have to worry all that much about cropping because",
+          "context_window": {
+            "start_token_zero_based": 789,
+            "end_token_exclusive_zero_based": 835
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-026",
+      "original_line": 75,
+      "heading": "Single-creative-covers-all-placements workflow",
+      "candidate_text": "For Tik Tok, obviously, you have different UIs... there you're only running 9 by 16.",
+      "inherited_attribution": "Dennis Willeboordse, *The BEST Facebook Ad Sizes for 2026 (Stop Using 1:1!)*",
+      "candidate_normalized_sha256": "da378649e2c3fd54a084499354ba8785069658343d71b5c3a8c98fd04c5b731b",
+      "original_line_sha256": "4fdfb845840c92ee8b1eacff5133d3456fed53cae4dd2fea8705ab8a97f0af41",
+      "disposition": "inherited_unverified_paraphrase_trace",
+      "evidence": [],
+      "status_note": "No exact normalized caption-token sequence was found in the retained local captions. Retained as an inherited paraphrase/trace only, not as a quotation, source mapping, factual claim, or current Meta product rule."
+    },
+    {
+      "id": "PLF-027",
+      "original_line": 81,
+      "heading": "Per-placement asset customisation",
+      "candidate_text": "So, when we say asset customization, we're talking about customizing our ad creatives, including elements like the CTA, description, and visuals to better suit the platform where the ad will appear.",
+      "inherited_attribution": "Param Digital Marketer, *Facebook Ads Asset Customization Explained: Make Ads Fit Every Placement Perfectly*",
+      "candidate_normalized_sha256": "2e969e31757250a882d8aa3859f4cafa2cf6f3a311d307b68ba9ab964701c485",
+      "original_line_sha256": "44ecd9017aebc00fc6f92788aa142fa6e379dc05a669233f077cdef04d5d5e70",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_YFiITuKpoo",
+          "source_sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+          "token_offset_zero_based": 118,
+          "matched_token_count": 31,
+          "normalized_caption_context": "anything that forms the core of our ad is called an asset so when we say asset customization we're talking about customizing our ad creatives including elements like the cta description and visuals to better suit the platform where the ad will appear facebook gives us the option to customize these assets based on placements",
+          "context_window": {
+            "start_token_zero_based": 106,
+            "end_token_exclusive_zero_based": 161
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-028",
+      "original_line": 83,
+      "heading": "Per-placement asset customisation",
+      "candidate_text": "Earlier when this feature was newly introduced, you didn't get the option to customize your assets for all placements. It was available for only a few specific placements.",
+      "inherited_attribution": "Param Digital Marketer, *Facebook Ads Asset Customization Explained: Make Ads Fit Every Placement Perfectly*",
+      "candidate_normalized_sha256": "99e95e6a4afdd9f3c4aaa70259ff00280949c75e06998d8a7a33f571281ef4d7",
+      "original_line_sha256": "eccb5d65076e577ebc303612516189fecb747f69f5ad1a6606e9a37ed34b9f8e",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_YFiITuKpoo",
+          "source_sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+          "token_offset_zero_based": 294,
+          "matched_token_count": 28,
+          "normalized_caption_context": "now let's see how exactly we use asset customization inside facebook ads earlier when this feature was newly introduced you didn't get the option to customize your assets for all placements it was available for only a few specific placements but now as you can see for all the placements we've selected",
+          "context_window": {
+            "start_token_zero_based": 282,
+            "end_token_exclusive_zero_based": 334
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-029",
+      "original_line": 85,
+      "heading": "Per-placement asset customisation",
+      "candidate_text": "You also have the option to crop the media or trim the video to adjust its duration. You can even manually set a custom thumbnail if needed.",
+      "inherited_attribution": "Param Digital Marketer, *Facebook Ads Asset Customization Explained: Make Ads Fit Every Placement Perfectly*",
+      "candidate_normalized_sha256": "d830fd077d1ba1c9d5bf8c99d69ae60c0d9c33a9265d66dda3836917c4d845cc",
+      "original_line_sha256": "081da61962ddcd905dc3d31dcf514a7b2e22e0c616d370271c71ac5f447cfa8f",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_YFiITuKpoo",
+          "source_sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+          "token_offset_zero_based": 508,
+          "matched_token_count": 27,
+          "normalized_caption_context": "feel the image or video doesn't fit well you can change it you also have the option to crop the media or trim the video to adjust its duration you can even manually set a custom thumbnail if needed additionally there are options to add extra text or change the primary",
+          "context_window": {
+            "start_token_zero_based": 496,
+            "end_token_exclusive_zero_based": 547
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-030",
+      "original_line": 87,
+      "heading": "Per-placement asset customisation",
+      "candidate_text": "But keep in mind, this customization only applies to this one placement. It won't affect how the ad looks in other placements.",
+      "inherited_attribution": "Param Digital Marketer, *Facebook Ads Asset Customization Explained: Make Ads Fit Every Placement Perfectly*",
+      "candidate_normalized_sha256": "39cd7d13f66bdffaea923b70ee6539b541b031659032d5f3a675a007e0b86755",
+      "original_line_sha256": "fd98c47dc50412d30f39dda024a0253a44bf57916357a3520c30d720bdde9cfc",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_YFiITuKpoo",
+          "source_sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+          "token_offset_zero_based": 552,
+          "matched_token_count": 22,
+          "normalized_caption_context": "add extra text or change the primary text specifically for this placement but keep in mind this customization only applies to this one placement it won't affect how the ad looks in other placements that's the true power of asset customization it allows you to design",
+          "context_window": {
+            "start_token_zero_based": 540,
+            "end_token_exclusive_zero_based": 586
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-031",
+      "original_line": 89,
+      "heading": "Per-placement asset customisation",
+      "candidate_text": "I've gone in depth here at the ad level, but I encourage you to always check how your ad appears in primary placements like Facebook and Instagram feeds or stories.",
+      "inherited_attribution": "Param Digital Marketer, *Facebook Ads Asset Customization Explained: Make Ads Fit Every Placement Perfectly*",
+      "candidate_normalized_sha256": "1dc4d04764cf34502ead700d34fc010721b203a0b8771493e072f37e62254058",
+      "original_line_sha256": "708c6809fed333ecaeea2c27e03ba5c6e8668cb46ebf8b1167f48fef7094afa2",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "_YFiITuKpoo",
+          "source_sha256": "e47fec3f9850fed92d3f7f0544cfa94af6bd9281c70fefbe76e2a47fec733781",
+          "token_offset_zero_based": 690,
+          "matched_token_count": 30,
+          "normalized_caption_context": "level of testing and optimization is often missed even by experienced advertisers i've gone in depth here at the ad level but i encourage you to always check how your ad appears in primary placements like facebook and instagram feeds or stories if you as the advertiser aren't satisfied with how it looks imagine",
+          "context_window": {
+            "start_token_zero_based": 678,
+            "end_token_exclusive_zero_based": 732
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-032",
+      "original_line": 95,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "Meaning I want to be seen only on Instagram reels.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "995c2a5680808cee65ce2398ae657b553cfd9fa5285a75e1f6d36366c323d308",
+      "original_line_sha256": "1d4c4b6c734e6816cbecc916a8d0012b3f9774f244876a3c01faedb08ee95c73",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 1498,
+          "matched_token_count": 10,
+          "normalized_caption_context": "to go to excluded placement i don't even want to consider them meaning i want to be seen only on instagram reels now i click on the more option if you want to go",
+          "context_window": {
+            "start_token_zero_based": 1486,
+            "end_token_exclusive_zero_based": 1520
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-033",
+      "original_line": 97,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "Current length 15 seconds Recommended up to 15 seconds Ours is 15 seconds only. It is 15.3, so it is asking to crop it.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "027c777208d8089726d1ea788552aa73ee2ce7d1caa2c22baf2c05b355aa2dfb",
+      "original_line_sha256": "2ee7d1989ea605257742b4bcfefaeccf61af491e6480b0c829feb87bd011d75a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 2034,
+          "matched_token_count": 25,
+          "normalized_caption_context": "should get the reels or creatives made from your designer or editor current length 15 seconds recommended up to 15 seconds ours is 15 seconds only it is 15 3 so it is asking to crop it not a problem see the original now it is recommended to crop",
+          "context_window": {
+            "start_token_zero_based": 2022,
+            "end_token_exclusive_zero_based": 2071
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-034",
+      "original_line": 99,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "Now your question would be that the audience may be narrow. The audience may be narrow. For that you will have to try and test it and after analyzing the result outcome you can then modify it.",
+      "inherited_attribution": "My Online Master, *How to Run Reels-Only Ads in Meta Ads Manager (Step-by-Step)*",
+      "candidate_normalized_sha256": "c38058997893494984650e1bd6bf5395b5a19a573958267bba570148e830afa8",
+      "original_line_sha256": "29fe5b2e26f82bb8401bf00cb751e847523e563f6c926310d57e1eccd229c605",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "HylsWZ-93Oc",
+          "source_sha256": "5f0f2ad887a0f2bdf8709f3493c0a0afe370fcd44fc848fe3a66723a15d016a4",
+          "token_offset_zero_based": 1430,
+          "matched_token_count": 37,
+          "normalized_caption_context": "21 meta has 21 possible placements i just want one of those now your question would be that the audience may be narrow the audience may be narrow for that you will have to try and test it and after analyzing the result outcome you can then modify it so for now i just chose the reel allow limited spend to",
+          "context_window": {
+            "start_token_zero_based": 1418,
+            "end_token_exclusive_zero_based": 1479
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-035",
+      "original_line": 101,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "For in-stream Reels placements, you'll see an option to exclude skippable ads. When enabled, your ad will only run in non-skippable slots, meaning the viewer has to watch it.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "2dbc18c3d7c75d56109a9c831d524deec2be02ccae07420d7a1d7e1722094488",
+      "original_line_sha256": "06ff682e273c0826960bc150dec5666e29fbca2e372a1435f7970d5bb342ea46",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 1207,
+          "matched_token_count": 31,
+          "normalized_caption_context": "data heavy content and their experience will be better on wi fi for in stream reels placements you'll see an option to exclude skippable ads when enabled your ad will only run in non skippable slots meaning the viewer has to watch it this guarantees full impressions but typically costs more and reaches a smaller",
+          "context_window": {
+            "start_token_zero_based": 1195,
+            "end_token_exclusive_zero_based": 1250
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-036",
+      "original_line": 103,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "These work best when your creative is video-based and grabs attention in the first 2 seconds.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "e3e43c4badd3059f32f9e8c3815d803cbca46af7a439ea3c557c00b0384437ec",
+      "original_line_sha256": "4905c3a224ecaf2796b35115a6639826054266fd0d191456a99fa905bc5e5697",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 743,
+          "matched_token_count": 17,
+          "normalized_caption_context": "on facebook reels a surface specifically for branded content displayed on reels these work best when your creative is video based and grabs attention in the first 2 seconds search results a powerful and often overlooked placement category your ad appears",
+          "context_window": {
+            "start_token_zero_based": 731,
+            "end_token_exclusive_zero_based": 772
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-037",
+      "original_line": 105,
+      "heading": "Running single-placement (Reels-only) ads",
+      "candidate_text": "If you're selling a premium iOS productivity app targeting only iPhone users on Wi-Fi running iOS 16 and above makes complete sense.",
+      "inherited_attribution": "Digital Growth Tutor, *Meta Ads Placement Targeting Explained (2026) | Advantage+ vs Manual Placements Guide*",
+      "candidate_normalized_sha256": "bea7710c0a0d7343a2bab2174d6087e1baf5a740e44d6be7e7c49c59b0eaed28",
+      "original_line_sha256": "7428ab2c4914b92593d213721a8dc5364281725ee718c32a1e473b7cb202bbdf",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "XXYPjtXoZxw",
+          "source_sha256": "e7da6e2968934e9f27546e2d520103dc657c34c8e780a80415c2b97b2b58d94f",
+          "token_offset_zero_based": 1281,
+          "matched_token_count": 23,
+          "normalized_caption_context": "when you have a very specific niche product or service for example if you're selling a premium ios productivity app targeting only iphone users on wi fi running ios 16 and above makes complete sense every dollar of your budget goes to someone who can actually use",
+          "context_window": {
+            "start_token_zero_based": 1269,
+            "end_token_exclusive_zero_based": 1316
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-038",
+      "original_line": 111,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "We can see that the biggest spend is being spent on the feed over here, Facebook feed.",
+      "inherited_attribution": "Konstantinos Doulgeridis, *Meta Ads Performance Battle: Feed vs Stories/Reels!*",
+      "candidate_normalized_sha256": "6dc7d57b355e08aa6029e0501e2f3b0343dfe8d3935fcc7c0630c4aae3c0ec51",
+      "original_line_sha256": "fc9dab155394e410f8a293029779a0a3424dced814c8965da1bf923310827e51",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "SlfEht5Wlwk",
+          "source_sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+          "token_offset_zero_based": 771,
+          "matched_token_count": 17,
+          "normalized_caption_context": "so it's already filtered and we're going to see where spending more we can see that the biggest spend is being spent on the feed over here facebook feed and we have also the reels which are actually spending another 900k",
+          "context_window": {
+            "start_token_zero_based": 759,
+            "end_token_exclusive_zero_based": 800
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-039",
+      "original_line": 113,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "The stories they have a compelling 31k spend comparing to the 6K spend of feed.",
+      "inherited_attribution": "Konstantinos Doulgeridis, *Meta Ads Performance Battle: Feed vs Stories/Reels!*",
+      "candidate_normalized_sha256": "812334784c6fd563f4df09375c4ffee59828da9c9a9e3aad1cd1ec0f76d19dff",
+      "original_line_sha256": "9ea2697225d00b5398ac43104311696ea206512c6b9dcece585ecc165d79a87d",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "SlfEht5Wlwk",
+          "source_sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+          "token_offset_zero_based": 2099,
+          "matched_token_count": 15,
+          "normalized_caption_context": "stories instagram feed we can see that instagram is actually winning here the stories they have a compelling 31k spend comparing to the 6k spend of feed so in this one uh which is photos actually this one is",
+          "context_window": {
+            "start_token_zero_based": 2087,
+            "end_token_exclusive_zero_based": 2126
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-040",
+      "original_line": 115,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "we know that on the uh on the younger people, it's mostly Instagram and it's going to be Instagram uh stories.",
+      "inherited_attribution": "Konstantinos Doulgeridis, *Meta Ads Performance Battle: Feed vs Stories/Reels!*",
+      "candidate_normalized_sha256": "18ad106af52836dc2aa2fc2774fa699280c93db920b6b8b2693fce5add318e93",
+      "original_line_sha256": "9008e783969ebd572a306fea37a41851f356f3776ccdcd3763353310d0f23c30",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "SlfEht5Wlwk",
+          "source_sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+          "token_offset_zero_based": 2780,
+          "matched_token_count": 21,
+          "normalized_caption_context": "so let's uh summarize a little bit from what we have seen we know that on the uh on the younger people it's mostly instagram and it's going to be instagram uh stories when we're talking about uh images uh for the cataloges it's going",
+          "context_window": {
+            "start_token_zero_based": 2768,
+            "end_token_exclusive_zero_based": 2813
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-041",
+      "original_line": 117,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "for the older people, we have mostly Facebook feed working",
+      "inherited_attribution": "Konstantinos Doulgeridis, *Meta Ads Performance Battle: Feed vs Stories/Reels!*",
+      "candidate_normalized_sha256": "f4ff62776b7a6f99f5699915b26a887b8ecdda7167d88edbee1e304e773585f1",
+      "original_line_sha256": "92ee945bd2fcf6c5d3d886c16356574e0dd4885ff8258f40517b3ae65ce45cf2",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "SlfEht5Wlwk",
+          "source_sha256": "f8ef000676b72414dd125251104b1bcc81c77e1f00f72759c09c7b3cbbd497c4",
+          "token_offset_zero_based": 2835,
+          "matched_token_count": 10,
+          "normalized_caption_context": "be for the videos also feed instagram for the younger people and for the older people we have mostly facebook feed working uh i haven't checked videos and stuff uh but i think that",
+          "context_window": {
+            "start_token_zero_based": 2823,
+            "end_token_exclusive_zero_based": 2857
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-042",
+      "original_line": 119,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "Most leads came from their reals and stories while feed had a lower CTR. Then optimize your placement reduce cost per lead by 40%.",
+      "inherited_attribution": "Samiksha Creation's, *Choosing the Right Ad Placement: Feeds vs. Reels vs. Stories*",
+      "candidate_normalized_sha256": "eef84d69a4fbc4c0216f4f21c998c1bcaf8e137cd50bc35187bb412a9e84fd9f",
+      "original_line_sha256": "ac4a046c9031cb4b0bf76a4b7a47bf573672ffb6072ff8bce044b589f80b3511",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "5X6gwDaCgqA",
+          "source_sha256": "7b83233494499df002b9f7db1f79b50c84a7715975d7f5d275f019c7f5c28d63",
+          "token_offset_zero_based": 206,
+          "matched_token_count": 24,
+          "normalized_caption_context": "okay for example a client ran the same ad across all platforms most leads came from their reals and stories while feed had a lower ctr then optimize your placement reduce cost per lead by 40 okay then of course you are choosing reals and stories right yes",
+          "context_window": {
+            "start_token_zero_based": 194,
+            "end_token_exclusive_zero_based": 242
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-043",
+      "original_line": 121,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "83% of adult women and 75% of adult men are active on Facebook, and over 41% of the 65 plus demographic log in daily",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "4fc77acd02c5fd6a08f0c408a6de2882febb3ba21da1f3eccf873b40b0a01517",
+      "original_line_sha256": "c78eafdbf426c13710da44119c03aed919703ea3ef93c615731d7f283316f6a9",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 173,
+          "matched_token_count": 24,
+          "normalized_caption_context": "king for the 35 65 plus demographic in fact statistics show that 83 of adult women and 75 of adult men are active on facebook and over 41 of the 65 plus demographic log in daily so if you're selling luxury cruises high end wellness retreats or multi",
+          "context_window": {
+            "start_token_zero_based": 161,
+            "end_token_exclusive_zero_based": 209
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-044",
+      "original_line": 123,
+      "heading": "Placement performance by audience age and format type",
+      "candidate_text": "only 10% of Instagram's users are over 65",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "39a1ec2fd6db08b45f914750944ad62da995e2d685938d56596bb38770057199",
+      "original_line_sha256": "53cc0103c9dd350f4e7c257d49fd9287a244da4eb77c44fd38985728a20045ef",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 262,
+          "matched_token_count": 8,
+          "normalized_caption_context": "hours a day on social media to show this disparity in demographics only 10 of instagram's users are over 65 in other words if your destination is visually driven and caters to",
+          "context_window": {
+            "start_token_zero_based": 250,
+            "end_token_exclusive_zero_based": 282
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-045",
+      "original_line": 129,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "It's shot for vertical. Shoot them native to Facebook. Don't don't do horizontal and then try to trim it down to like don't do a YouTube ad and then say, \\\"Okay, let's make it vertical and then put it on Facebook.\\\"",
+      "inherited_attribution": "SPLASHmedia, *Meta Ad Creative Best Practices | What Actually Drives Performance*",
+      "candidate_normalized_sha256": "5e7f43f3dde86224f3d0f5a6ec930ea56536d9e6cc3827c1704d151f19925920",
+      "original_line_sha256": "9cc4474f59e549433859d05f8fc05b66626c6e43b9c97896582059b6284f11d5",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "OzEDJtpPOwM",
+          "source_sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+          "token_offset_zero_based": 595,
+          "matched_token_count": 41,
+          "normalized_caption_context": "what you want on meta stand out and be quick number three it's shot for vertical shoot them native to facebook don't don't do horizontal and then try to trim it down to like don't do a youtube ad and then say okay let's make it vertical and then put it on facebook sometimes that might work sometimes it won't work but odds are it",
+          "context_window": {
+            "start_token_zero_based": 583,
+            "end_token_exclusive_zero_based": 648
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-046",
+      "original_line": 131,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "captions because captions will allow you to still get someone's attention, right? Even if the sound is not off and majority of the time the sound is off for people that scroll",
+      "inherited_attribution": "SPLASHmedia, *Meta Ad Creative Best Practices | What Actually Drives Performance*",
+      "candidate_normalized_sha256": "cd2d72c9e9d050204f489cdb3b27c6a93fc70752033d813c079f68c13dbc6fe8",
+      "original_line_sha256": "a0e5ecf4f4b62f14551d0bb4a7b7892e020cdbe37a5f2b0ad9108aa26b22805a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "OzEDJtpPOwM",
+          "source_sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+          "token_offset_zero_based": 1476,
+          "matched_token_count": 32,
+          "normalized_caption_context": "room to test on advertising right very important very important number five captions because captions will allow you to still get someone's attention right even if the sound is not off and majority of the time the sound is off for people that scroll right so again the visuals here the visuals here are going to",
+          "context_window": {
+            "start_token_zero_based": 1464,
+            "end_token_exclusive_zero_based": 1520
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-047",
+      "original_line": 133,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "A pro tip is you'll want to turn off the multi-advertiser ad setting when adding your creatives.",
+      "inherited_attribution": "TravelTractions | Tourism Marketing | Matt Davison, *Instagram Ads vs Facebook Ads for Travel: Which Works Best in 2026*",
+      "candidate_normalized_sha256": "b47427cd2b790198176ec61f1ad39e3902af30396d231cf6914c16af001226db",
+      "original_line_sha256": "fd0089c1b5f091a7e945b9cb6d6e3f67dcadc331ebfa7a21948e80420c630ef0",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "j0t4mEbGMsM",
+          "source_sha256": "53d5db9b1315370c973797079c9742751b84fadad20ea902220014c3f091fa87",
+          "token_offset_zero_based": 764,
+          "matched_token_count": 18,
+          "normalized_caption_context": "experience they are the least relevant placement options for the travel industry a pro tip is you'll want to turn off the multi advertiser ad setting when adding your creatives this setting will place your creatives alongside other ads why isn't this",
+          "context_window": {
+            "start_token_zero_based": 752,
+            "end_token_exclusive_zero_based": 794
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-048",
+      "original_line": 135,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "Number four, multiple hooks because you don't know what's going to perform. Now with Meta, we like to do them in chunks of four the ad creatives.",
+      "inherited_attribution": "SPLASHmedia, *Meta Ad Creative Best Practices | What Actually Drives Performance*",
+      "candidate_normalized_sha256": "5bd779a6e3c0dae5c2f95f3d8492eb4119a64ac49167e50474f2fffbb4e3e655",
+      "original_line_sha256": "330b780e942ae71139ad0bd8ee338de7a5f77092a650e4a35ddbd2d97df2432a",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "OzEDJtpPOwM",
+          "source_sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+          "token_offset_zero_based": 932,
+          "matched_token_count": 27,
+          "normalized_caption_context": "so that's that's how we shoot it we shoot it for vertical number four multiple hooks because you don't know what's going to perform now with meta we like to do them in chunks of four the ad creatives we'll shoot commercials and we'll do about four different commercials off of",
+          "context_window": {
+            "start_token_zero_based": 920,
+            "end_token_exclusive_zero_based": 971
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-049",
+      "original_line": 137,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "we won't test a new headline with the the different video and then a different headline with a different video",
+      "inherited_attribution": "SPLASHmedia, *Meta Ad Creative Best Practices | What Actually Drives Performance*",
+      "candidate_normalized_sha256": "52af571930e4d933ceaabf52588511308b4c656ca2e856e589267be8fa0f2529",
+      "original_line_sha256": "d6d61a3d87f2f21ad67554e39d47adf47fc289b91ed32287ed59d00f53959af1",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "OzEDJtpPOwM",
+          "source_sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+          "token_offset_zero_based": 1022,
+          "matched_token_count": 20,
+          "normalized_caption_context": "gets to and we'll test one at a time by the way we won't test a new headline with the the different video and then a different headline with a different video it's the same video or or a different video two different videos",
+          "context_window": {
+            "start_token_zero_based": 1010,
+            "end_token_exclusive_zero_based": 1054
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-050",
+      "original_line": 139,
+      "heading": "Native-vertical production and captions",
+      "candidate_text": "Our our clickthrough rates are consistently at anywhere from four to 6% which is incredible. The average is around 1 and a half% 2%.",
+      "inherited_attribution": "SPLASHmedia, *Meta Ad Creative Best Practices | What Actually Drives Performance*",
+      "candidate_normalized_sha256": "7d199135d9206017bfbd9de57f2a09531be5c50b52e076e3c7f73d41d0eced14",
+      "original_line_sha256": "f811e537f44bef807c158f2c3bbe19ff9360bbaffa396af26bfa0a4ab52bf863",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "OzEDJtpPOwM",
+          "source_sha256": "6653418e4d18f7e33aaf7b1ecb915819ff03771506f0a026502364426dba276f",
+          "token_offset_zero_based": 1856,
+          "matched_token_count": 24,
+          "normalized_caption_context": "lot of success with meta in the way we shoot verticals right our our clickthrough rates are consistently at anywhere from four to 6 which is incredible the average is around 1 and a half 2 so we're hitting you know anywhere from fours to sixes threes sometimes",
+          "context_window": {
+            "start_token_zero_based": 1844,
+            "end_token_exclusive_zero_based": 1892
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-051",
+      "original_line": 145,
+      "heading": "Contrarian / minority (flagged, not adopted)",
+      "candidate_text": "So right now what we have observed is after working with lot of clients that Facebook is attracting a lot of low uh quality audience.",
+      "inherited_attribution": "Abhishek Sharma, *STOP Wasting Ad Budget – Instagram Placement is Winning After Meta's Update! 2025*",
+      "candidate_normalized_sha256": "a65498b950e6f836548cb020957956552be3ea018d432e86c170d580e02540d3",
+      "original_line_sha256": "b207911faad4c5130a6c361e5a91496ce63c59644b996b8ef2848dae7cddf82b",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "luJoRyaNdD4",
+          "source_sha256": "70167ffeacb94cb1f194344314a92afa949993ea4c9ee5400f963a9df971c68b",
+          "token_offset_zero_based": 106,
+          "matched_token_count": 25,
+          "normalized_caption_context": "video second thing what you can do is start working on placement so right now what we have observed is after working with lot of clients that facebook is attracting a lot of low uh quality audience so try to shift your entire ads to instagram so how exactly",
+          "context_window": {
+            "start_token_zero_based": 94,
+            "end_token_exclusive_zero_based": 143
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    },
+    {
+      "id": "PLF-052",
+      "original_line": 147,
+      "heading": "Contrarian / minority (flagged, not adopted)",
+      "candidate_text": "Just uh keep selecting uh just um keep Instagram as the selected platform and that's where you can uh expect to get some good results.",
+      "inherited_attribution": "Abhishek Sharma, *STOP Wasting Ad Budget – Instagram Placement is Winning After Meta's Update! 2025*",
+      "candidate_normalized_sha256": "2a2a86f463bce5a5115b5352e2af0f59656b14b620b6958a6970ffc39bfb7be0",
+      "original_line_sha256": "a20f1491179d11c55b7c5f1953f93d6c6bc9905123c957dae4ea35229b4a2fa3",
+      "disposition": "caption_text_match_speaker_unverified",
+      "evidence": [
+        {
+          "source_id": "luJoRyaNdD4",
+          "source_sha256": "70167ffeacb94cb1f194344314a92afa949993ea4c9ee5400f963a9df971c68b",
+          "token_offset_zero_based": 162,
+          "matched_token_count": 25,
+          "normalized_caption_context": "to your adset level and scroll down to the placements remove everything just uh keep selecting uh just um keep instagram as the selected platform and that's where you can uh expect to get some good results uh do test it out and let me know",
+          "context_window": {
+            "start_token_zero_based": 150,
+            "end_token_exclusive_zero_based": 196
+          }
+        }
+      ],
+      "status_note": "Exact normalized caption-token sequence found. This supports a caption-text match only; it does not independently certify the recording, speaker identity, title, surrounding meaning, or a current Meta product rule."
+    }
+  ],
+  "coverage": {
+    "original_entry_count": 52,
+    "ledger_entry_count": 52,
+    "matched_caption_text_count": 51,
+    "unverified_trace_count": 1,
+    "multiple_match_entry_count": 0,
+    "all_original_entries_accounted_for": true
+  },
+  "limitations": [
+    "The local source files are captions/transcripts, not recordings or official Meta documentation.",
+    "Original creator and title labels are retained as inherited attribution. A source-ID relationship is recorded only when the candidate text matches that retained caption.",
+    "No candidate is a current platform rule. Check current official product documentation and the actual account UI before acting."
+  ]
+}
