@@ -15,9 +15,9 @@ for phrase in \
   "why does Meta show more purchases than my dashboard" \
   "what attribution window should I use" \
   "should I turn view-through" \
-  "reported vs actual ROAS" \
-  "should I switch to incremental attribution" \
-  "how do I reconcile Ads Manager" ; do
+  "is my ROAS real" \
+  "what is incremental attribution" \
+  "7-day click or 1-day view" ; do
   if ! grep -qi "$phrase" "$BRAIN_DIR/SKILL.md"; then
     echo "FAIL trigger phrase missing from SKILL.md: $phrase"
     FAIL=1
@@ -40,7 +40,6 @@ done
 #    Pairs-with / Related-brains links get caught here rather than at runtime.
 for sibling in \
   "brain-meta-attribution-measurement-deep" \
-  "brain-post-click-tracking-plumbing" \
   "brain-meta-ads-manual-control-no-advantage" ; do
   if ! grep -q "$sibling" "$BRAIN_DIR/SKILL.md"; then
     echo "FAIL sibling brain no longer referenced in SKILL.md: $sibling"

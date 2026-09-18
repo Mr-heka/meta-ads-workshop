@@ -1,6 +1,6 @@
 ---
 name: brain-meta-attribution-truth
-description: Use when the user asks "why does Meta show more purchases than my dashboard", "is my ROAS real", "7-day click or 1-day view", "what is incremental attribution", or needs Meta vs CRM reconciliation, view-through, over-reporting, or holdout guidance. Route lift-test and GHL crosswalk execution to brain-meta-attribution-measurement-deep.
+description: Use when the user asks "why does Meta show more purchases than my dashboard", "is my ROAS real", "7-day click or 1-day view", "what is incremental attribution", or needs Meta vs CRM reconciliation, view-through, over-reporting, or holdout guidance. Route lift-test and CRM crosswalk execution to brain-meta-attribution-measurement-deep.
 metadata:
   type: expert-brain
   topic: "Meta attribution truth (windows, view-through, incrementality, when ROAS lies)"

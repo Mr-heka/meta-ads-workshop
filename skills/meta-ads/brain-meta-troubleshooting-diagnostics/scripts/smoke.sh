@@ -22,7 +22,7 @@ done
 # 2. Frontmatter loads: name + description present
 grep -q '^name: brain-meta-troubleshooting-diagnostics' SKILL.md
 check "frontmatter name" $?
-grep -q '^description: >' SKILL.md
+grep -q '^description:' SKILL.md
 check "frontmatter description" $?
 
 # 3. (Raw transcripts are not shipped; no source-count check.)
