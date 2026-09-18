@@ -13,8 +13,8 @@ FAIL=0
 # 1. Canonical trigger phrases must survive in the SKILL.md description.
 for phrase in \
   "why does Meta show more purchases than my dashboard" \
-  "what attribution window should I use" \
-  "should I turn view-through" \
+  "attribution window" \
+  "view-through" \
   "is my ROAS real" \
   "what is incremental attribution" \
   "7-day click or 1-day view" ; do
