@@ -1,19 +1,15 @@
 # Notice
 
-The Meta Ads Workshop kit is made by Selr AI. Most skills in `skills/` are Selr's
+The Meta Ads Workshop kit is made by Selr AI. Most skills in `skills/` and `extras/` are Selr's
 own work. The exceptions below are adapted from open sources and keep their own
 attribution inside their folders.
 
 | Skill | Basis |
 |---|---|
-| `higgsfield/higgsfield-generate` | Built against Higgsfield's official CLI documentation (github.com/higgsfield-ai/cli). Sources and the documented commit are listed in its `SOURCES.md`. |
-| `higgsfield/higgsfield-marketplace-cards` | Adapted from Higgsfield's published CLI skill material. |
-| `higgsfield/higgsfield-product-photoshoot` | Adapted from Higgsfield's published CLI skill material. |
-| `higgsfield/higgsfield-soul-id` | Adapted from Higgsfield's published CLI skill material. |
-| `creative-copy/content-marketer` | Community-sourced skill, retained as received. |
-| `video/embedded-captions` | Built on the HyperFrames toolkit; installs its dependencies from HyperFrames. |
-| `video/graphic-overlays` | Built on the HyperFrames toolkit. |
-| `video/talking-head-recut` | Built on the HyperFrames toolkit; `npx hyperframes skills update talking-head-recut` fetches its dependencies. |
+| `skills/higgsfield-generate` | Built against Higgsfield's official CLI documentation (github.com/higgsfield-ai/cli). Sources and the documented commit are listed in its `SOURCES.md`. |
+| `skills/higgsfield-marketplace-cards` | Adapted from Higgsfield's published CLI skill material. |
+| `skills/higgsfield-product-photoshoot` | Adapted from Higgsfield's published CLI skill material. |
+| `skills/higgsfield-soul-id` | Adapted from Higgsfield's published CLI skill material. |
 
 The `brain-*` skills are syntheses written by Selr AI from publicly available
 talks and videos. They keep short attributed quotes and name the speakers they
