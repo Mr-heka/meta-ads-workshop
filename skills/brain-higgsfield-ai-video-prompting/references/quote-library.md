@@ -17,7 +17,7 @@ accurate spoken quotation. Context notes are newly authored interpretation.
 
 Uploader: **AI Video School**. [The Secret to Better AI Videos: Stop Writing Prompts](https://www.youtube.com/watch?v=cGTBzed4S4w).
 
-[Retained source cGTBzed4S4w](../sources/cGTBzed4S4w.txt), characters 713–762.
+Retained source cGTBzed4S4w, characters 713–762.
 
 A rhetorical framing of creative work, not a model-performance claim.
 
@@ -28,7 +28,7 @@ A rhetorical framing of creative work, not a model-performance claim.
 
 Uploader: **Higgsfield AI**. [Kling 3.0 Can Do Anything (And This Video Proves It)](https://www.youtube.com/watch?v=nUgx8ETiR1g).
 
-[Retained source nUgx8ETiR1g](../sources/nUgx8ETiR1g.txt), characters 1012–1095.
+Retained source nUgx8ETiR1g, characters 1012–1095.
 
 An asserted comparison in a retained demonstration; no controlled benchmark accompanies it.
 
@@ -39,7 +39,7 @@ An asserted comparison in a retained demonstration; no controlled benchmark acco
 
 Uploader: **DGI Kaos**. [Higgsfield AI Ultimate Tutorial (2026)](https://www.youtube.com/watch?v=cksEVv1tArI).
 
-[Retained source cksEVv1tArI](../sources/cksEVv1tArI.txt), characters 40584–40648.
+Retained source cksEVv1tArI, characters 40584–40648.
 
 Describes that example. Retain other identity or setting instructions when the brief needs them.
 
@@ -50,7 +50,7 @@ Describes that example. Retain other identity or setting instructions when the b
 
 Uploader: **AI Madame**. [7 Mistakes Everyone Makes in Seedance 2 0 And How I Fix Them With Claude + Higgsfield](https://www.youtube.com/watch?v=iBifCVAXgZg).
 
-[Retained source iBifCVAXgZg](../sources/iBifCVAXgZg.txt), characters 3268–3303.
+Retained source iBifCVAXgZg, characters 3268–3303.
 
 A prompting reminder; it does not establish every current operation's memory or reference behavior.
 
@@ -61,7 +61,7 @@ A prompting reminder; it does not establish every current operation's memory or 
 
 Uploader: **Rourke Heath**. [Claude For Content Creation Tutorial (Higgsfield CLI - Beginner to Pro)](https://www.youtube.com/watch?v=FQqkDXq1WEQ).
 
-[Retained source FQqkDXq1WEQ](../sources/FQqkDXq1WEQ.txt), characters 28217–28278.
+Retained source FQqkDXq1WEQ, characters 28217–28278.
 
 Creator narration about a particular workflow. It is not first-party documentation or a ban on editorial references.
 
@@ -72,7 +72,7 @@ Creator narration about a particular workflow. It is not first-party documentati
 
 Uploader: **Artturi Jalli**. [Higgsfield AI Ultimate Tutorial — EVERY Feature Explained & Reviewed](https://www.youtube.com/watch?v=l-rFCkjJzu8).
 
-[Retained source l-rFCkjJzu8](../sources/l-rFCkjJzu8.txt), characters 42972–43035.
+Retained source l-rFCkjJzu8, characters 42972–43035.
 
 A creator's expectation for that example, not a default retry budget or authority to spend.
 

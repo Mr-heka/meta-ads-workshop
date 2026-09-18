@@ -9,4 +9,4 @@
 - Added Execution playbook and Applied to your business sections; domain/aliases frontmatter.
 
 ## 2026-07-18
-- Recalibration pass: Neiman scale gates, CPL target framing (audit 2026-07-18).
+- Recalibration pass: the scale gates, CPL target framing (audit 2026-07-18).

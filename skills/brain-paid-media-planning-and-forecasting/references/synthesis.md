@@ -50,7 +50,7 @@ Raising what a customer is worth expands allowable spend non-linearly.
 - **DoneMaker**: declining ROAS, AOV, or LTV are the trigger metrics that flag a funnel problem.
 - **Rich From Anywhere**: backend/LTV upsell is what justifies a breakeven or loss-making front end (his $297 product example nets ~$10K profit plus 192 acquired customers for the backend).
 
-Consensus among the CFO-minded sources. Event translation for us: the seat is a front end for the community and team-training path, so price the ads against the lifetime path, not seat margin.
+Consensus among the CFO-minded sources. Event translation for a workshop: the seat is a front end for the community and team-training path, so price the ads against the lifetime path, not seat margin.
 
 ## Theme 5 - The CAC / show-rate / close-rate chain to a booked cost (CONSENSUS on structure)
 
@@ -96,7 +96,7 @@ Every source that gives a kill rule ties it to the offer price, so the decision 
 - **Michael Tracey**: 1-3 days is not enough, especially on a new ad account; let it run and judge on ROI over the month.
 - **Christian Jamal**: let it ride 2-3 days before changes, not 2-4 weeks.
 
-Contested only on the multiple (2.5x vs 5x) and the patience window (2-3 days vs weeks). Method is consensus: kill threshold = a multiple of the price, judged on data over multiple days. Our verified base uses 3x target CPL after 7 days on a lifetime view, which sits inside this range.
+Contested only on the multiple (2.5x vs 5x) and the patience window (2-3 days vs weeks). Method is consensus: kill threshold = a multiple of the price, judged on data over multiple days. The default here is 3x target CPL after 7 days on a lifetime view, which sits inside this range.
 
 ## Theme 9 - Scale only after proof, gradually, gated on backend economics (CONSENSUS)
 
@@ -107,7 +107,7 @@ Do not start at maximum budget; scale confirmed winners in small steps.
 - **Ben Heath**: get a campaign profitable (e.g. 4x ROAS) as fast as possible then reinvest.
 - **Joly Tematio's scale gate**: bottom-of-funnel economics decide. A $50-70 CPA on a $200 AOV justifies reinvestment; a $500 CPA on a $250 AOV is a red flag (negative ROI).
 
-Consensus. Our verified base already uses +20%/3 days on a 3-day average, never same-day, which matches the "gradual, on averaged data" doctrine.
+Consensus. The default here is +20%/3 days on a 3-day average, never same-day, which matches the "gradual, on averaged data" doctrine.
 
 ## Theme 10 - Signal accuracy is a prerequisite for every budget decision (CONSENSUS)
 
@@ -117,7 +117,7 @@ Broken or wrong-event tracking distorts the CAC math before any budgeting is pos
 - **Joly Tematio**: a missing pixel on non-opt-in funnel pages starves Meta's algorithm and degrades lead quality over time. Track opt-in, VSL watch, scheduling, show, email metrics.
 - **DoneMaker**: you can't set a real goal or diagnose scale-readiness without knowing your own conversion numbers.
 
-Consensus. This is the hinge to the verified base: signal quality gates spend. Once CAPI and a real sale event are verified firing, CAC becomes measurable and you can plan against it — but the doctrine (fix signal before trusting CAC) still holds, and until that verification exists nothing downstream of it is trustworthy.
+Consensus. This is the hinge to the wider verified evidence: signal quality gates spend. Once CAPI and a real sale event are verified firing, CAC becomes measurable and you can plan against it — but the doctrine (fix signal before trusting CAC) still holds, and until that verification exists nothing downstream of it is trustworthy.
 
 ## Theme 11 - Don't fund awareness/proxy campaigns on a small budget (CONSENSUS)
 
@@ -136,7 +136,7 @@ Consensus that the main budget goes to conversion objectives. Only Jason Hunt se
 - **Joly Tematio**: real client numbers ($700-750K/month at ~3x ROAS on a $50-70 CPA) justify reinvestment on profit volume, not the per-lead number.
 - **DoneMaker**: know your margins and cost of goods before any scale conversation.
 
-Consensus, and it echoes the verified base's "judge on profit volume, not per-ad attribution" (Charley T).
+Consensus, and it echoes the wider verified evidence's "judge on profit volume, not per-ad attribution" (Charley T).
 
 ---
 

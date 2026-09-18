@@ -43,7 +43,7 @@ Run the pre-flight checklist on the rewrite before resubmitting:
 1. No personal-attribute callout. Pass.
 2. No outcome guarantee or exaggerated claim. Pass.
 3. No before/after image, no excess skin, light on-image text. Check the creative.
-4. Landing page (workshop.selrai.com.au) matches the promise, has a privacy policy and contact info, no links out to other offers above the fold. Check.
+4. Landing page (<your-landing-page-domain>) matches the promise, has a privacy policy and contact info, no links out to other offers above the fold. Check.
 5. Not a special ad category (AI education, not finance/property/employment/credit/health). Pass.
 6. Business and domain verified. Confirm.
 7. Not resubmitting the old ad unchanged. Pass, this is a real rewrite.
@@ -56,7 +56,7 @@ Suppose the reason string had been generic ("does not comply with our advertisin
 
 - Ad 1: the copy alone, pointed at a safe link (google.com), with a neutral image. Isolates whether the text is the trigger.
 - Ad 2: approved copy plus the safe link plus the real creative. Isolates the image/video.
-- Ad 3: approved copy plus creative plus the real landing-page URL (workshop.selrai.com.au). Isolates the destination.
+- Ad 3: approved copy plus creative plus the real landing-page URL (<your-landing-page-domain>). Isolates the destination.
 
 Whichever step first gets rejected is your culprit. This beats guessing and beats spam-resubmitting, which hurts account reputation (the "credit score" model).
 

@@ -1,10 +1,10 @@
 # Synthesis: Meta campaign objectives 2026 (current objective set, buying types, optimisation goals)
 
-Built 2026-07-06 from 11 mined transcripts. Survey-level scope: the current 6-objective set, buying types (auction vs reservation), what each optimisation goal does in the auction, which objective for which business goal, Sales vs Leads for our funnel, and the Andromeda-era objective changes.
+Built 2026-07-06 from 11 mined transcripts. Survey-level scope: the current 6-objective set, buying types (auction vs reservation), what each optimisation goal does in the auction, which objective for which business goal, Sales vs Leads for your funnel, and the Andromeda-era objective changes.
 
 Boundary held throughout: which specific EVENT to optimise to inside an objective is the deep sibling `brain-meta-optimisation-event-strategy`; budgets, bidding and the learning phase are `brain-meta-budgets-bidding-learning`. This file points there rather than duplicating.
 
-Cross-checked against our verified base `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. Where a source conflicts with that base (mostly on Advantage+ audience automation), the conflict is flagged and the verified base wins.
+Cross-checked against the wider verified evidence `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. Where a source conflicts with that base (mostly on Advantage+ audience automation), the conflict is flagged and the stricter rule holds.
 
 Excluded from the themes below (see bottom for why): Eric | Ecom Explained (thin, off-scope), Damini Tripathi (off-scope). HubSpot Marketing is era-flagged and used only as caveated context, never as a primary backer.
 
@@ -93,7 +93,7 @@ Textbook survey mapping, agreed across V.S.L, Paul Chinedu Nnamani, Edunexia, Pr
 
 **Consensus.** No disputes on the one-line purpose of any objective.
 
-## Theme 9: The Andromeda-era change: audience/placement targeting is being overridden by the algorithm (CONSENSUS direction, CONFLICTS with our verified base, base wins)
+## Theme 9: The Andromeda-era change: audience/placement targeting is being overridden by the algorithm (CONSENSUS direction, CONFLICTS with the wider verified evidence, base wins)
 
 Post-Andromeda, manual audience selection matters far less because Advantage+ Audience is on by default, and the creative plus objective do the targeting.
 
@@ -101,7 +101,7 @@ Post-Andromeda, manual audience selection matters far less because Advantage+ Au
 - **Digital Growth Tutor**: at the audience step, "Meta may recommend using advantage plus audience, but I prefer switching to the original audience to keep the targeting specific and controlled." Keeps geo strict (33m / 50km radius around Bendigo). Leaves Advantage+ Placements ON, Advantage+ budget ON.
 - Concrete objective-level Andromeda effect: legacy objectives consolidated into the six, and the create flow now nudges an "Advantage+ / recommended" version of each objective (e.g. Advantage+ Traffic) with a manual opt-out at each level.
 
-**Conflict, base wins.** Sources describe drifting toward Advantage+ Audience as the default and largely accepting it. The manual-control doctrine (`brain-meta-ads-manual-control-no-advantage`) is the opposite: switch to Original Audience, keep manual control, only Advantage+ Placements stays on. Notably the two step-by-step creators (My Online Master, Digital Growth Tutor) independently reach the SAME manual choice (switch to Original Audience), so on the actual setting there is no conflict. The conflict is only framing: "targeting no longer matters" is overstated for a small manual account. Side with the base: keep manual audience control.
+**Conflict; manual control holds.** Sources describe drifting toward Advantage+ Audience as the default and largely accepting it. The manual-control doctrine (`brain-meta-ads-manual-control-no-advantage`) is the opposite: switch to Original Audience, keep manual control, only Advantage+ Placements stays on. Notably the two step-by-step creators (My Online Master, Digital Growth Tutor) independently reach the SAME manual choice (switch to Original Audience), so on the actual setting there is no conflict. The conflict is only framing: "targeting no longer matters" is overstated for a small manual account. Side with the base: keep manual audience control.
 
 The two thinnest sub-areas of scope across all sources are the **reservation buying type** and **App Promotion depth** (see experts.md).
 
@@ -119,7 +119,7 @@ The two thinnest sub-areas of scope across all sources are the **reservation buy
 | Optimisation goal is a separate lever | Consensus |
 | Sales vs Leads = online-checkout vs offline-close | Contested emphasis, clean reconciliation |
 | One-line purpose of each objective | Consensus |
-| Andromeda overrides manual targeting | Consensus direction, CONFLICTS with verified manual base, base wins |
+| Andromeda overrides manual targeting | Consensus direction, conflicts with the manual-control rule; manual control holds |
 
 ---
 

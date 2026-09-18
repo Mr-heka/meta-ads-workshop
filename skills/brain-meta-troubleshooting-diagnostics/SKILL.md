@@ -1,6 +1,6 @@
 ---
 name: brain-meta-troubleshooting-diagnostics
-description: "Use when the user says \"my ad isn't spending\", \"stuck in review\", \"zero results\", \"CPM/CPL spiked\", \"Ads Manager says X but my CRM says Y\", or \"ads stopped working\". Hand performance-drop verdicts back to the user with the next test to run; route auction or fatigue to brain-meta-auction-and-delivery, and tracking faults to brain-post-click-tracking-plumbing."
+description: "Use when the user says \"my ad isn't spending\", \"stuck in review\", \"zero results\", \"CPM/CPL spiked\", \"Ads Manager says X but my CRM says Y\", or \"ads stopped working\". Hand performance-drop verdicts back to the user with the next test to run; auction or fatigue is covered by `brain-meta-auction-and-delivery` (in the optional extras pack of this kit), and tracking faults by `brain-post-click-tracking-plumbing` (in the optional extras pack of this kit)."
 metadata:
   type: expert-brain
   topic: "Meta troubleshooting diagnostics (no delivery, CPM spikes, tracking mismatch, auction overlap)"
@@ -29,7 +29,7 @@ consensus view; surface a contrarian take when it's well-argued.
 3. **An overly restrictive manual bid silently blocks auction entry; reverting to automatic bidding is the default fix** (Iboyi, AdAmigo AI). The bid must respect AOV: a $5 target on a $5,000 product never enters the auction.
 4. **When delivery is truly stuck, the sources force it three ways: duplicate the ad set, inflate the bid to 2-3x target CPA, or switch to Accelerated Delivery, then monitor closely and remove the forcing bid once spend flows** (Iboyi, AdAmigo AI). **Only the duplicate is beginner-safe.** Bid inflation is an advanced, money-losing-by-design tactic (see the force-delivery toolkit below for the guardrails it requires), and Accelerated Delivery is a legacy pacing control that most 2026 accounts no longer have and that does not exist under Advantage+ campaign budget. Check whether the option is even present before recommending it.
 5. **Zero-results and error states are almost always a status/config problem, not a bug. Read the literal on-screen error and match it to a known fix** (GUMY Art, Digital Surjeet). Duplicate rather than debug a catch-all "accepted error".
-6. **The learning phase needs ~50 conversions per week and resets on every significant edit; rapid editing is the self-inflicted wound** (Learn with Bilal, corroborated by our verified base).
+6. **The learning phase resets on every significant edit; rapid editing is the self-inflicted wound** (Learn with Bilal). Meta's "50 conversions in 7 days" is a large-account guideline: under roughly $100 a day, ignore it and judge on cost per result and booked or purchased outcomes (the ground rules in `meta-ads-guidelines`).
 7. **CPM/CPC/CPL spikes are a relevance penalty. A fast scroll-past tells Meta the ad is irrelevant and it charges more; a high early view rate lowers CPM** (Mohanad Anan on the cause, Kamal Bunkar on the cure, Learn with Bilal on the frame).
 8. **Broken/duplicate/miswired pixel events silently corrupt optimisation and must be tested before spend** (Jamie Stenton). Test events live before trusting any number.
 
@@ -50,10 +50,10 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Contrarian / disputed takes
 
-- **Kill on the 3-second rate vs kill on cost-per-result.** Bunkar says a <40% 3-second play rate is enough to condemn the hook and act. Our verified base (Ben Heath) is firm the opposite way: hook rate and CTR "explain WHY, never decide WHAT to kill" (his 16% hook-rate ad lost on cost-per-purchase to a 10% one). **Resolution: use Bunkar's metric to decide what to fix, make the final kill/keep call on CPL/CPA. Side with the verified base on the decision.**
+- **Kill on the 3-second rate vs kill on cost-per-result.** Bunkar says a <40% 3-second play rate is enough to condemn the hook and act. Ben Heath is firm the opposite way: hook rate and CTR "explain WHY, never decide WHAT to kill" (his 16% hook-rate ad lost on cost-per-purchase to a 10% one). **Resolution: use Bunkar's metric to decide what to fix, make the final kill/keep call on CPL/CPA. Cost per result decides.**
 - **The hidden reputation score is a single insider claim.** Mouss presents exact percentile mechanics and bronze/platinum tiers as fact. No other source in the set corroborates them. **Treat as a triage prompt (if CPM is high and creative + message-match are clean, check account/customer-experience health), not confirmed platform mechanics.**
 - **CTR >2.5% as a winning threshold (Bilal) sits in mild tension with the same "don't decide kills on CTR" caution.** Treat 2.5% as a health check, not a kill trigger.
-- **Excluded as contrarian-but-wrong-for-us:** Jason Gan's fully-Advantage+ single-adset Andromeda restructure. Conflicts with our locked manual-control doctrine; era-flagged and self-admittedly "still transitioning". Not used.
+- **Excluded as contrarian and not adopted here:** Jason Gan's fully-Advantage+ single-adset Andromeda restructure. Conflicts with the manual-control approach this brain assumes; era-flagged and self-admittedly "still transitioning". Not used.
 
 ## Execution playbook
 
@@ -66,7 +66,7 @@ consensus view; surface a contrarian take when it's well-argued.
 - **IF CPM/CPL spiked THEN check relevance before blaming Meta** (Anan/Bunkar): is the ad getting scrolled past (low 3-sec rate)? Is the message matched to the audience's awareness stage? Only after that, consider account-health (Mouss).
 - **IF ads deliver and click but don't convert THEN move downstream** (Bilal): page speed (a 15-20s load kills it), form-field count, trust signals, then retargeting.
 - **IF Ads Manager disagrees with the CRM THEN test every event live before trusting any number** (Stenton), hunting duplicate/miswired fires, then route to the tracking siblings.
-- **IF you're tempted to edit a live ad set THEN don't** (Bilal + verified base): every significant edit resets learning (~48h). Touch nothing more than once every 7-10 days on a small budget.
+- **IF you're tempted to edit a live ad set THEN don't** (Bilal, Heath): every significant edit resets learning (~48h). Touch nothing more than once every 7-10 days on a small budget.
 
 ### Default numbers experts use
 - Audience floor: **200k** detailed-targeting, **1,000** source people for custom/retargeting.
@@ -85,7 +85,7 @@ consensus view; surface a contrarian take when it's well-argued.
 5. Note the last significant edit timestamp. If it's inside ~48h, the ad set may just be re-learning, not broken.
 
 ### Top 5 failure modes and their fix
-1. **Helicopter-editing the ad set** (budget/audience/bid every 24h) -> resets learning every time. Fix: fixed schedule, touch at most once every 7-10 days (Bilal, verified base).
+1. **Helicopter-editing the ad set** (budget/audience/bid every 24h) -> resets learning every time. Fix: fixed schedule, touch at most once every 7-10 days (Bilal, Heath).
 2. **Blaming Meta for a status problem** -> the ad is in Draft, the card is declined, or the audience is 40k. Fix: run the status ladder before touching strategy (Iboyi/AdAmigo AI/GUMY Art).
 3. **Setting a manual bid too low and wondering why nothing spends** -> revert to automatic bidding (Iboyi/AdAmigo AI).
 4. **Trusting the dashboard when events are broken** -> 50-60% of accounts have broken/duplicate events; a form firing both Lead and Purchase silently mis-optimises. Fix: test every event live pre-launch (Stenton).
@@ -117,18 +117,18 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Related brains
 
-- `brain-meta-auction-and-delivery`: Meta ad auction and delivery (ranking mechanics, diagnostics, fatigue)
-- `brain-meta-exclusion-architecture`: Meta ads exclusion architecture (exclusions, overlap control, funnel sequencing)
-- `brain-meta-ad-to-page-congruence`: Meta ad to page congruence (message match, the relevance chain, per-angle variants)
+- `brain-meta-auction-and-delivery` (in the optional extras pack of this kit): Meta ad auction and delivery (ranking mechanics, diagnostics, fatigue)
+- `brain-meta-exclusion-architecture` (in the optional extras pack of this kit): Meta ads exclusion architecture (exclusions, overlap control, funnel sequencing)
+- `brain-meta-ad-to-page-congruence` (in the optional extras pack of this kit): Meta ad to page congruence (message match, the relevance chain, per-angle variants)
 
 ## Pairs with / boundaries
 
 This brain is the triage front door. It confirms the symptom, names the likely cause, applies the quick fix, and routes deep mechanics elsewhere. It does not duplicate the siblings.
 
-- **Auction mechanics, delivery ranking, creative fatigue** live in `brain-meta-auction-and-delivery`. This brain spots "CPM spiked / ad set stalled"; that brain explains why the auction is pricing you out and how fatigue unfolds.
-- **Audience/auction overlap and exclusions** live in `brain-meta-exclusion-architecture`. This brain flags overlap as a symptom; that brain owns the diagnosis and the exclusion fix. Overlap is explicitly OUT of scope here beyond routing (the source set is thin on it).
-- **Tracking plumbing and pixel/CAPI signal quality** live in `brain-post-click-tracking-plumbing` and `brain-meta-pixel-capi-signals`. This brain confirms a mismatch and whether events fire/duplicate/miswire; those brains own the wiring fix.
-- **Andromeda / Advantage+ structure decisions** live in `brain-meta-andromeda-advantage-mastery`. OUT of scope here, and off-doctrine if the account runs manual controls.
+- **Auction mechanics, delivery ranking, creative fatigue** live in `brain-meta-auction-and-delivery` (in the optional extras pack of this kit). This brain spots "CPM spiked / ad set stalled"; that brain explains why the auction is pricing you out and how fatigue unfolds.
+- **Audience/auction overlap and exclusions** live in `brain-meta-exclusion-architecture` (in the optional extras pack of this kit). This brain flags overlap as a symptom; that brain owns the diagnosis and the exclusion fix. Overlap is explicitly OUT of scope here beyond routing (the source set is thin on it).
+- **Tracking plumbing and pixel/CAPI signal quality** live in `brain-post-click-tracking-plumbing` (in the optional extras pack of this kit) and `brain-meta-pixel-capi-signals` (in the optional extras pack of this kit). This brain confirms a mismatch and whether events fire/duplicate/miswire; those brains own the wiring fix.
+- **Andromeda / Advantage+ structure decisions** live in `brain-meta-andromeda-advantage-mastery` (in the optional extras pack of this kit). OUT of scope here, and off-doctrine if the account runs manual controls.
 - The performance-drop triage tree and its verdict gates ($100 spend + 7d + 3 conversions before any kill/scale; frequency bands 2.5/3.0/3.5/4.0; rolling 7-day windows, 7-day-click only) sit above this brain. Any "CPL spiked / ads stopped working" symptom runs that tree FIRST, then hand the verdict back to the user with the next test to run; this brain handles delivery/config/tracking breaks.
 
 ## Deeper references

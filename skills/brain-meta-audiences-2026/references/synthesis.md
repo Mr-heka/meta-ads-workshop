@@ -8,7 +8,7 @@ exclusion architecture, local lead gen).
 Cross-checked against our verified evidence base
 (`brain-meta-ads-manual-control-no-advantage/references/synthesis.md`, 24 sources).
 Where a source here conflicts with that base, the conflict is flagged and the verified
-base wins.
+manual control holds.
 
 ---
 
@@ -23,7 +23,7 @@ steers delivery on accounts with conversion history.
 - **Ash Davis**: old interest and job-title stacks (business owner, CEO, entrepreneur) no longer perform post-Andromeda.
 
 Concrete number: Heath's like-for-like ad-set test, identical spend distribution with or
-without suggestions filled in. **Consensus.** Matches Theme 1 of the verified base
+without suggestions filled in. **Consensus.** Matches Theme 1 of the wider verified evidence
 ("creative IS the targeting").
 
 Nuance (Heath): on a NEW ad account with no conversion data, suggestions still help
@@ -36,7 +36,7 @@ its keep.
 - **LYFE Marketing**: only three things deserve manual settings in 2026: location (local radius or countries actually served), age (only with a real legal or practical reason), gender (only if it affects the ability to buy). Everything else stays untouched, which is what "broad" means in practice.
 
 Concrete number: Heath's age-floor example, a settable minimum in the 18 to 25 band for
-restricted products. **Consensus.** No conflict with the verified base.
+restricted products. **Consensus.** No conflict with the wider verified evidence.
 
 ## Theme 3: Creative and avatar callouts ARE the targeting in the Andromeda era (CONSENSUS)
 
@@ -47,7 +47,7 @@ The targeting decision moved from the audience panel into the ad itself.
 - **Chase Chappell**: map creative angles to buyer awareness stages (reviews for the educated-but-unsure, UGC demos for the unaware, us-vs-them comparisons) and let creative do the segmentation. Example ad set: $5,400 spent, $50,000 back, roughly 9x ROAS on that creative mix.
 - **LYFE Marketing**: Meta "actually studies your ad creative, the copy, the image or video, the destination URL".
 
-**Consensus**, and it is the same consensus as Theme 1 of the verified base (Fedotoff,
+**Consensus**, and it is the same consensus as Theme 1 of the wider verified evidence (Fedotoff,
 Hunyor, Denney, Fogarty said it there). The two evidence bases agree.
 
 ## Theme 4: Spend-tier doctrine: how much manual audience work you still do depends on monthly spend (CONSENSUS on the ladder, CONTESTED at the bottom rung)
@@ -56,12 +56,12 @@ Hunyor, Denney, Fogarty said it there). The two evidence bases agree.
 - **Sam Piliero** partially agrees: broad is the primary spend driver at any real scale, but single-interest ad sets still have a job (see Theme 5).
 - **LYFE Marketing** dissents at the bottom: even small accounts should run broad prospecting plus custom-audience retargeting, no interest layer at all, because splitting budget thins the data.
 
-**Contested at small spend.** The verified base carries the same dispute (its Theme 7)
+**Contested at small spend.** The wider verified evidence carries the same dispute (its Theme 7)
 and lands the same way: small accounts consolidate first, use narrow interests as
 optional early guidance, and go broad once the pixel is warm.
 CONFLICT FLAG: Chappell's "have an advantage plus with at least 10 to 15 creatives"
 and flexible-format bundling contradict our verified settings kill-list (no
-ASC/Advantage+ Audiences, flexible ads OFF for testing). The verified base wins for our
+ASC/Advantage+ Audiences, flexible ads OFF for testing). The stricter rule holds for a small
 account; Chappell's tiering logic survives, his Advantage+ container does not.
 
 ## Theme 5: Broad has a scaling ceiling; single-interest ad sets one step removed can extend it (SINGLE-SOURCE, credible)
@@ -69,7 +69,7 @@ account; Chappell's tiering logic survives, his Advantage+ container does not.
 - **Sam Piliero (N3 system)**: a zero-targeting US ad set shows an estimated audience of 150 to 184 million, but Meta only ever reaches a narrow relevant slice, so as spend climbs toward $1,000 to $5,000/day, CPM, CPC and frequency rise and ROAS decays. His fix: keep a prospecting CBO of "broad packs" (one ad set per fresh creative batch, named broad_pack_N with a launch-date suffix) as the main spend driver, then add ad sets with exactly ONE interest group chosen one step removed from the brand (for Nike, target Range Rover or luxury vehicles, not Adidas or LeBron James, because Meta already covers the obvious overlap). Adding the Range Rover interest dropped the estimated audience from 180 million to 10 to 12 million. Only graduate already-proven winners into the interest ad sets, never fresh creative.
 - Case result: a brand scaled from $46,000 to $282,000 in monthly spend while revenue grew from $88,000 to $544,000 on the combined approach.
 
-**Single-source in this set** but consistent with the verified base's Piliero pack
+**Single-source in this set** but consistent with the wider verified evidence's Piliero pack
 system and its day-one 1-broad-plus-2-niche-interest structure. Treat as the current
 best doctrine for extending broad, not as settled consensus.
 CONFLICT FLAG: Piliero leaves "Advantage+ left on" and all 23 placements open in his
@@ -91,9 +91,9 @@ brain-meta-exclusion-architecture.
 
 - **LYFE Marketing**: retargeting all website visitors over a long window beats a tight 7-day window because Meta already ranks recency and heat internally; and "when your budget gets split across too many audiences, meta gets less data in each pocket", which slows learning and makes scaling harder. Recommended structure: one campaign, one broad prospecting ad set, one retargeting ad set.
 - **Sam Piliero**: the size trade-off in numbers, 180 million broad versus 10 to 12 million with one interest; capped interest audiences hand their spare budget back to the broad packs inside CBO.
-- Cross-reference, verified base (Ben Heath): 20 conversions/week through one ad set exits learning; the same 20 across five ad sets never does.
+- Cross-reference, wider verified evidence (Ben Heath): 20 conversions/week through one ad set exits learning; the same 20 across five ad sets never does.
 
-**Consensus**, identical to the consolidation math in the verified base.
+**Consensus**, identical to the consolidation math in the wider verified evidence.
 
 ## Theme 8: Lookalikes are demoted to a background tool, not dead (CONSENSUS among usable sources)
 
@@ -121,14 +121,14 @@ brain-meta-exclusion-architecture.
 - (Excluded legacy source Innocent Popka covers the same segment with interest stacking: luxury goods, frequent international travellers, engaged shoppers, age 28 to 55, max 20 cities per ad set. Kept only as the legacy counterpoint; his one durable line is creative quality for premium buyers: "The rich do not understand cheap.")
 
 **Thin: single usable source.** Flagged honestly; this sub-area leans on Davis alone
-plus the verified base's creative-is-targeting consensus.
+plus the wider verified evidence's creative-is-targeting consensus.
 
 ## Theme 11: Feed the machine clean data and judge on real value, not the audience panel (CONSENSUS)
 
 - **Ash Davis**: filter unqualified leads BEFORE they fire as conversions, because Meta optimises toward whatever converts.
 - **Ben Heath**: for mature accounts the emerging lever is Value Rules (signal you will pay more to acquire a chosen demographic), an optimisation feature, not a targeting one. And in-platform numbers understate reality: his campaign showed £96,000 true revenue with £58,000 of it "not reported by Meta" because of recurring billing, so audience and kill decisions made purely on Meta-reported results undervalue subscription-style offers.
 
-**Consensus** among the two backers, and it matches the verified base's attribution
+**Consensus** among the two backers, and it matches the wider verified evidence's attribution
 warnings (its Theme 6).
 
 ---

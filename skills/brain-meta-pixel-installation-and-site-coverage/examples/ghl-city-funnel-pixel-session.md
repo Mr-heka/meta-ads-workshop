@@ -2,7 +2,7 @@
 
 A worked session showing this brain loaded against a realistic scenario and answering end-to-end. Every expert claim below is quoted verbatim from `references/quote-library.md` or paraphrased with the expert named. No new sources, no new numbers.
 
-**Scenario.** A city funnel for a $2,000 in-person AI workshop gets cloned in the funnel builder for a second city run. Ads are queued on `<YOUR_AD_ACCOUNT_ID>`. A quick check with the Meta Pixel Helper on the new opt-in page shows nothing. Question on the table: why is the pixel missing, how do we fix it, and can the campaign launch today?
+**Scenario.** A city funnel for an in-person AI workshop at your price gets cloned in the funnel builder for a second city run. Ads are queued on `<YOUR_AD_ACCOUNT_ID>`. A quick check with the Meta Pixel Helper on the new opt-in page shows nothing. Question on the table: why is the pixel missing, how do we fix it, and can the campaign launch today?
 
 **Brain trigger.** "Pixel not detected" on a funnel-builder page is a direct hit on this brain's description. Loaded before answering. The server-side rail and the checkout Purchase event are a separate surface and stay out of scope here.
 

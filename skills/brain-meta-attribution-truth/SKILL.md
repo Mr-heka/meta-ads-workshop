@@ -1,6 +1,6 @@
 ---
 name: brain-meta-attribution-truth
-description: Use when the user asks "why does Meta show more purchases than my dashboard", "is my ROAS real", "7-day click or 1-day view", "what is incremental attribution", or needs Meta vs CRM reconciliation, view-through, over-reporting, or holdout guidance. Route lift-test and CRM crosswalk execution to brain-meta-attribution-measurement-deep.
+description: Use when the user asks "why does Meta show more purchases than my dashboard", "is my ROAS real", "7-day click or 1-day view", "what is incremental attribution", or needs Meta vs CRM reconciliation, view-through, over-reporting, or holdout guidance. Lift-test and CRM crosswalk execution is covered by `brain-meta-attribution-measurement-deep` (in the optional extras pack of this kit).
 metadata:
   type: expert-brain
   topic: "Meta attribution truth (windows, view-through, incrementality, when ROAS lies)"
@@ -24,7 +24,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## What the experts agree on
 
-1. **The default is 7-day click / 1-day view, and beginners should leave it.** Tazkeer, Denney, Gan, Stenton, Parrottino. Only change it once the Compare Attribution Settings column shows a real gap. (The full menu of settings is below; it is wider than these two.)
+1. **The default is 7-day click / 1-day view. For lead generation, read 7-day click with 1-day view off; leave the default only for ecommerce with heavy view-through.** Tazkeer, Denney, Gan, Stenton and Parrottino all say the same thing about method: compare settings before changing anything, and only change once the Compare Attribution Settings column shows a real gap (the ground rules in `meta-ads-guidelines`). (The full menu of settings is below; it is wider than these two.)
 2. **Platform attribution can over- or under-state your real business impact; reconcile against CRM revenue.** Reported ROAS is directional, never truth. The usual direction is over-reporting, and it is what all 13 usable sources warn about: Denney and Shiver both, "Facebook will credit more of the results that it had a hand in than the actual sales it made"; Parrottino, it "assumes causation, not contribution." But the arrow reverses whenever revenue is invisible to the pixel — recurring subscriptions, LTV beyond the window, phone and DM closes, a second storefront (Heath's £58k unreported; CTC's YouTube studies reading above platform-reported). Never assume a direction. Put the platform number next to the CRM number and let the gap tell you which way it points this month.
 3. **Shortening the click window loses real sales AND starves learning.** Gan: 10 conversions, only 3 in day one, you lose 7 the business still made and the campaign goes blind to them. Carve-out (Shiver): 1-day click is fine only for sub-$20 impulse ecommerce.
 4. **Incrementality is the real question: would this conversion have happened anyway?** Stenton (lemonade stand: 14 sales, only 4 incremental), Parrottino, CTC, Rosewater. Meta's Incremental Attribution setting is a real model that predicts ad-caused conversions.
@@ -47,7 +47,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Contrarian / disputed takes
 
-- **View-through: on or off for lead-gen?** OFF camp: **Shiver** (turn off 1-day view for booked-call/DM businesses; it falsely credits DM-booked calls to scrolled-past ads, >10% inflation on a real account) and **Tazkeer** (it is the more dangerous setting). ON camp: **Caden Thompson** reversed his own year-long 7-day-click-only stance to add 1-day view, because the Andromeda update collapsed full-funnel creative into one ad set and the algorithm needs view signal. He concedes the risk: if returning revenue is ~30%+ of AOV it over-prioritises warm buyers. **For our lead-gen model the OFF weight wins**, consistent with our verified base (strip to 7-day-click-only once view-through > ~25% of conversions).
+- **View-through: on or off for lead-gen?** OFF camp: **Shiver** (turn off 1-day view for booked-call/DM businesses; it falsely credits DM-booked calls to scrolled-past ads, >10% inflation on a real account) and **Tazkeer** (it is the more dangerous setting). ON camp: **Caden Thompson** reversed his own year-long 7-day-click-only stance to add 1-day view, because the Andromeda update collapsed full-funnel creative into one ad set and the algorithm needs view signal. He concedes the risk: if returning revenue is ~30%+ of AOV it over-prioritises warm buyers. **For our lead-gen model the OFF weight wins**, consistent with the wider verified evidence (strip to 7-day-click-only once view-through > ~25% of conversions).
 - **Trust Meta's IA setting for optimisation now, or read-only?** Adopt-with-a-test camp: **Piliero, CTC, Rosewater** (dip in via the compare column, validate with a lift test, switch once it beats business-as-usual). Read-only-for-now camp: **Shiver** ("for 99% of people, I'm still encouraging the standard attribution") and **Stenton** (April 2025: "it is just a data point"), because IA cuts your optimisation events and can starve learning at low volume.
 - **Does the click-vs-view debate even matter?** **CTC's strongest contrarian line:** "7-day click one day view over reports the impact and 7-day click under reports the impact. But it doesn't really matter" - what matters is knowing your discount factor and holding the setting constant, not which window you pick.
 - **Does reported ROAS always over-state?** Mostly yes, but **Heath** shows the opposite for recurring revenue: Hyros tracked £96k, £58k unreported by Meta, because Meta only saw the first transaction. CTC's YouTube studies also read 3.76x *above* platform-reported. Under-reporting is real when LTV/recurring/cross-storefront revenue is invisible to the pixel.
@@ -55,19 +55,19 @@ consensus view; surface a contrarian take when it's well-argued.
 ## Execution playbook
 
 ### IF / THEN operating rules
-- **IF setting up a new lead-gen ad set** THEN keep 7-day click, and for a booked-call or DM-led model turn 1-day view OFF (Shiver) and leave 1-day engaged-view off with it. Leave the click window at 7 days, never shorten it (Gan).
+- **IF setting up a new lead-gen ad set** THEN read 7-day click with 1-day view OFF (Shiver) and leave 1-day engaged-view off with it; keep the default 7-day click / 1-day view only for ecommerce with heavy view-through, and compare settings before changing anything (the ground rules in `meta-ads-guidelines`). Leave the click window at 7 days, never shorten it (Gan).
 - **IF someone asks "why does Meta show more leads than GHL?"** THEN it is standard attribution pulling in view-through and cross-channel conversions. Open Compare Attribution Settings, add Incremental Attribution, and read the gap before touching anything (Tazkeer). Also check the lead-math trap: Meta insights "actions" double-counts leads (lead + lead_grouped + fb_pixel_lead + custom). Compute CPL from action_type=='lead' ONLY.
 - **IF reported ROAS or CPL looks too good to be true** THEN read the incremental column. If incremental is a small fraction of standard, the ad is harvesting existing demand, not creating it (Piliero: 15.77 vs 2.85).
-- **IF tempted to shorten the click window to "clean up" reporting** THEN don't. You lose real sales from the count and starve the algorithm's learning (Gan). Only exception is sub-$20 impulse ecommerce, which is not us (Shiver).
-- **IF you want to know the true number and have the spend** THEN run a geo-holdout or a turn-down test (cut 50%, watch the drop) and derive a discount factor; apply it to reported ROAS from then on (CTC, Parrottino). At our spend, prefer the compare-column read and CRM reconciliation over a formal holdout (defer deep holdout mechanics to the sibling deep brain).
+- **IF tempted to shorten the click window to "clean up" reporting** THEN don't. You lose real sales from the count and starve the algorithm's learning (Gan). Only exception is sub-$20 impulse ecommerce, (Shiver).
+- **IF you want to know the true number and have the spend** THEN run a geo-holdout or a turn-down test (cut 50%, watch the drop) and derive a discount factor; apply it to reported ROAS from then on (CTC, Parrottino). At small spend, prefer the compare-column read and CRM reconciliation over a formal holdout (defer deep holdout mechanics to the sibling deep brain).
 - **IF you switch to Incremental Attribution for optimisation** THEN expect in-platform ROAS to drop, that is correct not broken (CTC), and validate against a lift test or CRM before trusting it. For now, most voices say read IA, keep optimising on standard (Shiver, Stenton).
 - **IF you change any attribution setting** THEN change it once and hold it. You cannot build a measurement system while moving the setting (CTC). Changing it live also resets learning; duplicate the ad set instead.
-- **IF making a kill/scale decision** THEN decide on primary metrics only (spend, CPL/purchases, cost per result, ROAS). CTR and hook rate explain why, they never decide what (Denney, and our verified base via Heath).
+- **IF making a kill/scale decision** THEN decide on primary metrics only (spend, CPL/purchases, cost per result, ROAS). CTR and hook rate explain why, they never decide what (Denney, Heath).
 
 ### Default numbers experts use
 - Windows: the click window is **1 or 7 days**; **1-day view** and **1-day engaged-view** are separate optional adds; **Incremental Attribution** is its own setting. **7-day click / 1-day view** is the default; **7-day click only** is the honesty setting for lead-gen once view-through gets large.
 - Engaged-view qualifies at **10 continuous seconds of video**, or **97% of a video shorter than 10 seconds**, with no click, credited within 1 day. Video ad sets only.
-- View-through as a red flag: **>25% of conversions from view-through** = strip to 7-day-click-only (verified base). Shiver saw **>10%** of booked calls from 1-day view on a DM campaign.
+- View-through as a red flag: **>25% of conversions from view-through** = strip to 7-day-click-only (Scalability School). Shiver saw **>10%** of booked calls from 1-day view on a DM campaign.
 - IA vs standard volume: incremental is typically **a quarter to a third** of standard conversions (Shiver); expect roughly **half the ROAS** (Stenton).
 - Discount factors (CTC): 7-day-click-1-day-view ≈ **×0.8**; 7-day-click ≈ **×1.2** (it under-reports).
 - Turn-down test (Parrottino): 50% spend cut. **~40% revenue drop = real**, **~5% = capturing demand**.
@@ -76,14 +76,14 @@ consensus view; surface a contrarian take when it's well-argued.
 1. Is the pixel/CAPI actually firing correctly and not double-firing? A pixel bug fakes the whole picture (Shiver: 8 reported calls, 2 real).
 2. Which attribution setting is the account on right now, and is view-through on?
 3. Read the Compare Attribution Settings column: standard vs incremental gap.
-4. What does the CRM (GHL for us) say for the same window? Reconcile, do not conflate.
+4. What does the CRM (your CRM) say for the same window? Reconcile, do not conflate.
 5. Are we deciding on primary metrics, or getting distracted by storytelling metrics?
 
 ### Top 5 failure modes and the fix
 1. **Trusting reported ROAS/CPL as truth.** Fix: treat it as directional; read the incremental column and the CRM (all sources).
 2. **Optimising to the wrong event (lead, not client).** Fix: crosswalk to cost-per-signed-client / cost-per-community-member; Meta can only optimise for what you feed it (Stewart).
 3. **Shortening the click window to make numbers "cleaner".** Fix: keep 7-day click; you are throwing away real, ad-caused sales and learning signal (Gan).
-4. **Letting view-through inflate lead counts.** Fix: turn 1-day view off for our model; audit the view-through share (Shiver, Tazkeer).
+4. **Letting view-through inflate lead counts.** Fix: turn 1-day view off for a lead-gen model; audit the view-through share (Shiver, Tazkeer).
 5. **Changing the attribution setting mid-campaign to chase a better-looking number.** Fix: pick one, hold it constant, layer a periodic incremental read on top (CTC).
 
 ## Applied to your business
@@ -108,15 +108,15 @@ Fill these in first: ad account `<YOUR_AD_ACCOUNT_ID>`, pixel `<YOUR_PIXEL_ID>`,
 
 ## Related brains
 
-- `brain-meta-ad-to-page-congruence` - Meta ad to page congruence (message match, the relevance chain, per-angle variants)
-- `brain-meta-website-and-engagement-audiences` - Meta website and engagement audiences (pixel segments, video views, engagers, recency)
-- `brain-post-click-tracking-plumbing` - Post-click tracking plumbing (UTMs, fbclid, cross-domain, thank-you events, lead source to CRM)
+- `brain-meta-ad-to-page-congruence` (in the optional extras pack of this kit) - Meta ad to page congruence (message match, the relevance chain, per-angle variants)
+- `brain-meta-website-and-engagement-audiences` (in the optional extras pack of this kit) - Meta website and engagement audiences (pixel segments, video views, engagers, recency)
+- `brain-post-click-tracking-plumbing` (in the optional extras pack of this kit) - Post-click tracking plumbing (UTMs, fbclid, cross-domain, thank-you events, lead source to CRM)
 
 ## Pairs with / boundaries
 
-- **`brain-meta-attribution-measurement-deep`** (P5) owns the hands-on layer: running practical incrementality tests at small spend and reconciling Meta against the CRM step by step. This brain surveys the concepts and points there; do the actual holdout/geo-lift or GHL crosswalk build in the deep sibling.
-- **`brain-post-click-tracking-plumbing`** owns UTMs, fbclid, cross-domain, thank-you events and lead-source-to-CRM wiring. If the question is "is the data even arriving correctly" (pixel/CAPI firing, double-fires, event mapping), that is plumbing, not attribution truth.
-- **`brain-meta-ads-manual-control-no-advantage`** owns the campaign structure, settings kill-list, and kill/scale rules. This brain only covers how to *read* the resulting numbers honestly, not how to build or bid the campaign.
+- `brain-meta-attribution-measurement-deep` (in the optional extras pack of this kit) owns the hands-on layer: running practical incrementality tests at small spend and reconciling Meta against the CRM step by step. This brain surveys the concepts; the actual holdout/geo-lift or CRM crosswalk build lives in that extras brain.
+- `brain-post-click-tracking-plumbing` (in the optional extras pack of this kit) owns UTMs, fbclid, cross-domain, thank-you events and lead-source-to-CRM wiring. If the question is "is the data even arriving correctly" (pixel/CAPI firing, double-fires, event mapping), that is plumbing, not attribution truth.
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) owns the campaign structure, settings kill-list, and kill/scale rules. This brain only covers how to *read* the resulting numbers honestly, not how to build or bid the campaign.
 - **Out of scope here:** setting up the pixel/CAPI, choosing bid strategy, building audiences, and formal geo-holdout execution. This brain is the "is this number real and which window do I use" survey only.
 
 ## Deeper references

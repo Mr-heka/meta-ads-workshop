@@ -68,6 +68,14 @@ An unexpected error, a number that does not match what the user described, an
 account you were not told about: stop, say what you saw, and ask. Do not retry
 a write blindly. Reads can be retried; writes cannot be un-done.
 
+## Ground rules across these brains
+
+Three questions come up in almost every brain in this kit. The settled answers, so no two brains disagree:
+
+- **Learning phase.** Meta's "50 conversions in 7 days" is a large-account guideline. Under roughly $100 a day, ignore it and judge on cost per result and booked or purchased outcomes.
+- **Attribution for lead generation.** Read 7-day click with 1-day view off. Leave the default (7-day click / 1-day view) only for ecommerce with heavy view-through, and always compare settings in the Compare Attribution Settings column before changing anything.
+- **Verdict gate before killing or scaling an ad.** About $100 spent, 7 days, and at least 3 real conversions, whichever is later. The unit is cost per real outcome (a booked call, a seat, a purchase), not cost per click.
+
 ## Where these rules come from
 
 They match rule 5 of the `meta-ads-connect` skill and are repeated here so a

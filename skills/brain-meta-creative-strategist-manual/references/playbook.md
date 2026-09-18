@@ -20,14 +20,13 @@ Strongest consensus in the corpus. Interest stacks + lookalikes dead as primary 
 - **Hott:** judge the literal first frame ("Second 0") — "enough to stop the scroll for the RIGHT person, not any person." Weak first frame throttles distribution: "Meta knows very rapidly... it's not going to waste money spending on it." SETTING is the most under-weighted relevance signal: "What's in the background matters so much... it beams relevance into the consumer's eyes" — brief multiple settings. Hook in the customer's words: past-tense first-person, 3rd-5th grade. 2025-26: users on "high alert to anything that doesn't matter to them" → "Blend in to stand out." Opening frame product-first or problem-first, never logo/title card; 9:16, bold native text.
 - **Hott "live in the problem":** 15-17s of problem-immersion before product can beat product-in-second-one; "stack five problems in 15 seconds."
 - **Theriot 3-second visual-hook test:** same video/messaging ×3, first 3 seconds get a different *visual* hook, text hook held constant.
-- **Theriot 3 Essential Hook Elements:** (1) understood instantly with zero context by least-interested prospect; (2) call out an existing want, then the named mechanism; (3) instant clarity + curiosity. "Great hooks create instant clarity and curiosity." He has 13 hook-formula categories keyed to awareness (see `nick-theriot-ads/references/creative-and-copy.md`).
+- **Theriot 3 Essential Hook Elements:** (1) understood instantly with zero context by least-interested prospect; (2) call out an existing want, then the named mechanism; (3) instant clarity + curiosity. "Great hooks create instant clarity and curiosity." He has 13 hook-formula categories keyed to awareness.
 - **Hormozi:** "Once you've written your headline, you've spent 80 cents of your advertising dollar" — a great hook beats control 2-5x. Curiosity is king, different is ideal; "all ads have headlines, just bad ones and good ones." Call out who it's for/not-for. "You advertise to one person." Show the moment, don't tell. "Fancy equals friction, simple equals sales." Steal like an artist.
 
 **Hook library (attributed):**
 - Theriot by awareness — Unaware: "I go to work in tears everyday because I hate my job." · Problem: "I'm broke...what should I do?" · Solution: "Laziest way to make money online for beginners." · Product: "The only forex trading strategy you will ever need." · Most: "Forex Trading Mastery now 50% off."
 - Theriot angle-discovery case ($150k→$2.5M/mo): "all we did was find two girls that tagged each other and said, 'Girls night soon?'"
 - Hormozi: "Let People Believe You Got Lucky." / "Meetings are the biggest time waster in any company."
-- Applied example (AI enablement for business owners): "Bring the work slowing you down. Leave with a working AI system." Owner-language to lift verbatim: "buried in admin at 9pm", "drowning in admin", "scared AI is a costly tech project", "worried about being left behind".
 
 ## 3. Angles & messaging
 
@@ -65,7 +64,7 @@ Strongest consensus in the corpus. Interest stacks + lookalikes dead as primary 
 - ad-concept-miner: win by finding a winning *concept* and generating many variations within it, not spamming near-identical ads.
 - **Ugly ads (Hott):** deliberately low production so it feels native. "The more ugly you make things, the more authentic it can look" — a spectrum, not a destination. "Ugly ≠ bad — you still need a good ad." ~60 min end-to-end on an iPhone + CapCut. Sniff Test (each yes = smells like an ad): heavy first-frame branding · studio lighting · blank studio background · obviously-not-a-phone · heavily scripted dialogue.
 - Hunyor: no AI-made creative — "Meta ads are not at the level where they can make good ads."
-- **Specs:** Meta copy — primary text ~125 visible (2,200 max), headline ~40, description ~30; front-load hook. Image ratios — 1:1, 4:5, 9:16, 16:9, 1.91:1; text overlay ≤8 words; 3 variants always. Lock your brand tokens (colours, type weight, tracking) in a render template; image generators rarely hold exact brand colour/font → render branded assets from your own template. Kinetic caption preset: all-caps Montserrat 900/Anton/Impact ~7-8% frame height, white fill + black outline, active word #f7c204 yellow / #02fb23 green, 1-3 words/chunk, break on ≥0.4s pause, MarginV ~28% up.
+- **Specs:** Meta copy — primary text ~125 visible (2,200 max), headline ~40, description ~30; front-load hook. Image ratios — 1:1, 4:5, 9:16, 16:9, 1.91:1; text overlay ≤8 words; 3 variants always. Lock your brand tokens (colours, type weight, tracking) in a render template; image generators rarely hold exact brand colour/font → render branded assets from your own template.
 
 ## 6. Direct-response copy
 
@@ -73,7 +72,7 @@ Strongest consensus in the corpus. Interest stacks + lookalikes dead as primary 
 - Benefit>feature (ad-creative "Headlines That Click"): specific over vague ("Cut reporting time 75%" not "Save time"), benefits over features, active voice, real numbers. Avoid jargon, "Best/Leading/Top", all-caps, clickbait the LP can't deliver. Descriptions complement (proof, objections, urgency), don't repeat headlines.
 - Hormozi CTA: ask lives in ads / description / link-in-bio, not organic. "Be clear not clever."
 - PAS / problem-solution: Hott (converts + reads faster) and Theriot (Emotion Baiting) both lean explicit problem→solution.
-- **Compliance (hard, repeated everywhere):** BAN em/en dashes, outcome guarantees, "lifetime access", refund/money-back, support/helpdesk promises, AI-vocab. No fabricated facts, personal life, drop-in invites. Run through your own brand and claims rules. No invented statistics. Do NOT carry practitioners' money-back/income-claim styles into your copy.
+- **Compliance (hard, repeated everywhere):** no outcome guarantees, no "lifetime access", no refund or money-back promises, no support or helpdesk promises, no fabricated facts, no invented statistics. Run through your own brand and claims rules. Do NOT carry practitioners' money-back/income-claim styles into your copy.
 
 ## 7. Creative testing (production side)
 

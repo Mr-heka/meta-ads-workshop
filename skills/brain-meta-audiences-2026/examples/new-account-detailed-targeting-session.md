@@ -27,7 +27,7 @@ From `SKILL.md`:
   suggestion layer is take-it-or-leave-it signal, never a hard boundary, so
   filling it cannot fence Meta in.
 - The contrarian block: Chappell says under $30k/month interest ad sets train
-  the model; LYFE says go broad from day one. The brain's verified base sides
+  the model; LYFE says go broad from day one. The weight of evidence sides
   with consolidation first, optional narrow interests early, broad once the
   pixel warms.
 
@@ -54,7 +54,7 @@ From `SKILL.md`:
 
 - The agent does not touch budgets, bidding or campaign structure; those route
   to `brain-meta-budgets-bidding-learning` and `brain-meta-media-buyer-manual`.
-- Advantage+ Audiences stays OFF per the tiebreaker brain
+- Advantage+ Audiences stays OFF per the audiences rule (test both, record it)
   (`brain-meta-ads-manual-control-no-advantage`), even though one mined expert
   prescribes the Advantage+ container.
 - Exclusion detail beyond "attach the standard stack" routes to

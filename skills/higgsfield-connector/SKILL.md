@@ -30,7 +30,7 @@ run the one for the agent you are.
 
 | User DOES | User DOES NOT |
 |---|---|
-| Sign in to higgsfield.ai when the OAuth window opens (email or Google, about 30 seconds) | Run any CLI command |
+| Sign in to higgsfield.ai when the OAuth window opens (email or Google, about 30 seconds) | Run any CLI command for the MCP connection (the four CLI skills need one terminal login) |
 | Confirm in chat (at most one yes/no) | Edit any config file |
 | Restart the agent once, only if asked | Copy or paste any token |
 |  | Read any raw error message |
@@ -234,6 +234,8 @@ before calling the MCP:
 | Studio and lifestyle product images | `higgsfield-product-photoshoot` |
 | Marketplace listing images and A+ style modules | `higgsfield-marketplace-cards` |
 | Higgsfield's CLI workflows, job submission and retrieval | `higgsfield-generate` |
+
+The four CLI skills (Soul ID, product photoshoot, marketplace cards, generate) use Higgsfield's own command-line tool, which is a separate install and a separate `higgsfield auth login` in your terminal; Soul training also needs a paid Higgsfield plan. Use the MCP connection for everything else.
 
 ### MCSLA for every video prompt
 Model, Camera, Subject, Look, Action. Fewer than four given? Ask for the missing

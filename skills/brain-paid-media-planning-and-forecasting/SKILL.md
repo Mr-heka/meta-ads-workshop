@@ -50,7 +50,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 - **CAC ceiling vs CAC range.** Nikhil and Joly Tematio defend a tight CAC ceiling to protect margin (Nikhil: purchases below Rs 450 for an 8-12% net margin). Brotherdale argues the opposite failure is real too: sitting below the sweet spot underspends and leaves customers on the table. Resolution: ceiling protects the front-end margin, the range widens once backend AOV/LTV justifies it.
 - **Kill multiple: 2.5x vs 5x price.** Christian Jamal cuts at 2.5x sale price per ad with no sale; Ads Daddy waits to 5x. Lower multiple = faster, cheaper reads but more false negatives on slow-starting creative.
-- **Patience window.** Christian Jamal and Nikhil review at 2-3 days; Michael Tracey says let a new account run weeks before judging. The gap is really about account maturity: newer accounts and pixels need longer. **Resolved 2026-07-28:** the house gate ($100 spend + 7 days + 3 conversions) sets the floor for everyone, and Tracey's advice — wait longer on a young account — is the correct adjustment above it. Nobody gets to go faster than the gate.
+- **Patience window.** Christian Jamal and Nikhil review at 2-3 days; Michael Tracey says let a new account run weeks before judging. The gap is really about account maturity: newer accounts and pixels need longer. **Resolved 2026-07-28:** the verdict gate ($100 spend + 7 days + 3 conversions) sets the floor for everyone, and Tracey's advice — wait longer on a young account — is the correct adjustment above it. Nobody gets to go faster than the gate.
 - **Starting budget for beginners.** Rich From Anywhere caps brand-new advertisers at $10-20/day to gather signal cheaply; Joly Tematio and Jason Hunt put the real lead-gen floor at $30-50/day. Not a true conflict, they are pricing different goals (learn cheap vs generate leads).
 
 ## Execution playbook
@@ -63,7 +63,7 @@ IF the budget is small (under ~$100/day) THEN consolidate to one offer, one camp
 
 IF a modest budget is underperforming THEN cut ad-set count before adding budget: "consolidating budget always improves performance" (Boddington).
 
-IF a creative has zero conversions THEN kill at the price-multiple threshold (2.5x-5x price), never on a single bad day or on emotion (Christian Jamal, Ads Daddy, Nikhil) — and never before the house gate ($100 spend + 7 days + 3 conversions) has been cleared. The sources' "2-4 days of data" is faster than the gate allows; the gate wins.
+IF a creative has zero conversions THEN kill at the price-multiple threshold (2.5x-5x price), never on a single bad day or on emotion (Christian Jamal, Ads Daddy, Nikhil) — and never before the verdict gate ($100 spend + 7 days + 3 conversions) has been cleared. The sources' "2-4 days of data" is faster than the gate allows; the gate wins.
 
 IF a winner is confirmed THEN scale it 10-20% at a time on a multi-day average, only if it is already spending its full budget, and keep 25% of budget on testing (Nikhil, Joly Tematio).
 
@@ -95,7 +95,7 @@ IF setting a revenue goal THEN require the full funnel numbers (leads, warm rate
 **Top 5 failure modes and fixes:**
 1. *Picking a spend number off a peer's screenshot.* Fix: derive it backward from the goal (Boddington, Joly Tematio).
 2. *Fragmenting a small budget across many ad sets.* Fix: consolidate to one ad set; complexity you can't afford starves learning (Boddington, Ben Heath).
-3. *Killing on emotion or day one.* Fix: kill on the price-multiple threshold, and only once the house gate is cleared ($100 spend + 7 days + 3 conversions) — the sources' 2-4 days is faster than the gate permits (Nikhil, Christian Jamal).
+3. *Killing on emotion or day one.* Fix: kill on the price-multiple threshold, and only once the verdict gate is cleared ($100 spend + 7 days + 3 conversions) — the sources' 2-4 days is faster than the gate permits (Nikhil, Christian Jamal).
 4. *Budgeting on broken or proxy-event tracking.* Fix: verify signal and optimise on the sale event first; under-reporting inflates the learning cost (Nikhil).
 5. *Chasing the cheapest CAC / highest ROAS ratio.* Fix: judge on profit volume and allowable spend from AOV/LTV, not the ratio (Ben Heath, Brotherdale, Tracey).
 
@@ -128,15 +128,15 @@ This is the one section where filling in your own numbers is not optional — ev
 
 ## Related brains
 
-- `brain-meta-automated-rules-and-experiments` - Meta automated rules and experiments (rules engine, A/B tests, holdouts, bulk ops)
+- `brain-meta-automated-rules-and-experiments` (in the optional extras pack of this kit) - Meta automated rules and experiments (rules engine, A/B tests, holdouts, bulk ops)
 - `brain-meta-budgets-bidding-learning` - Meta ads budgets, bidding and learning phase (CBO ABO, cost caps, bid caps, pacing)
-- `brain-post-click-tracking-plumbing` - Post-click tracking plumbing (UTMs, fbclid, cross-domain, thank-you events, lead source to CRM)
+- `brain-post-click-tracking-plumbing` (in the optional extras pack of this kit) - Post-click tracking plumbing (UTMs, fbclid, cross-domain, thank-you events, lead source to CRM)
 
 ## Pairs with / boundaries
 
 - **`brain-meta-budgets-bidding-learning`** owns the *in-platform* budget mechanics: CBO vs ABO, cost/bid caps, the learning phase itself, pacing controls inside Ads Manager. This brain owns the *CFO layer above the platform*: how much to spend at all, the CAC-to-spend math, per-event sizing. When the question is "which budget setting/knob", route there; when it's "what number and why", stay here.
 - **`brain-meta-attribution-truth`** owns whether the numbers are real (view-through, incrementality, reported vs true CAC). This brain assumes the signal is trustworthy and plans against it; if the CAC itself is in doubt, go there first.
-- **`brain-meta-ads-manual-control-no-advantage`** is our verified execution base for campaign structure, kill/scale cadence, and the settings kill-list. This brain defers to it on structure and never re-litigates Advantage+ vs manual.
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) holds the campaign structure, kill/scale cadence and settings kill-list evidence. This brain never re-litigates Advantage+ vs manual.
 - **Out of scope here:** creative/hooks (creative-strategist brain), landing-page conversion (paid-traffic-landing-pages brain), and the sales-call/close mechanics themselves (sales-pipeline and selling-workshops brains). This brain stops at the booked cost; what happens in the room is theirs.
 
 ## Deeper references

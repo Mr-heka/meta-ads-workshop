@@ -6,7 +6,7 @@ Every quote below is verbatim from the mined transcripts.
 
 ## User question
 
-> Our Perth workshop campaign shows 22 leads at a $41 CPL in Ads Manager this week,
+> My <city> workshop campaign shows 22 leads at a $41 CPL in Ads Manager this week,
 > which looks great. But GHL only has 14 new workshop enquiries against the same
 > spend. Is Meta lying, and do I cut the campaign because the real CPL is way higher?
 
@@ -29,7 +29,7 @@ check what view-through is doing, then decide on the GHL number, not the reporte
 
 3. **Check the view-through share.** Open Compare Attribution Settings and read the
    gap. If a big slice of those 22 came from 1-day view, they are people who scrolled
-   past the ad and enquired anyway. Shiver's rule for our model: "she has 7-day click
+   past the ad and enquired anyway. Shiver's rule for a lead-gen model: "she has 7-day click
    and one day view... you can see at this bottom campaign, almost 10% a little bit
    more than 10% of the leads came from one day view." Our default number: if
    view-through is **>25% of conversions**, strip to 7-day-click-only (*Default
@@ -44,10 +44,10 @@ check what view-through is doing, then decide on the GHL number, not the reporte
 5. **Decide on the primary metric only.** If the GHL CPL is still inside target, the
    campaign is fine and the Ads Manager gap is just over-attribution you now
    understand. If GHL CPL is over target, then cut. Either way CTR and hook rate
-   explain, they never decide (Denney + verified base; playbook IF/THEN rule 7).
+   explain, they never decide (Denney + wider verified evidence; playbook IF/THEN rule 7).
 
 6. **Do not reach for Incremental Attribution or a holdout here.** IA is a reading
-   tool for us, not a switch to flip, and formal geo-holdouts need volume we don't run
+   tool here, not a switch to flip, and formal geo-holdouts need volume we don't run
    at city-locked $2-8k/month. If you ever want the true-lift read, the cheaper proxy
    is a turn-down test, and the deep mechanics live in the sibling deep brain
    (*Pairs with / boundaries*; playbook IF/THEN rule 5).

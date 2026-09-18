@@ -3,7 +3,7 @@
 Built 2026-07-06 from 15 mined YouTube transcripts. 13 usable after exclusions (see bottom).
 Context lens: a small-business lead-gen advertiser running one manual Meta account at a few thousand dollars a month, where a CRM is the scoreboard, not a Shopify storefront. Nearly every source is ecommerce/ROAS-framed. The transferable principle is identical in every theme: reported conversions are a proxy, the truth is what the ad actually caused. Swap "purchase/ROAS" for "lead/booked-call/signed-client against a target CPA."
 
-Cross-checked against `brain-meta-ads-manual-control-no-advantage` (our verified base). Where a source conflicts, the conflict is flagged and the verified base wins.
+Cross-checked against `brain-meta-ads-manual-control-no-advantage` (the wider verified evidence). Where a source conflicts, the conflict is flagged and the stricter rule holds.
 
 ---
 
@@ -39,7 +39,7 @@ View-through credits the ad when someone merely *sees* it (no click) and convert
 - **Caden Thompson** (turning it ON, reversing his own stance): held 7-day-click-only for a year because click data is more reliable, now enabling 1-day view because the Andromeda update collapsed full-funnel creative into one ad set, so the algorithm needs view signal to see no-click bottom-funnel interactions. Flags the risk himself: if returning-customer revenue is ~30%+ of AOV, view-through over-prioritises already-warm buyers over new prospects; watch for view-throughs to "spike like crazy" as the warning sign.
 - **Common Thread Collective**: view-attributed conversions have ranged from 10-15% up to over 50% of total volume across accounts they manage, "a difficult measurement challenge."
 
-**Contested.** Shiver says off for lead-gen, Thompson says on for data-starved full-funnel accounts. For our lead-gen model the weight (Shiver + Tazkeer + verified base) sides with treating view-through as the inflation source to watch, not trust. Verified base: strip to 7-day-click-only once view-through exceeds ~25% of conversions; Pawliw saw a reported 7-10x collapse to a real 2-3x when view-through was removed.
+**Contested.** Shiver says off for lead-gen, Thompson says on for data-starved full-funnel accounts. For a lead-gen model the weight (Shiver + Tazkeer + wider verified evidence) sides with treating view-through as the inflation source to watch, not trust. Verified base: strip to 7-day-click-only once view-through exceeds ~25% of conversions; Pawliw saw a reported 7-10x collapse to a real 2-3x when view-through was removed.
 
 ## Theme 4 - Standard attribution over-reports; reported ROAS is directional, never truth (CONSENSUS, the spine of this brain)
 
@@ -108,7 +108,7 @@ Meta is not uniquely dishonest. Every ad platform's job is to claim maximum cred
 - **Dr. Matt Shiver** (CRM reconciliation, closest to us): cross-references Meta's reported conversions against Hyros. One account: a pixel double-fire made Facebook report 8 booked calls when only 2 happened, one of them unqualified. A fixed account matched Hyros exactly (10 schedules = 2 view + 8 click).
 - **Ryan Stewart** (the lead-gen CRM crosswalk, most on-model): stitched Facebook + Calendly + GoHighLevel + ActiveCampaign into a true cost-per-signed-client report. Real number = ~$4,700 cost per client against a $4,000-8,000/month retainer. Cost per lead was decoupled from it entirely.
 
-**Consensus.** For lead-gen, the CRM (GHL for us) is the source of truth; Ads Manager is the optimisation dashboard. Reconcile the two, do not conflate them.
+**Consensus.** For lead-gen, the CRM (your CRM) is the source of truth; Ads Manager is the optimisation dashboard. Reconcile the two, do not conflate them.
 
 ## Theme 9 - Read Ads Manager honestly: decide on primary metrics, treat the rest as "why" (CONSENSUS)
 
@@ -119,7 +119,7 @@ Reading the account honestly is its own discipline: separate the small set of me
 - **Ryan Stewart**: replace "hypothesis and conjecture based on the opinion of a single media buyer" with a data source of truth reviewed by humans.
 - **Ben Heath** (bid goal shifts what ROAS means): maximise-value vs maximise-number changes which customers Meta chases, so "ROAS" in the account is not a fixed thing. For lead-gen, value-based optimisation means feeding back different lead values (roofing: $4,000 avg high-value lead vs $1,000 low-value) via different thank-you pages.
 
-**Consensus.** Decide on the primary set only; use the storytelling metrics to diagnose, never to trigger a kill. Aligns with our verified base (Heath: decide on CPA/ROAS only; CTR/hook rate explain WHY).
+**Consensus.** Decide on the primary set only; use the storytelling metrics to diagnose, never to trigger a kill. Aligns with the wider verified evidence (Heath: decide on CPA/ROAS only; CTR/hook rate explain WHY).
 
 ## Theme 10 - Measurement failure scales from a campaign problem to a system-design problem (CONSENSUS among ecommerce-scale voices; partial applicability to us)
 

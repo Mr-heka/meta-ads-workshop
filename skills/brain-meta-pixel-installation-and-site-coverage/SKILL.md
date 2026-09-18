@@ -1,6 +1,6 @@
 ---
 name: brain-meta-pixel-installation-and-site-coverage
-description: "Use when the user says \"pixel not detected\", \"fires twice\", \"wrong event\", \"missing on checkout\", or asks how to install or test the Meta pixel across GHL, Next.js/Vercel, WordPress, Shopify, or a separate checkout domain. Route server-side CAPI setup to brain-meta-capi-server-side-deep and event selection to brain-meta-optimisation-event-strategy."
+description: "Use when the user says \"pixel not detected\", \"fires twice\", \"wrong event\", \"missing on checkout\", or asks how to install or test the Meta pixel across GHL, Next.js/Vercel, WordPress, Shopify, or a separate checkout domain. Server-side CAPI setup to `brain-meta-capi-server-side-deep` (in the optional extras pack of this kit) and event selection is covered by `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit)."
 metadata:
   type: expert-brain
   topic: "Meta pixel installation and site coverage (base+event code every page type, Test Events, broken-install patterns)"
@@ -46,7 +46,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Contrarian / disputed takes
 
-- **Manual paste vs native-first, as the default route.** Media Ninja treats manual code as the default for anything custom. Derek Videll pushes native-first (install the platform's app, set "share data" to maximum) for maximum data transfer, falling back to header-paste only when no native app exists. For our GHL + Next stack there is no native app, so both collapse to manual.
+- **Manual paste vs native-first, as the default route.** Media Ninja treats manual code as the default for anything custom. Derek Videll pushes native-first (install the platform's app, set "share data" to maximum) for maximum data transfer, falling back to header-paste only when no native app exists. For a GHL or Next.js stack there is no native app, so both collapse to manual.
 - **Is domain verification still needed?** Derek Videll says data sets no longer strictly require it but he still does it to maximise tracked-event percentage. Nobody else raises it, so it sits as one strong voice, not consensus. Most valuable when a checkout lives on a separate domain.
 - **Do pixel events prove CAPI is fine?** Jamie Stenton uses working pixel events as a reliable proxy for working CAPI ("if your pixel events are firing correctly, your conversion API events will be firing correctly, too") while conceding a direct CAPI check exists. Pro Data Track's whole case study is the counter-example: the pixel looked installed while CAPI parameters (fbc/fbp, currency, content-ID) were malformed. Verify CAPI directly for money events, do not lean on the proxy.
 - **Big Short Ads' "pixel doesn't work anymore" framing** is the outlier in tone. It is promotional and its ad-block / cross-device figures are illustrative, not sourced. The signal-loss point is real; the alarm is overstated.
@@ -106,20 +106,20 @@ consensus view; surface a contrarian take when it's well-argued.
 **What may NOT apply to you:**
 - **Shopify / Wix native-app installs** (Derek Videll, Digital Growth Tutor's WordPress plugin): irrelevant without that storefront. On a funnel builder plus a custom site you are always on the manual/component route.
 - **Big Short Ads' "switch everything to server-side to survive" pitch**: the signal-loss point is real, the alarm is overstated, and server-side is a coverage layer, not an excuse to hand delivery over to automation.
-- **Advertiser-catalogue content-ID mechanics (Pro Data Track)**: only relevant with a product catalogue. Route any catalogue work to `brain-meta-capi-server-side-deep`.
+- **Advertiser-catalogue content-ID mechanics (Pro Data Track)**: only relevant with a product catalogue. Route any catalogue work to `brain-meta-capi-server-side-deep` (in the optional extras pack of this kit).
 
 ## Pairs with / boundaries
 
-- **`brain-meta-capi-server-side-deep`** owns the server-side build (GTM, server containers, fbc/fbp formatting, deduplication mechanics, EMQ tuning). This brain stops at "the browser pixel loses signal, server-side backstops it".
-- **`brain-meta-events-and-conversions`** owns Events Manager mechanics: standard vs custom events, custom conversions, the aggregated-event / event-priority config. This brain only covers getting the base pixel and a basic action event to fire per page.
-- **`brain-meta-pixel-capi-signals`** is the survey-level parent; this is its deep install sibling. Start here for "where does the code go and why won't it fire", go there for the signals-layer overview.
+- `brain-meta-capi-server-side-deep` (in the optional extras pack of this kit) owns the server-side build (GTM, server containers, fbc/fbp formatting, deduplication mechanics, EMQ tuning). This brain stops at "the browser pixel loses signal, server-side backstops it".
+- `brain-meta-events-and-conversions` (in the optional extras pack of this kit) owns Events Manager mechanics: standard vs custom events, custom conversions, the aggregated-event / event-priority config. This brain only covers getting the base pixel and a basic action event to fire per page.
+- `brain-meta-pixel-capi-signals` (in the optional extras pack of this kit) is the survey-level parent; this is its deep install sibling. Start here for "where does the code go and why won't it fire", go there for the signals-layer overview.
 - **Out of scope here:** campaign structure, budgets, audiences, attribution windows, and any optimisation-event strategy. Those route to the media-buyer and events brains.
 
 ## Related brains
 
-- `brain-meta-capi-server-side-deep`: Meta Conversions API server-side tracking deep-dive
-- `brain-meta-events-and-conversions`: Meta events and conversions (Events Manager, standard and custom events, custom conversions)
-- `brain-meta-pixel-capi-signals`: Meta pixel and CAPI signals layer (end to end survey) Check it
+- `brain-meta-capi-server-side-deep` (in the optional extras pack of this kit): Meta Conversions API server-side tracking deep-dive
+- `brain-meta-events-and-conversions` (in the optional extras pack of this kit): Meta events and conversions (Events Manager, standard and custom events, custom conversions)
+- `brain-meta-pixel-capi-signals` (in the optional extras pack of this kit): Meta pixel and CAPI signals layer (end to end survey) Check it
 when a question spans topics.
 
 ## Deeper references

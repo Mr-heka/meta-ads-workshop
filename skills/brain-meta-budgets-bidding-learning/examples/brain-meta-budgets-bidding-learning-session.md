@@ -6,7 +6,7 @@ from the mined transcripts.
 
 ## User question
 
-> Our Brisbane workshop campaign was getting $8 CPLs at $60/day. I raised it to
+> My <city> workshop campaign was getting $8 CPLs at $60/day. I raised it to
 > $75/day yesterday and today the CPL is $13. Do I cut the budget back, or is this
 > the point where I add a cost cap to force efficiency?
 
@@ -17,7 +17,7 @@ from the mined transcripts.
 1. **A cost cap is off the table at this spend.** $75/day is roughly $2,250/month,
    nowhere near any cap gate in the source set. Build Your Ecomm puts the loosest
    gate at "If you're spending at least $30,000 a month or you have at least 90 days of stable data, that is when you should start using cost caps."
-   The verified base (`brain-meta-ads-manual-control-no-advantage`) is stricter
+   The wider verified evidence (`brain-meta-ads-manual-control-no-advantage`, in the optional extras pack of this kit) is stricter
    still. Caps here are diagnosis material, not practice.
 
 2. **One day of data is not a verdict.** The playbook rule: a campaign that missed

@@ -1,6 +1,6 @@
 ---
 name: brain-meta-ad-library-competitive-research
-description: Use when the user says "spy on competitor ads", "use Meta Ad Library", "find winning competitor ads", "extract competitor hooks or offers", "build a swipe file", or needs a competitor brief. Route creative execution to brain-meta-creative-strategist-manual and campaign setup to brain-meta-ads-manual-control-no-advantage.
+description: Use when the user says "spy on competitor ads", "use Meta Ad Library", "find winning competitor ads", "extract competitor hooks or offers", "build a swipe file", or needs a competitor brief. Creative execution to brain-meta-creative-strategist-manual and campaign setup is covered by `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit).
 metadata:
   type: expert-brain
   topic: "Meta ad library competitive research (systematic competitor mining, longevity signals, concept extraction)"
@@ -29,7 +29,7 @@ consensus view; surface a contrarian take when it's well-argued.
 3. **Extract a fixed field checklist per ad, not a vibe** (Amir Rasheed, Learn with Bilal, Ads And Leads, Nick Theriot): format, hook, primary text, headline, description, offer, CTA (the persuasive line, not the button), platforms, and start date.
 4. **Search two ways, and service businesses search the audience not the offer** (Gaurav Singh: search "coach" → 5,600 results; Ads And Leads: quoted keyword; every source: brand name). If no direct competitor advertises, study adjacent large brands (HubSpot Marketing).
 5. **Mine the offer and the funnel, not just the creative** (BKA Content: "the offer is what hooks people"; Ads And Leads: opt in to see the follow-up; Nick Parker: the real driver is often the invisible back-end offer). Click the CTA to reverse-engineer the destination page.
-6. **Surface signals mislead; verify on your own account** (Nick Parker: engagement, polish and follower counts all lie; test one variable, know inside 48-72 hours). Our verified base agrees: decide on cost-per-result, never on engagement.
+6. **Surface signals mislead; verify on your own account** (Nick Parker: engagement, polish and follower counts all lie; test one variable, know inside 48-72 hours). The wider evidence agrees: decide on cost-per-result, never on engagement.
 7. **Stack corroborating signals before calling a winner** (Ben Heath impressions; Nick Theriot duplicate count; Ads And Leads 50+ active ads). No single number is proof. **One signal in that stack has expired:** the dynamic-creative / "multiple versions" label no longer indicates a deliberate permutation test, because Dynamic Creative was retired into Flexible / Advantage+ creative — see the correction under the Ads And Leads method below.
 
 ## Named frameworks & methods
@@ -76,11 +76,11 @@ Two more things on the screen you should expect:
 
 ## Contrarian / disputed takes
 
-- **"Long-running = winner" vs "you can't trust run-length anymore".** The tutorial camp (Ads And Leads, HubSpot, Gaurav Singh, Learn with Bilal, and the era-flagged Blake Bauer) treats a long run as proof. **Ben Heath disputes it**: Meta parks low-spend ads as "active" for months, so run-length alone flags duds as winners; add the impressions sort. Our verified base sides with Heath. Use longevity as a first cut, never as the verdict.
+- **"Long-running = winner" vs "you can't trust run-length anymore".** The tutorial camp (Ads And Leads, HubSpot, Gaurav Singh, Learn with Bilal, and the era-flagged Blake Bauer) treats a long run as proof. **Ben Heath disputes it**: Meta parks low-spend ads as "active" for months, so run-length alone flags duds as winners; add the impressions sort. The wider verified evidence sides with Heath. Use longevity as a first cut, never as the verdict.
 - **Polished creative: neutral vs actively harmful.** Nick Parker says production polish is not proof (a slick all-video gym grew then closed). **Ads And Leads goes further**: "In 2026, ugly ads often outperforms pretty ads" because cinematics signal "advertisement" and trigger scroll-past. So polish is at best no signal, at worst a negative one.
 - **Do you need paid spy tools?** Manual-only camp (Gaurav Singh, Amir Rasheed, MUSAB, HubSpot, Learn with Bilal) says the free library plus ChatGPT is enough. Paid-tool camp (Kast, Theriot, Mr. Paid Social, Basil Naser) argues the library's blind spot, it will not tell you which ad wins, justifies Foreplay's longest-running sort, Trend Track's live pull, or Ad Whisper's spend estimates. Ben Heath's free impressions-sort largely closes the gap without a subscription.
 - **Mimic-and-upgrade vs say-the-missing-thing.** MUSAB and HubSpot say adapt the winning formula. **Kast and Theriot disagree in kind, not degree**: the copy itself is the mistake; research exists to find what competitors are NOT saying, then differentiate on mechanism, persona or claim.
-- **HubSpot's Advantage+ endorsement is out of scope for us.** HubSpot's step 5 says "don't skip AI, use Advantage+ to test versions and auto-reallocate budget." We run manual control and do NOT hand testing to Advantage+ (see "what does not apply").
+- **HubSpot's Advantage+ endorsement does not apply to a manual-control account.** HubSpot's step 5 says "don't skip AI, use Advantage+ to test versions and auto-reallocate budget." If you run manual control, do not hand testing to Advantage+ (see "what does not apply").
 - **Engagement as a proxy.** Mr. Paid Social prizes the Instagram-priming trick precisely because it shows live engagement the library hides. Nick Parker warns engagement is an unreliable proxy on its own. Both can hold: collect engagement as context, never as the kill/keep decision.
 
 ## Execution playbook
@@ -93,7 +93,7 @@ Two more things on the screen you should expect:
 - **IF you have found a genuine winner** THEN teardown the fixed field set (hook, primary text, headline, description, offer, CTA line, format, platforms, start date) and funnel-hack the destination by clicking the CTA and opting in (Ads And Leads, Amir Rasheed).
 - **IF you are tempted to swap only the branding** THEN stop; rework via a differentiating lever instead, new mechanism, new persona/desire, bigger claim (Theriot), or a different awareness stage (Kast).
 - **IF an ad shows low engagement or looks unpolished** THEN do not dismiss it; low engagement can hide a strong back-end offer (Nick Parker) and raw footage can outperform (Ads And Leads).
-- **IF you want to act on a spied concept** THEN treat it as a hypothesis, brief it, and test ONE variable on your own account. Parker's 48-72 hours / 3,000-5,000 impressions gives you an early directional read; the verdict still waits for the house gate ($100 + 7 days + 3 conversions).
+- **IF you want to act on a spied concept** THEN treat it as a hypothesis, brief it, and test ONE variable on your own account. Parker's 48-72 hours / 3,000-5,000 impressions gives you an early directional read; the verdict still waits for the verdict gate ($100 + 7 days + 3 conversions).
 - **IF you need to see a competitor's live in-feed engagement** THEN prime your Instagram (follow ~10, click their CTAs, scroll), the library hides engagement (Mr. Paid Social).
 - **IF you are mapping many competitors at scale** THEN consider the Apify + Make + Sheets scraper (~75c/1,000 ads, Jake Dawson); for a handful, do it manually.
 
@@ -102,7 +102,7 @@ Two more things on the screen you should expect:
 - Longevity threshold: **90 days** minimum, **90-180+** = strong (Ads And Leads). *(The old "dynamic ad at 6+ months = super winner" rule is retired — the label is no longer meaningful, see correction above.)*
 - Impression buckets you will see: `under 1K` · `1K-5K` · `5K-10K` · `10K-50K` · `50K-100K` · `100K-500K` · `500K-1M` · `1M+`, plus a **"Low Impression Count" badge under 100 impressions** (always noise).
 - Volume signal: **50+ active ads** = spending real money (Ads And Leads).
-- Signal speed on your own test: Parker's **48-72 hours or 3,000-5,000 impressions** is a *directional read*, not a verdict. **The verdict rule is the house gate: no kill or scale call below $100 spend + 7 days + 3 conversions**, and at low lead volume even that is a fair-look floor rather than proof one creative beat another (see the noise warning in `brain-meta-creative-strategist-manual`).
+- Signal speed on your own test: Parker's **48-72 hours or 3,000-5,000 impressions** is a *directional read*, not a verdict. **The verdict rule is the verdict gate: no kill or scale call below $100 spend + 7 days + 3 conversions**, and at low lead volume even that is a fair-look floor rather than proof one creative beat another (see the noise warning in `brain-meta-creative-strategist-manual`).
 - Candidate tracking window before modelling: **3-5 days** (Learn with Bilal).
 - Competitor density to enter a niche: **3-4+ actively advertising** (Learn with Bilal).
 - Ads per brand to find patterns: **3-4** (Nick Theriot).
@@ -123,7 +123,7 @@ Two more things on the screen you should expect:
 1. **Trusting run-length as proof.** Fix: pair with the impressions sort and duplicate count (Ben Heath, Theriot).
 2. **Cloning the ad with your logo swapped in.** Fix: extract structure, then differentiate on mechanism/persona/claim/awareness stage (Kast, Theriot). It is also a copyright-strike risk (Learn with Bilal).
 3. **Copying the offer without the back end.** Fix: opt in and map the follow-up sequence; assume the real driver may be invisible (Nick Parker, Ads And Leads).
-4. **Judging on engagement or polish.** Fix: decide only on cost-per-result after a controlled test on your own account (Nick Parker; matches our verified base).
+4. **Judging on engagement or polish.** Fix: decide only on cost-per-result after a controlled test on your own account (Nick Parker; matches the wider evidence).
 5. **Searching your own service name for a service business.** Fix: search the audience, the problem, and adjacent categories (Gaurav Singh, HubSpot).
 
 ## Applied to your business
@@ -157,7 +157,7 @@ Research is worthless without a decision waiting for it. Fill this in before you
 
 - **This brain = research and intelligence only.** It ends at "here is a proven competitor angle/offer/format, briefed." It does not write the creative or set up the campaign.
 - **`brain-meta-creative-strategist-manual`** takes the mined findings and turns them into hooks, scripts and creative briefs. Hand off there; do not duplicate creative craft here. The `ad-concept-miner` tool is the operational partner that runs this research at scale.
-- **`brain-meta-ads-manual-control-no-advantage`** owns campaign structure, budgets, kill/scale rules and the Advantage+ kill-list. When a spied concept is ready to test, that brain decides how it runs. This brain defers to its verified evidence base on delivery, learning phase and what to decide on.
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) owns campaign structure, budgets, kill/scale rules and the Advantage+ kill-list. When a spied concept is ready to test, that brain decides how it runs. This brain defers to its verified evidence base on delivery, learning phase and what to decide on.
 - **Out of scope here:** writing final ad copy, building/editing campaigns, attribution/tracking setup, and offer design itself (only reading competitors' offers, not designing ours, that is the workshop/course selling brains and the campaign playbook).
 
 ## Deeper references

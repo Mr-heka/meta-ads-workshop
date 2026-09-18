@@ -14,7 +14,7 @@ Consolidation is the consensus; fragmentation starves the algorithm.
 - **Sam Piliero — packs in one prospecting CBO.** Each creative round = new ad set (4-8 creatives) + a separate existing-customer exclusion campaign. Rule of 10,000: 10 new ads/week per $10k/mo.
 - **Spencer Pawliw.** Under $1,000/day never more than one campaign. Champions + test batches + offer tests as three ad-set types in one CBO. "There is no ad account structure that will save your bad ads."
 - **Blue Sense Digital.** Structure from business economics, not templates. Under $50k/mo: one testing campaign, ad sets = concepts (persona × angle × offer), 3-5 creatives each, exclude existing customers.
-- **Naming convention:** `<Platform>_<Concept>_<Audience>_<Format>_<City>_<Month>` e.g. `META_Wedge_Founders_SI_Brisbane_Jul26`.
+- **Naming convention:** `<Platform>_<Concept>_<Audience>_<Format>_<City>_<Month>` e.g. `META_Wedge_Founders_SI_<City>_<Month>`.
 
 ## 2. ABO vs CBO
 
@@ -85,4 +85,4 @@ Retargeting/exclusions stay manual: Piliero "broad audiences are not for retarge
 
 ## 9. Contrarian / disputed (both sides)
 
-A. Cost caps — §5. B. Small-account targeting — all-broad vs train-with-interests (§7), the most relevant dispute for us. C. ASC/Advantage+ — Theriot against (controlled test), Charley T equaliser, Heath/Fogarty pro for simple accounts, Chappell staged. D. ABO vs CBO — hit-rate/risk vs CBO-default. E. Duplication — ad sets bad / post-ID good. F. Flexible ads — off for testing vs 3-2-2 container vs validated-variations. G. Incrementality (Charley T): automation over-indexes bottom-funnel; "bad ads getting spend is often very good for your business"; judge on profit volume. H. 7-day click — Scalability School uses it on scaling vs Piliero "gone are the days of 7-day click." I. "Good ads work day one" (Fedotoff) vs "expect to lose before you make" (Heath).
+A. Cost caps — §5. B. Small-account targeting — all-broad vs train-with-interests (§7), the most relevant dispute for a small account. C. ASC/Advantage+ — Theriot against (controlled test), Charley T equaliser, Heath/Fogarty pro for simple accounts, Chappell staged. D. ABO vs CBO — hit-rate/risk vs CBO-default. E. Duplication — ad sets bad / post-ID good. F. Flexible ads — off for testing vs 3-2-2 container vs validated-variations. G. Incrementality (Charley T): automation over-indexes bottom-funnel; "bad ads getting spend is often very good for your business"; judge on profit volume. H. 7-day click — Scalability School uses it on scaling vs Piliero "gone are the days of 7-day click." I. "Good ads work day one" (Fedotoff) vs "expect to lose before you make" (Heath).

@@ -1,6 +1,6 @@
 ---
 name: brain-meta-account-health-and-policy
-description: Use when the user says "Meta rejected my ad", "ad account disabled", "request manual review", "appeal a Meta ban", or "is this ad compliant", or asks about special ad categories, restrictions, personal attributes, before-and-after creative, account warm-up, or recovery scams. Route business-manager setup to brain-meta-business-manager-architecture.
+description: Use when the user says "Meta rejected my ad", "ad account disabled", "request manual review", "appeal a Meta ban", or "is this ad compliant", or asks about special ad categories, restrictions, personal attributes, before-and-after creative, account warm-up, or recovery scams. Business-manager setup is covered by `brain-meta-business-manager-architecture` (in the optional extras pack of this kit).
 metadata:
   type: expert-brain
   topic: "Meta account health and policy (rejections, restricted topics, bans and recovery, special categories)"
@@ -20,13 +20,13 @@ metadata:
 
 When the user is working on Meta account health and policy (rejections, restricted topics, bans and recovery, special categories), load this brain first. Ground answers in the synthesis below and cite experts by name from the quote library. Prefer the consensus view; surface a contrarian take when it is well-argued.If the mined transcripts is unavailable, the synthesis and quote library are self-contained and stand on their own; verification against transcripts is optional, not required.
 
-This is an ops/protection brain. It covers PLATFORM policy: the rejection map, the appeal process, and the prevention checklist. It does not cover AU consumer law (guarantees, refunds, ACCC) which is accountant/lawyer territory, and it does not cover business-manager setup (route to `brain-meta-business-manager-architecture`).
+This is an ops/protection brain. It covers PLATFORM policy: the rejection map, the appeal process, and the prevention checklist. It does not cover AU consumer law (guarantees, refunds, ACCC) which is accountant/lawyer territory, and it does not cover business-manager setup (route to `brain-meta-business-manager-architecture` (in the optional extras pack of this kit)).
 
 ## What the experts agree on
 
 - **Ad review is AI-first and deliberately over-rejects.** The first pass scans image, video, text, the landing page, and account history, and would rather over-reject than let a bad ad through. Manual review is a separate step you must request and it often overturns the machine. (Christian Jamal, Godbless Iboyi, Cabilly & Co.; Cabilly cites Meta's own 10-20% enforcement error rate.)
 - **Personal-attribute copy is the number-one avoidable rejection.** Never assert or imply the viewer's race, health, money, age, or employment. Reframe as third-party results. "Are you struggling with debt?" fails; "Thousands of homeowners have reduced their monthly payments by 40%" passes. (Christian Jamal, EduSphere, Optimum Click, Godbless Iboyi.)
-- **Content splits into prohibited, restricted, and special-category.** Prohibited is never allowed; restricted is allowed with conditions; special categories force a category selection and strip age/gender/location/lookalike targeting. There are exactly four: **Credit/Financial Products & Services, Employment, Housing, and Social Issues/Elections/Politics**. Health is NOT a special category (health ads are governed by the restricted-content rules instead), and Social Issues is the one that catches coaches and consultants off guard. (EduSphere, Christian Jamal, Shout Marketing.)
+- **Content splits into prohibited, restricted, and special-category.** Prohibited is never allowed; restricted is allowed with conditions; special categories force a category selection and strip age/gender/location/lookalike targeting. There are at least four (**Credit, Employment, Housing, Social issues, elections or politics**); Meta also gates **Financial products and services** in several countries including Australia; check the live list in Ads Manager. Health is NOT a special category (health ads are governed by the restricted-content rules instead), and Social Issues is the one that catches coaches and consultants off guard. (EduSphere, Christian Jamal, Shout Marketing.)
 - **The landing page is part of the ad review.** Meta crawls the destination. Mismatch, missing privacy policy, or links out to unrelated treatments all trigger disapproval. (Christian Jamal, Godbless Iboyi, Sagapixel, Optimum Click.)
 - **Account history compounds like a credit score.** Repeated rejections make the AI stricter on everything next, which is why resubmitting the same rejected ad is the worst move and can escalate to a full disablement. (Christian Jamal, Mind Mentor, Godbless Iboyi, EduSphere.)
 - **Diagnose the restriction level before appealing.** Asset, ad account, portfolio, and personal profile are four different severities with four different fixes; personal-profile bans are the hardest to reverse. (Christian Jamal, Cabilly & Co., STEFAN VAN DER MERWE.)
@@ -116,12 +116,12 @@ Fill in your own facts before applying anything below: ad account `<YOUR_AD_ACCO
 
 ## Related brains
 
-- `brain-meta-business-manager-architecture`: Meta business manager architecture (portfolios, permissions, domain verification, tokens, asset hygiene) Check it when a question spans topics.
+- `brain-meta-business-manager-architecture` (in the optional extras pack of this kit): Meta business manager architecture (portfolios, permissions, domain verification, tokens, asset hygiene) Check it when a question spans topics.
 
 ## Pairs with / boundaries
 
-- **Business-manager setup, portfolios, permissions, domain-verification mechanics, tokens** → `brain-meta-business-manager-architecture`. This brain assumes the BM exists; that one builds it. Do not duplicate the portfolio/permission steps here.
-- **Campaign structure, budgets, bidding, kill/scale rules, Advantage+ decisions** → `brain-meta-ads-manual-control-no-advantage` and `brain-meta-media-buyer-manual`. This brain does not decide how to run campaigns, only how to keep them compliant and the account alive.
+- **Business-manager setup, portfolios, permissions, domain-verification mechanics, tokens** → `brain-meta-business-manager-architecture` (in the optional extras pack of this kit). This brain assumes the BM exists; that one builds it. Do not duplicate the portfolio/permission steps here.
+- **Campaign structure, budgets, bidding, kill/scale rules, Advantage+ decisions** → `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) and `brain-meta-media-buyer-manual`. This brain does not decide how to run campaigns, only how to keep them compliant and the account alive.
 - **Pixel/CAPI signal quality, attribution windows, view-through** → the Meta signals/attribution brains. This brain touches the pixel only where policy forbids condition-specific data (the health scope note).
 - **OUT of scope here:** AU consumer law (guarantees, refunds, ACCC), which is accountant/lawyer territory, and any auto-submit browser-extension "recovery" method, which the consensus condemns as a scam.
 

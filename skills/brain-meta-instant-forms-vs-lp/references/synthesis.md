@@ -1,6 +1,6 @@
 # Synthesis, Meta instant forms vs landing pages (lead forms done right)
 
-Built 2026-07-06 from 15 mined YouTube transcripts. Context lens: AU small-business lead-gen advertiser running one Meta ad account, a CRM as the record of truth, front-end offers priced from a few hundred dollars up to high-ticket. Cross-checked against `brain-meta-ads-manual-control-no-advantage/references/synthesis.md` (the verified base); conflicts are flagged in-theme.
+Built 2026-07-06 from 15 mined YouTube transcripts. Context lens: AU small-business lead-gen advertiser running one Meta ad account, a CRM as the record of truth, front-end offers priced from a few hundred dollars up to high-ticket. Cross-checked against `brain-meta-ads-manual-control-no-advantage/references/synthesis.md` (the wider verified evidence); conflicts are flagged in-theme.
 
 All 15 sources are usable. Two carry minor era notes (Tareq Istiaq uses local-currency examples; LASSO Framework describes the Website+Instant Forms combined placement as a "just launched" feature). Neither is excluded; both noted at the bottom.
 
@@ -103,7 +103,7 @@ Where LPs still win, per the sources:
 
 Note the tradeoff cost Wiener names: LPs add a second troubleshooting layer (CRO): "Is the messaging on the landing page aligning... Is the landing page loading quickly? Is it optimized for mobile?"
 
-## Theme 8, Signal / event strategy beats form settings for real quality (CONSENSUS among the signal-literate sources; aligns with our verified base)
+## Theme 8, Signal / event strategy beats form settings for real quality (CONSENSUS among the signal-literate sources; aligns with the wider verified evidence)
 
 The most sophisticated sources argue that what fires into the results column and the CRM feedback loop matter more than any in-form setting.
 
@@ -112,7 +112,7 @@ The most sophisticated sources argue that what fires into the results column and
 - **Cardinal Digital Marketing**: feeding a video-views remarketing audience into the action stage tripled spend while lifting qualified-lead share from 17% to 24%, a signal move, not a form move.
 - **Shiver's ranking**: booked-call/schedule-optimized campaigns first, website opt-in with a qualifying question second, lead forms explicitly worst, "I typically don't run a lot of lead form campaigns. They just don't give you as good of quality."
 
-Cross-check: this matches our verified base's "creative IS the targeting" and signal-discipline doctrine. No conflict.
+Cross-check: this matches the wider verified evidence's "creative IS the targeting" and signal-discipline doctrine. No conflict.
 
 ## Theme 9, Speed-to-lead and CRM/nurture infrastructure decide whether any form pays off (CONSENSUS)
 
@@ -130,7 +130,7 @@ Several sources stress that copy and creative filter respondents before they eve
 - **Umar Tazkeer**: naming the price in the headline (e.g. a course price of 3499) filters out low-budget respondents; CTA choice matters, "CTA types like Apply Now vs. Learn More differentiate intent"; 75%-video-watchers are higher quality than 25%; qualifying language ("only for serious business owners") pre-filters.
 - **Dr. Matt Shiver**: "What you say in the ads is the most important part, more so than the conversion that you send back": his headline literally opens "online coaches making 10K a month plus."
 - **Cardinal Digital Marketing**: creative angle moved CPL materially, encouragement-themed ads had 25% lower CPL than outcome-focused ads; naming insurance coverage in the ad cut CPL 11%.
-- **Smart Marketing Zone**: exclude Audience Network on lead campaigns, its leads are "very cheap leads. This also wastes our budget." (Matches our verified base's Audience Network kill.)
+- **Smart Marketing Zone**: exclude Audience Network on lead campaigns, its leads are "very cheap leads. This also wastes our budget." (Matches the wider verified evidence's Audience Network kill.)
 
 ## Theme 11, Field and delivery settings that quietly control quality (practitioner detail)
 
@@ -151,9 +151,9 @@ Several sources stress that copy and creative filter respondents before they eve
 
 ---
 
-## Cross-check against our verified base
+## Cross-check against the wider verified evidence
 
-No source contradicts `brain-meta-ads-manual-control-no-advantage`. Points that reinforce it: Audience Network off (Smart Marketing Zone), signal/CRM-feedback discipline over targeting knobs (Shiver, Tazkeer), creative-and-copy as the real targeting layer (Tazkeer, Shiver). One tension to hold: several tutorial sources (Hasib Ashad, Blake Bauer, Dr. Matt Shiver) run broad + Advantage+ audiences/placements as their default post-Andromeda. Our house rule keeps Advantage+ Audiences OFF and Advantage+ Placements ON, side with our verified base on the Audiences setting; take these sources only for their form-build and quality-filter mechanics, not their audience automation.
+No source contradicts `brain-meta-ads-manual-control-no-advantage`. Points that reinforce it: Audience Network off (Smart Marketing Zone), signal/CRM-feedback discipline over targeting knobs (Shiver, Tazkeer), creative-and-copy as the real targeting layer (Tazkeer, Shiver). One tension to hold: several tutorial sources (Hasib Ashad, Blake Bauer, Dr. Matt Shiver) run broad + Advantage+ audiences/placements as their default post-Andromeda. The rule here: decide Advantage+ audience on or off per test and record it, keep Advantage+ Placements ON; side with the wider verified evidence on the Audiences setting; take these sources only for their form-build and quality-filter mechanics, not their audience automation.
 
 ## Exclusions
 

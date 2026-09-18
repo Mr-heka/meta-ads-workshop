@@ -1,7 +1,7 @@
 # Synthesis and decision notes
 
 These are practical options distilled from a retained transcript collection and
-reconciled with the current local Higgsfield owner. They are not model benchmarks.
+checked against Higgsfield's current published guidance. They are not model benchmarks.
 Use the [excerpts](quote-library.md) to inspect source wording and the original source catalog (not included in this kit)
 for provenance. Examples of a creator's workflow do not establish universal limits.
 

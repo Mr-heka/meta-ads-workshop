@@ -6,7 +6,7 @@ from the mined transcripts.
 
 ## User question
 
-> We're running paid to our $2,000 in-person workshop in a new city. I want to fill
+> We're running paid to an in-person workshop (priced at $2,000 for this example) in a new city. I want to fill
 > 20 seats. What daily budget do I set, and how do I know if $50/day is enough?
 
 ## Brain-grounded answer
@@ -24,7 +24,7 @@ as the floor, not the target.**
 2. **$50/day is the top of the real floor, so it is enough to start, not to scale.**
    The consensus floor is $25-50/day per platform. Jason Hunt puts real lead gen at
    "$30 to $50 a day per platform" and calls anything under it data-buying, not a
-   campaign. Our verified base already starts each event at $50/day, so we sit exactly
+   campaign. Starting each event at $50/day sits exactly
    at the entry point the sources respect. Pace up to $75-90/day in the final 10 days,
    where 60% of the budget lands.
 
@@ -36,14 +36,14 @@ as the floor, not the target.**
    test ad set, no more.
 
 4. **Judge the event on booked seats and the path behind them, not the CPL.** A $200
-   CAC on a $2,000 room is a strong machine before the community and team-training
-   ascension is even counted. Ben Heath's framing: "Much better to generate a 4x return
+   CAC on a $2,000 room is a strong machine before any back-end offer
+   the back end is even counted. Ben Heath's framing: "Much better to generate a 4x return
    on ad spend spending a million dollars a month than a 10x return on ad spend spending
    $10,000 a month." Absolute profit and the lifetime path decide, not the per-lead
    number. Only worry if total spend fails to return more than itself.
 
 5. **Set the kill and scale rules in writing before launch.** Kill a zero-conversion
-   ad at 3x target CPL after 7 days on a lifetime view (verified base, inside the
+   ad at 3x target CPL after 7 days on a lifetime view (the default here, inside the
    2.5x-5x consensus), and never on a single bad day. Nikhil: don't "kill on emotions".
    Scale a confirmed winner +20% every 3 days on a 3-day average, only once it is
    already spending its full budget.

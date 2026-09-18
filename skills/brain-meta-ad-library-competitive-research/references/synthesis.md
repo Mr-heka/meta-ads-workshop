@@ -1,6 +1,6 @@
 # Synthesis, Meta Ad Library competitive research
 
-Built 2026-07-06 from 16 mined YouTube transcripts. Context lens applied throughout: AU workshop/course/community advertiser running manual Meta campaigns on one ad account. Nearly every source is e-commerce or dropshipping framed; the transferable unit for us is "best-selling offer/program" in place of "best-selling product", and "positioning gap" in place of "local supplier". Longevity claims are cross-checked against our verified manual-control base (`brain-meta-ads-manual-control-no-advantage`), which warns that Meta's delivery system now leaves low-spend ads active for months.
+Built 2026-07-06 from 16 mined YouTube transcripts. Context lens applied throughout: AU workshop/course/community advertiser running manual Meta campaigns on one ad account. Nearly every source is e-commerce or dropshipping framed; the transferable unit for a service business is "best-selling offer/program" in place of "best-selling product", and "positioning gap" in place of "local supplier". Longevity claims are cross-checked against our verified manual-control base (`brain-meta-ads-manual-control-no-advantage`), which warns that Meta's delivery system now leaves low-spend ads active for months.
 
 Exclusions live at the bottom. Two sources dropped from theme backing (one thin, one longevity-only era flag). All quotes trace to a named source.
 
@@ -18,7 +18,7 @@ The single most repeated idea: an ad that has been live a long time is probably 
 **The hard caveat (CONTESTED, and this is the important part):**
 - **Ben Heath** breaks the naive rule. Meta's delivery system leaves 5-20 ads in one ad set with only 1-3 getting spend; the rest sit "active" for months with zero impressions, so run-length alone now falsely flags duds as winners. His fix: sort by impressions high to low, then combine with long run duration. "The combination of those two metrics, lots of impressions plus been running for a long time is as close to a guarantee that it's a high performer."
 
-**Our verified base agrees with Ben Heath, not the naive camp.** The manual-control synthesis states learning phase is conversion-volume not time, and Meta over-serves/under-serves inside ad sets. So: longevity is a starting filter, not proof. Impressions-plus-longevity is the trustworthy version.
+**The wider verified evidence agrees with Ben Heath, not the naive camp.** The manual-control synthesis states learning phase is conversion-volume not time, and Meta over-serves/under-serves inside ad sets. So: longevity is a starting filter, not proof. Impressions-plus-longevity is the trustworthy version.
 
 ---
 
@@ -55,12 +55,12 @@ Contested edge: **Amir Rasheed** and **Ads And Leads** foreground the creative-f
 You find competitors two ways, and service businesses search differently from product businesses.
 
 - **Every source** covers brand-name search and keyword search in the Ad Library (Google "Facebook Ad Library" → set country → All Ads → search).
-- **Gaurav Singh** (the sharp distinction for us): a product business searches its product name; a service/coaching business searches the *target audience or field*, not the service name. Searching "coach" returned 5,600 results.
+- **Gaurav Singh** (the sharp distinction for a service business): a product business searches its product name; a service/coaching business searches the *target audience or field*, not the service name. Searching "coach" returned 5,600 results.
 - **Ads And Leads**: use quoted keyword search (e.g. "red light therapy") when you do not yet know named competitors, to surface the full niche.
 - **HubSpot Marketing**: if no direct competitor runs ads, study large adjacent-industry brands (handmade jewellery → Mejuri; local gym → F45) and adapt.
 - **Nick Theriot** (direct vs indirect): direct competitors share product + avatar; indirect competitors share the underlying desire via a different mechanism. Both must be mined separately, and they get different adaptation levers (Theme 8).
 
-This is the most decision-relevant navigation theme for a service business like ours: search the buyer and the problem, not our own offer name.
+This is the most decision-relevant navigation theme for a service business: search the buyer and the problem, not your own offer name.
 
 ---
 
@@ -85,7 +85,7 @@ The deepest sources push past the ad into the offer structure and the landing pa
 - **Nick Parker** (why the front-end can lie): an ad with suppressed engagement generated 200-300 leads/week at $0.42/lead because the real driver was a strong back-end offer (extended trial with a deadline), invisible from the ad alone.
 - **Ben Heath / Gaurav Singh / Amir Rasheed / Nick Theriot**: all click the CTA to land on the real destination page and reverse-engineer the funnel (sales page vs homepage vs VSL).
 
-Consensus: the ad is the visible tip; the offer and the follow-up are where the money is. This is the most important theme for our workshop/course model, where the seat is a front end for ascension.
+Consensus: the ad is the visible tip; the offer and the follow-up are where the money is. This is the most important theme for a workshop/course model, where the seat is a front end for ascension.
 
 ---
 
@@ -97,7 +97,7 @@ Nick Parker is the batch's dedicated "noise vs real winner" source, and he direc
 - **Nick Parker's verification loop**: evaluate → test ONE variable at a time (offer, image type, language, headline) → find winners and scale. Benchmark: you know inside 48-72 hours or 3,000-5,000 impressions, not the "30 days" agencies claim.
 - **Ads And Leads** partly disputes Parker on polish: "In 2026, ugly ads often outperforms pretty ads" because polished cinematics subconsciously signal "advertisement" and trigger scroll-past ("We have been trained for over 20 years to ignore commercials"). Parker's own gym data once showed images beating video. So the two agree polish is not proof, but Ads And Leads goes further and says polish can actively hurt.
 
-**Our verified base sides with Parker.** The manual-control synthesis is explicit that CTR/engagement/hook-rate explain WHY, never decide WHAT, and that decisions are made on cost-per-result on a fixed schedule. Treat every Ad Library read as a hypothesis to test on our own account, never as a settled winner.
+**The wider verified evidence sides with Parker.** The manual-control synthesis is explicit that CTR/engagement/hook-rate explain WHY, never decide WHAT, and that decisions are made on cost-per-result on a fixed schedule. Treat every Ad Library read as a hypothesis to test on your own account, never as a settled winner.
 
 ---
 
@@ -121,7 +121,7 @@ The batch splits on whether you need paid tools.
 - **Automation/scraper camp**: Jake Dawson (Apify + Make.com + Google Sheets, ~75 cents per 1,000 ads, $5 free credit/month) for scaling swipe collection beyond manual browsing.
 - **Multi-method camp**: Mr. Paid Social chains six methods (ChatGPT Deep Research for discovery, Meta library, TikTok Creative Center, SimilarWeb, Foreplay, and Instagram-algorithm priming). The algorithm-priming trick, follow ~10 competitor accounts, click their CTAs, scroll until their ads appear, uniquely surfaces live engagement numbers the library hides.
 
-Key limitation flagged across the camp: the raw Ad Library does NOT tell you which ad performs best (Mr. Paid Social: "What this doesn't do is tell us which one of these ads is performing the best"). Tools that add a longest-running sort or spend estimate exist to close that gap. For us, Ben Heath's free impressions-sort covers most of the value without a subscription.
+Key limitation flagged across the camp: the raw Ad Library does NOT tell you which ad performs best (Mr. Paid Social: "What this doesn't do is tell us which one of these ads is performing the best"). Tools that add a longest-running sort or spend estimate exist to close that gap. For a small account, Ben Heath's free impressions-sort covers most of the value without a subscription.
 
 ---
 
@@ -142,5 +142,5 @@ Consensus is that no single number is proof; stack two or three (long run + high
 ## Exclusions
 
 - **Go Digitz, "How to Find Competitor Ads on Facebook 2026"**: excluded from theme backing, flagged thin. Pure UI navigation with no strategic layer; adds nothing the other tutorials do not.
-- **Blake Bauer Business, "How To Use The Facebook Ad Library To Find Winning Ads"**: era-flagged and dropped from longevity backing. Its central heuristic ("oldest currently-running ad = winner") is presented WITHOUT the impressions caveat that Ben Heath and our verified base require, and it is dropshipping/product-brand framed. Its neutral mechanics (per-ad detail fields, keyword-vs-brand search, the screenshot-to-ChatGPT rebuild workflow) overlap uncontested consensus but are not needed as unique backing.
+- **Blake Bauer Business, "How To Use The Facebook Ad Library To Find Winning Ads"**: era-flagged and dropped from longevity backing. Its central heuristic ("oldest currently-running ad = winner") is presented WITHOUT the impressions caveat that Ben Heath and the wider verified evidence require, and it is dropshipping/product-brand framed. Its neutral mechanics (per-ad detail fields, keyword-vs-brand search, the screenshot-to-ChatGPT rebuild workflow) overlap uncontested consensus but are not needed as unique backing.
 - **Learn with Bilal** is retained but its dropshipping/physical-sourcing framing (Shopify best-seller URL trick, local supplier sourcing) is translated to our context and not carried literally; its longevity read is used only as one voice within the Theme 1 caveat, not as standalone proof.

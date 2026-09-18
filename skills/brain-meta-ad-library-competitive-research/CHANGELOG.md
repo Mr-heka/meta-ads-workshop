@@ -8,7 +8,7 @@
 - **Publishing scrub.** Ad account and pixel IDs replaced with placeholders in SKILL.md and the worked example; offer ladder, prices and CPL targets removed; "Applied to our business" renamed to "Applied to your business" and rewritten as reader-fill prompts; the example's stale "LP-only lead gen" line updated to form-first.
 
 ## 2026-07-18
-- Recalibration pass: advisor CPL targets, Neiman verdict gate, workshop-paused routing note (audit 2026-07-18).
+- Recalibration pass: advisor CPL targets, the verdict gate, workshop-paused routing note (audit 2026-07-18).
 
 ## 2026-07-06
 - Brain built from 16 YouTube sources via topic-brain-builder. Engine: yt-dlp. Mix: {"new": 17, "evergreen": 7, "hidden_gems": 9, "channels": 24}.

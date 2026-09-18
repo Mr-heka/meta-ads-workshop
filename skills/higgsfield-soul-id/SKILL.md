@@ -9,7 +9,7 @@ description: |
   "set up identity for video", "I want my face in generated images".
   Chain: train Soul (one-time, returns reference_id) → use in
   higgsfield-generate via `--soul-id <id>` with models like
-  `text2image_soul_v2` or `soul_cinema_studio`.
+  `text2image_soul_v2` or `soul_cinematic`.
   NOT for: one-shot face swaps (use higgsfield-generate with --image),
   named-character / non-photo avatars (use higgsfield-generate with prompt).
 argument-hint: "[name] [photo paths...]"
@@ -24,10 +24,11 @@ Train a face-faithful identity model. Reusable across all Soul-powered generatio
 
 Before any other command:
 
-1. If `higgsfield` is not on `$PATH`, install it:
+1. If `higgsfield` is not on `$PATH`, install it with Higgsfield's official installer:
    ```bash
    curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
    ```
+   If it fails, fully quit and reopen the app, then run `higgsfield version`. If it is still missing, install from Higgsfield's published instructions at https://github.com/higgsfield-ai/cli.
 2. If `higgsfield account status` fails with `Session expired` / `Not authenticated`, ask the user to run `higgsfield auth login` (interactive) and wait for confirmation.
 3. Soul training requires a paid plan (Basic+). If `higgsfield account status` shows free plan, tell the user before submitting.
 
@@ -41,7 +42,7 @@ Before any other command:
 ## Workflow
 
 1. **Get name.** One word, used for later reference. Ask if missing.
-2. **Get photos.** 5–20 face photos, varied angles and lighting. Local paths or already-uploaded IDs both work — `--image` accepts either.
+2. **Get photos.** Higgsfield's current guide says 5 to 20 photos; creators often use up to 30. Varied angles and lighting. Local paths or already-uploaded IDs both work — `--image` accepts either.
 3. **Pick variant.**
    - `--soul-2` — for image generation (default)
    - `--soul-cinematic` — for cinematic / video work

@@ -1,6 +1,6 @@
 ---
 name: brain-meta-budgets-bidding-learning
-description: Use when the user asks "CBO or ABO", "what bid strategy should I use", "cost cap or bid cap", "why will my ad set not spend", "is learning limited a problem", "how fast can I raise budget", "when should I kill this ad", or "how do I run Meta ads on a small budget". Route auction-ranking and fatigue questions to brain-meta-auction-and-delivery.
+description: Use when the user asks "CBO or ABO", "what bid strategy should I use", "cost cap or bid cap", "why will my ad set not spend", "is learning limited a problem", "how fast can I raise budget", "when should I kill this ad", or "how do I run Meta ads on a small budget". Auction-ranking and fatigue questions is covered by `brain-meta-auction-and-delivery` (in the optional extras pack of this kit).
 metadata:
   type: expert-brain
   topic: "Meta ads budgets, bidding and learning phase (CBO ABO, cost caps, bid caps, pacing)"
@@ -24,7 +24,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## What the experts agree on
 
-1. **Highest volume is the default; caps are earned at scale.** Start on automatic bidding, scale until efficiency breaks, only then consider cost controls (David Parrottino, William Kast, Build Your Ecomm). Build Your Ecomm gates caps at $30K/month or 90 days of stable data; our verified base is stricter still ($100K+/month).
+1. **Highest volume is the default; caps are earned at scale.** Start on automatic bidding, scale until efficiency breaks, only then consider cost controls (David Parrottino, William Kast, Build Your Ecomm). Build Your Ecomm gates caps at $30K/month or 90 days of stable data; Piliero is stricter still ($100K+/month).
 2. **Caps are scaling tools, never testing tools.** Cost caps go on proven winners imported via Post ID, not on fresh creative (Marin Istvanic, Konstantinos Doulgeridis, Manny Barbas, Cody Wittick).
 3. **Judge over the full attribution window.** A 7-day-click campaign read on day 3 lies; the cap averages toward target across the window (Manny Barbas, Cody Wittick, Marin Istvanic, David Parrottino).
 4. **Scale roughly +20% every 3 days, never spike.** 100-500% single-day jumps reset learning and spike CPA (Chase Chappell, Rafael Hernandez, Nick Theriot, William Kast, Build Your Ecomm).
@@ -37,7 +37,7 @@ consensus view; surface a contrarian take when it's well-argued.
 
 - **Wittick's cost-cap ratio formula** (Cody Wittick): actual CPA $150 on a $100 target = 1.5x miss, so set the cap at 2/3 of desired target ($67). Bias to $80 for volume (high LTV) or $50 for efficiency. One adjustment per campaign per 3 days, max.
 - **Wittick's feasibility formula**: cost cap x 7 x number of ad sets = minimum daily budget for manual bidding to work (a $50 cap across 5 ad sets needs $1,785/day). Below that, consolidate. He also treats changes over ~15% as a learning reset; that is his personal rule of thumb, not a published Meta threshold (see the defaults table).
-- **Theriot's Hard Deck SOP** (Nick Theriot): one CBO per business goal. KPI hit = +20%. KPI missed = wait until 4 days at this budget, then -20% steps down to a never-breached floor (e.g. $2,000-3,000/day of $10,000/day) so testing volume survives a slump. Theriot runs the up-step daily; the house rule caps it at once every 3 days, because a daily +20% compounds (a $100/day budget becomes ~$173/day by day three) and re-opens learning each time.
+- **Theriot's Hard Deck SOP** (Nick Theriot): one CBO per business goal. KPI hit = +20%. KPI missed = wait until 4 days at this budget, then -20% steps down to a never-breached floor (e.g. $2,000-3,000/day of $10,000/day) so testing volume survives a slump. Theriot runs the up-step daily; the rule here caps it at once every 3 days, because a daily +20% compounds (a $100/day budget becomes ~$173/day by day three) and re-opens learning each time.
 - **Chappell's scaling ladder** (Chase Chappell): +20% at ad-set level every 3 days; migrate to CBO past ~$200/day; then $100/$250/$500 steps every 3 days past $500/day. Plus microbudget shifting: move $25/day from a 6x ad set to a 12x ad set instead of switching the weaker off.
 - **Istvanic's weekend scaling** (Marin Istvanic): inflated budget (1K to 3-5K) with a cost cap at target CPA, giving Meta permission to spend hard during high-conversion weekend windows without manual bumps. Plus his four-scenario matrix: not spending + good results = raise bid $1 at a time; not spending + bad = swap in new winners; spending + bad = lower bid or budget, wait 7 days; spending + good = raise budget.
 - **Piliero's forced-spend minimum** (Sam Piliero): new creative pack ad set gets a minimum daily spend equal to 1x average CPA for exactly 7 days, then the limit comes off. Forces a fair read before judgement.
@@ -49,10 +49,10 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Contrarian / disputed takes
 
-- **Is the 50-conversions-a-week learning exit real?** Rafael Hernandez and Cody Wittick treat it as a hard system constraint. William Kast and Derek Videll call it noise: Meta's own docs admit optimisation never stops, Kast measured only 5-10% difference between active and learning ads, and Videll says treat learning limited exactly like active. Our verified base sides with the sceptics at small spend.
+- **Is the 50-conversions-a-week learning exit real?** Rafael Hernandez and Cody Wittick treat it as a hard system constraint. William Kast and Derek Videll call it noise: Meta's own docs admit optimisation never stops, Kast measured only 5-10% difference between active and learning ads, and Videll says treat learning limited exactly like active. The rule here: Meta's "50 conversions in 7 days" is a large-account guideline; under roughly $100 a day, ignore it and judge on cost per result and booked or purchased outcomes (the ground rules in `meta-ads-guidelines`).
 - **Should you raise budget to exit learning?** Rafael's camp implies yes (concentrate spend). Derek Videll says the opposite: "the more budget you give it, the less picky it is", and lowering budget is often the fastest ROAS raise.
 - **Bid cap or cost cap?** Andrei Lunev prefers bid caps because cost caps can blow the budget on day 1-2 before suppressing. Konstantinos Doulgeridis prefers cost caps because bid caps are too strict for fluctuating accounts. William Kast says most advertisers should use neither and run auto-bid.
-- **Caps in testing?** Manny Barbas tests inside cost-cap CBOs as cash-flow protection. Marin Istvanic argues five reasons this ruins testing (binary spend judgement, winners cannibalised, confounded signals). Consensus and the verified base side with Istvanic.
+- **Caps in testing?** Manny Barbas tests inside cost-cap CBOs as cash-flow protection. Marin Istvanic argues five reasons this ruins testing (binary spend judgement, winners cannibalised, confounded signals). Consensus sides with Istvanic.
 - **Scaling aggression**: Manny Barbas doubles budget every 2 days on validated offers with a cap as the brake. Everyone else caps at 20-30% per 3 days. The doubling only holds when a cost cap self-limits the downside.
 - **CBO or ABO for cap work?** Doulgeridis runs caps mostly on ABO (avoids cannibalisation); Barbas and Piliero run CBO with ad-set-level controls. Both agree on consolidation; the container is preference.
 
@@ -61,8 +61,8 @@ consensus view; surface a contrarian take when it's well-argued.
 ### IF/THEN operating rules
 
 - IF launching any new campaign THEN start on highest volume, no cost controls, and scale budget until cost per result breaks before ever considering a cap (Parrottino, Kast).
-- IF spend is under roughly $30K/month THEN do not use cost caps or bid caps at all; fix structure and creative instead (Build Your Ecomm; verified base is stricter again).
-- IF a campaign has held its KPI THEN raise budget by 20%, then leave it alone for at least 3 full days before the next raise (house rule; Theriot states this as a daily repeat, which compounds to roughly +73% in three days and re-opens learning every time, so the 3-day gate overrides him).
+- IF spend is under roughly $30K/month THEN do not use cost caps or bid caps at all; fix structure and creative instead (Build Your Ecomm; Piliero and Blue Sense are stricter again).
+- IF a campaign has held its KPI THEN raise budget by 20%, then leave it alone for at least 3 full days before the next raise (the rule here; Theriot states this as a daily repeat, which compounds to roughly +73% in three days and re-opens learning every time, so the 3-day gate overrides him).
 - IF a campaign missed its KPI THEN check it has had 4+ days at the current budget before touching anything; if yes, cut 20%, never below the hard-deck floor (Theriot).
 - IF scaling an ad set past ~$200/day THEN migrate it into a CBO; past $500/day scale in fixed dollar steps every 3 days (Chappell).
 - IF one ad set outperforms another THEN shift a small slice of budget ($25/day scale) from weak to strong before switching anything off (Chappell).
@@ -146,15 +146,15 @@ Write your own facts down first: ad account `<YOUR_AD_ACCOUNT_ID>`, pixel `<YOUR
 ## Related brains
 
 - `brain-meta-media-buyer-manual`: Meta ads manual media buying (structure, testing, scaling, math)
-- `brain-meta-ads-manual-control-no-advantage`: Meta ads manual control (no Advantage+)
-- `brain-meta-optimisation-event-strategy`: Meta ads optimisation event strategy (which event, proxy events, value optimisation)
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit): Meta ads manual control (no Advantage+)
+- `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit): Meta ads optimisation event strategy (which event, proxy events, value optimisation)
 
 ## Pairs with / boundaries
 
 - `brain-meta-media-buyer-manual` owns campaign architecture, testing structures (3-2-2, DCT) and kill-rule math; this brain owns only the budget/bid/pacing/learning layer on top of that structure.
-- `brain-meta-ads-manual-control-no-advantage` is the verified evidence base and settings kill-list; where a source here conflicts with it, the verified base wins.
-- `brain-meta-andromeda-advantage-mastery` handles what changed under Andromeda and when Advantage+ is deliberately chosen; `brain-meta-optimisation-event-strategy` handles which conversion event to optimise for.
-- OUT of scope here: creative strategy and hooks (`brain-meta-creative-strategist-manual`), tracking plumbing and CAPI (`brain-meta-capi-server-side-deep`), audience exclusions (`brain-meta-exclusion-architecture`).
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) holds the wider settings kill-list. The rule that applies here: at small spend, no cost or bid caps, manual campaigns, consolidated budgets.
+- `brain-meta-andromeda-advantage-mastery` (in the optional extras pack of this kit) handles what changed under Andromeda and when Advantage+ is deliberately chosen; `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit) handles which conversion event to optimise for.
+- OUT of scope here: creative strategy and hooks (`brain-meta-creative-strategist-manual`), tracking plumbing and CAPI (`brain-meta-capi-server-side-deep` (in the optional extras pack of this kit)), audience exclusions (`brain-meta-exclusion-architecture` (in the optional extras pack of this kit)).
 
 ## Deeper references
 

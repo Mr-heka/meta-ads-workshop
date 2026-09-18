@@ -25,7 +25,7 @@ Below a size threshold the algorithm cannot deliver reliably, and narrow interes
 - **AdAmigo AI**: "anything below 200,000 is playing with fire"; the fix for narrow layered stacks is to stop layering interests and split them into separate ad sets. For pixel-based retargeting, under 1,000 source visitors is too small, wait to accumulate more data.
 - **Learn with Bilal**: leave the audience field blank/broad, anything above 200k and ideally 1-2 million+, rather than narrow interest stacking.
 
-Consensus, and it lines up with our verified base (interest stacking is dead as a primary lever post-Andromeda; the algorithm finds the buyer). Concrete number all three share: 200k detailed-targeting floor, 1,000 source-event floor for custom audiences.
+Consensus, and it lines up with the wider verified evidence (interest stacking is dead as a primary lever post-Andromeda; the algorithm finds the buyer). Concrete number all three share: 200k detailed-targeting floor, 1,000 source-event floor for custom audiences.
 
 ## Theme 3: Overly restrictive manual bids silently block auction entry (CONSENSUS)
 
@@ -61,7 +61,7 @@ Roughly 50 conversion events per week since the last significant edit are needed
 - **Learn with Bilal**: quotes the Meta doc language, "about 50 results in a week after the ad set's last significant edit." Editing every 24 hours (budget, audience, CPC) "breaks the algorithm" and sends the ad set back to learning. Wait for at least 50 purchases before scaling or changing targeting.
 - **Bizliftng** (excluded as thin, noted for corroboration only): stopping after 2-3 days "is not testing, it's panicking."
 
-Consensus with the verified base, which states the same 50-conversion rule and "every significant edit resets it (~48h), touch nothing more than once every 7-10 days on a small budget." Concrete: 50 conversions/week is the shared threshold; 24-hour editing cycles are the named failure.
+Consensus with the wider verified evidence, which states the same 50-conversion rule and "every significant edit resets it (~48h), touch nothing more than once every 7-10 days on a small budget." Concrete: 50 conversions/week is the shared threshold; 24-hour editing cycles are the named failure.
 
 ## Theme 7: CPM/CPC/CPL spikes are a relevance penalty, and a fast scroll-past is the trigger (CONSENSUS)
 
@@ -73,19 +73,19 @@ Meta reads a fast scroll-past as a bad-experience signal and charges more to com
 
 Consensus. The mechanism (scroll-past = relevance penalty = higher cost) is stated the same way from both the cost-cause side (Anan) and the cost-cure side (Bunkar). Concrete: 0.5 seconds is Anan's scroll-past window; a high 3-second rate is Bunkar's counter-signal that lowers CPM.
 
-## Theme 8: The 3-second video play rate is the fastest single diagnostic for a hook problem (Bunkar's framework, aligned with verified base)
+## Theme 8: The 3-second video play rate is the fastest single diagnostic for a hook problem (Bunkar's framework, aligned with wider verified evidence)
 
 You can read a hook problem in 24 hours instead of waiting 5-7 days, and the metric branches cleanly: low 3-second count = bad hook, high count but low completion = weak offer/body.
 
 - **Kamal Bunkar**: add "3-Second Video Play Rate" and a ThruPlay completion metric via Customize Columns. Below 40% 3-second play rate = change the hook, not the offer. High 3-second count with low play-through = weak offer or body copy. High on both = scale it. Live example: a winning creative at 55-56% vs a failing new creative at 13-14%.
 
-Aligned, with one flag. Our verified base (Ben Heath) is firm that decision metrics are CPA/ROAS only, and that hook rate and CTR "explain WHY, never decide WHAT to kill" (his 16% hook-rate ad lost on cost-per-purchase to a 10% one). Reconcile: use Bunkar's 3-second rate as a fast WHY-diagnostic to decide what to fix (hook vs body vs offer), but make the final kill/keep call on cost-per-result per the verified base. Do not kill on hook rate alone. Bunkar's 40% threshold is a single-operator number, treat it as directional, not law.
+Aligned, with one flag. The wider verified evidence (Ben Heath) is firm that decision metrics are CPA/ROAS only, and that hook rate and CTR "explain WHY, never decide WHAT to kill" (his 16% hook-rate ad lost on cost-per-purchase to a 10% one). Reconcile: use Bunkar's 3-second rate as a fast WHY-diagnostic to decide what to fix (hook vs body vs offer), but make the final kill/keep call on cost-per-result per the wider verified evidence. Do not kill on hook rate alone. Bunkar's 40% threshold is a single-operator number, treat it as directional, not law.
 
 ## Theme 9: CTR and creative-variety benchmarks for a "winning" ad (Bilal, single-source, directional)
 
 - **Learn with Bilal**: CTR above 2.5% is the threshold for a winning ad post-Andromeda (example: 2-3 clicks per 100 impressions). Below that, kill and test a new hook. Feed the system creative variety broad, 25+ ad variations and 5+ copy variants per ad in one ad set, audience blank.
 
-Single-source and partly in tension with the verified base's warning against deciding kills on CTR alone. Treat 2.5% CTR as a directional health check, not a kill trigger. The creative-variety instinct (many variations fed broad) matches the verified base's "creative IS the targeting" consensus.
+Single-source and partly in tension with the wider verified evidence's warning against deciding kills on CTR alone. Treat 2.5% CTR as a directional health check, not a kill trigger. The creative-variety instinct (many variations fed broad) matches the wider verified evidence's "creative IS the targeting" consensus.
 
 ## Theme 10: Tracking mismatch: broken/duplicate/miswired pixel events silently corrupt optimisation (Stenton, high-value single-source)
 
@@ -117,7 +117,7 @@ When ads deliver and click through but do not convert, the problem is downstream
 
 - **Learn with Bilal**: diagnostic order for non-converting-but-delivering ads: creative/hook -> copy/targeting match -> landing page speed -> checkout friction -> trust signals -> retargeting. Concrete failures: a 15-20 second page load kills conversion; COD forms with too many fields (first name, last name, postal code, zip, address) kill it even with strong clicks. Trust levers that lift sales: review videos, before/after proof, "open the parcel first, then pay" style guarantee lines, return-policy statements.
 
-Single-source but the sequencing (delivery, then creative, then page, then checkout, then trust) is a clean triage spine and consistent with the verified base's diagnostic pairings (good CTR + poor conversion = landing page). Note: the parcel and return-policy trust lines are e-commerce COD examples, not directly transferable to our lead-gen model.
+Single-source but the sequencing (delivery, then creative, then page, then checkout, then trust) is a clean triage spine and consistent with the wider verified evidence's diagnostic pairings (good CTR + poor conversion = landing page). Note: the parcel and return-policy trust lines are e-commerce COD examples, not directly transferable to a lead-gen model.
 
 ---
 

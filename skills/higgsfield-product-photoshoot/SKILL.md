@@ -30,11 +30,13 @@ Brand-image generation via the `higgsfield product-photoshoot create` command. T
 
 Before any other command:
 
-1. If `higgsfield` is not on `$PATH`, install it:
+1. If `higgsfield` is not on `$PATH`, install it with Higgsfield's official installer:
    ```bash
    curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
    ```
+   If it fails, fully quit and reopen the app, then run `higgsfield version`. If it is still missing, install from Higgsfield's published instructions at https://github.com/higgsfield-ai/cli.
 2. If `higgsfield account status` fails with `Session expired` / `Not authenticated`, ask the user to run `higgsfield auth login` (interactive) and wait for confirmation.
+3. Some modes need a paid Higgsfield plan; the CLI will say so.
 
 ## UX Rules
 

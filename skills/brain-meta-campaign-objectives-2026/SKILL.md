@@ -1,6 +1,6 @@
 ---
 name: brain-meta-campaign-objectives-2026
-description: Use when the user asks "which Meta objective should I pick", "Sales or Leads", "why do I get clicks but no sales", "Auction or Reservation", "can I change the objective after publishing", or needs an objective for a workshop, course, lead form, online checkout, or offline close. Route specific event choice to brain-meta-optimisation-event-strategy.
+description: Use when the user asks "which Meta objective should I pick", "Sales or Leads", "why do I get clicks but no sales", "Auction or Reservation", "can I change the objective after publishing", or needs an objective for a workshop, course, lead form, online checkout, or offline close. Specific event choice is covered by `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit).
 metadata:
   type: expert-brain
   topic: "Meta campaign objectives 2026 (current objective set, buying types, optimisation goals)"
@@ -30,12 +30,12 @@ consensus view; surface a contrarian take when it's well-argued.
 - **Buying type defaults to auction; leave it there.** "Facebook's ad algorithm works on auction basis... by default you have to leave it at this" (My Online Master; confirmed Prorecruit). Reservation is the niche brand-buy alternative.
 - **The objective is locked once you publish.** To change it you rebuild the campaign (My Online Master).
 - **The optimisation/performance goal is a separate lever inside the objective.** It decides what event the auction optimises delivery toward. Under a conversion objective, optimise to the money event, never a cheaper proxy (My Online Master, Digital Growth Tutor, Christian Jamal).
-- **For our funnel: Leads when the sale closes offline, Sales only when the whole purchase is online** (Christian Jamal, Paul Chinedu Nnamani; My Online Master for the e-comm Sales case).
+- **For your funnel: Leads when the sale closes offline, Sales only when the whole purchase is online** (Christian Jamal, Paul Chinedu Nnamani; My Online Master for the e-comm Sales case).
 
 ## Named frameworks & methods
 
-- **The four-bucket mistake model (Christian Jamal).** Objective failures span "the objective itself, the performance goal, the tracking, and the optimization event." This brain owns bucket one; the optimization event is `brain-meta-optimisation-event-strategy`, tracking is `brain-meta-pixel-capi-signals`.
-- **The 50-purchase-events rule (Christian Jamal).** "The sales objective needs about 50 purchase events per week per ad set just to exit the learning phase." Offline-closing service businesses never feed that data back, so they should run Leads.
+- **The four-bucket mistake model (Christian Jamal).** Objective failures span "the objective itself, the performance goal, the tracking, and the optimization event." This brain owns bucket one; the optimization event is `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit), tracking is `brain-meta-pixel-capi-signals` (in the optional extras pack of this kit).
+- **The 50-purchase-events rule (Christian Jamal).** "The sales objective needs about 50 purchase events per week per ad set just to exit the learning phase." Offline-closing service businesses never feed that data back, so they should run Leads. Treat the 50 figure as a large-account guideline: under roughly $100 a day, ignore it and judge on cost per result and booked or purchased outcomes (the ground rules in `meta-ads-guidelines`).
 - **Sales-vs-Leads funnel test (Christian Jamal + Paul Chinedu Nnamani).** Whole purchase online, no human follow-up (e-comm, direct buy button, low-ticket) = Sales. Sale closes on a call or in a room = Leads.
 - **"Business owners only ever run Lead or Sales" (Paul Chinedu Nnamani).** Awareness/Traffic/Engagement/App Promotion are for bloggers, big brands, app companies, not direct response.
 - **Link click vs landing page view (My Online Master, Digital Growth Tutor).** A link click registers even if the page never loads; a landing page view requires the page to load. Optimise to landing page views over clicks for real traffic.
@@ -45,7 +45,7 @@ consensus view; surface a contrarian take when it's well-argued.
 ## Contrarian / disputed takes
 
 - **Sales vs Leads emphasis (contested, cleanly reconciled).** My Online Master: "if you want orders, you must choose Sales... No one else has to go with any objective." Christian Jamal and Paul Chinedu Nnamani: most service businesses should run Leads. Reconciliation: My Online Master is walking a real online checkout, which is exactly the case the others carve out for Sales. No real disagreement, only different default customers.
-- **"Andromeda means targeting no longer matters" (conflicts with our verified base, base wins).** My Online Master and Digital Growth Tutor describe Advantage+ Audience as the new default and audience selection as largely overridden. The manual-control doctrine (`brain-meta-ads-manual-control-no-advantage`) says otherwise: switch to Original Audience. Notably both step-by-step creators independently make the same manual choice, so the conflict is only in framing. Keep manual audience control if that is what you have chosen.
+- **"Andromeda means targeting no longer matters" (conflicts with the manual-control rule; keep manual audience control).** My Online Master and Digital Growth Tutor describe Advantage+ Audience as the new default and audience selection as largely overridden. The manual-control doctrine (`brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit)) says otherwise: switch to Original Audience. Notably both step-by-step creators independently make the same manual choice, so the conflict is only in framing. Keep manual audience control if that is what you have chosen.
 
 ## Execution playbook
 
@@ -113,9 +113,9 @@ when a question spans topics.
 
 ## Pairs with / boundaries
 
-- **`brain-meta-optimisation-event-strategy`** owns which specific EVENT to optimise to inside a chosen objective (e.g. Purchase vs InitiateCheckout vs Lead). This brain stops at "the optimisation goal is a separate lever, pick the money event", hand the event-selection depth there.
+- `brain-meta-optimisation-event-strategy` (in the optional extras pack of this kit) owns which specific EVENT to optimise to inside a chosen objective (e.g. Purchase vs InitiateCheckout vs Lead). This brain stops at "the optimisation goal is a separate lever, pick the money event", hand the event-selection depth there.
 - **`brain-meta-budgets-bidding-learning`** owns CBO/ABO, budgets, bid/cost caps, pacing and the learning phase mechanics. This brain only mentions the ~50-events threshold as the reason to pick Leads over Sales, the budget/learning depth is out of scope here.
-- **`brain-meta-ads-manual-control-no-advantage`** is our verified base for the manual-vs-Advantage+ call. On any Andromeda "targeting no longer matters" claim, defer to it: keep manual audience control.
+- `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) goes deeper on the manual-vs-Advantage+ call. The rule here: on any Andromeda "targeting no longer matters" claim, keep manual audience control.
 - **Explicitly OUT of scope here:** campaign structure (ABO/CBO/ASC), audience building, pixel/CAPI setup, creative, and placements. This brain answers only "which objective, which buying type, which optimisation goal, and why".
 
 ## Thin spots (know before you lean on them)
@@ -123,7 +123,7 @@ when a question spans topics.
 Two in-scope areas are evidence-light across the 11 sources (detail in `references/experts.md`):
 
 - **Reservation buying type:** no source covers it beyond confirming Auction is the default. All we can say is reservation is the second buying type, for guaranteed-reach/frequency brand buys booked upfront, not direct response. Do not manufacture depth here.
-- **App Promotion objective depth:** named in every objective list but never explained past "app installs / app events." Costs us nothing (we have no app), but do not present it as fully covered.
+- **App Promotion objective depth:** named in every objective list but never explained past "app installs / app events." Costs you nothing if you have no app, but do not present it as fully covered.
 
 ## Deeper references
 

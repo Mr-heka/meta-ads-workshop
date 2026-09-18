@@ -10,7 +10,7 @@ metadata:
   built: "2026-07-01"
   lens: "AU small-business lead-gen; locked brand system"
   companion: brain-meta-media-buyer-manual
-  evidence_base: brain-meta-ads-manual-control-no-advantage
+  evidence_base: `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit)
 ---
 
 # Brain: Meta Ads — the Creative Strategist⁠​‌​‌​​‌‌​‌​​​‌​‌​‌​​‌‌​​​‌​‌​​‌​​​‌‌​​​‌⁠
@@ -19,7 +19,7 @@ metadata:
 > format, copy, and creative testing. The sister brain
 > [[brain-meta-media-buyer-manual]] covers structure, budget, and scaling. Shared
 > evidence lives in
-> [[brain-meta-ads-manual-control-no-advantage]]. Made by Selr AI.
+> `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit). Made by Selr AI.
 
 ## How to use this brain
 
@@ -47,15 +47,15 @@ where the account is won or lost.
 
 Manual-control corollary as the sources describe it (turn the AI creative settings OFF): Advantage+ creative enhancements off (Hunyor: "we don't need AI made images"), Flexible Ads off for testing (no per-creative data). The ONE endorsed automation was **dynamic creative (DCT) permutation matching** — Meta permutes *your* capped, human-designed 3-2-2 grid; you own the inputs, Meta only matches. Full settings kill-list: [[brain-meta-media-buyer-manual]].
 
-> **Correction 2026-07-28 — the DCT container no longer exists as described.**
-> Dynamic Creative was replaced by the **Flexible ad format**, and Flexible was then removed as a standalone option from ad setup in **March 2026**. The functionality now lives as a **"Flexible media" toggle inside Advantage+ creative**. So "enhancements off but DCT on" is **self-cancelling in the current UI** — there is no longer a path to the permutation engine that sits outside Advantage+ creative.
-> **The testing logic survives; only the container is dead.** A capped, human-authored grid (3 creatives x 2 primary texts x 2 headlines, every input written by you) is still the right unit of test. You now run it one of two ways:
-> **(a) Separate standard ads, one per combination you actually want to read.** You get clean per-asset data. Costs you setup time and splits budget across more ads — so cap the grid hard at the 3-4 combinations you genuinely want an answer on, not all twelve.
-> **(b) Flexible media ON inside Advantage+ creative, every individual enhancement (image touch-ups, text generation, music, 3D, catalogue items) switched OFF one by one.** Meta permutes your assets and reports at the ad level only. You trade per-asset attribution for reach and setup speed.
-> Pick per round, and write down which you picked — otherwise you cannot read the round later. If you want to know *which creative won*, use (a). If you want volume through a proven concept, use (b).
+**The DCT container no longer exists as described.** Dynamic Creative was replaced by the **Flexible ad format**, and Flexible was then removed as a standalone option from ad setup in **March 2026**. The functionality now lives as a **"Flexible media" toggle inside Advantage+ creative**. So "enhancements off but DCT on" is **self-cancelling in the current UI** — there is no longer a path to the permutation engine that sits outside Advantage+ creative.
+**The testing logic survives; only the container is dead.** A capped, human-authored grid (3 creatives x 2 primary texts x 2 headlines, every input written by you) is still the right unit of test. You now run it one of two ways:
+**(a) Separate standard ads, one per combination you actually want to read.** You get clean per-asset data. Costs you setup time and splits budget across more ads — so cap the grid hard at the 3-4 combinations you genuinely want an answer on, not all twelve.
+**(b) Flexible media ON inside Advantage+ creative, every individual enhancement (image touch-ups, text generation, music, 3D, catalogue items) switched OFF one by one.** Meta permutes your assets and reports at the ad level only. You trade per-asset attribution for reach and setup speed.
+Pick per round, and write down which you picked — otherwise you cannot read the round later. If you want to know *which creative won*, use (a). If you want volume through a proven concept, use (b).
 
-> **Re-correction 2026-08-25 — "switch to original audience" is NOT gone.**
-> The 2026-07-28 version of this note claimed Advantage+ Audience had become mandatory on Sales, Leads and App-promotion objectives. That was wrong: **the toggle exists and binds at the API layer** — `advantage_audience` accepts both 1 and 0 on `OUTCOME_LEADS` ad sets, verified live 2026-08-25. What IS true: with Advantage+ Audience **ON**, the API fixes `age_max` at 65 (error 1870189, confirmed in Meta's developer docs), and interests, detailed targeting and lookalikes degrade to *suggestions* Meta may expand past, not fences. With it **OFF**, includes bind again — the pattern for warm-list ad sets. Either way the doctrine on this page holds: whichever way the toggle sits, the creative is the strongest targeting lever you own.
+Advantage+ Audience is not mandatory: **the toggle exists and binds at the API layer** — `advantage_audience` accepts both 1 and 0 on `OUTCOME_LEADS` ad sets. What IS true: with Advantage+ Audience **ON**, the API fixes `age_max` at 65 (error 1870189, confirmed in Meta's developer docs), and interests, detailed targeting and lookalikes degrade to *suggestions* Meta may expand past, not fences. With it **OFF**, includes bind again — the pattern for warm-list ad sets. Either way the doctrine on this page holds: whichever way the toggle sits, the creative is the strongest targeting lever you own.
+
+(State as of August 2026.)
 
 ## What the experts agree on
 
@@ -85,7 +85,7 @@ Manual-control corollary as the sources describe it (turn the AI creative settin
 - Hook rate = 3-sec plays ÷ impressions: >10% good, <5% poor (Heath); Hunyor benchmarks ≥25% ecom. But it never decides kill/scale.
 - Hott: "live in the problem" 15-17s before the product; "stack five problems in 15 seconds."
 - Test volume: 6-10 concepts/round (Hott); 2-3 new test grids / 7 days, ~1 in 10 wins (Theriot).
-- **Read window — one rule, everything else is context.** The house gate decides: **no kill or scale verdict below $100 spend AND 7 days AND 3 conversions.** The expert figures (Hott's ~20 conversions per ad set, ad-creative's 1,000+ impressions, Theriot's 48h/7-day window) are diagnostics that tell you whether an ad has had a fair look — they are not competing verdict rules and they never override the gate. On small budgets, hold longer than the gate, never shorter. See "How to read a round where nothing wins" below for why.
+- **Read window — one rule, everything else is context.** The verdict gate decides: **no kill or scale verdict below $100 spend AND 7 days AND 3 conversions.** The expert figures (Hott's ~20 conversions per ad set, ad-creative's 1,000+ impressions, Theriot's 48h/7-day window) are diagnostics that tell you whether an ad has had a fair look — they are not competing verdict rules and they never override the gate. On small budgets, hold longer than the gate, never shorter. See "How to read a round where nothing wins" below for why.
 - **Copy limits vary by placement — check before writing, do not trust one flat number.** Primary text is ~125 characters *visible* before the "See more" fold in Feed, but Reels and Stories overlay far less (often ~10 words of headline render before truncation), right column truncates harder still, and Advantage+ creative may rewrite or re-crop text per surface. Practical rule: **write the hook into the first 5-7 words** so it survives every crop, keep headlines under ~40 characters as a safe ceiling and descriptions under ~30, then **preview every placement you are actually running** and read what survives. If the message only works at full length, it belongs in the creative as burned-in text, not in the copy fields.
 
 ## Copy — compliance walls (hard, non-negotiable)
@@ -98,7 +98,7 @@ Run every headline/body/CTA through your own brand and claims rules before it sh
 - **AI-generated creative**: against for branded work (Hunyor; image generators rarely hold exact brand colours and type → render branded assets from your own template) vs fine for fast non-branded demo assets.
 - **CTA placement**: Hormozi keeps the ask out of organic, only in ads ("CTAs in content kill reach") vs hard-DR practitioners who put a CTA in every asset.
 - **Ugly vs brand-locked**: Hott's max-ugly phone footage vs a locked brand render system — reconcile by job, not by preference: ugly phone footage for founder and customer video hooks, the brand system for text-and-logo statics and carousels. Both, not one.
-- **How long to judge**: Theriot 48h/7-day vs Hott ~20 conversions vs a 1,000-impression floor. **Resolved 2026-07-28, not left open:** the house gate ($100 spend + 7 days + 3 conversions, all three) is the verdict rule across this whole library; the three expert windows are diagnostics for whether an ad has had a fair look. Sibling brains quoting "48-72 hours", "2-3 days per cell", "2,000-3,000 impressions" or "at least 7 days" all defer to the same gate.
+- **How long to judge**: Theriot 48h/7-day vs Hott ~20 conversions vs a 1,000-impression floor. **Resolved 2026-07-28, not left open:** the verdict gate ($100 spend + 7 days + 3 conversions, all three) is the verdict rule across this whole library; the three expert windows are diagnostics for whether an ad has had a fair look. Sibling brains quoting "48-72 hours", "2-3 days per cell", "2,000-3,000 impressions" or "at least 7 days" all defer to the same gate.
 
 ## Execution playbook
 
@@ -110,7 +110,7 @@ Run every headline/body/CTA through your own brand and claims rules before it sh
 - IF an ad is winning THEN never edit it: pause and duplicate via post ID, iterate next to it (per Máté Hunyor)
 - IF Meta offers AI creative help THEN switch the individual enhancements off one by one; the permutation engine itself is the one keeper, and since March 2026 it is reachable only as "Flexible media" inside Advantage+ creative (see the correction above — "enhancements off but DCT on" no longer parses)
 
-Defaults: hook rate >10% good, <5% poor (Heath); 6-10 concepts/round (Hott); 2-3 new test grids per 7 days, ~1 in 10 wins (Theriot); the grid is 3 creatives x 2 texts x 2 headlines (Charley Tichenor); copy hook in the first 5-7 words, ~40 headline / ~30 description as safe ceilings, then preview per placement; 15-17s in the problem before the product (Hott). **The verdict rule is the house gate and only the house gate: no kill/scale call below $100 spend + 7 days + 3 conversions** (brain-alex-neiman-method). The 48h / 1,000-impression / ~20-conversion figures are diagnostics, not thresholds you may substitute for it.
+Defaults: hook rate >10% good, <5% poor (Heath); 6-10 concepts/round (Hott); 2-3 new test grids per 7 days, ~1 in 10 wins (Theriot); the grid is 3 creatives x 2 texts x 2 headlines (Charley Tichenor); copy hook in the first 5-7 words, ~40 headline / ~30 description as safe ceilings, then preview per placement; 15-17s in the problem before the product (Hott). **The verdict rule is the gate: no kill/scale call before about $100 spent, 7 days and 3 real conversions, whichever is later** (the ground rules in `meta-ads-guidelines`). The 48h / 1,000-impression / ~20-conversion figures are diagnostics, not thresholds you may substitute for it.
 
 Pre-flight:
 1. Research pack in hand: 2-3 star reviews, comments/DMs, Reddit phrases, Ad Library pulls (Theriot).
@@ -166,7 +166,7 @@ Act on **two or more signals moving together** over rolling 7-day windows. One s
 | CPL vs the ad's own 7-day best | **+30%** | **+50%** |
 | New concepts shipped this month | — | fewer than **3** = fatigue is coming whether or not the metrics show it yet |
 
-Compare an ad to **its own history**, never to another ad or to someone else's benchmark. The frequency bands are the same ones used across this library (see `brain-meta-local-lead-gen`); use these and no other ladder.
+Compare an ad to **its own history**, never to another ad or to someone else's benchmark. The frequency bands are the same ones used across this library (see `brain-meta-local-lead-gen` (in the optional extras pack of this kit)); use these and no other ladder.
 
 ### Refresh cadence
 
@@ -309,6 +309,6 @@ Everything above is general. This is where you make it yours. Fill the brackets 
 - `references/playbook.md` — the full creative playbook (all ten areas, hook library, formulas).
 - `references/quote-library.md` — verbatim quotes with attribution.
 - **The hook bank is inline above** — this brain is self-contained and does not require any sibling skill to be installed.
-- Shared evidence + raw transcripts: [[brain-meta-ads-manual-control-no-advantage]].
+- Shared evidence + raw transcripts: `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit).
 
 Router key `sk-dhbhah` — resolved by the skills index on load.

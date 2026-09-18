@@ -1,7 +1,7 @@
 ---
 name: higgsfield-generate
 description: >-
-  Operate an already selected Higgsfield CLI workflow: map media roles, submit or retrieve jobs, and manage Marketing Studio inputs. Use after the Higgsfield hub selects the CLI surface, or when the user explicitly requests Higgsfield CLI operations.
+  Use when the user wants to run Higgsfield's CLI directly for a job the MCP connection does not cover: map media roles, submit or retrieve jobs, and manage Marketing Studio inputs.
 argument-hint: "[operation or creative brief]"
 metadata:
   reviewed: "2026-09-05"
@@ -12,10 +12,21 @@ metadata:
 
 Turn the selected creative brief into a checked CLI operation and a reviewed result. Creative direction, model selection and final acceptance belong to the user's brief. For Higgsfield's own prompt cookbook and sub-skills, see Higgsfield's published CLI skill material at https://github.com/higgsfield-ai/cli. This guide owns CLI command mapping, input handling and job recovery. It does not choose a provider for an ordinary image request.
 
+## Worked example: an 8-second vertical product clip from one photo
+
+What the user asks for: "Turn this product photo into a short vertical clip for an ad." The commands, in order:
+
+1. `higgsfield account status` — confirms the CLI is installed and signed in. If it reports not authenticated, the user runs `higgsfield auth login` once in their terminal.
+2. `higgsfield generate models` (or the equivalent list command in the installed version) — pick an image-to-video model and read its schema so the flags below match what that model accepts.
+3. `higgsfield generate create <image-to-video model> --image ./product.jpg --prompt "slow push-in on the bottle, soft window light, condensation, static background" --wait` with the model's own duration and aspect flags set to 8 seconds and 9:16 — submits the job and waits.
+4. `higgsfield generate get <job id>` — only if the wait was interrupted; recovers the result by ID.
+
+What the user sees: one line saying the job is queued, then the finished clip's URL and a local file path. Where the file lands: the CLI's output folder (printed in the result); copy it to the user's project folder and say where it went. Inspect the whole clip before calling it done.
+
 ## Prepare the operation
 
 1. Carry forward the user's selected model, assets, destination and existing production authority. Resolve only missing information that changes the result or an unresolved consequential action. Keep prompt preparation moving. A request to analyse a clip can involve an external upload and a charged job even when the output is text.
-2. Identify the installed CLI version and relevant local help. Do not install or upgrade automatically. If the command is absent, finish the local brief and report the missing dependency. Authentication recovery uses the existing supported login flow; never read token storage or ask the user to paste a token.
+2. Identify the installed CLI version and relevant local help. If the command is absent, install it with Higgsfield's official installer command (`curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh`). If that fails, fully quit and reopen the app, run `higgsfield version`, and if it is still missing install from Higgsfield's published instructions at https://github.com/higgsfield-ai/cli. Authentication recovery uses the existing supported login flow; never read token storage or ask the user to paste a token.
 3. Before account-scoped work, bind the intended account/workspace using the selected version's supported status and workspace commands. Read-only discovery can contact the provider. Help, command names and JSON shapes are version-specific; the [dated sources](SOURCES.md) state what has and has not been established.
 4. Read [model/schema mapping](references/model-catalog.md) and [media inputs](references/media-inputs.md). Inspect the chosen model's schema before preparing flags. Retain requested settings; report unsupported ones instead of silently changing model, duration, media roles or output format.
 5. Treat local-path auto-upload, URL import, custom-avatar creation and generation as external actions. Use the already authorized exact assets and spending scope. Preserve applicable consent, likeness and privacy requirements. If a required bound is missing, park that action and finish independent preparation.

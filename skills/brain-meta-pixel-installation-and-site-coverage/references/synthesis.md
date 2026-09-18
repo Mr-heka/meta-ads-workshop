@@ -1,9 +1,9 @@
 # Synthesis: Meta pixel installation and site coverage
 
 Built 2026-07-06 from 10 mined transcripts. Usable after exclusions: 8.
-Context lens: AU small-business advertiser running GHL pages + Vercel/Next, checkout logic on landing pages, manual-control Meta account. Nearly every source is e-commerce or lead-gen framed; the transferable unit for us is "does the base pixel and the right event fire on every page type, and does Test Events prove it".
+Context lens: AU small-business advertiser running GHL pages + Vercel/Next, checkout logic on landing pages, manual-control Meta account. Nearly every source is e-commerce or lead-gen framed; the transferable unit for you is "does the base pixel and the right event fire on every page type, and does Test Events prove it".
 
-Cross-checked against the verified base `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. No install-mechanics conflict found; the one place a source drifts toward Advantage+ automation is flagged in Theme 10.
+Cross-checked against the wider verified evidence `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. No install-mechanics conflict found; the one place a source drifts toward Advantage+ automation is flagged in Theme 10.
 
 ---
 
@@ -29,7 +29,7 @@ The universal rule: base pixel loads site-wide, PageView fires for free, everyth
 
 Consensus across builder and dev worlds: base site-wide, PageView automatic, action events layered on top.
 
-## Theme 3: The GHL funnel-level head field is the canonical install for our stack (CONSENSUS, our-relevant)
+## Theme 3: The GHL funnel-level head field is the right install for a GHL stack (CONSENSUS)
 
 Two independent practitioners describe the exact same GHL path, which is the one that matters if your funnel runs on GHL.
 

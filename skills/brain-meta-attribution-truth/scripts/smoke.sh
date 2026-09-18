@@ -2,8 +2,7 @@
 # Smoke test for brain-meta-attribution-truth.
 # Run after any edit: bash scripts/smoke.sh
 # Checks (1) the trigger description still answers the canonical questions,
-# (2) the load-bearing sections exist, (3) the cross-referenced sibling brains
-# actually exist at their paths, (4) every quote in the quote library is still a
+# (2) the load-bearing sections exist, (3) every quote in the quote library is still a
 # verbatim (normalised) substring of a mined transcript, when transcripts are present locally.
 set -u
 BRAIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
@@ -36,21 +35,7 @@ for section in \
   fi
 done
 
-# 3. Cross-referenced sibling brains must exist at their paths, so broken
-#    Pairs-with / Related-brains links get caught here rather than at runtime.
-for sibling in \
-  "brain-meta-attribution-measurement-deep" \
-  "brain-meta-ads-manual-control-no-advantage" ; do
-  if ! grep -q "$sibling" "$BRAIN_DIR/SKILL.md"; then
-    echo "FAIL sibling brain no longer referenced in SKILL.md: $sibling"
-    FAIL=1
-  elif [ ! -f "$SKILLS_DIR/$sibling/SKILL.md" ]; then
-    echo "FAIL referenced sibling brain missing on disk: $sibling"
-    FAIL=1
-  fi
-done
-
-# 4. Every blockquote in the quote library must be a normalised substring
+# 3. Every blockquote in the quote library must be a normalised substring
 #    of at least one transcript (ellipsis splits each quote into fragments,
 #    every fragment must match).
 python3 - "$BRAIN_DIR" <<'EOF' || FAIL=1

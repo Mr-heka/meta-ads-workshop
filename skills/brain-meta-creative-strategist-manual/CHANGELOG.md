@@ -8,12 +8,12 @@
 - **NEW: inline hook bank** (10 categories, plug-and-play structures plus rules for using them). The pack previously deferred hooks to eight sibling skills a reader will not have installed; it is now self-contained.
 - **DCT container corrected (dated).** Dynamic Creative → Flexible ad format → removed as a standalone setup option March 2026, now a "Flexible media" toggle inside Advantage+ creative. "Enhancements off but DCT on" is self-cancelling in the current UI. Underlying grid logic kept; the two real options (separate standard ads vs Flexible media with enhancements off) spelled out. Applied at the doctrine section, the 3-2-2 framework entry, the IF/THEN rule, the defaults line and pre-flight item 5.
 - **"Switch to original audience" corrected (dated).** Advantage+ Audience is mandatory on Sales/Leads/App objectives; the remaining controls are named (location, minimum age, language, custom-audience exclusions, Special Ad Category).
-- **Read-window contradiction resolved.** House gate ($100 + 7 days + 3 conversions) is now the single verdict rule; the 48h / 1,000-impression / ~20-conversion figures are labelled diagnostics, and the previously-open "how long to judge" contrarian bullet is closed.
+- **Read-window contradiction resolved.** The verdict gate ($100 + 7 days + 3 conversions) is now the single verdict rule; the 48h / 1,000-impression / ~20-conversion figures are labelled diagnostics, and the previously-open "how long to judge" contrarian bullet is closed.
 - **Character specs fixed.** Flat "headline ~40, description ~30" replaced with per-placement guidance: caps vary hard by surface (Reels overlay renders far less), hook belongs in the first 5-7 words, preview every placement you run.
 - **Publishing scrub.** Brand render locks (hex colour, typeface) removed as config not knowledge; "Applied to our business" renamed to "Applied to your business" and rewritten as reader-fill prompts with bracketed figures in place of prices and CPLs.
 
 ## 2026-07-18
-- Recalibration pass: added Neiman verdict gate override and workshop-paid-paused doctrine note (audit 2026-07-18).
+- Recalibration pass: added the verdict gate override and workshop-paid-paused doctrine note (audit 2026-07-18).
 
 ## 2026-07-05 (refresh)
 - Added Execution playbook and Applied to our business sections; domain/aliases frontmatter.

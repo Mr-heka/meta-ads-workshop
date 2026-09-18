@@ -53,7 +53,7 @@ it live, searching the buyer's category instead of the service:
 
 > "5600 results. Ok? How many coaches have run ads related to this keyword and when" - Gaurav Singh, *How to Spy on Competitor's Facebook Ads 2026 (Step-by-Step) || Competitor Ad Research*
 
-For us that means searching the pain and the buyer per the Applied section: "small business AI",
+For a service business that means searching the pain and the buyer per the Applied section: "small business AI",
 "automate admin", "AI for tradies / gyms / property", plus adjacent educators (business coaches,
 done-for-you AI agencies, no-code course sellers).
 
@@ -128,9 +128,9 @@ Nick Parker is the warning label on copying an offer without its invisible machi
 
 > "I literally almost copied that thing verbatim... I did not sell a lot because I was missing so many other pieces of the puzzle. I was missing the back end infrastructure" - Nick Parker, *Why Your Competitor Looks More Successful Than They Really Are*
 
-Map their guarantee and urgency structure as intelligence, then translate it inside our walls per the
-Applied section: genuine expiring early-bird, application screening, past-cohort facts as history.
-No outcome guarantees, no refund language, no support promises in anything we ship.
+Map their guarantee and urgency structure as intelligence, then translate it into your own honest devices per the
+Applied section: a genuine deadline, an application step, real facts from past runs as history.
+No outcome guarantees, no refund language, no support promises in anything you ship.
 
 ---
 
@@ -141,7 +141,7 @@ and the read comes quicker than agencies claim:
 
 > "you can figure it out in like 48 to 72 hours if something's working. And so if you run something in test and you get like three, four, five thousand impressions on an ad and it is winning, you will know" - Nick Parker, *Why Your Competitor Looks More Successful Than They Really Are*
 
-Decision metric is cost-per-result, never engagement (Nick Parker, and our verified base agrees).
+Decision metric is cost-per-result, never engagement (Nick Parker, and the wider evidence agrees).
 For this campaign that means judging against the playbook targets: workshop CPL $6-10.
 
 Handoff from here, per the brain's boundaries:

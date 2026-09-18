@@ -6,7 +6,7 @@ verbatim from the mined transcripts.
 
 ## User question
 
-> Our Sydney workshop campaign was pulling leads at $3.89 in week one. Three weeks
+> My <city> workshop campaign was pulling leads at $3.89 in week one. Three weeks
 > in it's $23.64 and still climbing, and nothing in the account changed. Is Meta
 > throttling us, is my account health tanking, or is something actually broken?
 > Should I just move the budget to a fresh city to escape it?
@@ -39,7 +39,7 @@ city.**
    the gap you're looking for.
 
 4. **Diagnose with the 3-second rate, but make the kill/keep call on CPL.** Bunkar
-   treats a sub-40% 3-second rate as enough to condemn the hook. Our verified base
+   treats a sub-40% 3-second rate as enough to condemn the hook. The wider verified evidence
    (Ben Heath) is firm the other way: hook rate and CTR explain WHY, never decide
    WHAT to kill (his 16% hook-rate ad lost on cost-per-purchase to a 10% one).
    Reconcile: use the 3-second rate to decide what to fix (hook vs body vs offer),
@@ -47,7 +47,7 @@ city.**
    way back down: "If your 3 second view rate is high... the algorithm has realized that this creative is engaging and it shows it to more people. Due to which your CPM also falls." (Bunkar).
 
 5. **Check message-to-awareness match, then route, don't relocate.** Anan's awareness
-   ladder: are we pitching "the setup" and features to a cold Sydney owner still at
+   ladder: are we pitching "the setup" and features to a cold <city> owner still at
    the awareness stage? "When you talk about your products and services in your ads, but your audience is still in the awareness stage. You're speaking literally a different language."
    The fix is a pain-led rewrite (80/20 pain-to-offer landing page, test at least
    four days), not a testimonial dropped into a cold ad. Moving the budget to a fresh

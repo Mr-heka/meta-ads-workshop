@@ -30,7 +30,7 @@ consensus view; surface a contrarian take when it's well-argued.
 4. **Custom audiences do three jobs at once: retarget warm traffic, exclude it from prospecting, and feed Meta signal.** Uploaded first-party lists beat the pixel because a website custom audience can only look back 180 days at most. (Ben Heath, LYFE Marketing, Sam Piliero) **Read that as a ceiling, not a setting.** The retention field is yours to set and **the builder defaults to 30 days**, so an audience you think holds six months of visitors holds one, and it silently drops everyone older every day. Type 180 in the field yourself, on every website audience you build, and re-check it on any audience you inherited.
 5. **Bigger audiences and fewer ad sets win.** Long retargeting windows beat tight ones because Meta ranks recency internally; splitting budget across many audiences starves learning in every pocket. (LYFE Marketing, Sam Piliero)
 6. **Lookalikes are a background tool now, not a pillar.** Meta builds similar-audience patterns automatically; reach for a lookalike only to force a specific customer type or correct bad prospecting. (LYFE Marketing, Sam Piliero)
-7. **The old cold/warm/hot campaign ladder is collapsing.** Advantage+ blends temperatures and creative sequences the journey; the residual manual layer is one cold unit plus one warm unit with exclusions between them. (Ben Heath, Ash Davis, LYFE Marketing)
+7. **The old cold/warm/hot campaign ladder is collapsing.** Advantage+ blends temperatures and creative sequences the journey; the residual manual layer is one cold unit plus one warm unit with exclusions between them. (Ben Heath, Ash Davis, LYFE Marketing) Advantage+ audience is the default; the original audience controls are still available when you switch to them; test both.
 8. **Meta optimises toward whatever converts, so protect the signal.** Filter unqualified leads before they fire as conversions, and remember in-platform reporting understates recurring revenue. (Ash Davis, Ben Heath)
 
 ## Named frameworks & methods
@@ -44,9 +44,9 @@ consensus view; surface a contrarian take when it's well-argued.
 
 ## Contrarian / disputed takes
 
-- **Do small accounts still need interests?** Chappell: yes, under $30k/month interest ad sets train the model. Piliero: partly, one broad plus a couple of narrow interest ad sets guides the pixel. LYFE Marketing: no, go broad from day one, interests just thin the data. Our verified base sides with consolidation first, optional narrow interests early, broad once the pixel warms.
+- **Do small accounts still need interests?** Chappell: yes, under $30k/month interest ad sets train the model. Piliero: partly, one broad plus a couple of narrow interest ad sets guides the pixel. LYFE Marketing: no, go broad from day one, interests just thin the data. The weight of evidence sides with consolidation first, optional narrow interests early, broad once the pixel warms.
 - **How much separate warm structure survives?** Heath says Advantage+ Lead/Sales blends warm and cold, so separate retargeting campaigns matter less. Chappell and LYFE still run an explicit retargeting unit. At small spend, keep the explicit warm unit; it is cheap and auditable.
-- **Advantage+ as the container.** Chappell prescribes it at every tier; Heath treats it as the direction of travel. Our verified 24-source base (Theriot's controlled test: manual 2.91 ROAS vs ASC 2.14 on the same ads) and our campaign playbook say manual campaigns with Advantage+ Audiences OFF. This brain flags the conflict and sides with the verified base.
+- **Advantage+ as the container.** Chappell prescribes it at every tier; Heath treats it as the direction of travel. Theriot's controlled test (manual 2.91 ROAS vs ASC 2.14 on the same ads) supports manual campaigns. This brain flags the conflict; decide Advantage+ audience on or off per test, and record which you ran.
 - **Premium-segment targeting.** Popka (era-flagged) argues interest stacks still reach wealthy buyers (luxury goods, engaged shoppers, 28-55). Davis argues the label approach is dead and message plus qualification does the job. Side with Davis; keep Popka's one durable rule, premium buyers need premium creative.
 
 ## Execution playbook
@@ -89,7 +89,7 @@ Pre-flight checklist before touching audiences:
 Top 5 failure modes and fixes:
 
 1. **Stacking interests to "narrow in" on the buyer.** Post-Andromeda this just shrinks the pool and misleads you. Fix: strip to broad, move the persona into the creative (Heath, LYFE, Davis).
-2. **Splitting budget across many small audiences or ad sets.** Every pocket starves. Fix: one cold unit, one warm unit, consolidate until learning exits (LYFE, verified base).
+2. **Splitting budget across many small audiences or ad sets.** Every pocket starves. Fix: one cold unit, one warm unit, consolidate until learning exits (LYFE, Heath).
 3. **Trusting the pixel to remember customers.** It forgets at 180 days at best, and at 30 if nobody changed the retention field, so old buyers leak back into prospecting. Fix: set retention deliberately, then upload CRM lists and exclude them everywhere cold (Heath, Piliero).
 4. **Letting unqualified conversions train the account.** Meta clones whoever converts. Fix: pre-qualification form between ad and booking, route bad fits away from the conversion event (Davis).
 5. **Scaling broad past its ceiling with more budget instead of more reach.** CPMs and frequency climb, ROAS decays. Fix: new creative concepts first, then the one-step-removed interest play with proven winners (Piliero).
@@ -125,17 +125,17 @@ What may NOT apply to you:
 
 ## Related brains
 
-- `brain-meta-exclusion-architecture`: Meta ads exclusion architecture (exclusions, overlap control, funnel sequencing)
-- `brain-meta-local-lead-gen`: Meta local lead generation (radius city targeting, small-geo saturation, local event fill)
-- `brain-meta-andromeda-advantage-mastery`: Meta Andromeda and Advantage+ mastery (feeding the machine, defaults, honest limits) Check it
+- `brain-meta-exclusion-architecture` (in the optional extras pack of this kit): Meta ads exclusion architecture (exclusions, overlap control, funnel sequencing)
+- `brain-meta-local-lead-gen` (in the optional extras pack of this kit): Meta local lead generation (radius city targeting, small-geo saturation, local event fill)
+- `brain-meta-andromeda-advantage-mastery` (in the optional extras pack of this kit): Meta Andromeda and Advantage+ mastery (feeding the machine, defaults, honest limits) Check it
 when a question spans topics.
 
 ## Pairs with / boundaries
 
-- This brain is the SURVEY: it decides the audience strategy, then hands depth to siblings. `brain-meta-website-and-engagement-audiences` owns pixel and engagement audience builds and windows; `brain-meta-list-audiences-and-crm-sync` owns list uploads, match rates and CRM sync; `brain-meta-exclusion-architecture` owns the exclusion map; `brain-meta-local-lead-gen` owns city-radius workshop targeting.
-- `brain-meta-lookalikes-and-seeds` owns lookalike seed choice and percentage tiers. This survey keeps only the demotion verdict (Theme 8 in `references/synthesis.md`); route seed and percentage questions there.
-- OUT of scope here: budgets and bidding (`brain-meta-budgets-bidding-learning`), creative production (`brain-meta-creative-strategist-manual`), campaign settings and structure (`brain-meta-media-buyer-manual`), CAPI and match quality (`brain-meta-capi-server-side-deep`, `brain-meta-emq-and-match-quality`).
-- On any conflict about automation switches, `brain-meta-ads-manual-control-no-advantage` (24 verified sources) is the tiebreaker and wins.
+- This brain is the SURVEY: it decides the audience strategy, then hands depth to siblings. `brain-meta-website-and-engagement-audiences` (in the optional extras pack of this kit) owns pixel and engagement audience builds and windows; `brain-meta-list-audiences-and-crm-sync` (in the optional extras pack of this kit) owns list uploads, match rates and CRM sync; `brain-meta-exclusion-architecture` (in the optional extras pack of this kit) owns the exclusion map; `brain-meta-local-lead-gen` (in the optional extras pack of this kit) owns city-radius workshop targeting.
+- `brain-meta-lookalikes-and-seeds` (in the optional extras pack of this kit) owns lookalike seed choice and percentage tiers. This survey keeps only the demotion verdict (Theme 8 in `references/synthesis.md`); seed and percentage depth lives there.
+- OUT of scope here: budgets and bidding (`brain-meta-budgets-bidding-learning`), creative production (`brain-meta-creative-strategist-manual`), campaign settings and structure (`brain-meta-media-buyer-manual`), CAPI and match quality (`brain-meta-capi-server-side-deep` (in the optional extras pack of this kit), `brain-meta-emq-and-match-quality` (in the optional extras pack of this kit)).
+- On any conflict about automation switches, the rule is: Advantage+ audience is the default; the original audience controls are still available when you switch to them; test both and record which you ran. `brain-meta-ads-manual-control-no-advantage` (in the optional extras pack of this kit) holds the 24-source evidence behind manual control.
 
 ## Deeper references
 

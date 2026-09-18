@@ -58,5 +58,5 @@ Ten YouTube sources mined 2026-07-06, all inside the 12-month freshness window. 
 - **Thin sub-areas, stated honestly:**
   - **Checkout on a separate domain** is covered only by inference (Big Short Ads' mismatch symptom, Jamie Stenton's per-payment testing). No source gives a clean cross-domain base-install walkthrough. Treat our own separate-checkout-domain guidance as first-principles plus Test Events verification, not a cited recipe.
   - **Shopify install** survives only through Derek Videll's native-app description; the dedicated Shopify source (Wavi Media) was unusable.
-  - **Next.js App Router** rests on a single source (InstinctHub). High value for us, but verify against Vercel's current examples repo before relying on file paths.
+  - **Next.js App Router** rests on a single source (InstinctHub). High value for a Next.js stack, but verify against Vercel's current examples repo before relying on file paths.
   - **datasets vs pixels** is well-covered as a naming/coverage distinction; nobody goes deep on multi-source datasets beyond "one per company".

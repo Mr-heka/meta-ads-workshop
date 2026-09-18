@@ -8,7 +8,7 @@ Per creator: name, popular or hidden-gem (from the source index built at mining 
 
 ## Christian Jamal, hidden gem
 - **Angle:** practitioner/agency framework built around one decision, Leads vs Sales for service businesses closing offline.
-- **Uniquely adds:** the sharpest Sales-vs-Leads rule in the set (50 purchase events/week to exit learning; Sales only when the whole purchase is online), the four-bucket model (objective / performance goal / tracking / optimization event) that scopes objective choice as step one, and a real revenue proof ($442K by month two). The single most valuable source for our funnel decision.
+- **Uniquely adds:** the sharpest Sales-vs-Leads rule in the set (50 purchase events/week to exit learning; Sales only when the whole purchase is online), the four-bucket model (objective / performance goal / tracking / optimization event) that scopes objective choice as step one, and a real revenue proof ($442K by month two). The single most valuable source for your funnel decision.
 
 ## Paul Chinedu Nnamani, hidden gem
 - **Angle:** direct-response practitioner narrowing six objectives to a hard rule for business owners.
@@ -44,6 +44,6 @@ Per creator: name, popular or hidden-gem (from the source index built at mining 
 - **Transcription artifact:** both My Online Master videos and the second creator repeatedly transcribe "Andromeda" as "Android." This is a mishearing, not a claim about the Android OS.
 - **Thin sub-areas of the locked scope (stated plainly, not padded):**
   - **Reservation buying type**, no source covers it beyond confirming auction is the default. What we know: reservation is the second buying type, for guaranteed reach/frequency brand buys booked upfront, not for direct-response. That is the ceiling of the evidence.
-  - **App Promotion objective**, named in every list but never explained beyond "app installs / app events." Not relevant to our model (we have no app), so the thinness costs us nothing.
+  - **App Promotion objective**, named in every list but never explained beyond "app installs / app events." Not relevant if you have no app, so the thinness costs us nothing.
   - **Optimisation-event depth inside an objective**, deliberately shallow here by scope; the deep treatment is `brain-meta-optimisation-event-strategy`.
-- **Source mix skew:** the strongest sources are hidden-gem small channels selected on engagement, not views. Six of eight usable sources are ODAX/objective explainers rather than auction-theory deep dives, so the survey is well-covered but the auction internals lean on our verified base rather than these transcripts.
+- **Source mix skew:** the strongest sources are hidden-gem small channels selected on engagement, not views. Six of eight usable sources are ODAX/objective explainers rather than auction-theory deep dives, so the survey is well-covered but the auction internals lean on the wider verified evidence rather than these transcripts.

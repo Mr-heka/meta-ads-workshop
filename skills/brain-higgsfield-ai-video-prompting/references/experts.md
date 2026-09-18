@@ -7,28 +7,28 @@ they do not independently identify every person speaking or prove expertise.
 
 | YouTube uploader | Retained transcript IDs |
 | --- | --- |
-| AI Madame | [iBifCVAXgZg](../sources/iBifCVAXgZg.txt) |
-| AI Master | [kNradaMZ8kk](../sources/kNradaMZ8kk.txt) |
-| AI Video School | [cGTBzed4S4w](../sources/cGTBzed4S4w.txt) |
-| AI for Real Life: Redefining Filmmaking | [f5BYj6XHGwg](../sources/f5BYj6XHGwg.txt) |
-| Aasil Khan | [LR_ZHjGF7xY](../sources/LR_ZHjGF7xY.txt) |
-| Artturi Jalli | [l-rFCkjJzu8](../sources/l-rFCkjJzu8.txt) |
-| Code And Create | [9iCxRPooLuE](../sources/9iCxRPooLuE.txt) |
-| Creative Suite Tutorials | [C07kYMFm3NQ](../sources/C07kYMFm3NQ.txt) |
-| DGI Kaos | [cksEVv1tArI](../sources/cksEVv1tArI.txt) |
-| David Manning | [N0X5naSpqTk](../sources/N0X5naSpqTk.txt) |
-| Higgsfield AI | [AdjllfZuqYM](../sources/AdjllfZuqYM.txt), [nUgx8ETiR1g](../sources/nUgx8ETiR1g.txt), [zYPgz6sOy74](../sources/zYPgz6sOy74.txt) |
-| How to Digital | [W0lHnvCoAjs](../sources/W0lHnvCoAjs.txt) |
-| Joshua Mayo | [R7GZjRMsrzM](../sources/R7GZjRMsrzM.txt) |
-| LTDesign97 | [sDdub5htdRk](../sources/sDdub5htdRk.txt) |
-| Matt Loui | [-k6BAe27dDU](../sources/-k6BAe27dDU.txt) |
-| NetworkChuck | [pwWBcsxEoLk](../sources/pwWBcsxEoLk.txt) |
-| Rourke Heath | [FQqkDXq1WEQ](../sources/FQqkDXq1WEQ.txt), [tYJQusOS2jI](../sources/tYJQusOS2jI.txt) |
-| Sebastien Jefferies | [HTBfxEqDCdU](../sources/HTBfxEqDCdU.txt) |
-| Tao Prompts | [sYYZ_MyB-zU](../sources/sYYZ_MyB-zU.txt), [zzBmvzR-URg](../sources/zzBmvzR-URg.txt) |
-| Theoretically Media | [vRNHNNliDVM](../sources/vRNHNNliDVM.txt) |
-| WealthWise | [PCTkvnGiB68](../sources/PCTkvnGiB68.txt) |
-| metricsmule | [4f8TBXpJYCs](../sources/4f8TBXpJYCs.txt) |
+| AI Madame | iBifCVAXgZg |
+| AI Master | kNradaMZ8kk |
+| AI Video School | cGTBzed4S4w |
+| AI for Real Life: Redefining Filmmaking | f5BYj6XHGwg |
+| Aasil Khan | LR_ZHjGF7xY |
+| Artturi Jalli | l-rFCkjJzu8 |
+| Code And Create | 9iCxRPooLuE |
+| Creative Suite Tutorials | C07kYMFm3NQ |
+| DGI Kaos | cksEVv1tArI |
+| David Manning | N0X5naSpqTk |
+| Higgsfield AI | AdjllfZuqYM, nUgx8ETiR1g, zYPgz6sOy74 |
+| How to Digital | W0lHnvCoAjs |
+| Joshua Mayo | R7GZjRMsrzM |
+| LTDesign97 | sDdub5htdRk |
+| Matt Loui | -k6BAe27dDU |
+| NetworkChuck | pwWBcsxEoLk |
+| Rourke Heath | FQqkDXq1WEQ, tYJQusOS2jI |
+| Sebastien Jefferies | HTBfxEqDCdU |
+| Tao Prompts | sYYZ_MyB-zU, zzBmvzR-URg |
+| Theoretically Media | vRNHNNliDVM |
+| WealthWise | PCTkvnGiB68 |
+| metricsmule | 4f8TBXpJYCs |
 
 The original index selected videos with views, engagement and an internal score.
 Those fields are not an expertise test, accuracy benchmark or consensus measure.

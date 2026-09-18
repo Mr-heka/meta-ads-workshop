@@ -4,7 +4,7 @@ Built 2026-07-06 from 15 mined transcripts. 2 excluded (both promote an unverifi
 
 Context lens applied throughout: a small-business lead-gen advertiser running one ad account at roughly 2-8k dollars/month. This brain covers PLATFORM policy only. AU consumer-law depth (guarantees, refunds, ACCC territory) is out of scope and belongs with an accountant or lawyer. Business-manager architecture (portfolio setup, permissions, tokens) routes to `brain-meta-business-manager-architecture`.
 
-Cross-checked against our verified base `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. No direct conflicts found; the health/policy layer sits underneath the manual-control layer and is complementary.
+Cross-checked against the wider verified evidence `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`. No direct conflicts found; the health/policy layer sits underneath the manual-control layer and is complementary.
 
 ---
 

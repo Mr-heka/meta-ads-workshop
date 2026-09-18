@@ -67,7 +67,7 @@ Pick the model first: **Nano Banana Pro** for photoreal + text + edits, **Higgsf
 - IF output looks AI THEN suppress the tells: "no text on clothing", "candid, looking to the side" (per DGI Kaos, AI Master)
 - IF you wrote a precise prompt THEN turn the prompt enhancer off so it can't rewrite you (per Jack Vs. AI)
 
-Defaults: Soul ID trains on 20-31 photos, ~5-60 min (Artturi Jalli). Generate 4 per batch, ~2 credits (DGI Kaos). Test at 720p/2K, upscale keepers to 4K (Rourke Heath). Shots ~4 credits, Skin Enhancer ~4 credits, Topaz upscale 2x/4x/8x (DGI Kaos, Artturi Jalli). Aspect: 16:9 hero, 9:16 reels, 1:1 feed, 21:9 cinematic (Higgsfield AI). Mood Board: 20-30 same-style images (Artturi Jalli). Expect 5-10 attempts to nail a shot exactly (Artturi Jalli). Prompt discipline ~2,800 chars (Theoretically Media).
+Defaults: Soul ID photos: Higgsfield's current guide says 5 to 20 photos; creators often use up to 30 (Artturi Jalli trained on 20-31), ~5-60 min. Generate 4 per batch, ~2 credits (DGI Kaos). Test at 720p/2K, upscale keepers to 4K (Rourke Heath). Shots ~4 credits, Skin Enhancer ~4 credits, Topaz upscale 2x/4x/8x (DGI Kaos, Artturi Jalli). Aspect: 16:9 hero, 9:16 reels, 1:1 feed, 21:9 cinematic (Higgsfield AI). Mood Board: 20-30 same-style images (Artturi Jalli). Expect 5-10 attempts to nail a shot exactly (Artturi Jalli). Prompt discipline ~2,800 chars (Theoretically Media).
 
 Pre-flight:
 - Pick the model first: Nano Banana Pro for photoreal/text, Soul 2 for Soul ID, GPT Image for multi-reference composites

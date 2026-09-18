@@ -2,7 +2,7 @@
 
 Built 2026-07-05 from 22 mined transcripts (20 usable in this synthesis, 2 era-flagged and excluded, none thin).
 All sources under 12 months old. Most are e-commerce/ROAS-framed; for lead gen swap ROAS for cost per lead against a target CPA.
-Cross-checked against the verified base in `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`; conflicts flagged inline.
+Cross-checked against the wider verified evidence in `brain-meta-ads-manual-control-no-advantage/references/synthesis.md`; conflicts flagged inline.
 
 ---
 
@@ -27,7 +27,7 @@ Nobody in the set recommends cost or bid caps as the way to test creative. The p
 - **David Parrottino**: start on highest volume, "keep scaling your budget up until it breaks", only then introduce cost cap, and bid cap only if you need still more efficiency.
 - **William Kast**: bid caps suit accounts spending multiple hundred thousand per month launching 500+ ads monthly; everyone else should run auto-bid.
 
-**Verified-base cross-check:** our verified base is stricter again (Piliero: caps earn a place at $100K+/month; Blue Sense: not under $200K/month). Where they differ, side with the verified base: at small spend, no caps at all. Both bodies of evidence agree caps never belong in testing.
+**Cross-check:** Piliero and Blue Sense are stricter again (Piliero: caps earn a place at $100K+/month; Blue Sense: not under $200K/month). Where they differ, take the stricter rule: at small spend, no caps at all. Both bodies of evidence agree caps never belong in testing.
 
 ## Theme 3: Setting and tuning a cap (CONSENSUS on direction, varied formulas)
 
@@ -59,7 +59,7 @@ Two camps on whether 50 conversions per ad set per week is a real performance ga
 - **Threshold camp**: **Rafael Hernandez** ("You're aiming for 50 optimization events per adset within 7 days"), with the up-funnel workaround (optimise for add-to-cart or LP views temporarily to hit volume). **Cody Wittick** turns it structural: cost cap x 7 x number of ad sets = minimum daily budget; a $50 cap and 5 ad sets needs $1,785/day, else consolidate.
 - **Myth camp**: **William Kast** cites Meta's own article admitting the "delivery system never stops learning"; real accounts stuck in learning at ROAS 5 across $20K/30-day spend; at most a 5-10% measured difference between active and learning ads. **Derek Videll**: treat learning, learning limited and active as "the exact same thing"; learning limited is not actually limiting.
 
-**Verified-base cross-check:** the verified base already ruled on this for small accounts (the 50-in-7 rule back-propagates to ~$714/day per test, absurd at small spend, ignore it). Side with the myth camp at small budgets; keep Wittick's formula as a structural feasibility check before ever attempting manual bidding at scale.
+**Cross-check:** the 50-in-7 rule is a large-account guideline (it back-propagates to ~$714/day per test, absurd at small spend); under roughly $100 a day ignore it and judge on cost per result and booked or purchased outcomes (the ground rules in `meta-ads-guidelines`). Side with the myth camp at small budgets; keep Wittick's formula as a structural feasibility check before ever attempting manual bidding at scale.
 
 ## Theme 6: Change discipline: every significant edit resets learning (CONSENSUS)
 
@@ -94,7 +94,7 @@ Contested: **Manny Barbas** doubles budget every 2 days once an offer is validat
 - **Manny Barbas**: individual ad CPAs of $44, $58 and $38 blended to a $33 campaign CPA; killing everything over $35 would have cut off the top-of-funnel supply. Judge at campaign/funnel level, using frequency (1.7 versus 3.15) to spot funnel stage.
 - **Marin Istvanic**: "I would rather have one winning ad and four supporting ads" spending 10K at 1.8 ROAS than one ad spending 5K at 2.0.
 
-This matches the verified base's incrementality warning (judge on profit volume, not per-ad attribution).
+This matches the wider verified evidence's incrementality warning (judge on profit volume, not per-ad attribution).
 
 ## Theme 10: Small-budget doctrine (CONSENSUS)
 
@@ -110,7 +110,7 @@ This matches the verified base's incrementality warning (judge on profit volume,
 - **Manny Barbas**: "in 2025 and beyond, the content is what does the targeting"; cost controls exist to free the team to focus on creative instead of toggling ads on and off.
 - **Nick Boddington**: genuinely different concepts (UGC vs demonstration vs testimonial vs offer), not text-overlay swaps.
 
-Fully aligned with the verified base's Theme 1 (*creative IS the targeting*).
+Fully aligned with the wider verified evidence's Theme 1 (*creative IS the targeting*).
 
 ## Theme 12: CBO vs ABO in the current UI (CONTESTED placement, consistent principle)
 
@@ -120,7 +120,7 @@ Fully aligned with the verified base's Theme 1 (*creative IS the targeting*).
 - **Manny Barbas**: CBO testing campaigns split by country, cost caps set at ad-set level, inflated $5,000/day campaign budget as deliberate breathing room.
 - **Rafael Hernandez** (caveat that decides ties): adding a new ad set to a live CBO can re-enter the whole campaign into learning.
 
-Net: consolidated CBO is the default (matches the verified base); ABO appears mainly as the container some heavy spenders prefer for cap work. The principle both camps share is few learning units, concentrated conversions.
+Net: consolidated CBO is the default (matches the wider verified evidence); ABO appears mainly as the container some heavy spenders prefer for cap work. The principle both camps share is few learning units, concentrated conversions.
 
 ---
 
@@ -131,8 +131,8 @@ Net: consolidated CBO is the default (matches the verified base); ABO appears ma
 - **Nick Boddington** carries an era note but is INCLUDED: his video explicitly corrects pre-Andromeda habits rather than teaching them.
 - No sources were flagged thin.
 
-## Conflicts with the verified base (brain-meta-ads-manual-control-no-advantage)
+## Conflicts with the wider verified evidence (`brain-meta-ads-manual-control-no-advantage`, in the optional extras pack of this kit)
 
-1. **Cap spend gates**: Build Your Ecomm's $30K/month gate is looser than the verified base's $100-200K/month. Side with the verified base at our spend: no caps.
+1. **Cap spend gates**: Build Your Ecomm's $30K/month gate is looser than the wider verified evidence's $100-200K/month. Take the stricter rule at small spend: no caps.
 2. **Manny Barbas runs ASC (Advantage+ Shopping) containers** for his cost-cap campaigns. Our doctrine bans ASC; take his window-patience and campaign-level-reading lessons, discard the container.
-3. **Wittick's 50-conversions structural formula** assumes manual bidding is the goal; the verified base says ignore the 50-rule at small spend. Both hold in their own bands: the formula is a feasibility gate for cap-based buying at scale, not a small-account rule.
+3. **Wittick's 50-conversions structural formula** assumes manual bidding is the goal; the wider verified evidence says ignore the 50-rule at small spend. Both hold in their own bands: the formula is a feasibility gate for cap-based buying at scale, not a small-account rule.

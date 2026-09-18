@@ -6,7 +6,7 @@
 
 ## Nick Parker: hidden gem
 - **Angle:** agency-owner counter-narrative. The batch's dedicated "noise vs real winner" voice.
-- **Uniquely adds:** the sharpest warning that surface signals (engagement, production polish, follower counts) mislead; the page-transparency discovery path; the get-pixeled-by-the-competitor retargeting trick; and a controlled-test verification loop with a real signal-speed benchmark (48-72 hours or 3,000-5,000 impressions). Also the strongest "the front-end ad hides the real back-end mechanism" cases (the $0.42/lead example, the copied-VSL failure, the Planet Fitness segmentation play). This is the most decision-relevant source for us on not trusting the library at face value.
+- **Uniquely adds:** the sharpest warning that surface signals (engagement, production polish, follower counts) mislead; the page-transparency discovery path; the get-pixeled-by-the-competitor retargeting trick; and a controlled-test verification loop with a real signal-speed benchmark (48-72 hours or 3,000-5,000 impressions). Also the strongest "the front-end ad hides the real back-end mechanism" cases (the $0.42/lead example, the copied-VSL failure, the Planet Fitness segmentation play). This is the most decision-relevant source for a service business on not trusting the library at face value.
 
 ## William Kast: hidden gem
 - **Angle:** agency-side creative strategist. Reframes competitor mining as awareness-stage script engineering, not cloning.
@@ -54,7 +54,7 @@
 
 ## BKA Content: popular
 - **Angle:** polished brand-channel full tutorial, demoed on a home-builder (service business) advertiser.
-- **Uniquely adds:** the batch's clearest offer-first framing, "the offer is what hooks people to actually take action on your ads", read off a real stacked service offer (cash-back + fast-cash + a guaranteed three-year lease) to show the offer stack is what to model, not the visuals. One of only three sources (with Nick Parker and Mr. Paid Social) that maps to a service model rather than e-commerce, so its offer-teardown read is weighted higher for our applied section. Its separate longevity heuristic is era-flagged and not used as backing; only the offer-focus point is carried.
+- **Uniquely adds:** the batch's clearest offer-first framing, "the offer is what hooks people to actually take action on your ads", read off a real stacked service offer (cash-back + fast-cash + a guaranteed three-year lease) to show the offer stack is what to model, not the visuals. One of only three sources (with Nick Parker and Mr. Paid Social) that maps to a service model rather than e-commerce, so its offer-teardown read is weighted higher for the applied section. Its separate longevity heuristic is era-flagged and not used as backing; only the offer-focus point is carried.
 
 ## Learn with Bilal: hidden gem (dropshipping-framed, translate)
 - **Angle:** e-commerce/dropshipping operator framing research as a full sourcing-plus-advertising workflow.
@@ -65,7 +65,7 @@
 ## Excluded / down-weighted
 
 - **Go Digitz**, thin. Pure UI navigation, no strategic layer. Excluded from theme backing.
-- **Blake Bauer Business**, era-flagged. Its "oldest ad = winner" heuristic lacks the impressions caveat that Ben Heath and our verified base require, and it is dropshipping/product-brand framed. Cited only where its neutral mechanics overlap uncontested consensus; its longevity claim is not used as backing.
+- **Blake Bauer Business**, era-flagged. Its "oldest ad = winner" heuristic lacks the impressions caveat that Ben Heath and the wider verified evidence require, and it is dropshipping/product-brand framed. Cited only where its neutral mechanics overlap uncontested consensus; its longevity claim is not used as backing.
 
 ---
 
@@ -73,5 +73,5 @@
 
 - **Usable sources: 14 of 16.** Two dropped from theme backing (Go Digitz thin; Blake Bauer era-flagged on longevity). 14 is comfortably above the 8-source bar, so the consensus reads are well-supported.
 - **Freshness:** all 16 videos are within the 18-month window; no freshness exceptions were needed. Several are explicitly 2026-dated.
-- **Framing skew:** the batch is heavily e-commerce/dropshipping. Only Nick Parker (gym/local lead-gen), Mr. Paid Social (Facebook-ads course, i.e. an info-product like ours), and BKA Content (home-builder service business) map cleanly to a service/education model. Their reads are weighted higher for our applied section.
+- **Framing skew:** the batch is heavily e-commerce/dropshipping. Only Nick Parker (gym/local lead-gen), Mr. Paid Social (Facebook-ads course, i.e. an info-product), and BKA Content (home-builder service business) map cleanly to a service/education model. Their reads are weighted higher for our applied section.
 - **Thin sub-areas:** the batch is light on measuring a competitor's *back-end* economics from the outside (only Nick Parker and Basil Naser touch it, and Basil's is a paid-tool estimate). It is also light on how often to re-check competitors, only Nick Parker gives a cadence view ("once in a while" to avoid offer saturation). These are noted rather than padded.

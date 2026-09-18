@@ -10,7 +10,7 @@
 
 ## Ryan Stewart - hidden gem
 - **Angle:** agency owner stitching Facebook + Calendly + GoHighLevel + ActiveCampaign into a true cost-per-signed-client report with Claude. The clearest lead-gen translation of the ROAS-overstatement problem in the whole set.
-- **Uniquely adds:** the CRM-scoreboard case study closest to our model. Spent ~$40k with zero signed clients; the month with the most booked calls signed zero. Real number that matters = ~$4,700 cost per client, not cost per lead. This is our GHL reconciliation argument, made by someone using the same GHL stack.
+- **Uniquely adds:** the CRM-scoreboard case study closest to a lead-gen model. Spent ~$40k with zero signed clients; the month with the most booked calls signed zero. Real number that matters = ~$4,700 cost per client, not cost per lead. This is our GHL reconciliation argument, made by someone using the same GHL stack.
 
 ## Caden Thompson - hidden gem
 - **Angle:** practitioner debating his own prior stance in public. Was 7-day-click-only for a year, now enabling 1-day view, tying the reversal to the Andromeda full-funnel update.

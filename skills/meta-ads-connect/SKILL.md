@@ -26,8 +26,8 @@ working MCP connection counts as connected whatever state the CLI is in.
 | `state` | Exit | What it means | What you do |
 | --- | --- | --- | --- |
 | `OK` | 0 | Connected — at least one transport is live | **Stop. Do not run setup.** Get on with what the user asked. |
-| `MCP_NEEDS_LOGIN` | 18 | MCP server registered, Meta login not yet done | Run `meta-ads-connect login` — it opens the browser approval itself. Not a failure — never reinstall. |
-| `MCP_INCOMPLETE` | 19 | Logged in, but the connection is not working | One-step re-consent: run `meta-ads-connect login` again; the user approves everything listed. Never reinstall. |
+| `MCP_NEEDS_LOGIN` | 18 | MCP server registered, Meta login not yet done | Run `claude mcp login meta-ads` (Claude Code) or `codex mcp login meta-ads` (Codex) — it opens the browser approval itself. Not a failure — never reinstall. |
+| `MCP_INCOMPLETE` | 19 | Logged in, but the connection is not working | One-step re-consent: run the login line again; the user approves everything listed. Never reinstall. |
 | `MCP_MISSING` | 6 | CLI connected, MCP server not registered | `register-mcp` only. Nothing else. |
 | `NO_AD_ACCOUNTS` | 7 | CLI token works, no accounts assigned | `repair-assets` only. |
 | `TOKEN_REJECTED` | 1 | Meta revoked or rejected the CLI token | Tell the user plainly, offer to re-mint, then `mint-token`. |
@@ -88,7 +88,7 @@ never be described as a broken connection while the MCP transport works.
 ## Rule 4 — MCP tool names are unstable. Discover them.
 
 The MCP endpoint is unversioned and cannot be pinned. Its published tool count
-went from 29 to roughly 93 with no version change, and it is now the primary
+went from 29 to roughly 93 (as observed mid-2026) with no version change, and it is now the primary
 surface, so this rule carries the whole product: do not hardcode tool names or
 assume a tool exists because it did last week — list what is actually available
 and use that. If something the user asked for genuinely is not in the live tool
@@ -181,21 +181,24 @@ Step 2 — log in. Run it yourself; do not hand the user an instruction you
 could have executed:
 
 ```bash
-meta-ads-connect login      # Claude Code, with the helper package
+claude mcp login meta-ads   # Claude Code
 codex mcp login meta-ads    # Codex
 ```
+
+If the optional `meta-ads-connect` helper package happens to be installed,
+`meta-ads-connect login` is an alternative that wraps the same command in a
+pseudo-terminal. The helper package is optional and not included in this kit;
+everything works without it.
 
 In Codex there is no helper: `codex mcp login meta-ads` opens Meta's approval
 screen in the browser itself, using the app id from registration. If it needs a terminal it cannot get, give the
 user that one line to paste into their own terminal, and nothing else.
 
 It opens Meta's approval screen in their browser, waits for the click, and
-verifies the result by reading the registration back. **Do not run
-`claude mcp login` directly as a tool call** — it needs a controlling terminal
-and dies without one; `meta-ads-connect login` wraps it in a pseudo-terminal
-precisely so you can run it. If the kit says the login must run in the user's
-own terminal (exit 20), give them the one line it printed —
-`claude mcp login meta-ads` — and nothing else.
+verifies the result by reading the registration back. `claude mcp login` needs
+a controlling terminal, so if it cannot run as a tool call, give the user the
+one line to paste into their own terminal — `claude mcp login meta-ads` — and
+nothing else.
 
 Step 3 — prove it. Verify with a live read: list the ad accounts through the
 MCP and name them back to the user. The live read is what confirms the

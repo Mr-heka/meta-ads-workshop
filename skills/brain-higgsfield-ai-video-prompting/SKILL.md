@@ -1,6 +1,6 @@
 ---
 name: brain-higgsfield-ai-video-prompting
-description: Consult retained video-prompting observations when comparing prompt approaches, diagnosing identity or camera drift, or tracing a creator claim. Supplements the Higgsfield execution skill with dated source evidence and fictional drafting exercises.
+description: Use when the user asks to "write a Higgsfield video prompt", wants a "Kling, Veo or Seedance prompt", asks "why does my character drift", needs a "camera move for an ad", or wants to compare prompt approaches, diagnose identity or camera drift, or trace a creator claim. Retained video-prompting observations with dated source evidence and fictional drafting exercises.
 metadata:
   type: expert-brain
   topic: Higgsfield AI video prompting
@@ -35,6 +35,21 @@ supports it. Keep meaningful geography, exact dialogue and required visual facts
 Do not remove a requested crowd, fast action or camera move solely because a creator
 reported difficulty. Diagnose the actual result and propose alternatives openly.
 
+## Camera and motion vocabulary
+
+Plain words that most video models read reliably. Put them in this order: subject, action, look.
+
+- Shot size: extreme close-up, close-up, medium shot, wide shot, establishing shot. Name one.
+- One camera move per clip: static, slow push-in, pull-back, pan left or right, tilt up or down, orbit, tracking shot, handheld. Two moves in one clip is where drift starts.
+- Lens language: 35mm feels natural and wide, 50mm feels like the eye, 85mm flatters faces; shallow depth of field blurs the background, deep focus keeps it sharp.
+- Lighting words: soft window light, golden hour, overcast, hard side light, neon, backlit, studio softbox. One light source described beats three.
+- Motion speed: slow motion, real time, time-lapse. Say it, or the model picks.
+- Duration for ads: 5 to 8 seconds per clip; cut longer stories into several clips with the same seed and look.
+- Aspect for ads: 9:16 for Reels and Stories, 4:5 or 1:1 for feed, 16:9 for YouTube and landing pages.
+- Consistency: reuse the reference image, the seed and the exact look words across every clip in a series.
+- Keep the subject's clothing, hair and setting described the same way every time; change one thing per variation.
+- Negative cues that help: no text, no captions, no extra people, hands out of frame.
+
 ## Use the evidence correctly
 
 The [synthesis](references/synthesis.md) separates practical options from unsupported
@@ -61,7 +76,7 @@ number of paid attempts is set here. Prompt drafting does not authorize generati
 private uploads, identity training, logging, ad launches or publication. Follow the
 current tool/host authority, retaining authorization already given.
 
-Business-specific copy must use the canonical offer and brand sources. This reference
+Business-specific copy must use your own offer and brand sources. This reference
 contains no current prices, offer promises or instruction to ship an ad campaign.
 
 No video generation or live provider validation was performed for this rebuild.

@@ -14,4 +14,4 @@
 - Brain built from 12 YouTube sources via topic-brain-builder. Engine: yt-dlp. Mix: {"new": 21, "evergreen": 3, "hidden_gems": 6, "channels": 20}.
 
 ## 2026-07-18
-- Recalibration pass: Neiman review-window floor, workshop-pause doctrine, lead-only CPL math (audit 2026-07-18).
+- Recalibration pass: the review-window floor, workshop-pause doctrine, lead-only CPL math (audit 2026-07-18).
